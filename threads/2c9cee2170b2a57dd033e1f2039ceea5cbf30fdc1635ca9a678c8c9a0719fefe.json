@@ -1,0 +1,8 @@
+{
+  "message_id": "<7ccafa48-4272-4b24-b550-e14bbdb3856bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Dramatic Resolution penalty after M from relion auto-refine",
+  "sender": "Hee Jong Kim <heejong@heejong.com>",
+  "date": "Sat, 12 Dec 2020 17:19:33 -0800 (PST)",
+  "body": "hey we have a protein that has a well ordered octomeric core with \nsatellites that are poorly resolved. reviewers concerned about signal \ndelocalization in our refinement of the octameric core. tried to use M to \ndeal with signal delocalization but it all looks like poop (from \nauto-refine 6-7A res to M 24 A). please advise.\n\nIn order to avoid any bias, we did C1 for classifications and all that.\nAlso, uploading some relevant screenshots from Warp and M.\nPlease let me know if you would like to see any other info that I might've \nmissed.\n[image: Screen Shot 2020-12-11 at 1.48.30 PM.png][image: Screen Shot \n2020-12-11 at 1.48.40 PM.png][image: Screen Shot 2020-12-11 at 2.08.35 \nPM.png][image: Screen Shot 2020-12-11 at 2.09.19 PM.png][image: Screen Shot \n2020-12-11 at 2.11.47 PM.png][image: Screen Shot 2020-12-11 at 2.12.42 \nPM.png][image: Screen Shot 2020-12-11 at 4.12.47 PM.png][image: Screen Shot \n2020-12-12 at 8.00.48 PM.png][image: Screen Shot 2020-12-12 at 8.00.56 \nPM.png]\nThank you."
+}

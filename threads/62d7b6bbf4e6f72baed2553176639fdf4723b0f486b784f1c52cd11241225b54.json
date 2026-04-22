@@ -1,0 +1,8 @@
+{
+  "message_id": "<ea08be58-3262-4c76-b0b4-fe11aaa98e95@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes after trying to import coordinates from relion\r\n autopick",
+  "sender": "Andrea Nans <andrea.nans@gmail.com>",
+  "date": "Fri, 26 Oct 2018 09:23:02 -0700 (PDT)",
+  "body": "Hi,\n\nI'm trying to import an autopick.star file from Relion 3 into Warp but it \ncrashes each time. I would like to do the auto-picking in relion but take \nadvantage of the local CTF estimation in Warp.\n\nThe file names match (ie the image is Micrograph_DW.mrc and autopick file \nis Micrograph_DW_autopick.star).\n\nIs there anything that I'm missing?\n\nThanks\n\nAndrea"
+}

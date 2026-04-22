@@ -1,0 +1,8 @@
+{
+  "message_id": "<981b81be-62a1-42cf-af2e-b87db90c5218n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Pick particles without extraction",
+  "sender": "\"mjja...@gmail.com\" <mjjaremko@gmail.com>",
+  "date": "Tue, 20 Sep 2022 12:57:24 -0700 (PDT)",
+  "body": "I would like to generate particle coordinates in WARP without extraction, \nbut when I deselect Extraction a .star file is not generated. Am I doing \nsomething wrong?\n\nThanks,\nMatt"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<4347f016-9b5d-4a28-93ac-961d1b8990a5n@googlegroups.com>",
+  "thread_id": "49220201-8a4a-4ffc-a467-bafebe10e4e1",
+  "subject": "White Spots Created in Warp, but not RELION5",
+  "sender": "tegunov@gmail.com",
+  "date": "2026-04-13T02:24:56.000Z",
+  "body": "I'll add that this should be ideally solved via gain reference. Outlier removal existed in earlier versions, but using a threshold that works well for SPA data (like 8) generated too many false positives in much noisier tilt series frames. I think I set it to 20 sigmas at some point. I don't have hands-on experience with old CCD data, but my impression was that direct detectors were much less susceptible to the assumed source of non-persistent hot pixels in images: X-rays. And since every persistent hot pixel should be captured by the gain reference, I just disabled outlier detection completely."
+}

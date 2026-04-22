@@ -1,0 +1,8 @@
+{
+  "message_id": "<861afd7d-f7a1-42d5-bb9b-0af0c03710a5n@googlegroups.com>",
+  "thread_id": "<09884005-77b2-4a1e-a9e0-35d049dd138bn@googlegroups.com>",
+  "subject": "Re: MotionCor3",
+  "sender": "B Wimmer <extern+google@benwmr.de>",
+  "date": "Thu, 17 Jul 2025 09:22:14 -0700 (PDT)",
+  "body": "Hi Juleen, \r\n\r\nI've used MotionCor3 a bit, as MotionCor2 fails to run on newer GPUs. As \r\nfar as I can tell, it's just a drop-in replacement. The only difference I \r\nnoticed so far is that the \"-Serial\" flag does not work with tiff-files \r\nanymore, so you need to iterate over them instead of just giving the \r\nfolder. \r\n\r\nHope that helps, \r\nBenedikt\r\n\r\n\r\n\r\nOn Wednesday, July 16, 2025 at 10:02:26 PM UTC+2 jdic...@gmail.com wrote:\r\n\r\n> Hi Everyone,\r\n> Has anyone tried motion cor3? Any thoughts on how it does compared to \r\n> motion cor2? Thanks!\r\n>\r\n> Warm Regards,\r\n> Juleen\r\n>"
+}

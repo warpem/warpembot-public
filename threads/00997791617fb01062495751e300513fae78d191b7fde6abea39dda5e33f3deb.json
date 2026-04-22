@@ -1,0 +1,8 @@
+{
+  "message_id": "<6a0b73b7-bed4-449c-9cb7-f2a57982c75fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "gaussfiltOutlierDetectionCC - error with dautoalign4warp",
+  "sender": "R Nwo <rnwokonko@gmail.com>",
+  "date": "Tue, 5 Apr 2022 10:59:19 -0700 (PDT)",
+  "body": "I've recently set up a Windows 10 workstation, using WSL2 to run Dynamo and \nother linux/unix based processing software. I was attempting to run \ndautoalign4warp, following the teamtomo tutorial using the EMPIAR-10164 \ndata set. One issue that I am having however, is that the alignment is \nconsistently failing at the gaussfiltOutlierDetectionCC.\n\nExample:\n\nOutput checking is active for this step.\nCropping 2282 observations performed in 0.25 seconds\nparameter not used yet\nStarting first iteration\nKilled\n\nWas wondering if anyone else has encountered this issue, and if so, has any \nsuggestions for how to fix. \n\nRunning this same data set on my Mac workstation works perfectly well, and \nso I don't think it's an issue with the data itself.\n\nDynamo and it's accompanying packages were installed through SBgrid."
+}

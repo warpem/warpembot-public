@@ -1,0 +1,8 @@
+{
+  "message_id": "<6ac143f2-d059-4456-9a95-c47d5365ce91n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Goldnet - extract masks/masked tilt serie",
+  "sender": "Julien Maufront <julien.maufront@gmail.com>",
+  "date": "Mon, 13 Feb 2023 00:54:37 -0800 (PST)",
+  "body": "Hi everyone,\n\nI wanted to process my tilt series so as to remove the gold bead signals in \neach tilt.\nI did a try with goldnet in WARP (GoldNet | Zenodo \n<https://zenodo.org/record/4486376#.Y9pazXCZND8>) and I must say the masks \ncreated seem to mask pretty well the gold beads in each tilt.\n\nI am wondering now how to obtain the tilt serie with the gold beads removed \nor how to obtain the masks use for each tilt in order to apply it on the \noriginal tilt serie. \n\nI can see in the output of WARP a folder named \"mask\" containg tif files \ncorresponding to the mask of each tilt but the dimensions are reduced :  \n696x720 for 4k tilt images. I don't know how I could use these files to \nmask out the gold beads in the original tilt serie. Does someone know a \nsofware which I could use to extend the dimensions of this images while \npreserving the mask shapes ?\n\nThanks for your help,\nJulien Maufront"
+}

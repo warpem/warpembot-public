@@ -1,0 +1,8 @@
+{
+  "message_id": "<15887aaf-c8dc-4248-accb-c0385c63cfc4n@googlegroups.com>",
+  "thread_id": "<7043d130-bcd4-4637-b60c-2929088b9115n@googlegroups.com>",
+  "subject": "Re: Tilt handedness",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Mon, 25 Nov 2024 21:23:55 -0800 (PST)",
+  "body": "I just want to add that I tried different settings with the —-dont_invert \r\noption, but the reconstruction came out the same. So it is always opposite \r\nhandedness from IMOD directly or Relion5. Which parameters would lead to a \r\nhandedness flip of a tilt series?\r\n\r\nBest,\r\nH\r\nOn Tuesday, November 26, 2024 at 12:07:07 AM UTC-5 Huy Bui wrote:\r\n\r\n> I finally got to use Warp Tool and try to use it for a complete workflow \r\n> before going to Relion5.\r\n> When I imported TS, I didn't use option --dont_invert like Warp Desktop \r\n> before.\r\n>\r\n> WarpTools ts_import \\\r\n>\r\n> --mdocs mdoc \\\r\n>\r\n> --frameseries warp_frameseries \\\r\n>\r\n> --tilt_exposure 4 \\\r\n>\r\n> --min_intensity 0.0 \\\r\n>\r\n> --output tomostar\r\n>\r\n> However, after all the steps and after ts_reconstruct, I got a \r\n> reconstruction with opposite handedness from if I use IMOD to reconstruct \r\n> or use Relion5 workflow from scratch to reconstruct.\r\n>\r\n> As I know the handedness of my IMOD workflow should be right, how can I \r\n> deal with this difference from Warp?\r\n>\r\n> Best,\r\n> Huy\r\n>"
+}

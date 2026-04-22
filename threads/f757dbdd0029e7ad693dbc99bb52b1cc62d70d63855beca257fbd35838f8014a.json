@@ -1,0 +1,8 @@
+{
+  "message_id": "<9a7ad0c4-54c8-4665-a200-cad42697be07n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Manually deslected tilt still used for tomogram reconstruction",
+  "sender": "alain scaiola <alain.scaiola@gmail.com>",
+  "date": "Fri, 22 Oct 2021 02:28:08 -0700 (PDT)",
+  "body": "Hi all,\n\nI have some tomograms series where the extremes tilts are way too thick and \nwhere there was issue with tracking.\n\nIs there an easy way to remove those from the tomogram reconstruction other \nthan modifying the mdoc file before going to imod ?\n\nI tried to deselect manually those tilt in tomostar mode of Warp, \nunchecking the boxes in the fourier space view, but they are still used to \ngenerate the tomograms.\n\nThank you for your help.\n\nBest wishes,\n\nAlain"
+}

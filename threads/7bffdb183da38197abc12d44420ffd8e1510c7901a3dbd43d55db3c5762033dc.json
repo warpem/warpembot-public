@@ -1,0 +1,8 @@
+{
+  "message_id": "<9b30b484-3b9b-48e0-9eaf-a29bf3ed6b89@googlegroups.com>",
+  "thread_id": "<26b2ae82-a944-4488-8d5c-bc144b661c2c@googlegroups.com>",
+  "subject": "Re: rotated tiff",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 22 Nov 2018 08:25:27 -0800 (PST)",
+  "body": "Hi Tat,\n\nthe transpose operation results in the X and Y axes being swapped. This \ncan't be replicated by an in-plane rotation. Here is an example:\n\n1 2\n3 4\n5 6\n\nbecomes\n\n1 3 5\n2 4 6\n\nThe order of these operations in Warp is: flip X, flip Y, transpose. The \nbest way to verify is to disable alignment and just produce a movie \naverage. If you don't see any traces of the gain pattern there, the \nreference is oriented correctly.\n\nCheers,\nDimitry\n\nOn Thursday, November 22, 2018 at 5:17:40 PM UTC+1, TC wrote:\n>\n> Hi Dimitry,\n>\n> Probably a dumb question, but in order to make sure, what is the direction \n> used in the Transpose of the gain, clockwise or counter? \n>\n> Practically, we have a user that has the tifs collected from SerialEM \n> rotated 90 degree clockwise, and it seems to us Transpose + flipY is better \n> than Transpose +flipX. What's your opinion on this?\n> And the program FlipTiff.exe is using a lot of memory (~60Gb) for just 2 \n> files in parallel.\n>\n> Thanks,\n>\n> Tat\n>"
+}

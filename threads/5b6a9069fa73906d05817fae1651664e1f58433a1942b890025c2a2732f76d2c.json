@@ -1,0 +1,8 @@
+{
+  "message_id": "<91A65944-AA12-488C-88A5-8D7797D0E6EB@gmail.com>",
+  "thread_id": "<d13d0c6a-83cb-48cd-a12a-099e70205313n@googlegroups.com>",
+  "subject": "Re: import particleseries data",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 16 Sep 2024 21:27:14 -0700",
+  "body": "Hi Mingyu,\nYou haven’t given us enough information here and the workflow you describe works fine in the tutorial - is there something different about your data compared to the tutorial? What errors are you getting?\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Sep 16, 2024, at 18:08, Mingyu Jung <jmg0910@snu.ac.kr> wrote:\n﻿Hi all,\nI got particleseries data from M and refine in relion. When I tried to re-import this particleseries data to M, M couldn't recognize the particles and star files.Is there any ways to import particleseries data to M?\nThanks!\nBest,\nMingyu\r\n\r\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/d13d0c6a-83cb-48cd-a12a-099e70205313n%40googlegroups.com\n."
+}

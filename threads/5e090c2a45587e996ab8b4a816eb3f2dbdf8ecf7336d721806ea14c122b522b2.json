@@ -1,0 +1,8 @@
+{
+  "message_id": "<279e2b3d-dc39-4f0a-9726-d8dee2878637@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Are micrographs in average/ aligned and dose-weighted?",
+  "sender": "Andres Hernandez <andreshernandez123@gmail.com>",
+  "date": "Wed, 20 Nov 2019 19:33:46 -0800 (PST)",
+  "body": "Hi,\nCan micrographs in the average/ folder be used directly for particle \npicking and extraction in other packages? Are they aligned and \ndose-weighted?\nI wanted to double check since the Export Micrograph List feature gives \n_rlnMicrographName with .mrc (matching average/), but the particles star \nfile gives _rlnMicrographName with .tif (matching the movie names).\n\nThanks!"
+}

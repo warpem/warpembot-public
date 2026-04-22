@@ -1,0 +1,8 @@
+{
+  "message_id": "<7fb47dcf-b853-4b69-b0fc-063fba075255@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M on cryo-ET data refinement dialog and results",
+  "sender": "=?UTF-8?Q?Florian_F=C3=A4=C3=9Fler?= <tuarhir@gmx.de>",
+  "date": "Sat, 21 Mar 2020 05:44:12 -0700 (PDT)",
+  "body": "Dear all,\n\nafter preparing subtomograms at 2x binning in warp and aligning them in \nrelion, I want to do the multi-particle refinement in M. I am trying to use \nthe version that has been included in warp 1.0.6 and the 1.0.7 installer \ndoes not come with M (I saw that there might be an update available on \ngithub, but I don't really have a clue how to compile it) . Creating a \npopulation, specifying a source and creating a species work perfectly fine, \nbut when I hit the refine button M just starts with the refinement without \npopping up the refinement setup described in the user guide. Further, M \nchanges only the .xml files within the associated warp project during the \nrefinement, and writes d_corr_[tomogramname].mrc files in the \nwarp-installation folder during refinement, the species folder ,however, \nremains unchanged after the inital setup. Does anyone have a suggestion \nwhat might be going on here?\n\nBest regards,\nFlorian"
+}

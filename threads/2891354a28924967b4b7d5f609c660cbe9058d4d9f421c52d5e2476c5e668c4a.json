@@ -1,0 +1,8 @@
+{
+  "message_id": "<C1AEE19C-E8BB-4B6C-B2E1-7CDD49DF647B@gmail.com>",
+  "thread_id": "<5301980c-450c-41de-b89c-4c09059f283dn@googlegroups.com>",
+  "subject": "Re: I create an artifact map of teamtomo.org EMPIAR-10164 dataset in\r\n 1.6Apx",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 21 Jun 2021 11:29:06 +0100",
+  "body": "Hi Yuqi,\r\n\r\nThe result below shows that you aligned to a reference which was not centered on the 6-fold axis - this is where your problems come from, same advice from my previous message applies :)\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> And then, I continued to align all particles.\r\n> The folder findallData.Data contains 31561 particles  without dBox mode. \r\n> I used the dcp in dynamo and the result was like this:\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<ff6edfaf-c0d3-4721-bdc9-24d007596a0bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp Extracting Subtomograms Multiple Times",
+  "sender": "3P1L <philipp.stawski@gmail.com>",
+  "date": "Tue, 5 Oct 2021 07:34:46 -0700 (PDT)",
+  "body": "*Dear All,*\r\n\r\nI've encountered an interesting behavior of Warp when reconstructing \r\nsubtomograms:\r\n\r\nI go in with a particle list of ~15k particles (from Relion 3.1), out comes \r\na list of ~23k particles.\r\n\r\nI guess this is one way to lift up that FSC curve 😜\r\n\r\nApparently, for some of the tomograms particles are extracted 2x and 3x. 🤔 \r\n[didn't see an obvious pattern such as this would always happen to the 3rd, \r\n6th, ... or 4th, 8th, ...  tomogram].\r\n\r\nThe setup:\r\n\r\nWarp 1.0.9 on\r\nWindows 10 Pro 64 Bit, Intel Xeon Gold 6230\r\n384 GB RAM, 6xRTX 2080 Ti\r\n\r\nAnybody ever seen this?\r\n\r\n[I'm currently testing if this happens, too, if I disable some of the GPUs; \r\nwill report later]\r\n\r\nThanks,\r\n\r\nPhilipp."
+}

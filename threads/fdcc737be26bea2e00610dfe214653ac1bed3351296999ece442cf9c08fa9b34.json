@@ -1,0 +1,8 @@
+{
+  "message_id": "<82C56878-B077-4B09-807F-F88AF30BBA73@gmail.com>",
+  "thread_id": "<3f9a486d-29cf-4f08-8abd-6f9915ef5e75n@googlegroups.com>",
+  "subject": "Re: Particles reextraction in MTools",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 6 Sep 2024 07:28:46 +0100",
+  "body": "Hi Mingyu,\nThis isn’t implemented yet but is planned, here is an issue to track on GitHub \nhttps://github.com/warpem/warp/issues/149\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Sep 6, 2024, at 04:30, Mingyu Jung <jmg0910@snu.ac.kr> wrote:\n﻿HI all,\nWarp2 would be a gamechanger of my project. Thank you for developing this software!\nBut I couldn't find particle re-extraction function in MTools. Is there any way to re-extract subtomograms in MTools? I wanna try 4x binned -> 2x binned -> 1x binned extraction. \nThank you!\nBest,\nMingyu\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/3f9a486d-29cf-4f08-8abd-6f9915ef5e75n%40googlegroups.com\n."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<be565e43-8028-487e-8433-27408ec37d15@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Stacker memory problems",
+  "sender": "Dennis Thomas <dennisrthomas987@gmail.com>",
+  "date": "Wed, 25 Sep 2019 13:22:03 -0700 (PDT)",
+  "body": "We have been using Stacker to move and compress MRC stack to tiff. The data \ncomes from EPU. Stacker runs on our Gatan/K2 computer which has 32 GB of \nRAM. As we pushed acquisition speed up to 200 images per hour we started \ngetting many crashes in EPU. What we found eventually was that Stacker was \nfilling the RAM of the K2 computer doing the conversion to tiff. Then some \nstep of processing the frames from the K2 would fail causing EPU to crash. \nIt appears Stacker allocates more memory than needed then doesn't release \nit. We run with one file processed in parellel to minimze the needed \nmemory. Using stacker to ONLY move uses no memory and eveything is fine. \nAdding more RAM to the K2 computer is an obvious solution (GATAN objects) \nbut it is not clear that Stacker wouldn't just grab more and more memory \nuntil failure. WE are using unnormalized packed files from EPU which I \nbelieve are 8 bit.\n\nThanks,\n\nDennis"
+}

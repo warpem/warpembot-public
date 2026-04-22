@@ -1,0 +1,8 @@
+{
+  "message_id": "<c43a9274-ecb1-4654-9d57-e5a11653069cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Exporting particles back to RELION after M refinement (MCore)",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Sat, 7 Dec 2024 01:24:34 -0800 (PST)",
+  "body": "Hi all,\n\nI have refined particles with MCore and I want to classify them further in \nRELION. What is the correct way to do this?\n\nFirst, I tried using the particles.star file from \nM/species/particle/particles.star in WarpTools ts_export_particles. This \nSTAR file is, however, not compatible. \n\nShould I use the STAR file created by RELION (the same one I used to create \nthe species in M) instead? Does this workflow use the updated XML files for \ntilt series alignment? Are the updated particle alignment parameters in the \nM/species/particle/particles.star file relevant here?\n\nCheers,\nJuha"
+}

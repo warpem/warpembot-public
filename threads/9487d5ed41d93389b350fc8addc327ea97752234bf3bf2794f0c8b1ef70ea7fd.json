@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAPEz=zrcpXmLF7DFCT-dpFTzBZjapejokkjU4YHsbixVm=SmAQ@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Troubleshooting Warp Tomogram Reconstruction",
+  "sender": "Benjamin Barad <benjamin.barad@gmail.com>",
+  "date": "Thu, 18 Mar 2021 12:16:14 -0700",
+  "body": "Hi all,\r\n\r\nI am trying to reconstruct tomograms with Warp, and seeing a lot of\r\nartifacts relative to my diagnostic reconstructions with the same\r\nalignments in imod. I am not really changing anything between the two - I\r\nexclude the same tilts from patch tracking and reconstruction, check tilt\r\nhandedness, and reconstruct with `normalized` checked.\r\n\r\nHere is what my IMOD reconstructions looks like (I've done tomogram\r\npositioning so it is flattened out, but the result is similar before\r\npositioning):\r\n[image: Screen Shot 2021-03-18 at 11.58.14 AM.png]\r\n\r\nAnd here is the same tomogram in warp (deconv to highlight the streaking\r\nartifacts):\r\n[image: Screen Shot 2021-03-18 at 11.50.29 AM.png]\r\nThis is a case with more tilt than usual (sagging lamella) but even with\r\nmore standard lamella tilt I often see these artifacts. Is there any way to\r\nimprove these results? I'd like to be able to use the same reconstruction\r\nfrom Warp for both particle picking and for morphology analysis, and the\r\ncurrent artifacts I am seeing make doing the latter very difficult relative\r\nto output from IMOD.\r\n\r\nWould be very interested to see if there are steps that I can do better in\r\nIMOD or Warp to try to improve this!!\r\n\r\nThanks,\r\nBen\r\n\r\n\r\n\r\nBenjamin Barad, PhD\r\nPostdoctoral Associate\r\nGrotjahn Lab @ Scripps Research\r\nHe/His/Him"
+}

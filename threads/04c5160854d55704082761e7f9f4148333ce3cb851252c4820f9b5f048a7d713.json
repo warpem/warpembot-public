@@ -1,0 +1,8 @@
+{
+  "message_id": "<ede1e24c-6332-43b1-8a47-8a95169a90ddn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "hybrid data processing",
+  "sender": "mrJ <bluufive@gmail.com>",
+  "date": "Thu, 16 Nov 2023 22:55:42 -0800 (PST)",
+  "body": "dear WARP commnunity,\n\nI'd like to try processing hybrid cryo-EM data: a single high-dose (HD) \nimage and a typical tilt series.  The HD image has more frames, higher \ndose, and will be aligned with patches -- quite different than how the \ntilts are corrected. Are there any clever ideas on how I might implement \nthese two data types in the WARP pipeline?  One option I can see is to \nalign the HD image with Motioncorr outside of WARP, then maybe overwrite \nthe WARP aligned micrograph in the \"average\" folder.  However I'm not sure \nhow WARP will then deal with tomo/subtomo reconstruction -- for on-the-fly \nreconstructions does it use the frames or the averaged micrograph?  If the \nlatter then I guess it just might work.   However.... if I try running M \nlater on then I will certainly somehow need the frames too.  Perhaps for \nthat I could simply generate a \"fake\" tilt movie by summing my frames (e.g. \n40) into groups which would match the frames for a tilt (e.g. 8).  So I'd \nseparate out 5 frames at a time, correct it in MotionCorr, do that 8 times, \nthen create a stack with 8 micrographs.  I'd have to also correct the pixel \nintensity but that's a different problem, for now just trying to \nincorporate it into WARP.   \n\nthanks!\n\nJesse"
+}

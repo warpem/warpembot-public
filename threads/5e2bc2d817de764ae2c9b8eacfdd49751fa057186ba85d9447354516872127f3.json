@@ -1,0 +1,8 @@
+{
+  "message_id": "<A6B71489-4C4A-418B-9C2D-5F5BEB7A67E2@gmail.com>",
+  "thread_id": "<e5a49d5c-3789-401d-8771-b061bc801089n@googlegroups.com>",
+  "subject": "Re: M-refined tilt angles",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 13 Feb 2023 17:54:52 +0000",
+  "body": "Hi Hamid,\r\n\r\nRefinement in M updates the entire model, the parameters of which are stored in the xml file for a given tilt-series - the values you are looking for should be in there. In Warp<1.10 the xml file in your warp processing folder was updated and you could simply reconstruct tomograms and the updated parameters would be taken into account. You might have to place the updated xml files in your warp folder for this to work if you’re on the latest version.\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> On 13 Feb 2023, at 17:48, Hamidreza Rahmani <hamid13r@gmail.com> wrote:\r\n> \r\n> Dear all,\r\n> \r\n> I have a dataset of ribosomes where resolution goes from 16A to 10A using M. I suspect the new tilt angles are much better but I cannot find a way to make new tomostar files with the new angles.  Does anyone know how can I get this info to reconstruct improved tomograms?\r\n> \r\n> Best,\r\n> Hamid\r\n> \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com <mailto:warp-em+unsubscribe@googlegroups.com>.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/e5a49d5c-3789-401d-8771-b061bc801089n%40googlegroups.com <https://groups.google.com/d/msgid/warp-em/e5a49d5c-3789-401d-8771-b061bc801089n%40googlegroups.com?utm_medium=email&utm_source=footer>."
+}

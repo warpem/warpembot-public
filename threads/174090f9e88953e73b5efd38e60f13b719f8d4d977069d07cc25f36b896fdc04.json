@@ -1,0 +1,8 @@
+{
+  "message_id": "<emc9eafbb4-d2ea-478f-b582-3970dc1b1ca5@gmail.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Re: Tilt series deselected with change_selection still processed",
+  "sender": "Spencer Rothfuss <spencerrothfuss@gmail.com>",
+  "date": "2026-04-08T12:17:29.000Z",
+  "body": "Thanks, Hamid. I already found your repo and tried that approach but got errors because the numbers of tilt images differed from the number of lines in the tomostar. If UseTilt=False still works for you, I can try to reproduce and share that error. It seems like change_selection needs a code update or to be removed from the website."
+}

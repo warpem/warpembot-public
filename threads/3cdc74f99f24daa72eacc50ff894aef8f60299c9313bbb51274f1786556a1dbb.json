@@ -1,0 +1,8 @@
+{
+  "message_id": "<e361617a-9548-4d4b-b066-57bf605682can@googlegroups.com>",
+  "thread_id": "<02c1359c-5b2f-42f0-b3b8-9f702085071eo@googlegroups.com>",
+  "subject": "Re: Relion 3.1 star file support",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Mon, 24 Aug 2020 13:15:16 -0700 (PDT)",
+  "body": "Hi Mathew,\n\n3.1 support will be added in the next release. For now, a workaround is to \nopen the STAR file in a text editor, remove the optics group tables, and \nrename Origin(X/Y/Z)Angst to Origin(X/Y/Z). Later when specifying the \ncoordinate pixel size, use 1 A/px for the offsets, and the original pixel \nsize for the coordinates. Please note the higher-order aberrations from the \noptics groups will be lost.\n\nCheers,\nDimitry\n\nOn Thursday, August 20, 2020 at 9:05:07 PM UTC+2 cla...@gmail.com wrote:\n\n> Hi Dimitry,\n>\n> I've been using Warp with Relion 3.1 to process a single particle dataset. \n> After 3D refinement I'd now like to move into M and continue processing but \n> when I import the run_data.star file I get the error \"Table does not \n> contain all essential columns (coordinates, angles, micrograph name)\". I'm \n> guessing this is because Warp/M don't support the new Relion 3.1 star \n> format. If so, are there plans to support the updated format in the near \n> future? Do you know of any workarounds in the meantime or will I need to \n> reprocess on an earlier version of Relion?\n>\n> Cheers,\n>\n> Mathew\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<4cc52287-7fae-44ce-af83-e09c1d6d5f01n@googlegroups.com>",
+  "thread_id": "49220201-8a4a-4ffc-a467-bafebe10e4e1",
+  "subject": "Re: White Spots Created in Warp, but not RELION5",
+  "sender": "Marten Chaillet <martenchaillet@gmail.com>",
+  "date": "2026-04-08T13:51:33.000Z",
+  "body": "Hi Luke, Those hot pixels don't get corrected by the gain file. I think IMOD and RELION do some automatic thresholding to filter out these pixels while Warp does not. The ringing you see around them happens because of the CTF correction during reconstruction. In the averaged frames they should visible as single pixels. I had the same issue and managed to correct it by creating a defects file myself. But to get it working I had to make a bug fix and make a custom installation of WarpTools. And my PR has not been merged yet: https://github.com/warpem/warp/pull/45"
+}

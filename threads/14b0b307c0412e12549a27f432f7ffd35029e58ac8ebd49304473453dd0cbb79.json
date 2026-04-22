@@ -1,0 +1,8 @@
+{
+  "message_id": "<72f5a19a-3115-4202-b6da-9354eddfa425o@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Workstation configurations",
+  "sender": "Robert Ashley <reashley@ucsd.edu>",
+  "date": "Thu, 24 Sep 2020 16:37:24 -0700 (PDT)",
+  "body": "I was wondering if anyone had any feedback on two GPU workstation \nconfigurations I'm considering for our Warp setup. I currently image with a \nK2 with 400 frames and 50 fractions per movie on our Krios. Basically \nwondering if the cheaper one will handle the load or if I should get the \nmore expensive version to be safe or if there is some other changes I \nshould make to the them.\n\nThanks for your help,\n\nBob Ashley\nFacility Manager UC San Diego"
+}

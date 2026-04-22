@@ -1,0 +1,8 @@
+{
+  "message_id": "<98f62472-2892-4366-a7e4-eb7fbb31bb10@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Export Subtomograms STAR file format",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 31 Jan 2020 02:17:31 -0800 (PST)",
+  "body": "Hi all,\r\n\r\nI'm looking to extract subtomograms from a single star file in warp, \r\nfollowing this section of the user guide\r\n\r\nBefore you see the actual dialog, Warp will ask you to provide a file with \r\n> particle coordinates. Only RELION’s STAR format is currently supported. The \r\n> file must contain at least the rlnCoordinateX/Y/Z columns. If \r\n> rlnOriginX/Y/Z are specified, Warp will consider them, and the values will \r\n> be reset to 0 in the STAR file Warp generates. You can use either a single \r\n> file for all tilt series or, if you have one file per tilt series (e. g. \r\n> after template matching) with names formatted as [series name]_suffix.star, \r\n> you can point Warp to one of those files and it will figure out the suffix \r\n> automatically and find all remaining files in the same folder. In the \r\n> second case, *One input file per tilt series* will become checked. If \r\n> you’d like to use just the file you selected and reconstruct sub-tomograms \r\n> from only one tilt series, you can uncheck it.\r\n>\r\n\r\nI'm just not sure exactly how to set up my star file so that warp knows \r\nwhich tilt series to reconstruct the particles from, what's the column name \r\nnecessary?\r\n\r\nThanks in advance,\r\n\r\nAlister"
+}

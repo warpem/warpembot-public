@@ -1,0 +1,8 @@
+{
+  "message_id": "<F393DC5F-3FB3-4ED1-9EEA-05501EEE3579@gmail.com>",
+  "thread_id": "<63631d97-1862-449c-b11c-300cb73bed9fn@googlegroups.com>",
+  "subject": "Re: ts_template_match got nothing",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 14 May 2025 10:33:51 -0700",
+  "body": "Hi Huy,\nAre you missing peaks that were previously present in your CC volume or just peaks from the gold?\nI would also check that the tomogram scale hasn’t changed even if the contents looks good\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn May 14, 2025, at 10:19, Huy Bui <huybk81@gmail.com> wrote:\n﻿Hi all,\nI run ts_template_match. First run working really well. Then I realized the gold particles got match a lot, so I delete the gold using fidder, regenerate the tomogram and perform ts_template_match again. Now, I have no match at all. The cc file is completely dark. The tomogram and the template look fine. \nAny idea why this doesn't work after fiducial removal?\nH\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/63631d97-1862-449c-b11c-300cb73bed9fn%40googlegroups.com\n."
+}

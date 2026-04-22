@@ -1,0 +1,8 @@
+{
+  "message_id": "<01C15743-C23E-448C-966E-DEC880B48049@gmail.com>",
+  "thread_id": "<CAA59SzNa2W4mL-KT-iyz8X4F4_-MdugZaEeBNb58X49xpyrrZg@mail.gmail.com>",
+  "subject": "Re: Removing bad tilts",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 6 Oct 2025 12:32:19 -0700",
+  "body": "Hey Hamid,\nTilt deselection is not handled particularly elegantly in WarpTools (no GUI to make it easy) - the GUI is incoming but no firm timeline to share yet, until then: script!\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Oct 6, 2025, at 11:16, Hamidreza Rahmani <hamid13r@gmail.com> wrote:\n﻿\nHi all,\nI have a dataset that I aligned in etomo and to get a better model/remove junks I removed some tiles in the fine alignment step (using 1,28-36 so there are a bunch of bad tilts). \nWhen I use ts_import_alignment I see all the views are imported into the xml files and the use tilt section is True for all of them. \nIs there an easy way to fix this? \nDo you recommend I write a code to look at taSolution.log and edit the xml files to change those views to False in use Tilt section?\nBest,\nHamid\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/CAA59SzNa2W4mL-KT-iyz8X4F4_-MdugZaEeBNb58X49xpyrrZg%40mail.gmail.com\n."
+}

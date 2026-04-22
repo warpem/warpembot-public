@@ -1,0 +1,8 @@
+{
+  "message_id": "<df39a624-6527-4a22-b152-ef53cff263dcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Differences between Windows Warp and WarpTools motion correction",
+  "sender": "James Zhen <jzhen97@g.ucla.edu>",
+  "date": "Tue, 28 Jan 2025 07:24:59 -0800 (PST)",
+  "body": "Hello all,\n\nI am working on a FIB dataset and noticed that WarpTools 2.0.0dev31 motion \ncorrection produced averages with washed out contrast and reduced dynamic \nrange, especially for the high tilts. Aretomo alignment of these stacks has \nshifts greater than 2000 pixels for the washed out high tilts, which causes \nstreaking in center of the tomograms.\n\nWhen processed in Warp 1.0.9 with the same equivalent settings, the dynamic \nrange of the motion corrected averages is better. Aretomo alignment also \nproceeds normally with shifts in the expected range for all tilts, and the \nreconstructions do not have the streaking.\n\n[image: warp-warptools_motion.jpeg]\nIs there a difference in how motion correction is handled between Warp \n1.0.9 and WarpTools 2.0.0dev31?"
+}

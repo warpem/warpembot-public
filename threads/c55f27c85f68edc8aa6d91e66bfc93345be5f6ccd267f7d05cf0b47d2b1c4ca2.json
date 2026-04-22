@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAA59SzOjYLrHCXtqNa_82GNK=_rd7yCuWS-DSeGpS7u4wEj6uA@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Qestion on MCore models",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "Thu, 22 Jan 2026 13:09:20 -0800",
+  "body": "Dear all,\r\n\r\nI am working on the whole CZI dataset for the particle-picking package our\r\ncollaborator is developing. I imported the Aretomo alignments successfully,\r\nhowever I had to convert them to xf and the local alignment info is gone.\r\n\r\nI have a few questions:\r\n1. Is there a way of reading the full local alignment? This would be very\r\nhelpful since I am trying to compare results.\r\n2. If I use MCore to improve my results (I am hoping to use all of them, or\r\nthe best targets) the xml files will change and the Tilt-series alignment\r\nwill improve. Is this correct?\r\n3. Can I make copy the original xml files and revert back to the pre-M\r\nalignment by putting the old ones in the warp_tiltseries/ directory ion\r\ncase I needed that?\r\n\r\n\r\nPS. I noticed that WarpTools doesn not maintain extra columns in starfiles\r\nlike Warp did, this would be very nice feature to add, but I can also do\r\nthis in python and it is not high priority.\r\nThanks so much,\r\nBest,\r\nHamid"
+}

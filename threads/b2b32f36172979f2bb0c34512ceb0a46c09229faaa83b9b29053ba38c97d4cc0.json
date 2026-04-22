@@ -1,0 +1,8 @@
+{
+  "message_id": "<f8f72daa-58a7-4fed-b2a0-1aee6b62a1afn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Particles falling under DESELECTED category",
+  "sender": "Abhipsa Shatarupa <sabhipsa@gmail.com>",
+  "date": "Thu, 14 Jul 2022 16:39:03 -0700 (PDT)",
+  "body": "Hi Warpers,\nI am trying to pick particles from my recent Krios collection. To my \nknowledge, I am using the right gain reference file. I flipped the gain \nreference .mrc file in Y-axis, yet particles fall under DESELECTED category \nand appears grey (Image attached). \nMy dataset has 7000 tif files. I selected a random 40 tif files, moved to a \nseparate folder along with the reference folder and flipped the reference \nfile in X-axis. Fortunately, it works meaning Warp is picking up my \nparticles and now they fall under PROCESSED category and appears green. \nHowever, when I do the same for the entire dataset of 7000 files, it FAILS \nAGAIN. \nI am new to Warp, and I am unable to move ahead from here. \nAny suggestions/advise in this regard will be highly appreciated!\nThanks,\nAbhipsa \nBioChemistry PhD student \nCity University of New York"
+}

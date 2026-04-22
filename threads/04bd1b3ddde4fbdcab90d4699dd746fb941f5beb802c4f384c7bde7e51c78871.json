@@ -1,0 +1,8 @@
+{
+  "message_id": "<2546193f-59b4-4f46-b468-81cc7942c2a3n@googlegroups.com>",
+  "thread_id": "<1fffa1b9-882e-4016-b8f6-aaddf0be2231n@googlegroups.com>",
+  "subject": "Re: AreTomo AlignZ",
+  "sender": "Daniel Cai <dxhcai@gmail.com>",
+  "date": "Fri, 4 Apr 2025 10:10:51 -0700 (PDT)",
+  "body": "Hi Paris,\r\n\r\nI think that this error is occurring because Warp's aretomo wrapper expects \r\nthe alignz value to be in terms of angstroms. AreTomo expects the AlignZ \r\nvalue in voxels. The warp wrapper will divide the alignz value you put in \r\nby the voxel size and get a number in voxels that it passes to AreTomo. You \r\nare getting 16 in the warp aretomo log because 125 angstroms * \r\n1voxel/7.86angstroms = 16. To get a similar reconstruction through the warp \r\nwrapper, use the value 983 (125 voxels * 7.86 angstroms/voxel).\r\n\r\nHope this is helpful,\r\nDaniel\r\n\r\nOn Friday, April 4, 2025 at 11:20:43 AM UTC-4 paris....@be-labs.org wrote:\r\n\r\n> Hi, \r\n>\r\n> I have been processing my data with WarpTools using the ts_aretomo \r\n> wrapper. I noticed the alignments aren't as good as when I use AreTomo \r\n> stand alone then import the alignments. \r\n>\r\n> When I look at the warp log for the alignment, the AlignZ value is 16 \r\n> (warplog.jpg), when for the alignz parameter in WarpTools I am using 125 \r\n> (warpinput.jpg). I have attached the pictures down below. \r\n>\r\n> I tried changing my warp input to include the capitals that the AreTomo \r\n> input normally has  (AlignZ) warp doesn't accept it. I dont mind importing \r\n> the alignments but I wasn't sure if it was a mistake on my part. \r\n>\r\n> Thank you for your help! \r\n>\r\n> Paris\r\n>\r\n>\r\n>"
+}

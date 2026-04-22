@@ -1,0 +1,8 @@
+{
+  "message_id": "<062c0dc9-0308-4766-a3c4-114f8ee40f4an@googlegroups.com>",
+  "thread_id": "",
+  "subject": "MTools & tutorial: CUDA out of memory error",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 11 Oct 2024 06:11:08 -0700 (PDT)",
+  "body": "Hi all,\n\nI am running the WarpTools tutorial here:\nhttps://warpem.github.io/warp/user_guide/warptools/quick_start_warptools_tilt_series/\n\nI am using one NVIDIA A100 card. \n\nThings work normally in WarpTools, until the step \"Create Species with \nMTools\". Here I get the following error:\n\nReading maps... Done\n--angpix not specified, using 4.0000 A/px from half-map.\nResampling maps to 2.0000 A/px... Done\nPadding or cropping half-maps to 2x molecule diameter... Done\nPadding or cropping mask to 2x molecule diameter... Done\nProcessing half-maps... Done\nParsing particle table... Done\nCalculating resolution and training denoiser model...\n4/5: Training denoising: 0/1500terminate called after throwing an instance \nof 'c10::OutOfMemoryError'                                            \n  what():  CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 4.75 \nGiB total capacity; 4.24 GiB already allocated; 118.50 MiB free; 4.31 GiB \nreserved in total by PyTorch) If reserved memory is >> allocated memory try \nsetting max_split_size_mb to avoid fragmentation.  See documentation for \nMemory Management and PYTORCH_CUDA_ALLOC_CONF\n\n---\n\nAny suggestions?  Thanks!"
+}

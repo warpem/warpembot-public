@@ -1,0 +1,8 @@
+{
+  "message_id": "<d981aed8-41f5-4985-bb87-8eaf993eb0ecn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "tomogram reconstruction problem",
+  "sender": "Hao Wang <wanghaoaccount@163.com>",
+  "date": "Mon, 16 Aug 2021 03:58:39 -0700 (PDT)",
+  "body": "Hello everyone !\r\n\r\nI met a problem while reconstructing full tomograms as described in the \r\ntutorial. I filled in the parameters and press \"reconstruct\" button, but \r\nnothing happened. Warp didn't execute the command and the \"reconstruct\" \r\nsubfolder wasn't generated. Any suggestions?[image: 捕获.PNG]"
+}

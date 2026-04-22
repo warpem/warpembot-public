@@ -1,0 +1,8 @@
+{
+  "message_id": "<7d239824-b272-4c3d-aa0d-bcc8d7932745o@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M crashes during refinement with cudaErrorIllegalAddress",
+  "sender": "Joshua Lobo <joshua.jude.lobo@gmail.com>",
+  "date": "Wed, 14 Oct 2020 07:16:36 -0700 (PDT)",
+  "body": "Hello M board \n\nI am trying to run an my first M refinement In version(1.0.9) on  a \nparticle with d2 symmetry and 30K particles about 200A in size  . I am able \nto start the refinement in M  and it calculates for a while completes upto \nthe 3 rd iteration of CTFRefinement but crashes with the following error .\n\nIn the main context \nCouldn't start MRARefinement ( I have lost this log messge when the GUI \nclosed)\n\nIn the Warp worker\n\nSystem.Exception: cudaErrorIllegalAddress\n   at Warp.GPU.CheckGPUExceptions() in D:\\Dev\\warp2\\WarpLib\\GPU.cs:line 1175\n   at Warp.Movie.PerformMultiParticleRefinement(String workingDirectory, \nProcessingOptionsMPARefine optionsMPA, Species[] allSpecies, DataSource \ndataSource, Image gainRef, DefectModel defectMap, Action`1 \nprogressCallback) in D:\\Dev\\warp2\\WarpLib\\Movie.cs:line 7323\n   at WarpWorker.Program.Main(String[] args) in \nD:\\Dev\\warp2\\WarpWorker\\Program.cs:line 294\n\n\nI am not able to understand why the error is been thrown  Is it a GPU \nmemory issue ? ( I googled around error code 77 cudaErrorIlegallAddress \nhttps://github.com/cramerlab/warp/blob/21e804c6b362154dae6177f381e48198e599df2c/WarpLib/GPU.cs#L1167\n)\n\nI have 4 GPU's with GTX 1080Ti's 11GB with no other processes competing for \nmemory \n\nHas anyone encountered a similar issue ?\n\nThanks in advance \nJoshua"
+}

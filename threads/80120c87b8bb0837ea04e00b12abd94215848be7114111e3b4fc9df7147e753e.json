@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAFWrpLe4FnZkuj=mJQ0HM701a39onxLS-A+CnoP_+u_vs2t=Ow@mail.gmail.com>",
+  "thread_id": "<4776AB5D-542D-4E3E-A90A-6E3CE1D787CC@merck.com>",
+  "subject": "ARP 1.1 Particle Extraction Issue",
+  "sender": "Matt Jaremko <mjjaremko@gmail.com>",
+  "date": "Fri, 11 Nov 2022 13:00:46 -0500",
+  "body": "Hello,\r\n\r\n\r\n\r\nI’m having issues with particle extraction in WARP 1.1. BoxNet seems to\r\npick the particle locations correctly:\r\n\r\nBut when imported into cryospcarc there are issues:\r\n\r\nImport job\r\n\r\n2D class rd 2\r\n\r\n2D class rd 3\r\n\r\n2D class then takes about 10 iterations to get back to rd 2\r\n\r\n\r\n\r\n2D class rd 20 (artifact is the most prominent class)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nI’ve tested with the same dataset on WARP 0.9 and this artifact does not\r\nshow up:\r\n\r\n\r\n\r\nDimitry, do you see this issue with your workstation?\r\n\r\n\r\n\r\nThank you,\r\n\r\nMatt"
+}

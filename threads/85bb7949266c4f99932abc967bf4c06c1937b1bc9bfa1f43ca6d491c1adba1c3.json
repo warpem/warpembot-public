@@ -1,0 +1,8 @@
+{
+  "message_id": "<58FA919F-3FCF-41F5-BD29-EEBC4B466F14@gmail.com>",
+  "thread_id": "<61763f02-0322-4c5f-b20b-ff77e6ad1d57n@googlegroups.com>",
+  "subject": "Re: Template matching issue",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 20 Oct 2025 13:42:42 -0600",
+  "body": "Hey Laina,\nYour image hasn’t come through so hard to tell what’s going on but a few questions I would ask myself\n- are my tilt series aligned well (are features in tomograms “crispy”) \n- is my orientation sampling high enough?\n- is my template good? \nI would also look directly at the cc volumes to see whether it is a problem with the matching process or just the peak picking on top of that :-) \nGood luck!\nAlister\nSent from mobile - apologies for brevity\nOn Oct 20, 2025, at 11:44, 'Laina Nicole Hall' via Warp <warp-em@googlegroups.com> wrote:\n﻿\nHi Warp team,\nI have been running template matching on some yeast tomograms and am not getting any picks above lowest threshold (3). Most picks have scores of rlnAutopickFigureOfMerit ~1.5.\nI have tried:\ndifferent templates\ndifferent pixel size (10, 20 A)\nwhitening or no whitening\nlow pass filtering \nAny suggestions? Could this be an error somewhere in tomogram reconstruction?\nThanks in advance,\nLaina\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/61763f02-0322-4c5f-b20b-ff77e6ad1d57n%40googlegroups.com\n."
+}

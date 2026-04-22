@@ -1,0 +1,8 @@
+{
+  "message_id": "<403c40c6-b620-4835-8a9c-f202fe9fff64n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "applying selection filters",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Mon, 21 Oct 2024 05:39:09 -0700 (PDT)",
+  "body": "Hi,\n\nI am plotting histograms after frame alignment and CTF fitting:\n\nWarpTools filter_quality --settings warp_frameseries.settings --histograms\n\nThen I am removing some tilts with this command:\n\nWarpTools filter_quality --settings warp_frameseries.settings --defocus 2.4 \n--resolution 1 10 --motion 0 13  --output warp_frameseries_filtered.txt\n\nHowever, the removed tilts are not updated in the settings file.  I would \nexpect them to be removed when I run the histogram plotting again.  How do \nI exclude the bad tilts before the next step?\n\nCheers,\nJuha"
+}

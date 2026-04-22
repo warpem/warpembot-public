@@ -1,0 +1,8 @@
+{
+  "message_id": "<53375940-a45c-41f1-b4f0-31eb9e3203a3n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Create population errors in M",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Tue, 5 Dec 2023 04:50:56 -0800 (PST)",
+  "body": "Dear all,\n\nI had some problems with refining in M. There were no problems up to \ndenoising and filtering step (the first step creating species ), but M was \nstuck in refinement step.\nFollowing was the error messages. Is there any solution for this problem?\n\nThanks \n\nMingyu"
+}

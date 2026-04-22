@@ -1,0 +1,8 @@
+{
+  "message_id": "<d30a6a4b-2a86-409d-ad37-62c223de58fbn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "\"Unhandled Exception\" when trying Noise2map on tomogram",
+  "sender": "\"thomas.la...@gmail.com\" <thomas.laughliniii@gmail.com>",
+  "date": "Fri, 19 Feb 2021 14:51:08 -0800 (PST)",
+  "body": "Hi everybody!\n\nRunning into a bit of a snag trying to denoise a tomogram using Noise2map.\n\nWhen I run:\nnoise2map --observation1 even --observation2 odd --dont_flatten_spectrum \n--iterations 15000 --batchsize 1 --gpuid_network 0 --gpuid_preprocess 0\n\nI get:\nUnhandled Exception: System.IO.IOException: The handle is invalid\n\n    at System.IO._Error.WinIOError(Int32 errorCode, String maybeFullPath)\n    at System.Console.GetBufferInfo(Boolean throwOnNoConsole, Boolean& \nsucceeded)\n    at Noise2Map.Program.ClearCurrentConsoleLine() in \nD:\\Dev2\\warp2\\Noise2Map\\Program.cs: line 614\n    at Noise2Map.Program.Main(String[ ] args) in \nD:\\warp2\\Noise2Map\\Program.cs:line 489\n\nNote sure what to do differently...\n\nSuggestions welcome.\n\nCheers,\n-Tom"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<6268c721-423b-45df-b12c-9c7f0f24fc23o@googlegroups.com>",
+  "thread_id": "<ff88bcdc-8407-4837-8d01-4e53794c2690n@googlegroups.com>",
+  "subject": "Re: Can I use M without having done the motioncorr in warp?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 20 Aug 2020 06:45:53 -0700 (PDT)",
+  "body": "Hi Carlos,\r\n\r\nto get anything useful out of tilt series data, you'll have to put them \r\nthrough Warp I'm afraid. You can also start with motion-corrected averages \r\n(which you will also have to put through Warp first to get the metadata in \r\nplace), but then you'll miss out on potentially better alignments. If you \r\ndecide to process the movies with Warp, please note there will likely be a \r\nsmall offset in the particle positions compared to MotionCor2, so it's best \r\nto run a few iterations in RELION with the re-extracted particles \r\nafterwards.\r\n\r\nCheers,\r\nDimitry\r\n\r\nOn Thursday, August 20, 2020 at 1:33:34 PM UTC+2, Carlos Fernández \r\nRodríguez wrote:\r\n>\r\n>\r\n> I have a dataset already processed in relion 3.1 and I just wanted to test \r\n> M for the polishing and the local filtering, but I dont have any .settings \r\n> file for the data source, or anything done in WARP.\r\n>\r\n> Can I still user M?\r\n>"
+}

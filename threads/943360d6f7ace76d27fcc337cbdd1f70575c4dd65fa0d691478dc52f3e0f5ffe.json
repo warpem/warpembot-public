@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALVQGL_cR4=kFrcDZVzCvcxF=WU6y3kMHsL5voSvE6pZGVaWnA@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Dynamo template matching with flat values",
+  "sender": "Peng Liu <penggreen1213@gmail.com>",
+  "date": "Fri, 25 Apr 2025 12:21:41 +0200",
+  "body": "Dear all,\r\n\r\nWe performed template matching with Dynamo, and it picked many particles.\r\nHowever, when we wanted to see how the particles looked, it only showed\r\nblack boxes (sometimes black boxes with a few white pixels) and complained\r\nthat \"Cannot adjust contrast: flat value detected.\" I did template matching\r\nwith Warp tomogram before, and it was okay. This time, I used the imod\r\nreconstructed tomogram and inverted contrast with the imac terminal (the\r\ninitial contrast value was (-128, 127), and I inverted it to (255,0) to\r\nhave a nice view. Could anyone suggest how to deal with this? Thank you in\r\nadvance.\r\n\r\nPlease see the screenshots attached.\r\n\r\nBest regards,\r\n\r\nPeng\r\n\r\n-- \r\nDr. Peng Liu\r\n\r\n   Max-Planck-Institut für biophysikalische Chemie\r\n   Am Faßberg 11, 37077 Göttingen\r\n   Germany\r\n\r\n    : +49(0)17635209768\r\n   Email: peng.liu@mpibpc.mpg.de"
+}

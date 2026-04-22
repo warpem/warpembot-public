@@ -1,0 +1,8 @@
+{
+  "message_id": "<2005BF4A-3B98-483D-A345-5FE886F9B4C4@gmail.com>",
+  "thread_id": "<CAJn1A70DNSCfgXFv+QXmHSQT4tuaaA6t1y4tv0K2v-hijnTJwA@mail.gmail.com>",
+  "subject": "Re: M not responding",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 18 Aug 2020 18:01:02 +0200",
+  "body": "Hi Shyamal,\r\n\r\nI have a weird recurring issue which is similar, M sometimes hangs when trying to write files at the end of a refinement. In my case it seems to be some file permissions issue, even though everywhere I have full access unclicking the read-only checkbox and applying recursively down through the directory seems to fix it!\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> On 18 Aug 2020, at 17:41, shyamal narayan <narayanshyamal@gmail.com> wrote:\r\n> \r\n> ﻿\r\n> Hi Dimitry and others,\r\n> \r\n> I am running M (v1.0.9) and there was no problem. However, after sometime there is no progress and it stuck on a tilt series (TS_749, please see attached) for almost an hour now. \r\n> Did anyone have a similar problem? and is there a way to fix this?\r\n> Please let me know,\r\n> Thank you,\r\n> Shyamal\r\n> <Screenshot 2020-08-18 at 17.34.59.png>\r\n> \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/CAJn1A70DNSCfgXFv%2BQXmHSQT4tuaaA6t1y4tv0K2v-hijnTJwA%40mail.gmail.com."
+}

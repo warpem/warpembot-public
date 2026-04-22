@@ -1,0 +1,8 @@
+{
+  "message_id": "<12d6afe8-359b-4869-b94f-b087cdc57fa4n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Low resolution sub-tomogram ribosome averaging in M",
+  "sender": "\"thomas.la...@gmail.com\" <thomas.laughliniii@gmail.com>",
+  "date": "Wed, 17 Mar 2021 12:11:56 -0700 (PDT)",
+  "body": "Hello fellow list mmembers,\n\nI am working with some bacterial ribosomes from  lamellae collected at \n~3.46 A/px, 4-5.5 um defocus, +/-60 in steps of 3, and total exposure of \n~120 e/A^2.\n\n>From ~17k ribosomes across 9 tomos, Warp -> RELION -> ~20 A average (seems \na reasonable estimate).\n\nSince hope springs eternal, I am sending the particles and the 20 A average \nthrough M, but seem to get nothing but over-fit results to come out.  \n\nI've tried both tight and generous binary masks in the species folder.\nAlso tried changing the default CTF high-pass filter to 35A rather than 20 \nA, without much luck. \n\nBest result so far has been temporal sampling of 1, solving just for \nparticle poses and a 1x1 image warp grid. \n\nThe input volume is on the top row of the attached image and output from M \non the bottom. The strong peripheral density of the output looks like \ntextbook over-fitting to me.\n\nHas anyone else tried sending low-res ribosomes through M? with success?\nIf 'yes', any considerations that should be taken on refinement parameters \nor is this potentially a lost cause?\n\nBefore I forget, happy St. Patty's day!\n-Tom"
+}

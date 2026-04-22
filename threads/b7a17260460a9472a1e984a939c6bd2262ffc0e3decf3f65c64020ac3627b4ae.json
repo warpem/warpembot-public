@@ -1,0 +1,8 @@
+{
+  "message_id": "<defafdbc-8511-4873-9e14-5a38aea43889n@googlegroups.com>",
+  "thread_id": "<439fbe82-50b5-48f1-a7af-b2b4c08afc7fn@googlegroups.com>",
+  "subject": "Re: Locating Particle Quality Scores",
+  "sender": "Emma Lee <216emmarose@gmail.com>",
+  "date": "Thu, 28 Jul 2022 07:56:37 -0700 (PDT)",
+  "body": "Gotcha; thanks so much!\n\nOn Thursday, July 28, 2022 at 6:24:30 AM UTC-4 Chris Dienemann wrote:\n\n> Hi Emma,\n>\n> Warp writes a _rlnAutopickFigureOfMerit to the matchings star files \n> (located in matching/*_boxnet-suffix.star) as well as the \n> good/all_particles star files (when you extract on-the-fly). \n>\n> Best,\n> Chris\n>\n> 216em...@gmail.com schrieb am Sonntag, 17. Juli 2022 um 18:18:44 UTC+2:\n>\n>> Hi all,\n>>\n>> I was wondering where I could find the quality score of each individual \n>> particle. Is it written. to the star files somewhere? Thanks so much!\n>>\n>> Best,\n>> Emma\n>>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<989a2ca3-1065-4cea-8835-959fe5a66a42@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.07 & 1.06 crashes in boxnet2mask retraining",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Tue, 24 Mar 2020 00:57:01 -0700 (PDT)",
+  "body": "Dear all,\nHi, I'm trying to use warp for picking gold beads, first I ran particle \npicking using boxnet2mask model for 25 micrographs, then I cleaned the \npicked out mask, then when I try to retrain that model, warp always \ncrashed. I tried both warp 1.0.7 & 1.0.6, both version gave me the same \nerror message back. Crash message have been attached.\nI'm using Windows 10 pro with two Rtx 2080 Super GPU, 128GB RAM, 1x Intel \nXeon W-2135 CPU.\nI've seen a similar question but no answer, could anyone help me out here?\nThank you very much in advance!\nYours sincerely,\nLinhua Tai"
+}

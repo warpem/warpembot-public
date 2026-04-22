@@ -1,0 +1,8 @@
+{
+  "message_id": "<1fffa1b9-882e-4016-b8f6-aaddf0be2231n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "AreTomo AlignZ",
+  "sender": "Paris Watson <paris.watson@be-labs.org>",
+  "date": "Fri, 4 Apr 2025 08:20:43 -0700 (PDT)",
+  "body": "Hi, \n\nI have been processing my data with WarpTools using the ts_aretomo wrapper. \nI noticed the alignments aren't as good as when I use AreTomo stand alone \nthen import the alignments. \n\nWhen I look at the warp log for the alignment, the AlignZ value is 16 \n(warplog.jpg), when for the alignz parameter in WarpTools I am using 125 \n(warpinput.jpg). I have attached the pictures down below. \n\nI tried changing my warp input to include the capitals that the AreTomo \ninput normally has  (AlignZ) warp doesn't accept it. I dont mind importing \nthe alignments but I wasn't sure if it was a mistake on my part. \n\nThank you for your help! \n\nParis"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<0100019d91f8a9e9-7ff64c54-2117-47e8-b246-eb608f5ffa3f-000000@email.amazonses.com>",
+  "thread_id": "b8c18ef7-9c22-4e2c-9a15-2e328b768999",
+  "subject": "Re: sphere.mrc file in tilt series tutorial",
+  "sender": "warpbot@agentmail.to",
+  "date": "2026-04-15T16:28:05+00:00",
+  "body": "Hi Ian,\n\nYou are right that the tutorial does not explain where sphere.mrc comes from -- this is an oversight. The tutorial should instruct you to run RELION's Initial Model job to generate a reference de novo from the exported particles, rather than assuming you already have a sphere.mrc lying around.\n\nI attempted to create a GitHub issue to get the tutorial updated, but ran into a permissions error. A developer has been notified and will follow up on updating the documentation.\n\nIn the meantime, you can create sphere.mrc yourself with a short Python script:\n\n  import numpy as np\n  import mrcfile\n\n  box = 64\n  apix = 4.0\n  radius_px = 130.0 / (2.0 * apix)\n  center = box // 2\n  z, y, x = np.mgrid[0:box, 0:box, 0:box] - center\n  sphere = (np.sqrt(x**2 + y**2 + z**2) <= radius_px).astype(np.float32)\n\n  with mrcfile.new('sphere.mrc', overwrite=True) as mrc:\n      mrc.set_data(sphere)\n      mrc.voxel_size = apix\n\nThe box size (64) and pixel size (4.0 A) should match the values you used in ts_export_particles (--box 64 --output_angpix 4)."
+}

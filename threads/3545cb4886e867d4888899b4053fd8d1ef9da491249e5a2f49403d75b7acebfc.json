@@ -1,0 +1,8 @@
+{
+  "message_id": "<ee28a7bd-91bd-4e8f-bbd8-f35b7109cd33@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Upgrades to the K3 server?",
+  "sender": "Andrey Malyutin <malyutinag@gmail.com>",
+  "date": "Wed, 23 Oct 2019 09:34:25 -0700 (PDT)",
+  "body": "We have 2 K3 computers. due to slight age difference, they came with \ndifferent processing GPUs:  Quadro GP100 (16GB) and P6000 (24GB). \nUnfortunately, GP100 is on the Krios system. I also found out that there \nare empty PCIe slots in the system. Has anyone attempted 1) an upgrade to \nthe GPUs and 2) adding another GPU to their K3 machine?"
+}

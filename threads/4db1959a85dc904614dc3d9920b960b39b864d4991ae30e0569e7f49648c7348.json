@@ -1,0 +1,8 @@
+{
+  "message_id": "<4833b538-c069-48f4-b6eb-3e565465eb1en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Images always deselected",
+  "sender": "Emma <emmanuelle.neumann@free.fr>",
+  "date": "Thu, 25 Nov 2021 02:23:32 -0800 (PST)",
+  "body": "Dear all,\r\n\r\nI desperately try to start to analyze my tomography cryo-EM data with Warp \r\ncollected a few months ago on a Krios in Heidelberg.\r\nWhen I go through the first step, i.e I want to import my data, I \r\ncorrectely enter the path of my files (I am able to see the right number of \r\nfiles to import, through the wheel of the « Processing Status »). But \r\nunfortunately, all files deselect by themselves!!\r\n\r\nWe noticed that in all  .xml files generated, the answer to UnselectManual \r\nis TRUE. If we change this answer to FALSE , the file is selected and can \r\nbe processed. 7,171 files have to be processed so how can we fix this \r\nproblem for all the 7,171 files and why it is so? Do I need to \r\n« pre-process » my data before by changing/modifying any subtil parameters?"
+}

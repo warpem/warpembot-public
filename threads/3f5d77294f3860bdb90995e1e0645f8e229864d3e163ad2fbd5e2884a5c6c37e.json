@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHqosu4rV2vc54vCF28g3AEPAhJ=SOKnBWQMuQZxh4eZ0w@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "warning for preoriented subtomogram extraction",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 1 Dec 2020 13:23:29 +0100",
+  "body": "Hi all,\r\n\r\nI just spent a while helping a friend debug some problems and thought a\r\ngeneral message to raise awareness would be useful.\r\n\r\nIf you plan to refine particle positions and orientations after extraction\r\nin Warp, do not use the option for preorienting your particles when\r\nexporting subtomograms.\r\n\r\nIf you do, the connection to the tomogram reference frame is lost and you\r\nwill not be able to reextract your particles with the correct\r\norientations/perform any refinements properly in M. This is because the\r\neuler angles in the star file are now parameters for the transformation of\r\na prealigned particle to align it with the reference, rather than the\r\ntransformation of the particle in the tomogram to align it with the\r\nreference.\r\n\r\nCheers,\r\n\r\nAlister"
+}

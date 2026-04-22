@@ -1,0 +1,8 @@
+{
+  "message_id": "<716dd9c0-e0e3-44ed-946f-509639555d88n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Noise2Map options for final map denoising",
+  "sender": "P C <peter.p.cherepanov@gmail.com>",
+  "date": "Wed, 31 Dec 2025 05:06:39 -0800 (PST)",
+  "body": "Happy New Year! \n\nWhat options are used in M to produce denoised maps? \n\nI am trying to apply Noise2Map to a Relion-generated map. Would something \nlike this generate the best possible result, or I am missing something \nimportant:\n\n Noise2Map --half1 run_half1_class001_unfil.mrc --half2 \nrun_half2_class001_unfil.mrc  --angpix 3.12\n\nPeter"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<cab817ae-1d49-47a5-8c10-09ede49b801bn@googlegroups.com>",
+  "thread_id": "<0eb92a7a-2b4a-43ca-bf37-9953e5e44fdbn@googlegroups.com>",
+  "subject": "Re: Padding in MCore refinement",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Sun, 5 Oct 2025 14:22:27 -0700 (PDT)",
+  "body": "Hi Hamid,\r\n\r\nWhat pixel size were you able to use? The binning factor doesn't have to be \r\nan integer number. You can try lowering the pixel size in small steps.\r\n\r\nYou can also decrease the diameter for this species, but keep in mind that \r\nparticles are zero-masked to this diameter during refinement. Also, unlike \r\nRelion, M doesn't use oversampling during the particle back-projection \r\nstep, i.e. you'll start seeing aliasing artifacts in the outer map regions \r\nmore quickly.\r\n\r\nMCore's --cpu_memory flag might also help.\r\n\r\nCheers,\r\nDimitry\r\nOn Sunday, October 5, 2025 at 2:09:27 PM UTC-7 hami...@gmail.com wrote:\r\n\r\n> Hi all,\r\n>\r\n> I have a VLP dataset that is at Nyquist and it seems like I cannot go bin1 \r\n> (apix=1.058 and diameter=360) because my RTX5000 (24GB) cannot handle the \r\n> full size map.\r\n>\r\n> When I rescale to 1.5A everything works, and I noticed M pads the particle \r\n> to diameter*2. Is there a way to lower this padding like in relion?\r\n>\r\n> If now, is this diameter used somewhere else? Can I just tell M the \r\n> diameter is 200 and a smaller map?\r\n>\r\n> Sorry, I know I could just try this and see what happens, but I trying to \r\n> avoid conflicting M species and versions. \r\n>\r\n> Best,\r\n> Hamid\r\n>"
+}

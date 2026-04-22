@@ -1,0 +1,8 @@
+{
+  "message_id": "<1b3ec0f6-38ef-4269-9d23-6255341e97d1@googlegroups.com>",
+  "thread_id": "<CAAKP90v+=QftvCsY=VBQ7OKqne8A=cnwS0Sfw1xO=GPq0U1sXw@mail.gmail.com>",
+  "subject": "Re: K3 tests",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 9 Apr 2019 10:14:11 -0700 (PDT)",
+  "body": "Hi,\r\n\r\nas Da noted, K3 data will cause Warp 1.0.6 to run out of memory on most \r\nconsumer GPUs. The upcoming 1.0.7W fixes that, at least on a 1080 Ti card \r\n(I haven't tested 1080 yet). If everything goes ok, the beta will be out \r\ntomorrow.\r\n\r\nCheers,\r\nDimitry\r\n\r\n\r\nOn Friday, April 5, 2019 at 2:38:16 AM UTC+2, Da Cui wrote:\r\n>\r\n> Hi Ming, \r\n>   I just ran Warp with my K3 data. It only works when I binned the \r\n> micrographs twice. \r\n> —Da\r\n>\r\n> Ming Sun <mingsun@msg.ucsf.edu>于2019年4月4日 周四下午7:32写道：\r\n>\r\n>> Hi All\r\n>>\r\n>> Has anyone tried warp on K3? Any inputs are warm welcome\r\n>>\r\n>> Thanks,\r\n>> Ming\r\n>>  \r\n>>\r\n>> -- \r\n>> You received this message because you are subscribed to the Google Groups \r\n>> \"Warp\" group.\r\n>> To unsubscribe from this group and stop receiving emails from it, send an \r\n>> email to warp-em+unsubscribe@googlegroups.com.\r\n>> To view this discussion on the web visit \r\n>> https://groups.google.com/d/msgid/warp-em/464f64d1-3426-4099-a3d3-cb2e306cf5ae%40googlegroups.com \r\n>> <https://groups.google.com/d/msgid/warp-em/464f64d1-3426-4099-a3d3-cb2e306cf5ae%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n>> .\r\n>> For more options, visit https://groups.google.com/d/optout.\r\n>>\r\n>"
+}

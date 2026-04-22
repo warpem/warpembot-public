@@ -1,0 +1,8 @@
+{
+  "message_id": "<2422e6ea-31f1-42be-9f9f-cb0f78da0593n@googlegroups.com>",
+  "thread_id": "<CAFWrpLeQ7KjXPNu=68Kf-LE3bK=3csuQ5Ur0CcLJW_AKiREspg@mail.gmail.com>",
+  "subject": "Re: BoxNet picking issues with UltraAuFoil grids",
+  "sender": "Martin Hallberg <b.m.hallberg@gmail.com>",
+  "date": "Thu, 22 Sep 2022 21:04:02 -0700 (PDT)",
+  "body": "Hi Matt,\r\nThis is common with Warp BoxNet particle picking. We try to avoid to have \r\nthe gold in the image but if we anyway end up with it on a part of the data \r\nwe pick using other tools. If needed for further processing in the Warp/M \r\nsuite, one can always import particles (or just positions) to Warp usually \r\nthen after some 2D or 3D \"cleaning\". I would love to hear if someone has a \r\nsolution!\r\n\r\nBest,\r\n\r\nMartin\r\n\r\n\r\n\r\nOn Thursday, September 22, 2022 at 8:00:39 PM UTC+3 mjja...@gmail.com wrote:\r\n\r\n> Hello,\r\n>\r\n> I'm having BoxNet picking issues when there is a considerable amount of \r\n> the UltraAuFoil grid scaffold in the images:\r\n>\r\n> BoxNet seems to be missing a lot of particles. This doesn’t happen when \r\n> less gold is in the image. Any way to fix this?\r\n>\r\n> Here are my CTF settings:\r\n>\r\n>\r\n> Thank you,\r\n>\r\n> Matt\r\n>\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<47c6c66b-04f6-4713-95f6-8ab8594b1479o@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Model defocus",
+  "sender": "suruchi singh <singh.suruchi44@gmail.com>",
+  "date": "Thu, 18 Jun 2020 11:23:55 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI have a question about values given in Models under defocus tab during CTF \nestimation.\nBy default the values are set to 5x5x1. What if I try to reduce the values \nto 1x5x1 or something else? I tried to reduce the values because my pixel \nsize is 0.415.\nCould you please give some idea about it?\n\n\nThanks,\nSuruchi Singh\nPostdoctoral Fellow\nVaccine and Infectious Disease Division\nFred Hutchinson Cancer Research center\nSeattle, WA"
+}

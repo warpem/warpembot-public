@@ -1,0 +1,8 @@
+{
+  "message_id": "<9e556719-7982-49d0-b9eb-6a69614ed77dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "The order of positive & negative micrographs after import aligned\r\n tilt series",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Fri, 11 Jun 2021 19:20:04 -0700 (PDT)",
+  "body": "Hi, all.\nWhen I was checking the tilt handedness, I found that positive angle \nmicrographs was below and the negative angle micrographs was above. \nDid it go wrong? I wanted to know whether the \"don't invert the tilt \nangles\" worked well."
+}

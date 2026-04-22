@@ -1,0 +1,8 @@
+{
+  "message_id": "<8b3976b6-b812-469d-ad75-bdb7d5e93baen@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M refinement of subtomograms lowers resolution",
+  "sender": "Fabian Eisenstein <eisenstein@m.u-tokyo.ac.jp>",
+  "date": "Tue, 19 Jan 2021 23:37:39 -0800 (PST)",
+  "body": "Hey all!\r\n\r\nI am doing some subtomogram averaging of boring purified ribosomes (FISE TS \r\nacquisition).\r\nI imported motion corrected tilt images to Warp, exported subtomograms in \r\nbin2, refined and classified in relion, imported the result into M and \r\nrefined which left me at a resolution of about 7.4 Å. I exported  the \r\nunbinned subtomograms (1.4 Å/px) and did another round of refinement in \r\nrelion resulting in 6.8 Å.\r\n\r\nWhen I now refine in M, it always ends up at resolutions of 25-30 Å. I also \r\nran it with refinement of defocus or particle poses only.\r\nAny idea where I could have messed up the input?\r\n\r\nThanks a lot and best,\r\nFabian"
+}

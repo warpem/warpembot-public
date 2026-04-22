@@ -1,0 +1,8 @@
+{
+  "message_id": "<445a8ebf-0fff-409e-8ea1-ed20ce4a9cden@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Matching Warp/Relion particles with the original Dynamo tags",
+  "sender": "Matt Martinez <mpmartinez896@gmail.com>",
+  "date": "Mon, 6 Oct 2025 12:54:50 -0700 (PDT)",
+  "body": "Hi everyone,\n\nI'm trying to match the particles from Warp and Relion 5 refinements back \nto the original Dynamo tag numbers. This is helpful for i.e. a VLP dataset \nwhere after excluding bad particles and running 3D classification to filter \nout junk particles, analyzing the number of remaining good particles per \nVLP. \n\nIt seems that 1) after CC filtering particles and excluding particles \nwithin a threshold distance in Dynamo, the table gets reversed (no \nproblem), then 2) when Warp exports particles it renumbers everything from \n1, and then 3) somewhere along the way, the particles get scrambled for \neach tomogram in the star file.\n\nI can track the exact particles based on tomogram and xyz coordinates / \neuler angles between the Dynamo table and the star file from the Warp \nextracted particles, but I'm wondering if this anyone has already done this \nor if other roadblocks have been found along the way. Thanks!\n\nMatt"
+}

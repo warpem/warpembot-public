@@ -1,0 +1,8 @@
+{
+  "message_id": "<0eb92a7a-2b4a-43ca-bf37-9953e5e44fdbn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Padding in MCore refinement",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "Sun, 5 Oct 2025 14:09:26 -0700 (PDT)",
+  "body": "Hi all,\n\nI have a VLP dataset that is at Nyquist and it seems like I cannot go bin1 \n(apix=1.058 and diameter=360) because my RTX5000 (24GB) cannot handle the \nfull size map.\n\nWhen I rescale to 1.5A everything works, and I noticed M pads the particle \nto diameter*2. Is there a way to lower this padding like in relion?\n\nIf now, is this diameter used somewhere else? Can I just tell M the \ndiameter is 200 and a smaller map?\n\nSorry, I know I could just try this and see what happens, but I trying to \navoid conflicting M species and versions. \n\nBest,\nHamid"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALUrcWB+39mEZiXwv5NLLvkYPpM0Wy14nS=rgHXp6J=xGzebnA@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "max number of frames with K3 data?",
+  "sender": "Matt Harrington <matt@msg.ucsf.edu>",
+  "date": "Fri, 19 Apr 2019 13:38:09 -0700",
+  "body": "Hi all,\r\n\r\nI'm new to Warp.  Is it correct that Warp currently uses just a single\r\nGPU for motion correction?  If so, I presume VRAM would be the\r\nlimiting factor in determining the upper limit of what could be\r\nprocessed.\r\n\r\nAny hope for processing a 120 frame micrograph from a K3?  Which GPU\r\nmight work?  Here's a sample:\r\nhttps://drive.google.com/drive/folders/1W5iOSnbufo9gHGqwGH13WuqQqzJpHXHD?usp=sharing\r\n\r\nMatt"
+}

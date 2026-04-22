@@ -1,0 +1,8 @@
+{
+  "message_id": "<8c92efa7-35ff-4331-af2b-620316bfe3e8@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Weird behavior after 3D denoising of reconstructed tomograms",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Thu, 23 Apr 2020 03:47:03 -0700 (PDT)",
+  "body": "Dear all,\nI've been testing Warp's 3D denoising of tomograms, I've got it running \nsuccessfully, and the command I use is:\nnoise2map.exe --observation1 even --observation2 odd \n--dont_flatten_spectrum --iterations 800 --batchsize 1 --gpuid_network 0 \n--gpuid_preprocess 0.\n\nI'm using 800 iterations in order to see whether this program could be \nrunning properly, but the output tomogram have a really strange look, as \nattached, does anybody know why the output looks like this?\n\nThank you very much in advance!\n\nCheers,\nLinhua Tai"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<10675609-a19f-4952-99c5-bd00155aa497@googlegroups.com>",
+  "thread_id": "<495666b9-6a62-4dfb-b858-480b7d33ec83@googlegroups.com>",
+  "subject": "Re: warp not starting",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Sun, 10 Nov 2019 11:50:33 -0800 (PST)",
+  "body": "Hi Mike,\n\nthat is indeed an annoying message to get and to troubleshoot. What is the \nexact system config? Any GPUs beside the Titan?\n\nCheers,\nDimitry\n\nOn Thursday, November 7, 2019 at 6:06:42 PM UTC+1, Mike Strauss wrote:\n>\n> I also get this annoying message that says I don't have a compatible card, \n> despite my nvidia applications claiming otherwise.\n>\n>\n>\n> On Wednesday, November 6, 2019 at 3:26:41 PM UTC-5, Mike Strauss wrote:\n>>\n>> I have installed warp 1.0.7 and it crashes immediately upon starting.  it \n>> gives this error:\n>>\n>> It then tells me to reinstall things, which i have done numerous times, \n>> and it doesn't change anything.  1.0.6 will at least open the window, but \n>> it crashes after asking to start processing anything.  I am on Win10 and \n>> have a Titan Xp\n>>\n>> Regards,\n>> mike\n>>\n>"
+}

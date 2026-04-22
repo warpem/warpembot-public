@@ -1,0 +1,8 @@
+{
+  "message_id": "<463f244d-8c7f-4f3d-a1d4-e9c350937bf4n@googlegroups.com>",
+  "thread_id": "<b85e804f-df23-4f2c-8b44-0e5808cd835an@googlegroups.com>",
+  "subject": "Re: warp needs to be restarted to read new movies",
+  "sender": "Takaaki Fukami <fukamit3@gmail.com>",
+  "date": "Fri, 27 Aug 2021 08:04:02 -0700 (PDT)",
+  "body": "I am in the same situation, but have no solution.\r\n\r\nThis is probably because the FileSystemWatcher, which WARP is using to \r\ndetect file update events, is NOT reliable for network drives...\r\n- \r\nhttps://stackoverflow.com/questions/7818545/filesystemwatcher-stops-monitoring-network-folder\r\n- \r\nhttps://stackoverflow.com/questions/151804/system-io-filesystemwatcher-to-monitor-a-network-server-folder-performance-con\r\n- \r\nhttps://www.codeproject.com/Questions/5298360/Filesystemwatcher-not-triggering-events-windows-10\r\n\r\n\r\n2021年2月25日木曜日 16:40:11 UTC+9 zly37...@gmail.com:\r\n\r\n> Hello,\r\n>\r\n> I am using warp 1.0.9 on-fly to process the movies from our Titan Krios. \r\n> But usually warp does not recognize the new generated movies and we need to \r\n> restart it every time to have all the images processed. Warp should refresh \r\n> and read the new movies just took from the microscope automatically. In our \r\n> case, this does not work. Any suggestion about how can I fix this issue? \r\n> TIA!\r\n>\r\n>\r\n>\r\n> Best regards,\r\n> Lingyun\r\n>"
+}

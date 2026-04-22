@@ -1,0 +1,8 @@
+{
+  "message_id": "<66a72e45-8d56-474e-a175-4f3686fa4c5fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "KeyNotFoundException during Ctf refinement of tilt series in M",
+  "sender": "\"tom.de...@gmail.com\" <tom.dendooven@gmail.com>",
+  "date": "Sat, 27 Mar 2021 15:54:04 -0700 (PDT)",
+  "body": "Hi All, \n\nI have been refining sub-tomogram averages in M and ran into the attached \nKeyNotFoundException error for two tilt series when enabling ctf refinement \n(defocus only). It seems M can't find something in the .xml file? Has \nanyone seen this  before? Any tips for troubleshooting would be greatly \nappreciated.\n\nMany thanks,\nTom"
+}

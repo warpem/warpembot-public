@@ -1,0 +1,8 @@
+{
+  "message_id": "<56295878-6e0d-47d7-a5e3-4e39feca1f8an@googlegroups.com>",
+  "thread_id": "<902453f2-2625-45f5-804f-465ed4b70ecdn@googlegroups.com>",
+  "subject": "Re: WARP and live 2d classification",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Sun, 28 Mar 2021 17:41:19 -0700 (PDT)",
+  "body": "Hi Genis,\n\nThere is nothing officially supported at the moment. If you have cryoSparc \ninstalled, you could build something around this library my colleague \nwrote: cdienem/SparcConnect: Libary of functions to connect to cryoSPARC2 \n(github.com) <https://github.com/cdienem/SparcConnect>\n\nIn practice, performing C2D on the same sample makes sense for maybe the \nfirst couple of hours of collection. After that, you won't see significant \nchanges unless you go all the way to 3D.\n\nCheers,\nDimitry\n\nOn Sunday, March 28, 2021 at 1:43:32 PM UTC+2 genis.val...@gmail.com wrote:\n\n> Hello WARP community!\n>\n> I was wondering if someone has a good solution to feed WARP particles into \n> any of the live 2d-classification tools.\n>\n> I think 2d-classification could be a nice addition to quickly assess the \n> quality of a dataset and help in grid screening.\n>\n> Best regards\n>\n> Genis\n>"
+}

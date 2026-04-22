@@ -1,0 +1,8 @@
+{
+  "message_id": "<5c3ac657-837b-4605-a613-748fd755823a@googlegroups.com>",
+  "thread_id": "<976f9ed5-ca66-46c9-9d74-6cc53214b7c5@googlegroups.com>",
+  "subject": "Re: track motion shifts",
+  "sender": "oloeffelholz@googlemail.com",
+  "date": "Thu, 13 Dec 2018 07:47:04 -0800 (PST)",
+  "body": "Hi Dimitry,\nI was rather thinking of monitoring the motion of the first movies of a \ndata collection to get the best alignment settings for each setup. Digital \nmicrograph has this, but it is very tidious and of course uses other \nfilters than Warp. \nIt would be nice for example to know which frames move more and which move \nless... \nBest wishes,\nOttilie\n\nOn Wednesday, December 12, 2018 at 2:56:32 PM UTC+1, \noloeff...@googlemail.com wrote:\n>\n> Hi,\n> Is there a way to see the motion per frame in Warp somewhere? Could this \n> be added to the visualization?\n> Ottilie\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<43d8700c-ed34-4361-8e72-6216ffb865f8@googlegroups.com>",
+  "thread_id": "<c0edf26d-50a2-4fbb-a4e0-2139f03e6ae9@googlegroups.com>",
+  "subject": "Re: Warp not seeing all .tif files in a directory",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Sun, 15 Jul 2018 12:07:30 -0700 (PDT)",
+  "body": "Hi Mike,\n\nI haven't encountered this issue before. There were some problems in the \npast when another process hadn't finished writing a file yet that Warp \nwould try to read, but that has been fixed. The file discovery thread \nshouldn't crash anymore when encountering a problem reading one of the \nfiles. What happens if you split the files in two folders, isolating the \n1128 it doesn't see?\n\nCheers,\nDimitry\n\n\nOn Sunday, July 15, 2018 at 8:33:21 PM UTC+2, mcianfro@umich.edu wrote:\n>\n> Hi Dimitry, \n>\n> We have noticed that the Warp directory being processed has ~2800 movies, \n> but the total listing of movies in the \"Overview\" tab only totals 1,672. Is \n> there a way to force the program to double check for the presence of \n> additional files? I've tried stopping, exiting, restarting but it comes \n> back to the same number.  Have you seen this before?\n>\n> Mike\n>"
+}

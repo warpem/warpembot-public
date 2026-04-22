@@ -1,0 +1,8 @@
+{
+  "message_id": "<9dad63e9-282a-41d1-971c-c87716765cd8n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Reconstructed tomograms have low contrast (Aretomo1/2 aligned)",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Mon, 3 Feb 2025 14:59:53 -0800 (PST)",
+  "body": "After struggling a bit I'm finally getting the hang of WarpTools and its \nmaking more sense overall.  Right now I'm running into an issue with \nWarpTools reconstruction.  I'm able to get well aligned tomograms but they \nhave very low contrast and I'm not sure why.  \n\nI'm using Aretomo1/2 to do the alignments (since the wrappers did not work \nwell) and using the ts_import_alignments command to import the alignments.  \nThe Aretomo1/2 have good alignments and good contrast but the WarpTools \nreconstruction look like the included images (hopefully they show up, first \ntime posting images to a Google group) but with good alignments.\n\nAt first I thought Aretomo version compatibility was an issue so I tried \ndifferent Aretomo versions for alignments but the only thing that changed \nwas how good the alignments were. I did see a post about a similar issue \nbut their fix (making sure their .xf have alignment data instead of just \n0/1s) doesn't look like it applies to me.  So I'm not sure where to go, (or \nif the low contrast matters)! \n\nIf it matters, I'm using the EMPIAR 11830 data set which consists of EER \nfiles. I'm not used to using EER files for tomography so its possible I \nmessed something up a setting there.\n\nThank you!\nKyle Messina"
+}

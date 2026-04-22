@@ -1,0 +1,8 @@
+{
+  "message_id": "<f01db8e5-91ef-4758-8e30-647b1af7c84cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WARP extreme slowing",
+  "sender": "Emma Lee <216emmarose@gmail.com>",
+  "date": "Fri, 22 Jul 2022 14:17:36 -0700 (PDT)",
+  "body": "Hi all,\n\nOur lab is trying to process a dataset of 10,500 .tiff files. However none \nof the data move past CTF and motion correction and the processing speed \nslows down to 24 files/hour. Has anyone else seen this issue before that \ncould provide some guidance? Thanks in advance -\n\nEmma"
+}

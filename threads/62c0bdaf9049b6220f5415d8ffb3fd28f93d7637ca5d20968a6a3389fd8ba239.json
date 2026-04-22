@@ -1,0 +1,8 @@
+{
+  "message_id": "<d6df5424-d666-42e6-8935-b1fd851192bdn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Gold removal in WarpTools",
+  "sender": "Felix Lange <felix.lange.le@gmail.com>",
+  "date": "Fri, 18 Apr 2025 11:10:35 -0700 (PDT)",
+  "body": "Hi guys,\n\nwhat is the common procedure to remove gold fiducials in WarpTools? Can I \nfeed in the masks made with Warp 1.0.9 or use fidder?\nThanks and best,\n\nFelix"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<51589568-ee6e-41bd-ba7a-1af7ad209cec@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Exporting to process in Relion",
+  "sender": "C Arthur <cparthurphd@gmail.com>",
+  "date": "Wed, 18 Dec 2019 12:15:07 -0800 (PST)",
+  "body": "Hi Dimitry,\nIs there any documentation for the steps involved in exporting \npre-processed data in Warp (align, CTF, picked particles) into Relion(3.1)? \nThis is coming from a very novice processor :)\nThanks!\n-Chris"
+}

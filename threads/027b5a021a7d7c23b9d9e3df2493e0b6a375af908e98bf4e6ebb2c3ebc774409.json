@@ -1,0 +1,8 @@
+{
+  "message_id": "<303e72b9-4ce2-4a91-b0e1-7a694cc79597n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp flipping part of the image to the other end",
+  "sender": "=?UTF-8?Q?Matthias_Vorl=C3=A4nder?= <mvorlaender@gmail.com>",
+  "date": "Fri, 9 Jul 2021 06:39:32 -0700 (PDT)",
+  "body": "Hi there, \n\nI am processing falcon 4  SPA data in MRC format (gain normalized) in warp \n, and warp is producing a strange artefact where part of the image is \nflipped on the other side (see screenshot). Any idea what causes this?\n\nThanks a lot in advance,\nBest,\nMatthias"
+}

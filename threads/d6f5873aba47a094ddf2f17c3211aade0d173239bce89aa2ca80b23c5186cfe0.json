@@ -1,0 +1,8 @@
+{
+  "message_id": "<9d4e23f8-cb3a-4073-84cb-3800ced9d68cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp Out of Memory Error During Full Tomogram Reconstruction",
+  "sender": "RWilfong <rwilfong24@gmail.com>",
+  "date": "Mon, 13 Nov 2023 07:40:18 -0800 (PST)",
+  "body": "Hello, \n\nI'm currently working with the EMPIAR-10164 5 series tilt-set and I'm at \nthe reconstruct full tomograms stage. I'm trying to export the tomograms at \nbin2 (pixel size 2.7A), but I keep getting a System.OutOfMemoryException. I \nattached the error written into the lastcrash.txt as an image in this \nposting. \n\nI did some digging around on this forum and couldn't find an answer to my \nproblem (I might have missed it if it has been previously posted) and I saw \nthat in the TeamTomo tutorial, there were issues reconstructing at 1.35A \nfor subtomograms. \n\nI have also attached the input used in the reconstruct full tomograms \nparameters and the input parameters for warp (pixel size, binning, \ndimensions). Let me know if there are any issues with the files! \n\nThe computer I'm running on is a Windows 10 machine wtih a 64 GB ram and \nhas the following processor: Intel(R) Xeon(R) Gold 6136 CPU @ 3.00Ghz 2.99 \nGHz (2 processors). There is also a NVIDIA GeForce GTX 1080 GPU in the \nmachine. \n\nHas anyone ran into this issue before and/or know how to get around it? I \ngreatly appreciate it! \n\nThanks! \nRose"
+}

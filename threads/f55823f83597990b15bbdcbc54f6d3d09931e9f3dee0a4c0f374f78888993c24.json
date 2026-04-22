@@ -1,0 +1,8 @@
+{
+  "message_id": "<6a687781-f58c-4f3d-bacf-290c3d0376cbn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "XML Conversion between Warp and Relion Tomo",
+  "sender": "Viraj Upadhye <vu32@cornell.edu>",
+  "date": "Wed, 29 Nov 2023 12:23:31 -0800 (PST)",
+  "body": "Hi all, \n\nI am running through a STA pipeline and would like to try to import tomos \ninto relion. I want to extract a ctffind4 like output txt from warp xml \nfiles using the warpxml2ctffind from Dendooventom and alisterburt. \nhttps://github.com/Dendooventom/warp2relion-tomo\n\nWe have installed and reinstalled warp2relion-tomo with \npip install git+https://github.com/Dendooventom/warp2relion-tomo.git \nAll the dependencies look right but it cant seem to find \ngenerate_ctffind_output.py as suspected by the following error: \n\n  File \"/home/user/miniconda3/bin/warpxml2ctffind\", line 5, in <module>\n    from generate_ctffind_output import cli\nModuleNotFoundError: No module named 'generate_ctffind_output'\n\nHas anyone experienced this? Is there another work around to achieve the \nsame goal? \n\nThank you for your help! \n\nBest,\nViraj"
+}

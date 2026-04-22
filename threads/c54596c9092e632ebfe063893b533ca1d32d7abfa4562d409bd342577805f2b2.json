@@ -1,0 +1,8 @@
+{
+  "message_id": "<dc4a294e-c064-4171-b341-c673ffa22204@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Is there a way to erase gold beads in Warp",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Thu, 19 Mar 2020 22:47:17 -0700 (PDT)",
+  "body": "Dear all,\nA silly question, I'm trying to implement Warp into my current sub tomo \npipeline in order to use M refinement finally, I've managed to get to the \nreconstruction step now, then I realize I didn't do gold erasing.. So I'm \ncurious, is there a way to do gold bead erasing in warp?\nThank you in advance!\nLinhua Tai"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<em04dd9893-154f-42fd-a16b-466897490fc3@gmail.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Re: Tilt series deselected with change_selection still processed",
+  "sender": "Spencer Rothfuss <spencerrothfuss@gmail.com>",
+  "date": "2026-04-07T21:18:27.000Z",
+  "body": "I've been using --input_data include.txt with a list of all tilt series except the ones I want to exclude but that's cumbersome. I'll try deleting XMLs. What about excluding only certain tilts? For example, if I have 49 images in a tilt series and only the highest tilt is blocked/bad, can I exclude that and reconstruct a tomogram with the remaining 48 tilts? change_selection claims to work on warp_frameseries.settings also but now I'm dubious."
+}

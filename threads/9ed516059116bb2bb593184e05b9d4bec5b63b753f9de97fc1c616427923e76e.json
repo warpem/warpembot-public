@@ -1,0 +1,8 @@
+{
+  "message_id": "<b805135f-6437-40d1-a7aa-48f416e51316@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes by exporting micrograph list",
+  "sender": "Julio Ortiz <j.ortiz@fz-juelich.de>",
+  "date": "Wed, 31 Jul 2019 12:23:35 -0700 (PDT)",
+  "body": "Hi Dimitry,\nWhen exporting a micrograph list at the end of a session I got the error \nmessage below. \nWhich value should not be null?\nThanks,\nJulio\n\n\n31/07/2019 21:10:44:\nSystem.ArgumentNullException: Value cannot be null.\nParameter name: source\n   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, \nFunc`2 selector)\n   at \nWarp.Controls.Dialog2DList.<>c__DisplayClass8_0.<ButtonWrite_OnClick>b__0()\n   at System.Threading.Tasks.Task.Execute()\n--- End of stack trace from previous location where exception was thrown ---\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\n   at \nSystem.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task \ntask)\n   at Warp.Controls.Dialog2DList.<ButtonWrite_OnClick>d__8.MoveNext()\n--- End of stack trace from previous location where exception was thrown ---\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate \ncallback, Object args, Int32 numArgs)\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, \nDelegate callback, Object args, Int32 numArgs, Delegate catchHandler)"
+}

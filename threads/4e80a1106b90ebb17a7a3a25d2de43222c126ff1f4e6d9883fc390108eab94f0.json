@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAA59SzO2m2oDZZ7QT+rhQRvRw48VohKcZm6OrokcEEAQJ=Lo4Q@mail.gmail.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Re: Tilt series deselected with change_selection still processed",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "2026-04-08T11:19:38.000Z",
+  "body": "For that I recommend editing the UseTilt section of the xml file. I wrote a code to do it for etomo that you might find useful: GitHub - hamid13r/warp_remove_skipped_views"
+}

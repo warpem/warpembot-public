@@ -1,0 +1,8 @@
+{
+  "message_id": "<bd2e7e5a-3766-4af0-9a45-c67eff539479n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Why is the MCore reconstruction \"much\" better than\r\n relion_reconstruct?",
+  "sender": "Simon Jenni <jenni@crystal.harvard.edu>",
+  "date": "Mon, 18 Nov 2024 10:13:25 -0800 (PST)",
+  "body": "My MCore reconstruction is at 3.47 A. I then export 3D particles and CTF \nvolume and use relion_reconstruct to calculate half maps (no refinement). \nThe resolution drops to 4.18. Is this expected, because WarpTools \nts_export_particles is not exporting everything of the MCore optimization? \nOr is there some weighting in the MCore reconstruction that cannot be \nexported? Is just --ctf the correct relion_reconstruct option in this \nsituation?\n\nThanks, Simon\n\nMCore reconstruction, C1 symmetry\nresolution (from MCore half maps) = 3.47\n\nexport 3D particles and 3D CTF with WarpTools ts_export_particles\n\nrelion_reconstruct --i partilces.star --subset 1 \\\n--o rec_half_map1.mrc \\\n--sym C1 \\\n--ctf --pad 2\n\nrelion_reconstruct --i partilces.star --subset 2 \\\n--o rec_half_map2.mrc \\\n--sym C1 \\\n --pad 2\n\nresolution (from relion_reconstruct half maps) = 4.18"
+}

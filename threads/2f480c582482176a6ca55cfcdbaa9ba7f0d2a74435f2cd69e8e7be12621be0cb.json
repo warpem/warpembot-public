@@ -1,0 +1,8 @@
+{
+  "message_id": "<55e2c302-c689-45ff-9ff9-d835a46374e6@googlegroups.com>",
+  "thread_id": "<4e083b4b-f9ac-47d3-9a3f-d4a9550952a1@googlegroups.com>",
+  "subject": "Re: CTF range & Fourier in Overview tab",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 21 Sep 2018 05:59:45 -0700 (PDT)",
+  "body": "Hi Joanne,\r\n\r\n1. The first CTF peak is often too noisy to enable a good fit, so I usually \r\nput the fitting range just before the first zero. Unless you are fitting a \r\nvery detailed defocus model (say, 10x10), including the highest frequencies \r\nwon't lead to overfitting. However, most data sets don't have much useful \r\ninformation there, so it won't improve the fits either.\r\n\r\n2. Not sure I understand. Are you referring to \"Defocus\", \"Astigmatism\" \r\netc.? Those are the estimated parameters of the CTF model. Please ignore \r\n\"Ice offset\", it will be gone in the next release.\r\n\r\nCheers,\r\nDimitry\r\n\r\n\r\nOn Wednesday, September 19, 2018 at 10:27:49 PM UTC+2, Joanne Lo wrote:\r\n>\r\n> Hi Dimitry\r\n>\r\n> I got 2 questions:\r\n>\r\n> 1.In your Quick Start guide CTF fitting options section about the Range, \r\n> it mentioned 'It is usually best to ignore the lowest frequencies.´, can \r\n> you explain this more? I thought it is more the highest frequencies need to \r\n> be ignored to avoid overfitting.\r\n>\r\n> 2. In the Fourier Overview (see attachment), when I put the mouse to wach \r\n> individual CTF peak, other than A, there's also a value of 3-4 digits \r\n> given, what's does it mean?  \r\n>\r\n> Many thanks in advance!\r\n>\r\n> Best wishes\r\n> Joanne\r\n>\r\n>"
+}

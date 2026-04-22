@@ -1,0 +1,8 @@
+{
+  "message_id": "<31f2b58b-afb9-4b71-8f09-6f2ed4476bben@googlegroups.com>",
+  "thread_id": "",
+  "subject": "ts_aretomo \"all tilt angles are zero\"",
+  "sender": "Lucas Morley <lmorley1100@gmail.com>",
+  "date": "Mon, 21 Oct 2024 09:15:19 -0700 (PDT)",
+  "body": "Hi, \n\nI am trying to use AreTomo to align a tilt stack with very few fiducials. I \nhave run the command: \n\nWarpTools ts_aretomo --settings warp_tiltseries2.settings --angpix 10 \n--alignz 3500 --input_data tomostar2/sm2020-01-25-19_TS6.tomostar\n\nThis seems to run fine until the import step which I get the error:\n\nFailed to import alignments:\nall tilt angles are zero in \nredacted/warp_tiltseries2/tiltstack/sm2020-01-25-19_TS6/sm2020-01-25-19_TS6_Imod/sm2020-01-25-19_TS6_st.tlt\n\nIt appears AreTomo ran fine. The aligned mrc looks great, but the .st in \nthe Imod directory has all 0's as the error says.\n\nI am unsure if this is an AreTomo issue or Warp issue.\n\nThanks for any help."
+}

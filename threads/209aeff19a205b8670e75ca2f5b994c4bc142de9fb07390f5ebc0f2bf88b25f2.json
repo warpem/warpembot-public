@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALUrcWD2=e1sigEXbwnjZjfz_t8r9LOVKhxFu1aXzrkZyDFs0g@mail.gmail.com>",
+  "thread_id": "<e981119a-cfcd-4f7b-84ce-5b31cf055a3d@googlegroups.com>",
+  "subject": "Re: max number of frames with K3 data?",
+  "sender": "Matt Harrington <matt@msg.ucsf.edu>",
+  "date": "Tue, 23 Apr 2019 18:15:01 -0700",
+  "body": "On Tue, Apr 23, 2019 at 8:34 AM Dimitry Tegunov <tegunov@gmail.com> wrote:\r\n\r\n> Ok, it's fixed now, and an old Titan X with 12 GB seems to be enough for the full pipeline, assuming 2x downsampling of the superres data. I'll share the updated installer once I've accumulated a few more fixes.\r\n\r\nExcellent.  We look forward to testing it out.\r\n\r\nIn the meantime, we'll downsample some of our superres data.  What did\r\nyou use to do that on the sample micrograph I sent?\r\n\r\nBy the way, it's terrific seeing a high-quality Windows application\r\ncreated for cryo-EM.  WPF is an outstanding framework.\r\n\r\nMatt"
+}

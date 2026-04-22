@@ -1,0 +1,8 @@
+{
+  "message_id": "<c48e4444-f7a8-4be4-a7d6-5039717a24a3@googlegroups.com>",
+  "thread_id": "<73b5a116-6994-47c1-aafa-d37cb07f8edc@googlegroups.com>",
+  "subject": "Re: re-training a model",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 31 Aug 2018 05:32:53 -0700 (PDT)",
+  "body": "Hi Reza,\n\nI agree the current training dialogue is unnecessarily confusing. The \nimportant/uncertain locations were part of an attempt to imitate the \ntraining process of BoxNet v1 in v2 (the upgrade was made shortly before \nthe public release in June). Unfortunately, the micrograph display UI never \ncaught up with this, and there is likely no need for such fine-grained \ncontrol. The options will be removed in 1.0.6. Just providing positive \nexamples (if there is a mask for the dirt, it will be considered \nautomatically if you choose to train masking as well) of exhaustively \npicked micrographs should be enough.\n\nCheers,\nDimitry\n\nOn Thursday, August 30, 2018 at 10:59:52 PM UTC+2, Reza B wrote:\n>\n> Hi Dimitry,\n>\n>\n> I'm confused about how to use false positives in retraining. The tutorial \n> states that cleaned up star file goes with \"Positive examples\", but do I \n> use false positive star files in the \"extra important locations\"? if so, is \n> there a shortcut for creating a star file for \"Uncertain locations\" the \n> same way that holding shift creates false positives. Thanks a lot.\n>\n> Best,\n> Reza\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<d7d7d0a9-c5b4-4c82-97df-f987d771335c@googlegroups.com>",
+  "thread_id": "<7fb47dcf-b853-4b69-b0fc-063fba075255@googlegroups.com>",
+  "subject": "Re: M on cryo-ET data refinement dialog and results",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Tue, 7 Apr 2020 02:50:53 -0700 (PDT)",
+  "body": "Dear Florian,\r\nHi, have you solved this issue? I've encountered with similar issue when I \r\ntry to run M refinement, it just start refine the tomostar files, really \r\nhave no clue why.\r\n\r\nThank very much in advance!\r\n\r\nYours sincerely,\r\nLinhua Tai\r\n\r\nOn Saturday, March 21, 2020 at 8:44:12 PM UTC+8, Florian Fäßler wrote:\r\n>\r\n> Dear all,\r\n>\r\n> after preparing subtomograms at 2x binning in warp and aligning them in \r\n> relion, I want to do the multi-particle refinement in M. I am trying to use \r\n> the version that has been included in warp 1.0.6 and the 1.0.7 installer \r\n> does not come with M (I saw that there might be an update available on \r\n> github, but I don't really have a clue how to compile it) . Creating a \r\n> population, specifying a source and creating a species work perfectly fine, \r\n> but when I hit the refine button M just starts with the refinement without \r\n> popping up the refinement setup described in the user guide. Further, M \r\n> changes only the .xml files within the associated warp project during the \r\n> refinement, and writes d_corr_[tomogramname].mrc files in the \r\n> warp-installation folder during refinement, the species folder ,however, \r\n> remains unchanged after the inital setup. Does anyone have a suggestion \r\n> what might be going on here?\r\n>\r\n> Best regards,\r\n> Florian\r\n>\r\n>"
+}

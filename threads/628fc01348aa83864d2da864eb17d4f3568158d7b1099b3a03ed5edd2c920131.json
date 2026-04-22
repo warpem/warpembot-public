@@ -1,0 +1,8 @@
+{
+  "message_id": "<d1930a33-715c-456c-90a6-f69cf5cefee0n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WarpTools ts_template_match on multiple GPUs",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Thu, 19 Dec 2024 22:24:00 -0800 (PST)",
+  "body": "Hi all,\n\nWhen I try to use multiple GPUs (or processes per GPU) to run a template \nmatching on tomogram, I get only one worker (and one process). This is the \ncommand I tried:\n\nWarpTools ts_template_match \\\n--settings warp_tiltseries.settings \\\n--tomo_angpix 10 \\\n--subdivisions 5 \\\n--template_path templates/postprocess.mrc \\\n--template_angpix 3.09 \\\n--template_diameter 900 \\\n--peak_distance 100 \\\n--npeaks 5000 \\\n--symmetry C1 \\\n--whiten \\\n--subvolume_size 192 \\\n--perdevice 1\n\nHowever, only GPU 0 is active.  The memory consumption is the same as with \n--perdevice 1 and I can see only one process running. \n\nDoes WarpTools ts_template_match support multiple GPUs? I have a high \nsub-divisions parameter, as I have a long filament segment, and trying to \nmake the segments meet accurately for visualization. \n\nCheers,\nJuha"
+}

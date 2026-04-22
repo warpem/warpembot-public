@@ -1,0 +1,8 @@
+{
+  "message_id": "<b3433cb8-3abe-4b68-b7c7-e5a4fa5d7665@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.07 does not start, no error messages",
+  "sender": "Adrian Koh <kohfujiet@gmail.com>",
+  "date": "Thu, 19 Mar 2020 00:20:37 -0700 (PDT)",
+  "body": "I've tried running via the shortcut, directly in the installation folder, \nas admin and via compatibility layers to win 7 and win 8.\n\nDoes not start. I have a Ryzen 2600, 32GB RAM, 1080ti, latest drivers and \nall necessary packages. Windows 10 latest update.\n\nNo error messages, no processes visible in Task Manager. \n\nAny ideas?"
+}

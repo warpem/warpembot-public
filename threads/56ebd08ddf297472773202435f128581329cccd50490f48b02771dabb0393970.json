@@ -1,0 +1,8 @@
+{
+  "message_id": "<11dc178a-a0d4-420d-bfd1-5ea41b28ef73n@googlegroups.com>",
+  "thread_id": "<13530192-154b-410f-9a4d-64455d7001aen@googlegroups.com>",
+  "subject": "Re: Warp to Etomo Tilt Axis Rotation Angle Off",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Mon, 3 Mar 2025 11:43:15 -0800 (PST)",
+  "body": "I forgot to mention that I used the mdoc value of -176.26 using the \r\n--override_axis argument. Everything else was identical (to my knowledge).\r\n\r\nFrom,\r\nKyle\r\n\r\nOn Monday, March 3, 2025 at 1:35:38 PM UTC-6 Kyle Messina wrote:\r\n\r\n> Hi Alister,\r\n>\r\n> To make sure I can eyeball/understand the tilt axis angle correctly, is it \r\n> just the number of degrees counterclockwise from the Y-axis that the tilt \r\n> axis rotates around (like you described in the previous post)?  So if the \r\n> tilt axis is running from the lower left of the micrograph to the upper \r\n> right of the micrograph, then tilt axis angle would be 135 degrees?\r\n>\r\n> Also manually putting in the the mdoc value of -176.26 actually gave me a \r\n> good Aretomo reconstruction...but its rotated 90 so it looks like I just \r\n> need to learn the correct tilt axis angle.  Etomo seemed like it was being \r\n> a bit wonky with coarse alignment but if Aretomo is working, so I can run \r\n> with that as a check for now.  Thanks again for the help and helping me \r\n> learn some of minor things I either glossed over or was not taught! \r\n>\r\n> From,\r\n> Kyle\r\n>\r\n>"
+}

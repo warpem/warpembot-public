@@ -1,0 +1,8 @@
+{
+  "message_id": "<ff81fb91-9d98-4e97-8c6f-27697599ad2c@googlegroups.com>",
+  "thread_id": "",
+  "subject": "No CTF estimation",
+  "sender": "Cyntia <taveneau.cynthia@gmail.com>",
+  "date": "Tue, 12 Nov 2019 16:50:11 -0800 (PST)",
+  "body": "Hi everyone! \n\nSomeone showed me how to use warp recently, and it worked pretty well on my \ntomograms!  So now I'm trying to use it on my own machine, but I have some \nissues. \nUsing the same parameters and dataset as before, the CTF estimation is not \nworking and then always estimates the defocus to 0. I tried different \nversions of Warp, reinstall everything and it's exactly the same.The 3 GPUs \nI have are recognized by Warp, but I was wondering, maybe the problem is \nthe graphic cards?  I have two Tesla k40c and on Quadro K620, is that ok? \n\nThank you very much for your help!\nCyntia"
+}

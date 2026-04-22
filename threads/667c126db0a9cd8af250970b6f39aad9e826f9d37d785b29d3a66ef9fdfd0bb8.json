@@ -1,0 +1,8 @@
+{
+  "message_id": "<ff9eef7a-547f-4ca3-bcdb-f0c88945a66en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "wrpCoordinates after M refine",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Thu, 17 Oct 2024 05:20:14 -0700 (PDT)",
+  "body": "Hi all,\n\nI have a question about wrpCoordinates value in particles.star file in \nspecies folder after M refinement.\n\ndata_\n\nloop_\n_wrpCoordinateX1 #1\n_wrpCoordinateY1 #2\n_wrpCoordinateZ1 #3\n_wrpCoordinateX2 #4\n_wrpCoordinateY2 #5\n_wrpCoordinateZ2 #6\n_wrpCoordinateX3 #7\n_wrpCoordinateY3 #8\n_wrpCoordinateZ3 #9\n_wrpAngleRot1 #10\n_wrpAngleTilt1 #11\n_wrpAnglePsi1 #12\n_wrpAngleRot2 #13\n_wrpAngleTilt2 #14\n_wrpAnglePsi2 #15\n_wrpAngleRot3 #16\n_wrpAngleTilt3 #17\n_wrpAnglePsi3 #18\n_wrpRandomSubset #19\n_wrpSourceName #20\n_wrpSourceHash #21\n4359.67236  4262.32910  1007.64624  4359.67236  4262.32910  1007.64624 \n 4359.67236  4262.32910  1007.64624   77.43541  63.04351    68.49342   \n77.43541  63.04351    68.49342   77.43541  63.04351    68.49342  1   \nPosition_123_3.tomostar  tczm1sxAEOHlvCpqjkGwUyb06vg\n\nsome of my particle coordinates are higher than 4096 which is physically \nnot acceptable. I wondered whether the wrpcoordinates are actual pixel \nvalues or not. In addition, I set unbinned tomogram dimension \n3712x3712x2000.\n\nThank you!\n\nBest,\nMingyu"
+}

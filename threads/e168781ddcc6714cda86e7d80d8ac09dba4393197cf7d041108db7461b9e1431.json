@@ -1,0 +1,8 @@
+{
+  "message_id": "<d6b86715-05e6-4324-86a9-f133a7e5942b@googlegroups.com>",
+  "thread_id": "<c51aa1cf-ce06-425b-8c3d-660318c2bea8@googlegroups.com>",
+  "subject": "Re: Tweaks for better CTF / polishing ?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 16 Aug 2018 05:53:47 -0700 (PDT)",
+  "body": "Hi Mike,\n\nif you already used a 5x5 or 6x6 grid, making the sampling finer probably \nwon't help. If Sjors' EMD-0152 is representative of what the new polishing \ncan do for tilted data, I'd definitely try that. I do have some ideas for \nmaking the alignment and CTF estimation more accurate at the pre-processing \nstage, but implementing and testing them will take time :-)\n\nCheers,\nDimitry\n\n\nOn Tuesday, August 14, 2018 at 10:28:12 PM UTC+2, mcianfro@umich.edu wrote:\n>\n> Hi Dimitry,\n>\n> Very nice software package, we now have a map at 4 A from a tilted data \n> set. \n>\n> Do you have any recommendations for ways to tweak the motion and CTF \n> estimation for this dataset to see if we can improve resolution further? \n> I'm tempted to try per particle polishing (a la Rubinstein or RELION) and \n> CTF refinement to see if we can get 0.1-0.3A better.  I wasn't sure if Warp \n> will have improved estimation of region/particle motion and CTF if we used \n> a finer sampling. \n>\n> What do you think? We will likely need to collect more data, but it's \n> always worth trying to squeeze the most out of our datasets!\n>\n> Mike\n>"
+}

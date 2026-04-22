@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAB7-Rruc6KAhXAa7GmmfmOzJhKKORGgYnOjkQeMQ2KAZLXpb8A@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Error importing in M",
+  "sender": "Ricardo Righetto <ricardorighetto@gmail.com>",
+  "date": "Fri, 16 Jun 2023 16:56:50 +0200",
+  "body": "Hi, I am getting the \"No micrographs or tilt series found to match these\r\nsettings\" when adding a data source (.settings file) in M:\r\n\r\n[image: image.png]\r\nThe tilt series was imported and processed without issues in Warp, after\r\nwhich I exported subtomos and refined in RELION. Now I want to further\r\nrefine in M and am encountering this error. I compared with another\r\n.settings file that works in M and could not find any obvious problem.\r\n\r\nAny ideas what's going on here?\r\n\r\nThanks a lot!\r\n\r\n--\r\nRicardo Diogo Righetto"
+}

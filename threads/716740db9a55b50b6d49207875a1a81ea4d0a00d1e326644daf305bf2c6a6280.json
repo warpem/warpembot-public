@@ -1,0 +1,8 @@
+{
+  "message_id": "<e8a316f8-fb5e-46de-abca-22c6b8b95971n@googlegroups.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Re: Tilt series deselected with change_selection still processed",
+  "sender": "Spencer Rothfuss <spencerrothfuss@gmail.com>",
+  "date": "2026-04-14T18:08:03+00:00",
+  "body": "Thanks Warp Bot/Dimitry. It sounds like there's a couple layers here. Removing an entire tilt series is not supported (Warp Bot opened #462 for that). Removing a frame series (aka \"a tilt\") can be done in two ways: 1. Set UnselectManual=\"True\" in the headmatter of warp_frameseries/*_Fractions.xml and re-run import (recommended by Warp Bot) 2. Set the boolean list <UseTilt>True...</UseTilt> in the body of warp_tiltseries/*.xml (used by Hamid's script). #1 appears to work for me (at very least the .tomostar is changed and no errors with reconstruction) repeating ts_import was the step I was missing. However, when I try #2 by manually setting some to False and then run WarpTools ts_aretomo, I get an error: Exception details: System.Exception: 49 active tilts in series, but 39 lines in /.../warp_tiltseries/tiltstack/Position_1_5/Position_1_5_aligned_Imod/Position_1_5.xf. Do you get errors when editing <UseTilt>, Hamid?"
+}

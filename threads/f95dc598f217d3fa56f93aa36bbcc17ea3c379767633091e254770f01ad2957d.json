@@ -1,0 +1,8 @@
+{
+  "message_id": "<BA78BC80-7067-4003-AABC-FB7727449A4E@gmail.com>",
+  "thread_id": "<4f4426c5-778d-46d0-b046-04a8f9b114f2n@googlegroups.com>",
+  "subject": "Re: Question about the exported image series",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 12 Jun 2024 02:29:35 -0400",
+  "body": "Hi Yunjie,\nParticles exported from WarpTools in Warp 2.0 are CTF pre-multiplied. I’m not sure about the previous versions\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jun 11, 2024, at 23:09, Yunjie Chang <changyj0821@gmail.com> wrote:\n﻿Hi everyone,\nFor cryo-ET particles, Warp can export sub-tomograms or image series. As I know, the sub-tomograms are ctf corrected.\nMy question is, if I export image series, are the image series ctf-corrected or not?\nThanks\nYunjie\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/4f4426c5-778d-46d0-b046-04a8f9b114f2n%40googlegroups.com\n."
+}

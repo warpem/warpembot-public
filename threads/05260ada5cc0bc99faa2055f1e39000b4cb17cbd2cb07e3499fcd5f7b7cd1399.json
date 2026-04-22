@@ -1,0 +1,8 @@
+{
+  "message_id": "<c72972df-ce05-4b6e-9770-0e7e60d57d54n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Merging datasets with different handedness",
+  "sender": "\"cla...@gmail.com\" <clazzy@gmail.com>",
+  "date": "Mon, 20 Jan 2025 07:27:47 -0800 (PST)",
+  "body": "Hi all,\n\nI am working with a sample which has three datasets at the same pixel size. \nI have processed two separately to 8A and tried to merge them in Relion 5. \nIt sort of worked (more on that in a moment) but I have a couple of \nquestions about the best way to handle things.\nMy first question is a question of logistics: both are collected with the \nname Position_001, Position_002, etc. They will need to be differently \nnamed to ensure they don't clash, so can I just rename the XML files to \ndataset1_Position_001.xml and update _rlnMicrographName in the star file \naccordingly or is there more that I need to change?\nSecondly, when I merged my data, the map looked dreadful. I then realised \nthat the datasets are not in the same hand, which likely results from me \nhaving a tilt axis of around -90 deg in one and +90 deg in the other. What \nwould be the best way to go about flipping the hand for one of the \ndatasets? If I change the AxisAngle signs manually in the XML files, will \nthis have repercussions on the particle positions and the defocus \nhandedness?\n\nCheers,\n\nMat"
+}

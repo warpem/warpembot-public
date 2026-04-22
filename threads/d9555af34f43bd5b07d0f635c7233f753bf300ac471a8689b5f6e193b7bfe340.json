@@ -1,0 +1,8 @@
+{
+  "message_id": "<279d7d63-3425-49e5-a40f-8668843896ado@googlegroups.com>",
+  "thread_id": "<c0300489-0552-4957-bd14-55788075b62ao@googlegroups.com>",
+  "subject": "Re: Problem with adding multiple data sources into one M population",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 23 Jul 2020 15:28:28 -0700 (PDT)",
+  "body": "This problem will be resolved in the next version. For now, the workaround \nis to create an empty 'matching' folder in the data source directories.\n\nOn Sunday, July 12, 2020 at 6:27:51 PM UTC+2, Linhua Tai wrote:\n>\n> Dear all,\n> Hi, I'm trying to use M for final refinement, but having a problem with M.\n>\n> I used multiple data collection sessions with different gain reference and \n> exposure settings. I've done warp preprocessing on those separate \n> directories which on same hard disk. Now I need to adding multiple data \n> sources into one M population, which I created just one level up of the \n> warp preprocessing directories, the first directory for data source worked \n> fine, but for the other ones, I get the error message as: \n> 7/12/2020 10:56:10 PM:\n> System.IO.DirectoryNotFoundException: Could not find a part of the path \n> 'H:\\SPA_N0_1126\\matching'....\n> I've attached full crash history in this question.\n>\n> I tried several times, like save another settings file by warp, all got \n> this error message.\n> Anyone got a clue how to solve this problem?\n>\n> Thank you very much in advance!\n>\n> Yours sincerely,\n> Linhua Tai\n>"
+}

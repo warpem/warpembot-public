@@ -1,0 +1,8 @@
+{
+  "message_id": "<a572cde1-4c12-4ea2-a032-d90369b16c91n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "disk1.cab error with Warp_1.0.9 install",
+  "sender": "Jacob Anderson <jacronand13@gmail.com>",
+  "date": "Tue, 2 Aug 2022 12:49:41 -0700 (PDT)",
+  "body": "Fresh Windows 10 install today with the goal of using the workstation for \nWarp/M. After  assuring the pre-requisites were in order (.Net Framework \n4.8 downloaded, Visual C++ 2017 Redistributable installed + restarted, + \nnewest NVIDIA drivers for a 3090 RTX), I downloaded Warp_1.0.9. I then ran \nthe installer. \n\nI get the error \"*The cabinent file 'disk1.cab' required for this \ninstallation is corrupt and cannot be used. This could indicate a network \nerror, an error reading from the CD-ROM, or a problem with this package*.\"\n\nOn clicking \"Retry\" the error recurs. On clicking ignore I then get a new \nerror: \"FDI server error\".\n\nI performed an iteration of deleting the installer and redownloading and \nrunning the installer. This reproduced the issue. \n\nI am curious if anyone has encountered and overcome this problem on the \ninstall. Or if this installer error is diagnostic of another problem.\n\n[image: Screenshot (4).png]"
+}

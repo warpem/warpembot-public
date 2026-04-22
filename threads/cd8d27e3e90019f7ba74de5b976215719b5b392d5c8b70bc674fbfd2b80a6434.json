@@ -1,0 +1,8 @@
+{
+  "message_id": "<d42ee422-56f1-424e-a6e8-50da099afbfan@googlegroups.com>",
+  "thread_id": "<eb93c049-50bd-46ee-abed-46ac6901fa72n@googlegroups.com>",
+  "subject": "Re: M species creation crashes Windows - training denoising model",
+  "sender": "Dennis Michalak <dennisjmichalak@gmail.com>",
+  "date": "Wed, 28 Sep 2022 11:36:51 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI see, thanks for the info. \n\nI'm using:\nNightly build 2020-11-04 (Is this 1.1.0?)\nNVIDIA GeForce GTX 1080 Ti - 11GB\n\nDennis\nOn Tuesday, September 27, 2022 at 7:09:22 PM UTC-4 teg...@gmail.com wrote:\n\n> Hi Dennis,\n>\n> Wow, a reboot isn't easy to cause! Is that 1.0.9 or 1.1.0? What GPU(s) are \n> you using? Training is quite memory-heavy, though mostly not because of the \n> half-maps but because of the intermediate results the neural net needs to \n> keep for gradient calculation.\n>\n> Cheers,\n> Dimitry\n>\n> On Tuesday, September 27, 2022 at 3:34:15 PM UTC-7 dennisj...@gmail.com \n> wrote:\n>\n>> Hello,\n>>\n>> During the species creation in M, steps 1,2, and 3 out of 5 go well and \n>> after a few seconds at 4/5, the PC hard crashes. The screen goes black and \n>> starts a boot up again. It looks like the crash happens such that no error \n>> logs are created by the system and only after boot up does it recognize \n>> something went wrong.\n>>\n>> Is it possible that the step that trains the denoising model could \n>> completely fill the GPU memory? I thought the training only uses two \n>> refined half-maps and not individual particles themselves. That's the only \n>> thing I can think of that might cause the crash.\n>>\n>> Best,\n>> Dennis\n>>\n>"
+}

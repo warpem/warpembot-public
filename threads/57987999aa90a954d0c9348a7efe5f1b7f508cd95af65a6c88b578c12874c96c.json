@@ -1,0 +1,8 @@
+{
+  "message_id": "<31d32b93-49d2-4d86-8d3b-f8e167949af6n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M crashing after lower binning",
+  "sender": "=?UTF-8?Q?Juan_Carlos_De_la_Concepci=C3=B3n?=\r\n <jcdelaconcepcion@gmail.com>",
+  "date": "Wed, 25 Oct 2023 05:23:35 -0700 (PDT)",
+  "body": "Hi all,\n\nAfter using M, the resulting resolution was close to Nyquist so, I \nextracted subtomograms in M using a lower binning and did a refinement in \nRelion to import again in M. However, now it crashes every time in the step \n4/5 (Training the denoising model).\n\nDid anyone experience something like this before?\n\nThanks!\nJC"
+}

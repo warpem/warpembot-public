@@ -1,0 +1,8 @@
+{
+  "message_id": "<cf153ba2-f549-40d1-b2a3-b89657f53745o@googlegroups.com>",
+  "thread_id": "<CAJn1A70DNSCfgXFv+QXmHSQT4tuaaA6t1y4tv0K2v-hijnTJwA@mail.gmail.com>",
+  "subject": "Re: M not responding",
+  "sender": "=?UTF-8?B?6IyD5r2H?= <fanxiao0606@gmail.com>",
+  "date": "Tue, 18 Aug 2020 13:31:46 -0700 (PDT)",
+  "body": "Hi Shyamal,\r\n\r\nI got a similar problem and I am also searching for solution. It seems \r\nyou've already refined some TS successfully but I've get stuck at the \r\nbeginning. I found that the Warpwokers will exit when this happen, but the \r\nUI is still running. I'm wondering is there any difference between TS_749 \r\nand the others? BTW, if I uncheck the \"Image warp grid\" and \"Volume warp \r\ngrid\" option, there's no problem with the refinement.\r\n\r\nBest,\r\nXiao\r\n\r\n在 2020年8月18日星期二 UTC-4上午11:41:53，shyamal mosalaganti写道：\r\n>\r\n> Hi Dimitry and others,\r\n>\r\n> I am running M (v1.0.9) and there was no problem. However, after sometime \r\n> there is no progress and it stuck on a tilt series (TS_749, please see \r\n> attached) for almost an hour now. \r\n> Did anyone have a similar problem? and is there a way to fix this?\r\n> Please let me know,\r\n> Thank you,\r\n> Shyamal\r\n> [image: Screenshot 2020-08-18 at 17.34.59.png]\r\n>"
+}

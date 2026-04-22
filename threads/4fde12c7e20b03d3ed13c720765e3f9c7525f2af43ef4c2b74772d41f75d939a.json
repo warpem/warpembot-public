@@ -1,0 +1,8 @@
+{
+  "message_id": "<aa472965-9162-465f-bdf2-31160039b47dn@googlegroups.com>",
+  "thread_id": "<8c351195-897b-4d6c-80ad-c19871e2761an@googlegroups.com>",
+  "subject": "Re: Boxnet vs 3090",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 9 Mar 2021 21:17:44 -0800 (PST)",
+  "body": "Hi all,\r\nI also have the denoising problem with RTX 1080\r\n在2021年2月28日星期日 UTC+8 下午9:33:40<Lucas Farnung> 写道：\r\n\r\n> Hi all,\r\n>\r\n> I can report having the same issue. I just finished building a new \r\n> workstation with an 3090. Both particle picking and denoising in Warp do \r\n> not work. It seems as if Warp is loading the models but Warp does not \r\n> progress beyond this point.\r\n>\r\n> Best wishes,\r\n> Lucas \r\n>\r\n>"
+}

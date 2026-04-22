@@ -1,0 +1,8 @@
+{
+  "message_id": "<821b4609-7734-4335-a474-2c651df98a63@googlegroups.com>",
+  "thread_id": "<b3433cb8-3abe-4b68-b7c7-e5a4fa5d7665@googlegroups.com>",
+  "subject": "Re: Warp 1.07 does not start, no error messages",
+  "sender": "Adrian Koh <kohfujiet@gmail.com>",
+  "date": "Sun, 5 Apr 2020 12:22:26 -0700 (PDT)",
+  "body": "Found the problem. RivaTuner Statistics server, a program frequently \nbundled with GPU overclocking software, conflicts with Warp.\n\nOn Thursday, 19 March 2020 08:20:38 UTC+1, Adrian Koh wrote:\n>\n> I've tried running via the shortcut, directly in the installation folder, \n> as admin and via compatibility layers to win 7 and win 8.\n>\n> Does not start. I have a Ryzen 2600, 32GB RAM, 1080ti, latest drivers and \n> all necessary packages. Windows 10 latest update.\n>\n> No error messages, no processes visible in Task Manager. \n>\n> Any ideas?\n>"
+}

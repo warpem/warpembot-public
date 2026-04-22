@@ -1,0 +1,8 @@
+{
+  "message_id": "<bb7632c7-9c75-47b3-8caa-25ee757ed898@googlegroups.com>",
+  "thread_id": "<7c545dba-23a1-430b-9d6c-c1ae3b7382f8@googlegroups.com>",
+  "subject": "Re: EPU folder structure with Warp",
+  "sender": "Andreas <andreas.boggild@gmail.com>",
+  "date": "Wed, 12 Feb 2020 04:58:50 -0800 (PST)",
+  "body": "Hi Christos,\n\nThe script we use to move files to the storage server also makes a \nwarp-folder in with symlinks to all the movies from a data collection. We \nthen process using Warp on a dedicated Windows computer with the storage \nserver mounted. Perhaps a similar solution, but making the symlinks \ndirectly on the K3 PC, could work for you? I don't know how easy it is to \nwork with symlinks in scripts directly in Windows, though.\n\n/Andreas\n\n\ntirsdag den 11. februar 2020 kl. 15.21.52 UTC+1 skrev Christos Savva:\n>\n> Hi\n>\n> We write EPU K3 Tiff files on the K3 PC SSD array and then copy them to \n> our storage server for further processing. I would like to use Warp on the \n> K3 PC and have it read the files that are in the \n> \\DoseFractions\\EPUSessionFolder\\Images-Disk\\GridSquarexxxxx\\Data\\... which \n> according to the website isn't possible as all micrographs have to bee in \n> the same folder. Ideally  I dont want to use stacker to move the files to \n> another location but can do if there aren't other options. Can I ask what \n> other EPU users that process files on the K3 PC with Warp are doing?\n>\n> Thanks\n>\n>\n> Christos\n>"
+}

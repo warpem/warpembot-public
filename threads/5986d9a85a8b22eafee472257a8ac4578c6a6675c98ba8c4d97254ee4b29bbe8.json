@@ -1,0 +1,8 @@
+{
+  "message_id": "<50c092c6-c8b6-454c-a238-fa666bedd0c3@googlegroups.com>",
+  "thread_id": "<6f56c68e-a1f1-430c-86f8-3cff67782902@googlegroups.com>",
+  "subject": "Re: Installation requirements - is windows OS a requirement",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 20 Nov 2018 12:36:49 -0800 (PST)",
+  "body": "Hi Petya,\n\nsorry, I'm afraid it's Windows only due to the UI framework used. If you \nwant to try it but don't have access to a Windows machine, there's Michael's \nAmazon Cloud guide <http://cryoem-tools.cloud/warp-aws/>.\n\nCheers,\nDimitry\n\n\nOn Sunday, November 11, 2018 at 9:48:43 PM UTC+1, pvk2@cornell.edu wrote:\n>\n> Hello, \n>\n> Can Warp be installed on Linux GPU workstation, i.e. without a Windows \n> operating system?\n>\n> Thanks in advance, \n>\n> Petya\n>"
+}

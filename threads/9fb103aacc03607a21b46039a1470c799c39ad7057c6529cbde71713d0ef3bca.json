@@ -1,0 +1,8 @@
+{
+  "message_id": "<2ae0b469-1ed9-44f2-bf45-7584f5966bedn@googlegroups.com>",
+  "thread_id": "<5fdd4f9f-ea5a-490a-99a9-f3c229f07079n@googlegroups.com>",
+  "subject": "Re: Potential explanations for resolution not improving",
+  "sender": "joe dobbs <dobbsjoseph12@gmail.com>",
+  "date": "Wed, 31 May 2023 04:40:31 -0700 (PDT)",
+  "body": "an update on this, if anyone faces similar issues:\r\n\r\nI think my alignments are the problem. I used aretomo for reconstruction, \r\nbut I see weird blurring and 'stretching' of signal in the x/z views. \r\nFiducials, for example, make a C shape in x/z (rather than an X shape) in \r\nthe reconstructions.\r\n\r\nI suppose that M is not able to overcome such nasty misalignment and can't \r\nreally correct the image and volume warp, etc. although I was able to \r\nrefine ctf and get 1A improvement.\r\nOn Tuesday, May 30, 2023 at 12:06:01 AM UTC+2 joe dobbs wrote:\r\n\r\n> Hi all,\r\n>\r\n> I wondered if anyone might have any suggestions for when resolution \r\n> doesn't improve in M for a particle that I know should improve. In other \r\n> datasets (with the same particle) M has substantially improved my \r\n> resolution, but in a new dataset it's only made extremely small \r\n> improvements: less than 1 A difference with poses, image warp, volume warp \r\n> and tilt angles turned on.\r\n>\r\n> I seem to be stuck around 13.5 A. I have some things I'll be trying, but I \r\n> wondered if anyone has any ideas about limiting factors that could be \r\n> stopping M from improving my resolution?\r\n>\r\n>\r\n> Best,\r\n> Joe.\r\n>"
+}

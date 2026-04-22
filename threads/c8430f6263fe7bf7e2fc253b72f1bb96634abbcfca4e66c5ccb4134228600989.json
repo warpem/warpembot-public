@@ -1,0 +1,8 @@
+{
+  "message_id": "<aa0a6c9e-03e7-4882-9eaf-d0fed12f0928n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "All micrographs are filtered out during data source creation\r\n (1.0.9)",
+  "sender": "\"alexandre....@gmail.com\" <alexandre.j.c.durand@gmail.com>",
+  "date": "Fri, 28 Aug 2020 04:47:38 -0700 (PDT)",
+  "body": "Hi,\n\nI am trying to create a data source using a Warp session, but all the \nmicrographs are indicated as filtered out after loading the .settings file \nfrom Warp. In Warp, only a fraction of the raw data appears blue.\nI am not sure why the mics are not recognized.\n\nThanks\nAlexandre"
+}

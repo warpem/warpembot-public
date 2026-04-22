@@ -1,0 +1,8 @@
+{
+  "message_id": "<a2dff62d-2f75-492c-adf4-408f97631c7an@googlegroups.com>",
+  "thread_id": "<db6ae06b-a492-47ef-b513-0e4f35001bd4n@googlegroups.com>",
+  "subject": "Re: aretomo (1.3.4) cannot reconstruct tomograms",
+  "sender": "Qiuye Li <liqiuye09@gmail.com>",
+  "date": "Fri, 9 May 2025 08:38:45 -0700 (PDT)",
+  "body": "For those of you who are curious or have similar issues, I noticed that \r\nadding the -PixelSize tag will resolve the issue.\r\n\r\nQiuye\r\n\r\nOn Thursday, May 8, 2025 at 8:13:08 PM UTC-4 Qiuye Li wrote:\r\n\r\n> Dear all,\r\n> I found there are many active users of aretomo V1 here, so I hope to get \r\n> some helpful insight regarding the usage of the software.\r\n> I found it very handy to quickly reconstruct tomograms using aretomo to do \r\n> a quality check of the data collection. What I would do is just to use the \r\n> same command to loop through all the TS I have. However, I noticed some of \r\n> the results are aligned TS instead of tomograms when using Sart \r\n> reconstruction. When I use wbp reconstruction, some of the TS would just \r\n> fail, producing artifacts or sometimes a smeared frame, etc. I noticed that \r\n> those failed in Sart are not necessarily the same TS failed in wbp. \r\n> After some inspection (mostly using Sart), I found that this issue can be \r\n> resolved by adjusting AlignZ and VolZ slightly. Apparently certain \r\n> combination of the parameters will just trigger tomogram/TS generation, \r\n> which is very confusing. I just wonder if anyone else noticed the same \r\n> behavior, or if there is a solution for using a generic command to do batch \r\n> tomogram reconstruction.\r\n>\r\n> Best,\r\n> Qiuye\r\n>"
+}

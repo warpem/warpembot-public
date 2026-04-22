@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHpvydO=75SsB0repVuvOerzBjdkwWNp=j1m6D7R4u915g@mail.gmail.com>",
+  "thread_id": "<33195ede-0e19-46a5-ba03-bf3cb3964f00n@googlegroups.com>",
+  "subject": "Re: Tomogram reconstruction - unbinned tomogram dimension",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 1 Dec 2020 12:54:18 +0100",
+  "body": "Hi Katarina,\r\n\r\nSorry I'm not Dimitry 😝\r\n\r\nIt looks like you have K3 data and that you just need to invert the\r\nunbinned X and Y dimensions to get the appropriate reconstruction\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Tue, 1 Dec 2020 at 11:49, Katarina Belačić <katarina.belacic@gmail.com>\r\nwrote:\r\n\r\n> Hello Dimitry,\r\n>\r\n> I am confused with the input option for tomogram reconstruction - unbinned\r\n> tomogram dimension.\r\n>\r\n> When I put in the original tomogram dimensions (unbinned) the result\r\n> reconstruction looks somewhat magnified and cut on the sides when compared\r\n> to IMOD reconstruction (attachment - left IMOD reconstruction, right Warp\r\n> reconstruction).\r\n>\r\n> I used 2x binning in both Warp and IMOD.\r\n>\r\n> What is the value I need to put in here actually to get the whole tomogram?\r\n>\r\n> Best\r\n> Katarina\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/33195ede-0e19-46a5-ba03-bf3cb3964f00n%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/33195ede-0e19-46a5-ba03-bf3cb3964f00n%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

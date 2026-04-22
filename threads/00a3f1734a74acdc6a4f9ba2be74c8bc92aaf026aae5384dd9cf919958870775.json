@@ -1,0 +1,8 @@
+{
+  "message_id": "<691535dc-fc2a-4834-bee5-e94b2e13791e@googlegroups.com>",
+  "thread_id": "",
+  "subject": "beta 1.0.7W crashes immediatly",
+  "sender": "Yong-Hui Sung <yonghuisung@gmail.com>",
+  "date": "Mon, 27 May 2019 22:34:54 -0700 (PDT)",
+  "body": "Hi,\n\nI had trouble with K3 data. Thus I downloaded the beta 1.07W_beta2. However \nas soon as I start processing I am getting: \n\nSystem.NullReferenceException: Object reference not set to an instance of \nan object.\n\n   at Warp.WorkerWrapper.SendCommand(NamedSerializableObject command)\n\n   at Warp.WorkerWrapper.Dispose()\n\n   at Warp.WorkerWrapper.Finalize()\n\nFurther I noticed our QuadroP6000 cards are shown as having 6800 MB RAM but \nthey are supposed to have 8000 MB. \n\nAny idea what is wrong. \n\n\nbest\n\nYHS"
+}

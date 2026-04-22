@@ -1,0 +1,8 @@
+{
+  "message_id": "<26247d19-15c4-4264-8f15-fb0f53a87d8fn@googlegroups.com>",
+  "thread_id": "<7179e8cc-c171-49ec-8c39-eeb5bf8be83dn@googlegroups.com>",
+  "subject": "Re: Preventing over-writing of existing subtomos from the same\r\n tomogram",
+  "sender": "\"888...@gmail.com\" <8883669@gmail.com>",
+  "date": "Tue, 15 Mar 2022 23:09:43 -0700 (PDT)",
+  "body": "Dear Digvijay,\n\nHi, I have a small tip, you could use relion_star_handler's --select_by_str \n& --select_include option to split your star file based on tomogram name or \nimage name or whatever you want, this could help you overcome the issue.\n\nYours sincerely,\nLinhua Tai\n\nOn Monday, March 14, 2022 at 1:36:12 AM UTC-4 Digvijay Singh wrote:\n\n> Hi everyone\n>\n> For me, The WARP crashes when reconstructing the subtomos, so I split the \n> .star file into pieces using relion_star_handler and then reconstruct using \n> the pieced star files. \n>\n> But this creates an issue. During the split, particles from the same \n> tomogram can and sometimes do get split into separate pieces. \n>\n> If the subtomo folder is not renamed, then the particles belonging to the \n> same tomogram from one pieced .star file replace the different & already \n> existing particles belonging to the same tomogram from the other pieced \n> .star file. To save time, I hope to run two subtomogram reconstruction \n> simultaneously, but currently, this is not possible because of this \n> overwrting issue. \n>\n> Would it be possible to get the ability to specify the folder in which the \n> subtomos are reconstructed, instead of hard-set & default subtomo folder? \n>\n> Thanks and cheers,\n> Digvijay\n>\n>  \n>\n>\n>\n>\n>"
+}

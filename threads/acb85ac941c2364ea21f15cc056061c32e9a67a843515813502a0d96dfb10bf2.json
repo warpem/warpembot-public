@@ -1,0 +1,8 @@
+{
+  "message_id": "<656420fb-45ec-4e86-9d62-754aab2e77d3@googlegroups.com>",
+  "thread_id": "<dd8e4c25-a33d-44d0-bc15-763d3d026867@googlegroups.com>",
+  "subject": "Re: Binning particle stacks instead of average micrographs",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 13 Nov 2019 05:58:02 -0800 (PST)",
+  "body": "Hi Andres,\n\nthere have been requests for writing out binned particle stacks in addition \nto unbinned ones during on-the-fly processing to make initial C2D runs less \nIO-intensive. I'll try to get that into the next release or the one after \nthat.\n\nI haven't heard of anyone using binning for that purpose. The new mag \nestimation and optics group settings in RELION 3.1 look like they might be \na better solution for this.\n\nCheers,\nDimitry\n\nOn Tuesday, November 12, 2019 at 9:40:10 PM UTC+1, Andres Hernandez wrote:\n>\n> Hi Dimitry,\n> It would be useful to have the option to not bin the average micrograph \n> (just the particle stacks). This way the particles can be re-extracted and \n> re-centered into the unbinned pixel size (useful for large box size \n> workflows, low ram setups, or off-centered particles).\n>\n> Do you know of anyone using the binned micrographs to match pixel size \n> across scopes? This could be very useful too, I just haven't had data to \n> test it out.\n>"
+}

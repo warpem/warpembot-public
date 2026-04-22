@@ -1,0 +1,8 @@
+{
+  "message_id": "<B8FF2F7B-6432-4C42-8044-6329491CCB23@gmail.com>",
+  "thread_id": "<310f44cd-84e1-4791-b9e2-b26a33bfb805n@googlegroups.com>",
+  "subject": "Re: joining datasets in warp",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 15 Oct 2021 07:42:00 +0100",
+  "body": "Hi Przemek,\r\n\r\nM can take data from multiple sources so you can process the data independently up until that point, then co-refine.\r\n\r\nOnce your M session is set up you can join particle sets together and, if you want, export one big set of particles for use in another program.\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> On 15 Oct 2021, at 07:10, Przemysław Dutka <przemyslaw.dutka@gmail.com> wrote:\r\n> \r\n> ﻿Hi All,\r\n> \r\n> I have two datasets that were collected on the same microscope, same camera and same pixel size. They were collected couple months apart so they have different gain reference. I wonder if there is some easy way to join them in warp so that I can easily continue downstream processing in Dynamo, Relion and M?\r\n> \r\n> Thanks,\r\n> Przemek \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/310f44cd-84e1-4791-b9e2-b26a33bfb805n%40googlegroups.com."
+}

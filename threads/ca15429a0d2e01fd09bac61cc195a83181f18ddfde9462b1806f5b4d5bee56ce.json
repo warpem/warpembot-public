@@ -1,0 +1,8 @@
+{
+  "message_id": "<84a3fcd5-b3fe-4b21-b00d-b55229187b14n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Trying to create stacks for IMOD-invert tilt angles issue",
+  "sender": "Jessica Rabuck-Gibbons <jrgib@scripps.edu>",
+  "date": "Thu, 23 Jul 2020 15:16:18 -0700 (PDT)",
+  "body": "Hello,\n\nWhenever I try to export my tilt series to IMOD after doing motion \ncorrection and CTF estimation in WARP, the .rawtlt and the .st files are in \nthe opposite order of my raw tilt series that is directly from Serial EM. \nI've tried combinations of checking the \"don't invert tilt angle\" button \nalong with checking the handedness of the tilt series, but nothing seems to \nexport a .st file or a .rawtlt file that matches the order of my original, \nraw tilt series. It almost seems to be ignoring the order in my .mdoc file. \nWill WARP recognize that its output is \"backwards\" from my original data, \n(so I could safely apply IMOD alignments that I have done on the original \ntilt series to the WARP'd data, and reconstruct my tilt series in WARP)? \nWe're running version 1.0.9. Thank you for your help!\n\nThanks,\nJess\n\nJessica Rabuck-Gibbons, PhD\nPostdoctoral Associate | Williamson Lab | The Scripps Research Institute"
+}

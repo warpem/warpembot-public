@@ -1,0 +1,8 @@
+{
+  "message_id": "<7b462ad0-696e-46c4-abc8-d3326cbd082fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Can ts_aretomo generate .aln files?",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Mon, 20 Jan 2025 06:19:58 -0800 (PST)",
+  "body": "hi,\n\nPresumably ts_aretomo generates .aln files internally in order to generate \nthe xml files contianing the alignments.  Is it somehow possible to have \nts_aretomo output the aln file?  \n\nthanks\n\nJesse"
+}

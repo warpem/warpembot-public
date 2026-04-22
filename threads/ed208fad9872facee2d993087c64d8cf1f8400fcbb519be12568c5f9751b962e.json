@@ -1,0 +1,8 @@
+{
+  "message_id": "<116e9c96-c835-4953-a5a5-205b9ece659en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Quick start: tilt series tutorial has an incomple M refinement\r\n command",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Sun, 13 Oct 2024 02:43:43 -0700 (PDT)",
+  "body": "Hi all,\n\nThe command for M refinement (weights (per-tilt series)) seems incomplete:\n\nEstimateWeights \\ --population m/10491.population \\ --source 10491 \\ \n--resolve_items MCore \\ --population m/10491.population \\\n\nDoes anyone know what is the complete command for this step?\n\nCheers,\nJuha"
+}

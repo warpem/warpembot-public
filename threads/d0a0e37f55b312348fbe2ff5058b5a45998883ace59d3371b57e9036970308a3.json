@@ -1,0 +1,8 @@
+{
+  "message_id": "<f9bbb5a6-c986-4aad-92f9-506d8e58c321n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomogram handedness",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Wed, 8 May 2024 06:31:09 -0700 (PDT)",
+  "body": "Hi all,\n\nI performed Warp-Relion-M pipeline for subtomogram averaging. I checked and \nconfirmed the handedness of tilt series in Warp. But the averaged map from \nrelion have flipped structure. Is it normal? It is an  important issue to \nanalyze the orientational information from starfile. \n\nThank you\n\nBest,\nMingyu"
+}

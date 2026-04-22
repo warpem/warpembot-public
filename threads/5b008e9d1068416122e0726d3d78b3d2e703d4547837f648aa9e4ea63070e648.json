@@ -1,0 +1,8 @@
+{
+  "message_id": "<3f9bc321-b4f6-4d07-9a5f-0087aed7d0b0@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Machine Stamp on Particle Stacks",
+  "sender": "Benjamin Barad <baradb@gene.com>",
+  "date": "Mon, 8 Jul 2019 11:56:48 -0700 (PDT)",
+  "body": "The machine stamp on the particle stack mrcs files is `0x43 0x41 0x00 \n0x00`, which is unrecognized by the mrcfile library and doesn't seem to \nmatch the options I can find for the mrc2014 spec. Should the machine stamp \nbe `0x44 0x41 0x00 0x00` (one of the options I found for little-endian \ndata), or is there a reason that the specific machine stamp is written?"
+}

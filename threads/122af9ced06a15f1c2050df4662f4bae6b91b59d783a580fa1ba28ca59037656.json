@@ -1,0 +1,8 @@
+{
+  "message_id": "<F179F070-070F-4776-94B9-BD463D9C3CB7@gmail.com>",
+  "thread_id": "<2627cebe-79a8-4af6-8b48-173863d9969e@googlegroups.com>",
+  "subject": "Re: Clarifying Binning",
+  "sender": "Wim Hagen <wimhag@gmail.com>",
+  "date": "Fri, 30 Aug 2019 16:40:47 +0200",
+  "body": "Play with CTF settings:\r\n- Starting fit at 30Å (in older Warp version the number to put in is 2 x pixel size/30).\r\n- Play with ctf size 256 or 512.\r\n- Play with summed image.\r\n\r\nWim\r\n\r\n> On 30. Aug 2019, at 16:29, Farzad Hamdi <farzaad@gmail.com> wrote:\r\n> \r\n> Hi All,\r\n> \r\n> I am using the warp for Falcon 3 without superresolution or binning. I understood that the binning is the binary log of the number of the binned pixels: so I guess I must use bin=0 when I do not bin my data or use superresolution mode. But when I set Bin:=0 the software fails to fit CTF correctly in most cases. It is while I can clearly see the Thon-rings. Is my understanding about the bin parameter wrong?\r\n> \r\n> Regards\r\n> \r\n> Farzad\r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/2627cebe-79a8-4af6-8b48-173863d9969e%40googlegroups.com."
+}

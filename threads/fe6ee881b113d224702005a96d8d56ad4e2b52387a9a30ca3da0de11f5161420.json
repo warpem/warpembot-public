@@ -1,0 +1,8 @@
+{
+  "message_id": "<07885df8-b595-4b1b-9e4d-a8b6511f44dfn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "peristent error",
+  "sender": "P C <peter.p.cherepanov@gmail.com>",
+  "date": "Mon, 13 Oct 2025 16:05:55 -0700 (PDT)",
+  "body": "I am getting a persistent error: \n\nUnhandled exception. System.NotImplementedException: The method or \noperation is not implemented.\n   at MCore.MCore.WorkerDied(Object sender, EventArgs e) in \n/home/runner/micromamba/envs/package-build/conda-bld/warp_1750964440471/work/MCore/MCore.cs:line \n599\n   at Warp.WorkerWrapper.ReportDeath() in \n/home/runner/micromamba/envs/package-build/conda-bld/warp_1750964440471/work/WarpLib/WorkerWrapper.cs:line \n264\n   at Warp.WorkerWrapper.<StartHeartbeat>b__14_0() in \n/home/runner/micromamba/envs/package-build/conda-bld/warp_1750964440471/work/WarpLib/WorkerWrapper.cs:line \n190\n/tmp/slurmd/job32468010/slurm_script: line 26: 2220026 Aborted             \n    (core dumped) MCore --population m/Cores.population --refine_imagewarp \n1x1 --refine_particles\n\nAm I running out of memory? \nI have ~4000 subtomos (two species), refinement is at ~10A, particle size \nis 250A for one and 330A for the other species. Data are binned to 3.02 \nA/pix. I am using one GPU on a  node, and no --perdevice_refine switch (in \nattempt to conserve memory). \n\nIt even fails on  \nMCore --population m/Cores.population --refine_imagewarp 1x1 \n--refine_particles"
+}

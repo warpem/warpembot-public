@@ -1,0 +1,8 @@
+{
+  "message_id": "<90afb1d3-9bd4-4213-922d-fad6c13f6e3d@googlegroups.com>",
+  "thread_id": "<c0edf26d-50a2-4fbb-a4e0-2139f03e6ae9@googlegroups.com>",
+  "subject": "Re: Warp not seeing all .tif files in a directory",
+  "sender": "Andres Hernandez <andreshernandez123@gmail.com>",
+  "date": "Tue, 12 Nov 2019 12:32:25 -0800 (PST)",
+  "body": "Hi Mike and Dimitry, I synced to a directory with aws then synced into the \nWARP listening directory with python cp and it stopped crashing, it is \ndefinitely an AWS s3 sync issue. The files are still listed out of order \nand not found until I restart Warp, but I think that has to do with the way \nSerialEM numbers the movies.\n\nOn Sunday, July 15, 2018 at 11:33:21 AM UTC-7, mcia...@umich.edu wrote:\n>\n> Hi Dimitry, \n>\n> We have noticed that the Warp directory being processed has ~2800 movies, \n> but the total listing of movies in the \"Overview\" tab only totals 1,672. Is \n> there a way to force the program to double check for the presence of \n> additional files? I've tried stopping, exiting, restarting but it comes \n> back to the same number.  Have you seen this before?\n>\n> Mike\n>"
+}

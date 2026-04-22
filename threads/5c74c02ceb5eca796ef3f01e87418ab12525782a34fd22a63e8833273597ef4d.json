@@ -1,0 +1,8 @@
+{
+  "message_id": "<1fb90696-6f0f-4c11-8d64-555d818e6241n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "how to import one tilt stack from SerialEM",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 20 Nov 2020 14:09:18 -0800 (PST)",
+  "body": "Hi, \n\nI have an unaligned stack (MRC) and an MDOC file from SerialEM. How can I \nimport them to Warp 1.0.9 for processing.  \n\nTo clarify, I have one image per tilt and all of the images are in one MRC \nfile. \n\nBest wishes\nJuha"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<7043d130-bcd4-4637-b60c-2929088b9115n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tilt handedness",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Mon, 25 Nov 2024 21:07:07 -0800 (PST)",
+  "body": "I finally got to use Warp Tool and try to use it for a complete workflow \nbefore going to Relion5.\nWhen I imported TS, I didn't use option --dont_invert like Warp Desktop \nbefore.\n\nWarpTools ts_import \\\n\n--mdocs mdoc \\\n\n--frameseries warp_frameseries \\\n\n--tilt_exposure 4 \\\n\n--min_intensity 0.0 \\\n\n--output tomostar\n\nHowever, after all the steps and after ts_reconstruct, I got a \nreconstruction with opposite handedness from if I use IMOD to reconstruct \nor use Relion5 workflow from scratch to reconstruct.\n\nAs I know the handedness of my IMOD workflow should be right, how can I \ndeal with this difference from Warp?\n\nBest,\nHuy"
+}

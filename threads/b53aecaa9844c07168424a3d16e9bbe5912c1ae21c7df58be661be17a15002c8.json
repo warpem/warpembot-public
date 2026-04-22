@@ -1,0 +1,8 @@
+{
+  "message_id": "<0666f6f1-e8f0-4b96-ba9a-551ea38525d2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Continuous generation of STAR files during subtomo\r\n extraction/reconstruction + re-starting an aborted extraction",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Wed, 6 Oct 2021 01:33:22 -0700 (PDT)",
+  "body": "hi Dmitry & the community \n\nLike a greedy child, I have a wishlist for the amazing WARP/M. \n\nWARP sometimes crashes, gets stuck during the long process of sub-tomogram \nextraction/reconstruction. Sometimes I wait a few hrs for the extraction \nonly for the program to crash or get stuck, needing another round of \nextraction from scratch. Sometimes, the extraction is nearly 100% complete, \nbut then WARP gets stuck.\n\nHere's the wishlist:\n\n[1] It would be very nice if the WARP can continuously write out the STAR \nfile during the extraction/reconstruction. Because even a significant \nfraction of exported particles can be used for further refinement. \n\n[2] The previously aborted/failed/stuck extraction can be re-started from \nthe middle (& not from scratch). \n\nThanks & cheers,\nDigvijay"
+}

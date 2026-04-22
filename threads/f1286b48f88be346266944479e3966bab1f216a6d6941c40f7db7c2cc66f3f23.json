@@ -1,0 +1,8 @@
+{
+  "message_id": "<5720e276-26ac-441b-bf57-e6b27b147265@googlegroups.com>",
+  "thread_id": "<eab42ecf-aac5-4164-b8bc-44efd8da287f@googlegroups.com>",
+  "subject": "Re: Warp 1.0.7 keeps crashing",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 12 Apr 2019 10:31:20 -0700 (PDT)",
+  "body": "Hi Da,\n\ncould you please post the processing parameters and movie dimensions? If \npossible, it would be great if you could privately share a single movie \nthrough Dropbox or Google Drive so I can reproduce the crash.\n\nCheers,\nDimitry\n\nOn Friday, April 12, 2019 at 7:26:36 PM UTC+2, Da Cui wrote:\n>\n> Dear community, \n>    I just gave an initial test with Warp 1.0.7 using some unbinned K3 \n> data, but it is either crashing, or working with no output and no GPU \n> consumption. I'm using a single 2080 Ti. \n>    Also, when I use Warp 1.0.7 to process some unbinned K2 data (which is \n> working properly on Warp 1.0.6), it is still crashing when I choose \n> \"particle picking\". \n>    Is it just a special case, or is there anyone else encountering the \n> same issue?\n>    Thank you so much for your help!\n>\n> Best wishes, \n>         Da \n>"
+}

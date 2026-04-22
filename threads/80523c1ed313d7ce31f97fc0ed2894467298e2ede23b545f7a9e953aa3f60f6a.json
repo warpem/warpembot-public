@@ -1,0 +1,8 @@
+{
+  "message_id": "<8b7d0eab-a08f-444f-87ea-3363542e2c08@googlegroups.com>",
+  "thread_id": "<ff81fb91-9d98-4e97-8c6f-27697599ad2c@googlegroups.com>",
+  "subject": "Re: No CTF estimation",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 13 Nov 2019 05:52:33 -0800 (PST)",
+  "body": "Hi Cyntia,\n\ntilt series CTF estimation in Warp is quite memory-intensive. The footprint \ndepends on the number of tilts, and the spatial frequency range used for \nthe estimation. The K620 card doesn't have enough memory for most scenarios \nand, depending on how the GPU IDs are sorted, is the one used for the \nestimation. You can either untick the checkbox next to that GPU in the \nwindow title bar (look for the one with the least memory), or disable it in \nthe device manager (right click on \"This PC\" in explorer -> properties -> \ndevice manager -- might require admin privileges).\n\nCheers,\nDimitry\n\nOn Wednesday, November 13, 2019 at 1:50:11 AM UTC+1, Cyntia wrote:\n>\n> Hi everyone! \n>\n> Someone showed me how to use warp recently, and it worked pretty well on \n> my tomograms!  So now I'm trying to use it on my own machine, but I have \n> some issues. \n> Using the same parameters and dataset as before, the CTF estimation is not \n> working and then always estimates the defocus to 0. I tried different \n> versions of Warp, reinstall everything and it's exactly the same.The 3 GPUs \n> I have are recognized by Warp, but I was wondering, maybe the problem is \n> the graphic cards?  I have two Tesla k40c and on Quadro K620, is that ok? \n>\n> Thank you very much for your help!\n> Cyntia  \n>\n>\n>\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5omoa7LSYqi7R9YVS87yZGyJKBcdG1H6eJf-DLZX8jCLQ@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Warp hiccups on Nvidia a6000 with cu11.4",
+  "sender": "Pranav Shah <Pranav.shah@strubi.ox.ac.uk>",
+  "date": "Sat, 11 Dec 2021 15:00:10 +0000",
+  "body": "Hi,\r\nHas anyone on this group tried to run WArp with the latest/greatest\r\nNvidia GPU's and willing to share their experience?\r\nI am trying to benchmark our dedicated Warp/M machine that has 2x\r\nA6000 with 48GB of memory each and it is loaded with CUDA 11.4 and\r\ndriver version 472.93. While the Warp part of the pipeline was fairly\r\nsnappy (2mins/tilt series with 2 GPUs), M is really struggling (the\r\npathology is stuttering progress and the program window freezing)\r\nespecially at the denoising step of the species generation. I suspect\r\nthat this is most likely due to the CUDA drivers and the special\r\nversion of TensorFlow that Warp ships with and the resulting\r\nincompatibility.\r\nI'd be happy to hear from anyone who has a similar computer setup as\r\nours and learn from their experience in setting up the machine to work\r\noptimally with Warp/M.\r\n\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK"
+}

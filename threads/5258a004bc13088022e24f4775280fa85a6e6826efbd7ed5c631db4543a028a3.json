@@ -1,0 +1,8 @@
+{
+  "message_id": "<5cb54a4e-6ba2-4dd7-a0b7-54c8aba597ddn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Can someone tell me the best resolution of the EMDB-10164 dataset\r\n with M",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 18 May 2021 00:59:41 -0700 (PDT)",
+  "body": "Can someone tell me the best resolution of the EMDB-10164 dataset with M?\n\nI used the series 1-20. I used the EMD4045 to template matching. And I \nmatched near 2500 particles and did refinement in Relion 3.0. After M \nrefine,  I only got 10A.\n\nI wanted to know whether I have to do or learn more about the workflow."
+}

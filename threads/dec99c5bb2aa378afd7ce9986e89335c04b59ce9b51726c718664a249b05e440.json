@@ -1,0 +1,8 @@
+{
+  "message_id": "<63631d97-1862-449c-b11c-300cb73bed9fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "ts_template_match got nothing",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Wed, 14 May 2025 10:19:56 -0700 (PDT)",
+  "body": "Hi all,\n\nI run ts_template_match. First run working really well. Then I realized the \ngold particles got match a lot, so I delete the gold using fidder, \nregenerate the tomogram and perform ts_template_match again. Now, I have no \nmatch at all. The cc file is completely dark. The tomogram and the template \nlook fine. \n\nAny idea why this doesn't work after fiducial removal?\n\nH"
+}

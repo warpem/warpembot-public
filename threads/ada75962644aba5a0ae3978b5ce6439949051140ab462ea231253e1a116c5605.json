@@ -1,0 +1,8 @@
+{
+  "message_id": "<b0b590da-c99c-4a32-88d7-cdcdc87f8e4c@googlegroups.com>",
+  "thread_id": "",
+  "subject": "goodparticles*.star not containing all the particles",
+  "sender": "matthew.belousoff@monash.edu",
+  "date": "Wed, 25 Jul 2018 17:50:07 -0700 (PDT)",
+  "body": "Hey mate,\n\nSo WARP works amazingly well, except the output goodparticles*.star or \nallparticles*.star is missing lots of data. There are \"particles\".star \nfiles for the extracted particles in the ./particles directory, but this is \nnot reflected in the output in the root directory? Even when I stop and \nstart the processing in WARP it doesn't update the missing particles, even \nthough it has written an extracted particle stack.\n\nIs there something simple I'm missing here? \n\nAlso, thanks for this amazing bit of software!\n\ncheers\n\nmatt B"
+}

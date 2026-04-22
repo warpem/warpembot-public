@@ -1,0 +1,8 @@
+{
+  "message_id": "<3f19ba0a-de1b-46c5-8059-b9802754fe44n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Import into M, one round with options off -> 650A",
+  "sender": "joe dobbs <dobbsjoseph12@gmail.com>",
+  "date": "Tue, 10 Oct 2023 01:22:29 -0700 (PDT)",
+  "body": "Hi,\n\nI have a strange issue and wondered if any of you have seen similar:\n\n-refinement in relion of a ribosome reaches 20A\n-import into M (using relion_star_downgrade from dynamo2m)\n-one iteration with all options turned off to test the import went ok -> \n650A empty looking structure (+M crashes)\n(as suggested in \nhttps://groups.google.com/g/warp-em/c/ZMr-uW8bBzU/m/CweU9wrxCgAJ)\n-however, re-extract of the particles from M directly after import and \nrelion_reconstruct -> ribosome is still there\n\nI don't use the pre-rotate particles option, and the star file conversion \nseems to have gone ok- these potential sources of error are indicated \nagainst since I can again reconstruct my structure without realignment \nafter M export.\n\nIt is then very strange that one iteration without any options affected the \nstructure in any way- surely it should have just come back with my 20A \nribosome, not some 650A thing.\n\nHas anyone seen anything like this?"
+}

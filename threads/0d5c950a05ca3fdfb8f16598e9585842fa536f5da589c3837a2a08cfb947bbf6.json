@@ -1,0 +1,8 @@
+{
+  "message_id": "<381797d2-25e5-4eda-ae89-3b1aa54979a7@googlegroups.com>",
+  "thread_id": "",
+  "subject": "deselected micrographs",
+  "sender": "Gabor Papai <papaig@gmail.com>",
+  "date": "Mon, 4 Mar 2019 04:28:22 -0800 (PST)",
+  "body": "Hi Dimitry,\n\nI had a strange behavior of Warp this weekend: after processing around 3500 \ntiffs all the new entries got deselected and they were not processed. I \ndon't know why this happened. \nI can re-select the tiffs manually, but I don't know how to re-select them \nall, not one-by-one.\n\nThanks,\nGabor"
+}

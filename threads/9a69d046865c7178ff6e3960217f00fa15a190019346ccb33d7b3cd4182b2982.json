@@ -1,0 +1,8 @@
+{
+  "message_id": "<69cacf0d-32a3-4b44-9474-1659e65e6554n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "handedness (tilt angle and defocus)",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Fri, 16 Feb 2024 02:38:08 -0800 (PST)",
+  "body": "hi all,\r\n\r\nI am thoroughly confused about handedness in WARP. \r\n\r\nI have two different pipelines:\r\n1) WARP > imod > WARP > RELION\r\n2) WARP > AREtomo > WARP > RELION\r\n\r\nfor pipeline #1, I have not been clicking \"Don’t invert tilt angles\" when \r\nreimporting after imod.  Is that the correct decision?\r\n\r\nfor pipeline #2, should I click \"Don’t invert tilt angles\" when \r\nreimporting? \r\n\r\nSecondly, if the defocus handedness (\"check tilt handedness\") of a tilt is \r\nindeed inverted (a negative correlation) then I will flip the handedness.  \r\nWhen I do this, does this automatically flip handedness for every tilt \r\nseries I have loaded?  If so, I should re-process ALL tilt series CTF \r\nestimation, not just the current one, right? \r\n\r\nIs it possible that only *some* tilt series have incorrect defocus \r\nhandedness? I recall in previous datasets that most tilt series had correct \r\nhandedness but about 10% did not.  I went through and flipped handedness \r\nfor those, one at a time. I am now realizing that probably makes no sense \r\nsince flipping for a single tilt series will flip ALL of them.\r\n\r\nLastly, what is the relationship between the tilt angle handedness and the \r\ndefocus handedness?  If I modify one then should I not modify the other?\r\n\r\nthanks!\r\n\r\nJesse"
+}

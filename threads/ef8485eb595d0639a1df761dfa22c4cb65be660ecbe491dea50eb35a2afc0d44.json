@@ -1,0 +1,8 @@
+{
+  "message_id": "<61bbce1c-7adc-47bb-a87a-0ffc3ce39f33@googlegroups.com>",
+  "thread_id": "<98a19be3-fc1c-4ec0-b1a0-ce3e54acb090@googlegroups.com>",
+  "subject": "Re: Crashes on collapsing the settings panel.",
+  "sender": "Andrey Malyutin <malyutinag@gmail.com>",
+  "date": "Thu, 7 Nov 2019 11:10:24 -0800 (PST)",
+  "body": "We have the same issue with Warp running on a K3 server.\n\nAndrey\n\nOn Thursday, November 7, 2019 at 12:37:20 AM UTC-8, Kotaro Tanaka wrote:\n>\n> Hi,\n>\n> Warp 1.0.7 crashes when I attempt to collapse the settings panel (by \n> pressing the triangle button).\n>\n> I attached a screen shot of the error message from Warp.\n>\n> My environments:\n> * Windows 10 Home version 1903 (11/6/2019)\n> * Nvidia driver 441.12\n> * Visual Studio 2019 Community installed\n>\n> I appreciate your help. Thank you in advance.\n>\n> Best regards,\n> Kotaro\n>\n>"
+}

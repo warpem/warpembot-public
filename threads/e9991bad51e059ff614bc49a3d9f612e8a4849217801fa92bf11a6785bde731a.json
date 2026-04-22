@@ -1,0 +1,8 @@
+{
+  "message_id": "<dd1dde64-5453-43af-b84b-d049811aec4cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp GUI to Warptool",
+  "sender": "Souradip Mukherjee <souradip.mukherjee.111@gmail.com>",
+  "date": "Mon, 17 Feb 2025 08:38:20 -0800 (PST)",
+  "body": "Has anyone tried moving their data processing from Warp GUI to warptools at \na later stage of processing? I was processing my data through Warp GUI \nbefore and recently we bought a new linux machine where we installed Warp2. \nI have picked particles, I just want to export the subtomograms from Warp \nusing the command line. I realise that it needs a tilt series settings file \nbut I cannot seem to find it anywhere in my working directory. Do I have to \nstart back from preprocessing once again or is there a way to create the \nright directory structure and settings file? Can anyone suggest anything \nplease?\n\nDip\n\nSouradip Mukherjee\nCentriole Architecture Lab\nUniversity of Geneva"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<89e1ecf3-e28c-4e38-b6f2-f77dc124467dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "No particles in real space of the EER file",
+  "sender": "=?UTF-8?Q?Eda_=C5=9Familo=C4=9Flu?= <eda.smlgl11@gmail.com>",
+  "date": "Wed, 7 Jun 2023 02:43:47 -0700 (PDT)",
+  "body": "Hi,\nI am trying to pre-process of Apoferritin tilt series in Warp. When \nprocessing EER files we noticed that we cannot see any particles in real \nspace and we cannot see Thon rings in fourier space.\nHowever, when we import its associated mrc file, we are able to see \nparticles in real space and Thon rings in fourier space, please find the \nWarp Fourier & Real Space screenshots below (first EER, then MRC).\n\nI am wondering why this is happening?\n\nThanks in advance.\nBest wishes,\nEda \n\n[image: EER.PNG][image: mrc.PNG]"
+}

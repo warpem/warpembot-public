@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHqNCarDUZgkRN30HpVdZoP860B95Qr_0EZL_PcJ-f9PvQ@mail.gmail.com>",
+  "thread_id": "<CAE5xfLmRUBrhL06i2jA6+fUOmuDA0-LN9E40g6Guvo=kjdwFLg@mail.gmail.com>",
+  "subject": "Re: NVIDIA RTX A5000 and Warp 1.1-beta compatibility",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 20 Mar 2024 10:01:46 -0700",
+  "body": "Hey Shintaro,\r\n\r\nCan confirm it's working! :-)\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Wed, 20 Mar 2024 at 07:03, Shintaro Aibara <shintaro.aibara@gmail.com>\r\nwrote:\r\n\r\n> Dear Warp Community,\r\n>\r\n> Can anybody confirm or deny whether Warp 1.1-beta works with Ada Lovelace\r\n> GPUs? In particular A5000s would be of interest, but 40-series GPUs would\r\n> be fine too.\r\n>\r\n> I remember the 1.1-beta introduced compatbility for the \"newer\" cards but\r\n> I believe that was when the 30-series were kicking around?\r\n>\r\n> Thanks in advance!\r\n> Shintaro\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/CAE5xfLmRUBrhL06i2jA6%2BfUOmuDA0-LN9E40g6Guvo%3DkjdwFLg%40mail.gmail.com\r\n> <https://groups.google.com/d/msgid/warp-em/CAE5xfLmRUBrhL06i2jA6%2BfUOmuDA0-LN9E40g6Guvo%3DkjdwFLg%40mail.gmail.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

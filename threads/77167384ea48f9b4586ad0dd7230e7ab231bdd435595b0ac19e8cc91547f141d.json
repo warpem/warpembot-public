@@ -1,0 +1,8 @@
+{
+  "message_id": "<960dff50-3d0e-453e-b02a-23492b824721n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Noise2Map \"killed\" error",
+  "sender": "Yunjie Chang <changyj0821@gmail.com>",
+  "date": "Sat, 29 Mar 2025 01:32:16 -0700 (PDT)",
+  "body": "Hi warp list,\n\nI am using Warp 2.0 to denoise my tomograms. Here is the command I used:\n********************\n\nNoise2Map \\\n\n--observation1 warp_tiltseries/reconstruction/even/ \\\n\n--observation2 warp_tiltseries/reconstruction/odd/ \\\n\n--observation_combined warp_tiltseries/reconstruction/ \\\n\n--3dctf warp_tiltseries/reconstruction/ctf/ \\\n\n--dont_augment \\\n\n--dont_flatten_spectrum \\\n\n--angpix 14.4 \\\n\n--iterations 15000\n\n*******************\n\nHowever, I got the following message in the terminal:\n\n*************\nPreparing MACC_1_14.40Apx... Found CTF\n\n...\n\n...\n\n...\n\nPreparing MACC_44_14.40Apx... Killed\n\n**************\n\nThen the Noise2Map job was killed.\n\nI checked the results, no \"Denoise\" folder generated. The only new files \ngenerated are the *_scaled.mrc files in the reconstruction/ctf folder. And \nno log files were updated.\n\nI tried to disable the \"--3dctf\" and \"--dont_augment\", but did not help, \ngot the same message in the termianl.\n\nI have 97 tomograms in this dataset. I am wondering how should I fix this \nissue? Do I need to split the dataset into two small datasets with less \ntomograms?\n\nThanks\n\nYunjie"
+}

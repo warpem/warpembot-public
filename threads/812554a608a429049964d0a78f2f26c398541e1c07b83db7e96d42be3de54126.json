@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5r=tvmAo8TanOX6MccgsOL842Cq1umYuDGNXOb_MzSz1g@mail.gmail.com>",
+  "thread_id": "<9836bccb-e6b6-49bd-97e2-07982f96040dn@googlegroups.com>",
+  "subject": "Re: Unbinned tomogram dimensions in Reconstruct tomograms",
+  "sender": "Pranav Shah <Pranav.shah@strubi.ox.ac.uk>",
+  "date": "Tue, 1 Jun 2021 11:14:09 +0100",
+  "body": "yes. binning in warp occurs at 2^n... so 2^1 means bin2 and 2^0 means\r\nno binning...\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK\r\n\r\nOn Tue, Jun 1, 2021 at 9:42 AM yuqi zhang <824586412@qq.com> wrote:\r\n>\r\n> I found a difference between Warp and IMOD reconstruction. If I used 0.675/0.675A, bin1,4000*4000*3000 in Warp. The resultof size was half of IMOD reconstruction. And I tried 8000*8000*6000, it had a right size. Maybe, does the \"Unbinned\" mean the super resolution?\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/9836bccb-e6b6-49bd-97e2-07982f96040dn%40googlegroups.com."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<902453f2-2625-45f5-804f-465ed4b70ecdn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WARP and live 2d classification",
+  "sender": "Genis Valentin <genis.valentin.gese@gmail.com>",
+  "date": "Sun, 28 Mar 2021 04:43:32 -0700 (PDT)",
+  "body": "Hello WARP community!\n\nI was wondering if someone has a good solution to feed WARP particles into \nany of the live 2d-classification tools.\n\nI think 2d-classification could be a nice addition to quickly assess the \nquality of a dataset and help in grid screening.\n\nBest regards\n\nGenis"
+}

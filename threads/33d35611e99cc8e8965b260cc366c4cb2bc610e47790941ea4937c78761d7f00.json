@@ -1,0 +1,8 @@
+{
+  "message_id": "<559ecd85-c11b-4af1-8bba-e09390609ad6n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp Worker Stops",
+  "sender": "\"joshuads...@gmail.com\" <joshuadstrausslab@gmail.com>",
+  "date": "Tue, 4 Jan 2022 08:50:43 -0800 (PST)",
+  "body": "Hi All, \n\nNoticed an error when starting Warp, re-booting the computer, and \nreinstalling Warp did not help. When starting processing the worker stops \nand does not process any data.  \n\nRunning WARP on the Gatan K3 computer Windows server 2012.  Warp was \nworking fine until recently. Any idea what is causing this to happen and \nhow to fix it?\n\nThanks\n--Joshua Strauss\n\nProblem signature:\nProblem Event Name: CLR20r3\nProblem Signature 01: WarpWorker.exe\nProblem Signature 02: 1.0.9.0\nProblem Signature 03: 8f580a35\nProblem Signature 04: WarpLib\nProblem Signature 05: 1.0.9.0\nProblem Signature 06: 5efde531\nProblem Signature 07: b76\nProblem Signature 08: 0\nProblem Signature 09: System.IndexOutOfRangeException\nOS Version: 6.3.9600.2.0.0.272.7\nLocale ID: 1033\nAdditional Information 1: 9393\nAdditional Information 2: 93934b5d1434a9c6aa07eb66d175fe5f\nAdditional Information 3: b737\nAdditional Information 4: b737d931d8d79b5a367391a5c4784941\n\nRead our privacy statement online:\nhttp://go.microsoft.com/fwlink/?linkid=280262\n\nIf the online privacy statement is not available, please read our privacy \nstatement offline:\nC:\\Windows\\system32\\en-US\\erofflps.txt"
+}

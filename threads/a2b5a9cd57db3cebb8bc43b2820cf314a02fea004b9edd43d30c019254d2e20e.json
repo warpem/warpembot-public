@@ -1,0 +1,8 @@
+{
+  "message_id": "<171de845-850f-4111-8572-f55b07d8f579@googlegroups.com>",
+  "thread_id": "<3428b66b-d39c-4b7b-8c4b-d23e2155d3ad@googlegroups.com>",
+  "subject": "Re: phase plate data",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 27 Sep 2018 05:50:15 -0700 (PDT)",
+  "body": "Hi Giulia,\n\nI haven't encountered issues with fitting phase plate data so far. Would it \nbe possible to share one of the problematic micrographs, or an image of the \nCTF fit? \n\nCheers,\nDimitry\n\n\nOn Monday, September 24, 2018 at 4:50:13 PM UTC+2, Giulia Z wrote:\n>\n> Hi, I'm trying warp on a phase plate dataset, but ctf isn't making sense. \n> I can see the rings, and I have tried to play with all parameters, with no \n> luck.\n>\n> I am not sure how to troubleshoot, maybe I'm making some obvious mistake.\n>\n> This is krios/K2 data, energy filter at 20eV, pixel size 0.85A, dose is \n> 1.3 e/A/frame, defocus range 0-3um.\n>\n> If anybody has suggestions for parameters to fit this collection condition \n> I'd be happy to hear!\n>\n> Thanks\n> Giulia\n>\n> p.s. it works just fine on no-phase plate data\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<5dc369de-e392-4e33-aee1-4e6d65edbbfcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Centring Tomograms in WARP Reconstruction",
+  "sender": "Katie Downes <katiegdownes@gmail.com>",
+  "date": "Wed, 8 Jan 2025 02:29:14 -0800 (PST)",
+  "body": "Hello and Happy New Year Warpers!\n\nHow do you centre a tomogram in the reconstruction using warp? \n\nI have a batch of tomograms, the majority of which are centred, however one \nis too low and the other is too high. I'm not sure how to tinker with the \nreconstruction parameters in general given that the command doesn't have \ntoo many inputs. \n\nThis is my command: WarpTools ts_reconstruct --settings \nwarp_tiltseries.settings --angpix 10 --halfmap_frames --dont_invert\n\nAny help or insight into this would be greatly appreciated! \n\nMany thanks, \n\nDr Katie Downes"
+}

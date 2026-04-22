@@ -1,0 +1,8 @@
+{
+  "message_id": "<c0edf26d-50a2-4fbb-a4e0-2139f03e6ae9@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp not seeing all .tif files in a directory",
+  "sender": "mcianfro@umich.edu",
+  "date": "Sun, 15 Jul 2018 11:33:21 -0700 (PDT)",
+  "body": "Hi Dimitry, \n\nWe have noticed that the Warp directory being processed has ~2800 movies, \nbut the total listing of movies in the \"Overview\" tab only totals 1,672. Is \nthere a way to force the program to double check for the presence of \nadditional files? I've tried stopping, exiting, restarting but it comes \nback to the same number.  Have you seen this before?\n\nMike"
+}

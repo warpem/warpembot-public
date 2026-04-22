@@ -1,0 +1,8 @@
+{
+  "message_id": "<33195ede-0e19-46a5-ba03-bf3cb3964f00n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tomogram reconstruction - unbinned tomogram dimension",
+  "sender": "=?UTF-8?Q?Katarina_Bela=C4=8Di=C4=87?= <katarina.belacic@gmail.com>",
+  "date": "Tue, 1 Dec 2020 02:49:00 -0800 (PST)",
+  "body": "Hello Dimitry, \n\nI am confused with the input option for tomogram reconstruction - unbinned \ntomogram dimension.\n\nWhen I put in the original tomogram dimensions (unbinned) the result \nreconstruction looks somewhat magnified and cut on the sides when compared \nto IMOD reconstruction (attachment - left IMOD reconstruction, right Warp \nreconstruction).\n\nI used 2x binning in both Warp and IMOD.\n\nWhat is the value I need to put in here actually to get the whole tomogram?\n\nBest\nKatarina"
+}

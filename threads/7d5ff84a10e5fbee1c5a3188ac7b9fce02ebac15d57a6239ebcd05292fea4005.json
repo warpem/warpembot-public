@@ -1,0 +1,8 @@
+{
+  "message_id": "<60c098a0-8706-4026-8fba-7816d2638df4n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Issues with GPU's in Warp",
+  "sender": "C Arthur <cparthurphd@gmail.com>",
+  "date": "Tue, 15 Sep 2020 11:11:18 -0700 (PDT)",
+  "body": "Hi all, I am running Warp 1.0.9 with two GPU's\n- GeForce GTX 1080 Ti\n- GeForce RTX 2080 Ti\n\nOur data is being stored in a different location and we make symlinks to it \nlocally on the Warp PC.\nWhen I start Warp, I select both GPU's (upper right), and in the Global \nsettings I have 1 processor: <Param Name=\"ProcessesPerDevice\" Value=\"1\" />\nWithin 30 seconds Warp Worker crashes.\nIf I select just one GPU then it will run, but very slowly (~80 movies/hr)\nIf I load in about 500 movies locally, select both GPU's and set Processor \nto 1, it will run at about 200movies/hr, but if I switch to 2 processors, \nWarp worker crashes.\nAny pointers on troubleshooting this? I am also trying to find any sort of \na log file that is generated.\nThanks!\n-Chris"
+}

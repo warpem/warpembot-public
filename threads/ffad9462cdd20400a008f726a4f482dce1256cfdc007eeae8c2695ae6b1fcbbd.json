@@ -1,0 +1,8 @@
+{
+  "message_id": "<8c351195-897b-4d6c-80ad-c19871e2761an@googlegroups.com>",
+  "thread_id": "<d377df8d-2539-4d42-bc9e-a880b2a6d0ddn@googlegroups.com>",
+  "subject": "Re: Boxnet vs 3090",
+  "sender": "Lucas Farnung <lucasfarnung@gmail.com>",
+  "date": "Sun, 28 Feb 2021 05:33:39 -0800 (PST)",
+  "body": "Hi all,\n\nI can report having the same issue. I just finished building a new \nworkstation with an 3090. Both particle picking and denoising in Warp do \nnot work. It seems as if Warp is loading the models but Warp does not \nprogress beyond this point.\n\nBest wishes,\nLucas"
+}

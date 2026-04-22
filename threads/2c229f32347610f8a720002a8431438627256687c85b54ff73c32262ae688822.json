@@ -1,0 +1,8 @@
+{
+  "message_id": "<7a6eaec3-a7f4-409e-ad0d-b86be87b6dcan@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Resolution stuck",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Sun, 15 Jun 2025 00:35:42 -0700 (PDT)",
+  "body": "Hi all,\n\nI have a problem with improving resolution during M refinement. \n\nAfter subtomogram extraction in Warp and 3D refinement in Relion, I \nachieved 7.4 A and refine my particles with M.\nBox size is 312. Image type is mrc with 10 fractions and temporal sampling \nfor pose is 3.\n\nAt first I have a significant increase in resolution with pose, image warp \n(4 x 4), tilt angles and volume warp (3 x 3 x 2 x 10) refinement and \nachieved 6.7 A map.\n\nHowever, tilt movie and CTF refinement did not improve the resolution. I \nused species with better than 6.7A as CTF refinement.\n\nIf you have any experience or suggestions regarding this issue, please let \nme know.\n\nBest,\nMingyu"
+}

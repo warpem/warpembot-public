@@ -1,0 +1,8 @@
+{
+  "message_id": "<28a1aa6d-b7b6-4039-9c58-7fc1f13fccben@googlegroups.com>",
+  "thread_id": "",
+  "subject": "AreTomo and Dark Images in WARP",
+  "sender": "Katie Downes <katiegdownes@gmail.com>",
+  "date": "Wed, 12 Mar 2025 05:51:46 -0700 (PDT)",
+  "body": "Hi Alister, \n\nWhat is the relationship between --min_intensity in WARP and -DarkTol in \nAreTomo? DarkTol of 0.7 works well for my data and I want to include this \nin my WARP pipeline. \n\nMany thanks in advance, \n\nDr Katie Downes"
+}

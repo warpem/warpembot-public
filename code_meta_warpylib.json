@@ -1,0 +1,942 @@
+{
+  "checksums": {
+    "warpylib/ops/bandpass_rft.py": "4dd27b1d5798cfa836712bf6fb89acd7390969a17b7a4db2c46d4b074c495503",
+    "warpylib/ops/shift_rft.py": "e63ae1ffe6fe4448b1d14133382c9f3ccab8071ea1d58bd20e50948fe1fae7ce",
+    "tests/ops/test_rescale.py": "54aa8006618ee84c8ef70006d287ae64ed8c9e7dc6168bd5b4ed55c23b97bb0c",
+    "tests/tilt_series/test_tilt_series_star.py": "3fe5909bdbfcccde5b2a009122fcb8ad124ca2f2cba8cba9185efe7e4be7da11",
+    "tests/ops/test_shift.py": "4f78b0d7bf76267c226aa9c87b18ea794025960207271ae1be27c2d942b4c792",
+    "tests/tilt_series/test_reconstruct_subvolume_ctfs.py": "ffdd011b06cbbfd59f3a2a35c6a6fbf7c3815a8ee6ad2f2eb1900524b2e95575",
+    "warpylib/ops/resize.py": "eef07e03d18fabe9788795709ec329f54c2f85be71f9909df71251114bec398c",
+    "tests/tilt_series/test_apply_tomogram_shift_3d.py": "7c9fc3ed5a5e56b7122c7dfd82374dccf44f6686f19045228b677452e257d782",
+    "tests/ops/__init__.py": "3dda621dc062f43150827658ca942e613a9adc0618791a4548516fd7aad74756",
+    "warpylib/tilt_series/ctf.py": "7ab116ae4b0f37c08a032b12ae77dacc0197b82731849e00ff19d423dfeb9c09",
+    "warpylib/ops/preprocess_tilt_data.py": "3d50ade68b347d3d1a7c6781f74a5f2724aecf14c27567b9ee15fbb9619d8bb5",
+    "tests/tilt_series/test_load_images.py": "d34025e4651e7b12430bd62429edf454a7178437d068aa9fc3aa28fba8c7850d",
+    "warpylib/movie/core.py": "6ce11ab544a1fa7c468eff11413389a680345d90962ca4d384f49a02f1df134f",
+    "tests/tilt_series/test_get_position_in_all_tilts.py": "7331c665d136b6c6501d64431cd69003974161694bf7967158611c194d69a27f",
+    "warpylib/tilt_series/reconstruct_subvolume_ctfs.py": "59ad9a2062895a270e159abcf3c3ad92bb42b0cf85790130cded5d976f7e0e16",
+    "warpylib/tilt_series/reconstruct_subvolumes.py": "deda945d938bcaf241c01b9c381d3c27f5bc7d2dab3a4d04ca90276d7a600e29",
+    "warpylib/ops/resize_rft.py": "5953325159411e250afc28949c6efd70a79682526b3b1cbc7b2ebe1858ac60d2",
+    "warpylib/tilt_series/angles.py": "f040c54c9764f24eca04466011eb0a30b44a541f076d5cbc07668cbb7e633bbf",
+    "tests/splines/test_interpolating_bspline_3d.py": "f8fa7f24c6220c113d5709e6c330880a9eef746a09cdafe28682a55d6fd5c501",
+    "warpylib/tilt_series/positions.py": "1c5a85a885b1417ea54877a2333e8e6068f1ee3e76098e0fdabc397f4278ad57",
+    "warpylib/tilt_series/io.py": "044841a018d34a68a37e9325ef9bf8a90b5ca5c83cf6eb3ba524299e7d766d35",
+    "warpylib/ops/plane.py": "7e20292afaafdea61eb9c07d75b55c643ef545d12d1ebb5208f5873a33b49099",
+    "tests/tilt_series/test_get_angle_in_all_tilts.py": "ba35ac3bafa5d0bbdb68caf557ba96cddcad70ea81b63c9e3bd0a54f09780eda",
+    "tests/ops/test_filters.py": "b04280c8ecd124466dd03eabe7eb23d53bae67758650d68a433c90ed92cc7f32",
+    "tests/splines/test_interpolating_bspline.py": "90e9ec986866f45acbd31920ebbad8dd4fdb33facc52ed44432c862cc6b07b62",
+    "warpylib/tilt_series/particle_images.py": "2312baf8db000bd4cf2abfb5315da01c2087e46359f230f414d0ffc904ff8753",
+    "tests/tilt_series/test_reconstruct_volume.py": "b874c4c4ddecbbdcfa55273bdfbbe8dcc56205597dc351b2ce8aeb6421d7418f",
+    "warpylib/cubic_grid.py": "6641eccc9751dd6065c93ef6b183d5afd2a4834efd0af33e6800715e42a90e65",
+    "tests/ops/test_masking.py": "2700cacba4403e3eb76e27823aaf4226981644d74d956b8f5494751f36e53601",
+    "warpylib/tilt_series/utils.py": "b37ab4ef1204e6d753c59f5e4e54ccf70f3887b8ac3ccd62c99e99790b563675",
+    "tests/tilt_series/test_tiltseries_csharp_comparison.py": "7307bcb56f32a9f65f7ff3c0d2996df9e2c31efce0e1e57a223677ed336cb3f1",
+    "tests/tilt_series/test_import_alignments.py": "c64eed4152dcab3ed714bf442a3fa40c3b97f13988ba06f831b114a0951f429f",
+    "warpylib/ops/__init__.py": "f377ae6181db7cb7459b1570f4d387510c67b4af4f1e4e7a6e84ed511d77bba2",
+    "warpylib/tilt_series/import_alignments.py": "2cace898ad26a07333eef730c69bb04f7e67722fabd2fcd7eb3dfc4e1f598cdb",
+    "warpylib/movie/__init__.py": "a0bee8b6800ad24d65c78287f06aba8ef69f233fec245e7605b36c44fe78c1b7",
+    "tests/ops/test_resize_ft.py": "004e47e406c1dbce4c882b8a73c3806722159f0a2b9458adc5fadd2c0404a93b",
+    "warpylib/tilt_series/stack_tilts.py": "75b7d5b311be404759639f4b16ab8f4472f00a413f6514a2b8bb0ad8cf38405a",
+    "warpylib/tilt_series/core.py": "0a3227154e0a446812b78d882ec54f4dc9f5cb0a11a77eac28f80a662dc13206",
+    "warpylib/ops/rescale.py": "091b93a00a309f2a1cda173c0e5ba1f24dcf88c286ea49a8761438bbdffacb09",
+    "tests/ops/test_resize.py": "671775aec820c221511dac412d5161851e68e876c093998d82484bb33d0e2ff8",
+    "tests/tilt_series/test_tiltseries_xml.py": "42951a2b590b35b22e1a23c6dfbc93e15c49ce0204e75caccc46a0f2465db473",
+    "warpylib/ops/norm_ft.py": "46c3d28f88f919700a819d927882ad5cfe362ff8f2248e9596dbb1495a335fee",
+    "warpylib/movie/paths.py": "49be4fd6f547285ed137384bf0be88027a4c1877a3519b49314c124a54af12c4",
+    "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py": "dfd67126f6d754d3f87cf7f7c5e2775d188fefb1da166caf8c0923b344c47299",
+    "tests/tilt_series/test_transform_volume.py": "5932b5a1abb90eb89c043e3dcd95aaff34e169035aaa1c57cfd2db7e2b68f194",
+    "tests/ctf/test_ctf_batched.py": "cb5ddf52dbcdd9333593f7d23a6afa1c076bf13cd12c007b2773c0973e745089",
+    "tests/tilt_series/test_reconstruct_volume_cs.py": "bd1a8f256a46263bf094fd20f1bf3af1e17f4d494e8f04d713821dd73355015e",
+    "tests/ops/test_norm.py": "a350468fcc95b89ad8871e338ec8e580a06e52d012bb5a229148a7c2aebe1e44",
+    "warpylib/euler.py": "716619bb5dc850bcff2ef8b3f706f896cc58d566dd8e4280093711bcba4b9ce0",
+    "warpylib/tilt_series/load_images.py": "3ab867b472ccb0a889e17adc7540a30613bf3efd47289125b4cad357dd0c36b7",
+    "tests/splines/test_einspline_2d_comparison.py": "bf8d3fa2df1cc149b7688d438af050bb85ac25293876107ce9e21a3743ca11ca",
+    "README.md": "c55481dfaae3ee5ad3b700e02b3e572185770fcf0d2e5471202957cffd1a5cb8",
+    "tests/tilt_series/test_tiltseries_ctf_generation.py": "467503bbb90767d1283f73832009d1b265868ff801b3d2aae4474d38b212a89c",
+    "tests/ops/test_bandpass.py": "1ffb896f99ead62e918441e1a7a46daa0ff0f0e15a36fedcdd7e90421612761e",
+    "warpylib/__init__.py": "9856e5f92ff0686121bfb1da2470df05c1930ef69a65f65fac16357f3a91a6e9",
+    "tests/splines/test_interpolating_bspline_2d.py": "b60bb1da75b3519774c80cdd7f69d5a27535f780c086fe937325ce43c7dc0fe2",
+    "tests/tilt_series/test_apply_tilt_shift_and_propagate.py": "c0d24ddba082640ed3a30baede73d8de9b081cd50263d91b5bb880f952d60f81",
+    "warpylib/tilt_series/reconstruct_volume_cs.py": "0319d9ce8413f691c5b22322fb85b84c9c4209fb1382ee96aea7320e9dbdb33f",
+    "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py": "5cd3b5229466a44aabe7869124a9e0404d115302ea7a1a4d0ebb0e5e0ad611d5",
+    "warpylib/tilt_series/paths.py": "07848c1bfadf13956cf437901034628cee6d4d579c46421c2d353703118e8767",
+    "tests/tilt_series/test_reconstruct_subvolumes.py": "809fc2fbb26ac5e735c86631c504e866d0d3f20a471837903024edb7af68f28d",
+    "tests/ctf/test_ctf_calc.py": "c823627f2ecd185b4d30a088255454501cc9d66953193fbb6a325bef5463bac2",
+    "tests/ctf/test_ctf_rectangular.py": "323caa217cfdbe09bc18080f3f1b4b695c93dbc95635b7036a75dd64c9a2c4f6",
+    "warpylib/tilt_series/project_realspace.py": "e75fff6930cd6f9d41d8871a96a39eb863ff56fe4ff539e67a9f181c9afb2800",
+    "warpylib/ops/masking.py": "c1ca49d79197f30b1b02b57129e927450b72b8c9ebcdef7a9572f73b15941618",
+    "warpylib/ops/bandpass.py": "f4336aa8099b821754e58665256569b1e0e3f9d1140cbd4cc3cdbff169baf781",
+    "warpylib/ctf.py": "9bba78106d0cb98b801c3b98022606ffab99e6a9b9013a8c20077534bf5e4c47",
+    "tests/euler/test_euler.py": "26b0934dd74530bf47b0f3024acff062476992fd1a838ad6ca10b071def801dc",
+    "warpylib/tilt_series/reconstruct_volume.py": "4fe2a097decd8b02f390ae7f857defda790755da10a3ad093fad17011b02934a",
+    "warpylib/interpolating_bspline.py": "c8affef5fd6cc1a085c5814c2b3cf539bfca526af6b67a9c3991bd068e571833",
+    "warpylib/ops/norm_rft.py": "ee90088b986ba3c16c8941a29c3f30e754389777a36131a7964a466d9794271c",
+    "warpylib/tilt_series/__init__.py": "767ddf9d4433690a507d5dd59da757cbc48017e91f8ec3bb4c036d3935d8c73a",
+    "tests/ctf/test_ctf.py": "678e78c47bdd02b58026dcd8951aec30c9b3e3ca21204ff3230cf7bba5115d05",
+    "warpylib/ops/resize_ft.py": "162518ccf484a6d2710764d4889b24b487057f3fec37937c42a3478a883e3a6a",
+    "warpylib/ops/norm.py": "81bbdafa1baea1e2ac5254431fb34a4168628a52998c9f5facb6a79a72d7622b",
+    "warpylib/ops/shift.py": "a7facb1a44c5b867ff71811de2e58ba7bfab22fe3c87074376b279baa417a011",
+    "tests/splines/test_cubic_grid.py": "319e5e07bd350636255a6138435cee213313ee242725509cf9810b18f876f7b6",
+    "tests/ops/test_resize_rft.py": "5a2651d59ec707bf4184568291bf9704943ed01295c8a2a01bd08886bb6b8f0d",
+    "warpylib/ops/filters.py": "6c1800cab4d8db2191f0991b76885f4f901409b85734b25f7a902f293f353a28",
+    "warpylib/movie/io.py": "87661af716c620082bae8005d79fc8024e190789e54adb960af7e838f73d40e9",
+    "tests/splines/test_einspline_reference.py": "ac09732580e604ec5500132ece7643f2f04afdb3ad11ef16c6104e3ca28e6461"
+  },
+  "chunks": {
+    "README.md::0": {
+      "file": "README.md",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "README.md::1": {
+      "file": "README.md",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "README.md::2": {
+      "file": "README.md",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "README.md::3": {
+      "file": "README.md",
+      "start_line": 451,
+      "end_line": 555
+    },
+    "tests/ctf/test_ctf.py::0": {
+      "file": "tests/ctf/test_ctf.py",
+      "start_line": 1,
+      "end_line": 167
+    },
+    "tests/ctf/test_ctf_batched.py::0": {
+      "file": "tests/ctf/test_ctf_batched.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ctf/test_ctf_batched.py::1": {
+      "file": "tests/ctf/test_ctf_batched.py",
+      "start_line": 151,
+      "end_line": 306
+    },
+    "tests/ctf/test_ctf_calc.py::0": {
+      "file": "tests/ctf/test_ctf_calc.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ctf/test_ctf_calc.py::1": {
+      "file": "tests/ctf/test_ctf_calc.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ctf/test_ctf_calc.py::2": {
+      "file": "tests/ctf/test_ctf_calc.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests/ctf/test_ctf_calc.py::3": {
+      "file": "tests/ctf/test_ctf_calc.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "tests/ctf/test_ctf_calc.py::4": {
+      "file": "tests/ctf/test_ctf_calc.py",
+      "start_line": 601,
+      "end_line": 685
+    },
+    "tests/ctf/test_ctf_rectangular.py::0": {
+      "file": "tests/ctf/test_ctf_rectangular.py",
+      "start_line": 1,
+      "end_line": 142
+    },
+    "tests/euler/test_euler.py::0": {
+      "file": "tests/euler/test_euler.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/euler/test_euler.py::1": {
+      "file": "tests/euler/test_euler.py",
+      "start_line": 151,
+      "end_line": 279
+    },
+    "tests/ops/__init__.py::0": {
+      "file": "tests/ops/__init__.py",
+      "start_line": 1,
+      "end_line": 1
+    },
+    "tests/ops/test_bandpass.py::0": {
+      "file": "tests/ops/test_bandpass.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_bandpass.py::1": {
+      "file": "tests/ops/test_bandpass.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_bandpass.py::2": {
+      "file": "tests/ops/test_bandpass.py",
+      "start_line": 301,
+      "end_line": 414
+    },
+    "tests/ops/test_filters.py::0": {
+      "file": "tests/ops/test_filters.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_filters.py::1": {
+      "file": "tests/ops/test_filters.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_filters.py::2": {
+      "file": "tests/ops/test_filters.py",
+      "start_line": 301,
+      "end_line": 431
+    },
+    "tests/ops/test_masking.py::0": {
+      "file": "tests/ops/test_masking.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_masking.py::1": {
+      "file": "tests/ops/test_masking.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_masking.py::2": {
+      "file": "tests/ops/test_masking.py",
+      "start_line": 301,
+      "end_line": 469
+    },
+    "tests/ops/test_norm.py::0": {
+      "file": "tests/ops/test_norm.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_norm.py::1": {
+      "file": "tests/ops/test_norm.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_norm.py::2": {
+      "file": "tests/ops/test_norm.py",
+      "start_line": 301,
+      "end_line": 441
+    },
+    "tests/ops/test_rescale.py::0": {
+      "file": "tests/ops/test_rescale.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_rescale.py::1": {
+      "file": "tests/ops/test_rescale.py",
+      "start_line": 151,
+      "end_line": 328
+    },
+    "tests/ops/test_resize.py::0": {
+      "file": "tests/ops/test_resize.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_resize.py::1": {
+      "file": "tests/ops/test_resize.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_resize.py::2": {
+      "file": "tests/ops/test_resize.py",
+      "start_line": 301,
+      "end_line": 357
+    },
+    "tests/ops/test_resize_ft.py::0": {
+      "file": "tests/ops/test_resize_ft.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_resize_ft.py::1": {
+      "file": "tests/ops/test_resize_ft.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_resize_ft.py::2": {
+      "file": "tests/ops/test_resize_ft.py",
+      "start_line": 301,
+      "end_line": 386
+    },
+    "tests/ops/test_resize_rft.py::0": {
+      "file": "tests/ops/test_resize_rft.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_resize_rft.py::1": {
+      "file": "tests/ops/test_resize_rft.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_resize_rft.py::2": {
+      "file": "tests/ops/test_resize_rft.py",
+      "start_line": 301,
+      "end_line": 372
+    },
+    "tests/ops/test_shift.py::0": {
+      "file": "tests/ops/test_shift.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/ops/test_shift.py::1": {
+      "file": "tests/ops/test_shift.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/ops/test_shift.py::2": {
+      "file": "tests/ops/test_shift.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests/ops/test_shift.py::3": {
+      "file": "tests/ops/test_shift.py",
+      "start_line": 451,
+      "end_line": 575
+    },
+    "tests/splines/test_cubic_grid.py::0": {
+      "file": "tests/splines/test_cubic_grid.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/splines/test_cubic_grid.py::1": {
+      "file": "tests/splines/test_cubic_grid.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/splines/test_cubic_grid.py::2": {
+      "file": "tests/splines/test_cubic_grid.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests/splines/test_cubic_grid.py::3": {
+      "file": "tests/splines/test_cubic_grid.py",
+      "start_line": 451,
+      "end_line": 594
+    },
+    "tests/splines/test_einspline_2d_comparison.py::0": {
+      "file": "tests/splines/test_einspline_2d_comparison.py",
+      "start_line": 1,
+      "end_line": 137
+    },
+    "tests/splines/test_einspline_reference.py::0": {
+      "file": "tests/splines/test_einspline_reference.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/splines/test_einspline_reference.py::1": {
+      "file": "tests/splines/test_einspline_reference.py",
+      "start_line": 151,
+      "end_line": 314
+    },
+    "tests/splines/test_interpolating_bspline.py::0": {
+      "file": "tests/splines/test_interpolating_bspline.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/splines/test_interpolating_bspline.py::1": {
+      "file": "tests/splines/test_interpolating_bspline.py",
+      "start_line": 151,
+      "end_line": 254
+    },
+    "tests/splines/test_interpolating_bspline_2d.py::0": {
+      "file": "tests/splines/test_interpolating_bspline_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/splines/test_interpolating_bspline_2d.py::1": {
+      "file": "tests/splines/test_interpolating_bspline_2d.py",
+      "start_line": 151,
+      "end_line": 327
+    },
+    "tests/splines/test_interpolating_bspline_3d.py::0": {
+      "file": "tests/splines/test_interpolating_bspline_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/splines/test_interpolating_bspline_3d.py::1": {
+      "file": "tests/splines/test_interpolating_bspline_3d.py",
+      "start_line": 151,
+      "end_line": 340
+    },
+    "tests/tilt_series/test_apply_tilt_shift_and_propagate.py::0": {
+      "file": "tests/tilt_series/test_apply_tilt_shift_and_propagate.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_apply_tilt_shift_and_propagate.py::1": {
+      "file": "tests/tilt_series/test_apply_tilt_shift_and_propagate.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_apply_tilt_shift_and_propagate.py::2": {
+      "file": "tests/tilt_series/test_apply_tilt_shift_and_propagate.py",
+      "start_line": 301,
+      "end_line": 362
+    },
+    "tests/tilt_series/test_apply_tomogram_shift_3d.py::0": {
+      "file": "tests/tilt_series/test_apply_tomogram_shift_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_apply_tomogram_shift_3d.py::1": {
+      "file": "tests/tilt_series/test_apply_tomogram_shift_3d.py",
+      "start_line": 151,
+      "end_line": 218
+    },
+    "tests/tilt_series/test_get_angle_in_all_tilts.py::0": {
+      "file": "tests/tilt_series/test_get_angle_in_all_tilts.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_get_angle_in_all_tilts.py::1": {
+      "file": "tests/tilt_series/test_get_angle_in_all_tilts.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_get_angle_in_all_tilts.py::2": {
+      "file": "tests/tilt_series/test_get_angle_in_all_tilts.py",
+      "start_line": 301,
+      "end_line": 426
+    },
+    "tests/tilt_series/test_get_position_in_all_tilts.py::0": {
+      "file": "tests/tilt_series/test_get_position_in_all_tilts.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_get_position_in_all_tilts.py::1": {
+      "file": "tests/tilt_series/test_get_position_in_all_tilts.py",
+      "start_line": 151,
+      "end_line": 234
+    },
+    "tests/tilt_series/test_import_alignments.py::0": {
+      "file": "tests/tilt_series/test_import_alignments.py",
+      "start_line": 1,
+      "end_line": 136
+    },
+    "tests/tilt_series/test_load_images.py::0": {
+      "file": "tests/tilt_series/test_load_images.py",
+      "start_line": 1,
+      "end_line": 143
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_ctfs.py::0": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_ctfs.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_ctfs.py::1": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_ctfs.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_ctfs.py::2": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_ctfs.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_ctfs.py::3": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_ctfs.py",
+      "start_line": 451,
+      "end_line": 521
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py::0": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py::1": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py::2": {
+      "file": "tests/tilt_series/test_reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 301,
+      "end_line": 430
+    },
+    "tests/tilt_series/test_reconstruct_subvolumes.py::0": {
+      "file": "tests/tilt_series/test_reconstruct_subvolumes.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_reconstruct_subvolumes.py::1": {
+      "file": "tests/tilt_series/test_reconstruct_subvolumes.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_reconstruct_subvolumes.py::2": {
+      "file": "tests/tilt_series/test_reconstruct_subvolumes.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests/tilt_series/test_reconstruct_subvolumes.py::3": {
+      "file": "tests/tilt_series/test_reconstruct_subvolumes.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "tests/tilt_series/test_reconstruct_subvolumes.py::4": {
+      "file": "tests/tilt_series/test_reconstruct_subvolumes.py",
+      "start_line": 601,
+      "end_line": 722
+    },
+    "tests/tilt_series/test_reconstruct_volume.py::0": {
+      "file": "tests/tilt_series/test_reconstruct_volume.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_reconstruct_volume.py::1": {
+      "file": "tests/tilt_series/test_reconstruct_volume.py",
+      "start_line": 151,
+      "end_line": 217
+    },
+    "tests/tilt_series/test_reconstruct_volume_cs.py::0": {
+      "file": "tests/tilt_series/test_reconstruct_volume_cs.py",
+      "start_line": 1,
+      "end_line": 90
+    },
+    "tests/tilt_series/test_tilt_series_star.py::0": {
+      "file": "tests/tilt_series/test_tilt_series_star.py",
+      "start_line": 1,
+      "end_line": 155
+    },
+    "tests/tilt_series/test_tiltseries_csharp_comparison.py::0": {
+      "file": "tests/tilt_series/test_tiltseries_csharp_comparison.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_tiltseries_csharp_comparison.py::1": {
+      "file": "tests/tilt_series/test_tiltseries_csharp_comparison.py",
+      "start_line": 151,
+      "end_line": 257
+    },
+    "tests/tilt_series/test_tiltseries_ctf_generation.py::0": {
+      "file": "tests/tilt_series/test_tiltseries_ctf_generation.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_tiltseries_ctf_generation.py::1": {
+      "file": "tests/tilt_series/test_tiltseries_ctf_generation.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests/tilt_series/test_tiltseries_ctf_generation.py::2": {
+      "file": "tests/tilt_series/test_tiltseries_ctf_generation.py",
+      "start_line": 301,
+      "end_line": 379
+    },
+    "tests/tilt_series/test_tiltseries_xml.py::0": {
+      "file": "tests/tilt_series/test_tiltseries_xml.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests/tilt_series/test_tiltseries_xml.py::1": {
+      "file": "tests/tilt_series/test_tiltseries_xml.py",
+      "start_line": 151,
+      "end_line": 251
+    },
+    "tests/tilt_series/test_transform_volume.py::0": {
+      "file": "tests/tilt_series/test_transform_volume.py",
+      "start_line": 1,
+      "end_line": 155
+    },
+    "warpylib/ctf.py::0": {
+      "file": "warpylib/ctf.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/ctf.py::1": {
+      "file": "warpylib/ctf.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/ctf.py::2": {
+      "file": "warpylib/ctf.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "warpylib/ctf.py::3": {
+      "file": "warpylib/ctf.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "warpylib/ctf.py::4": {
+      "file": "warpylib/ctf.py",
+      "start_line": 601,
+      "end_line": 658
+    },
+    "warpylib/cubic_grid.py::0": {
+      "file": "warpylib/cubic_grid.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/cubic_grid.py::1": {
+      "file": "warpylib/cubic_grid.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/cubic_grid.py::2": {
+      "file": "warpylib/cubic_grid.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "warpylib/cubic_grid.py::3": {
+      "file": "warpylib/cubic_grid.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "warpylib/cubic_grid.py::4": {
+      "file": "warpylib/cubic_grid.py",
+      "start_line": 601,
+      "end_line": 788
+    },
+    "warpylib/euler.py::0": {
+      "file": "warpylib/euler.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/euler.py::1": {
+      "file": "warpylib/euler.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/euler.py::2": {
+      "file": "warpylib/euler.py",
+      "start_line": 301,
+      "end_line": 352
+    },
+    "warpylib/interpolating_bspline.py::0": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/interpolating_bspline.py::1": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/interpolating_bspline.py::2": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "warpylib/interpolating_bspline.py::3": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "warpylib/interpolating_bspline.py::4": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "warpylib/interpolating_bspline.py::5": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 751,
+      "end_line": 950
+    },
+    "warpylib/interpolating_bspline.py::6": {
+      "file": "warpylib/interpolating_bspline.py",
+      "start_line": 901,
+      "end_line": 1085
+    },
+    "warpylib/movie/__init__.py::0": {
+      "file": "warpylib/movie/__init__.py",
+      "start_line": 1,
+      "end_line": 67
+    },
+    "warpylib/movie/core.py::0": {
+      "file": "warpylib/movie/core.py",
+      "start_line": 1,
+      "end_line": 143
+    },
+    "warpylib/movie/io.py::0": {
+      "file": "warpylib/movie/io.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/movie/io.py::1": {
+      "file": "warpylib/movie/io.py",
+      "start_line": 151,
+      "end_line": 289
+    },
+    "warpylib/movie/paths.py::0": {
+      "file": "warpylib/movie/paths.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/movie/paths.py::1": {
+      "file": "warpylib/movie/paths.py",
+      "start_line": 151,
+      "end_line": 326
+    },
+    "warpylib/ops/__init__.py::0": {
+      "file": "warpylib/ops/__init__.py",
+      "start_line": 1,
+      "end_line": 21
+    },
+    "warpylib/ops/bandpass.py::0": {
+      "file": "warpylib/ops/bandpass.py",
+      "start_line": 1,
+      "end_line": 101
+    },
+    "warpylib/ops/bandpass_rft.py::0": {
+      "file": "warpylib/ops/bandpass_rft.py",
+      "start_line": 1,
+      "end_line": 155
+    },
+    "warpylib/ops/filters.py::0": {
+      "file": "warpylib/ops/filters.py",
+      "start_line": 1,
+      "end_line": 188
+    },
+    "warpylib/ops/masking.py::0": {
+      "file": "warpylib/ops/masking.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/ops/masking.py::1": {
+      "file": "warpylib/ops/masking.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/ops/masking.py::2": {
+      "file": "warpylib/ops/masking.py",
+      "start_line": 301,
+      "end_line": 421
+    },
+    "warpylib/ops/norm.py::0": {
+      "file": "warpylib/ops/norm.py",
+      "start_line": 1,
+      "end_line": 115
+    },
+    "warpylib/ops/norm_ft.py::0": {
+      "file": "warpylib/ops/norm_ft.py",
+      "start_line": 1,
+      "end_line": 144
+    },
+    "warpylib/ops/norm_rft.py::0": {
+      "file": "warpylib/ops/norm_rft.py",
+      "start_line": 1,
+      "end_line": 147
+    },
+    "warpylib/ops/plane.py::0": {
+      "file": "warpylib/ops/plane.py",
+      "start_line": 1,
+      "end_line": 127
+    },
+    "warpylib/ops/preprocess_tilt_data.py::0": {
+      "file": "warpylib/ops/preprocess_tilt_data.py",
+      "start_line": 1,
+      "end_line": 80
+    },
+    "warpylib/ops/rescale.py::0": {
+      "file": "warpylib/ops/rescale.py",
+      "start_line": 1,
+      "end_line": 95
+    },
+    "warpylib/ops/resize.py::0": {
+      "file": "warpylib/ops/resize.py",
+      "start_line": 1,
+      "end_line": 155
+    },
+    "warpylib/ops/resize_ft.py::0": {
+      "file": "warpylib/ops/resize_ft.py",
+      "start_line": 1,
+      "end_line": 134
+    },
+    "warpylib/ops/resize_rft.py::0": {
+      "file": "warpylib/ops/resize_rft.py",
+      "start_line": 1,
+      "end_line": 152
+    },
+    "warpylib/ops/shift.py::0": {
+      "file": "warpylib/ops/shift.py",
+      "start_line": 1,
+      "end_line": 114
+    },
+    "warpylib/ops/shift_rft.py::0": {
+      "file": "warpylib/ops/shift_rft.py",
+      "start_line": 1,
+      "end_line": 157
+    },
+    "warpylib/tilt_series/__init__.py::0": {
+      "file": "warpylib/tilt_series/__init__.py",
+      "start_line": 1,
+      "end_line": 120
+    },
+    "warpylib/tilt_series/angles.py::0": {
+      "file": "warpylib/tilt_series/angles.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/angles.py::1": {
+      "file": "warpylib/tilt_series/angles.py",
+      "start_line": 151,
+      "end_line": 294
+    },
+    "warpylib/tilt_series/core.py::0": {
+      "file": "warpylib/tilt_series/core.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/core.py::1": {
+      "file": "warpylib/tilt_series/core.py",
+      "start_line": 151,
+      "end_line": 284
+    },
+    "warpylib/tilt_series/ctf.py::0": {
+      "file": "warpylib/tilt_series/ctf.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/ctf.py::1": {
+      "file": "warpylib/tilt_series/ctf.py",
+      "start_line": 151,
+      "end_line": 319
+    },
+    "warpylib/tilt_series/import_alignments.py::0": {
+      "file": "warpylib/tilt_series/import_alignments.py",
+      "start_line": 1,
+      "end_line": 151
+    },
+    "warpylib/tilt_series/io.py::0": {
+      "file": "warpylib/tilt_series/io.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/io.py::1": {
+      "file": "warpylib/tilt_series/io.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/tilt_series/io.py::2": {
+      "file": "warpylib/tilt_series/io.py",
+      "start_line": 301,
+      "end_line": 441
+    },
+    "warpylib/tilt_series/load_images.py::0": {
+      "file": "warpylib/tilt_series/load_images.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/load_images.py::1": {
+      "file": "warpylib/tilt_series/load_images.py",
+      "start_line": 151,
+      "end_line": 296
+    },
+    "warpylib/tilt_series/particle_images.py::0": {
+      "file": "warpylib/tilt_series/particle_images.py",
+      "start_line": 1,
+      "end_line": 136
+    },
+    "warpylib/tilt_series/paths.py::0": {
+      "file": "warpylib/tilt_series/paths.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/paths.py::1": {
+      "file": "warpylib/tilt_series/paths.py",
+      "start_line": 151,
+      "end_line": 277
+    },
+    "warpylib/tilt_series/positions.py::0": {
+      "file": "warpylib/tilt_series/positions.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/positions.py::1": {
+      "file": "warpylib/tilt_series/positions.py",
+      "start_line": 151,
+      "end_line": 349
+    },
+    "warpylib/tilt_series/project_realspace.py::0": {
+      "file": "warpylib/tilt_series/project_realspace.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/project_realspace.py::1": {
+      "file": "warpylib/tilt_series/project_realspace.py",
+      "start_line": 151,
+      "end_line": 255
+    },
+    "warpylib/tilt_series/reconstruct_subvolume_ctfs.py::0": {
+      "file": "warpylib/tilt_series/reconstruct_subvolume_ctfs.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/reconstruct_subvolume_ctfs.py::1": {
+      "file": "warpylib/tilt_series/reconstruct_subvolume_ctfs.py",
+      "start_line": 151,
+      "end_line": 274
+    },
+    "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py::0": {
+      "file": "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py::1": {
+      "file": "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py::2": {
+      "file": "warpylib/tilt_series/reconstruct_subvolume_solid_ctfs.py",
+      "start_line": 301,
+      "end_line": 462
+    },
+    "warpylib/tilt_series/reconstruct_subvolumes.py::0": {
+      "file": "warpylib/tilt_series/reconstruct_subvolumes.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/reconstruct_subvolumes.py::1": {
+      "file": "warpylib/tilt_series/reconstruct_subvolumes.py",
+      "start_line": 151,
+      "end_line": 313
+    },
+    "warpylib/tilt_series/reconstruct_volume.py::0": {
+      "file": "warpylib/tilt_series/reconstruct_volume.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/reconstruct_volume.py::1": {
+      "file": "warpylib/tilt_series/reconstruct_volume.py",
+      "start_line": 151,
+      "end_line": 247
+    },
+    "warpylib/tilt_series/reconstruct_volume_cs.py::0": {
+      "file": "warpylib/tilt_series/reconstruct_volume_cs.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "warpylib/tilt_series/reconstruct_volume_cs.py::1": {
+      "file": "warpylib/tilt_series/reconstruct_volume_cs.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "warpylib/tilt_series/reconstruct_volume_cs.py::2": {
+      "file": "warpylib/tilt_series/reconstruct_volume_cs.py",
+      "start_line": 301,
+      "end_line": 366
+    },
+    "warpylib/tilt_series/stack_tilts.py::0": {
+      "file": "warpylib/tilt_series/stack_tilts.py",
+      "start_line": 1,
+      "end_line": 99
+    },
+    "warpylib/tilt_series/utils.py::0": {
+      "file": "warpylib/tilt_series/utils.py",
+      "start_line": 1,
+      "end_line": 164
+    },
+    "warpylib/__init__.py::0": {
+      "file": "warpylib/__init__.py",
+      "start_line": 1,
+      "end_line": 41
+    }
+  }
+}

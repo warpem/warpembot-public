@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAPEz=zqQuKOgZv=eZW5Tq-OjJxso+me79ZfhSe_Ohzyf=PS6+w@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Blocky Noise2Map output",
+  "sender": "Benjamin Barad <benjamin.barad@gmail.com>",
+  "date": "Fri, 26 Feb 2021 11:36:02 -0800",
+  "body": "Hi All,\r\n\r\nI am trying out Noise2Map on a dataset and seeing a weird output, where we\r\nhave some blocks that seem to have denoised incredibly well while others\r\nare getting blurrier. And I do mean blocks - the difference is happening in\r\n20 and 120 pixel squares. I have attached a screenshot showing the\r\ndifference with just deconvolution.\r\n[image: image.png]\r\n\r\nMy command is: `Noise2Map.exe --observation1 odd --observation2 even\r\n--observation_combined . --dont_flatten_spectrum --iterations 10000\r\n--keep_dimensions --angpix 13`\r\n\r\nUsing a recent nightly, if that matters!\r\n\r\nThanks, Ben"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAE5xfLk=3dJNmRypcrPRtGrd8fdt92x+vNoCRxRRBQawWSf78A@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Confusion about parameters and their negative counterparts.",
+  "sender": "Shintaro Aibara <shintaro.aibara@gmail.com>",
+  "date": "Wed, 14 Aug 2024 15:41:33 +0100",
+  "body": "Dear Alister,\r\n\r\nI have a question about two parameters in WarpTools create_settings.\r\n\r\nFor --exposure, the help mentions it is the \"Overall exposure per\r\nAngstrom^2, use negative value to specify exposure/frame instead\". Now,\r\nwhen I plonk in the overall exposure (e.g. 60), the value that gets written\r\nout to the .settings file is \"-60\" for DosePerAngstromFrame. So WarpTools\r\nseems to *-1 the value I put in. To me it's confusing that the default\r\nvalue for this parameter is \"1\" which almost makes me think that it's not\r\nthe overall exposure by default?\r\n\r\nLikewise eer_ngroups also seems to take the negative of the value I put in,\r\nso I'm really uncertain if that is expected behaviour or not. I.e. whether\r\nthe .settings files work on the inverse logic of WarpTools.\r\n\r\nHope that makes some sense to you.\r\n\r\nBest wishes\r\nShintaro"
+}

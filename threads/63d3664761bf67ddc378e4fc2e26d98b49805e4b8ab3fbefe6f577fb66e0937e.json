@@ -1,0 +1,8 @@
+{
+  "message_id": "<e0b2d84e-00f7-4523-a875-b8eddd30a2d1n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Size limits in Cube?",
+  "sender": "Jessica Rabuck-Gibbons <jrgib@scripps.edu>",
+  "date": "Thu, 13 May 2021 12:30:00 -0700 (PDT)",
+  "body": "Hi all,\r\n\r\nI'm working on processing the EMPIAR-10499 dataset to set up/test our \r\nWarp-Relion-M pathway. I have some tomograms that I've reconstructed at \r\n5Å/pix, and I'm trying to open it up in Cube so I can double check the \r\ncoordinates of some subtomograms (also reconstructed at 5Å/pix). However, \r\nwhen I try to open the tomogram in Cube, nothing happens; the screen \r\nremains blank (it looks exactly like it does when you first open Cube, \r\nexcept the name of the tomogram is in the upper left hand corner). I know \r\nthe tomogram is okay, since I can open it with 3dmod and it looks fine. \r\nCube is also working fine, because I can open and work with tomograms at \r\n10Å/pix. Is there some sort of size limit that Cube is coming up against, \r\nor might there be something wrong with my 5Å data? Thank you in advance for \r\nany help!\r\n\r\nThanks,\r\nJessica\r\nPostdoctoral Associate | The Scripps Research Institute"
+}

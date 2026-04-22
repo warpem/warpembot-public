@@ -1,0 +1,8 @@
+{
+  "message_id": "<509eabd0-2e74-4ceb-a12d-e23b3ce4a210n@googlegroups.com>",
+  "thread_id": "<0d59d79b-6f87-42ad-95c5-7ab6f172a384n@googlegroups.com>",
+  "subject": "Re: CTF mask from export sub-tomograms looks strange",
+  "sender": "\"alist...@gmail.com\" <alisterburt@gmail.com>",
+  "date": "Thu, 25 Feb 2021 05:22:16 -0800 (PST)",
+  "body": "Seems I replied to only one person rather than on the list when I responded \nhere, copied below\n---\nHi Peng,\n\nThat's all fine - the FT of a real signal (your image) has hermitian \nsymmetry so all of the necessary info for a simple CTF model can be stored \nin the \"half\"-CTF volume\n\nsee page 2 of \nhttps://www.sjsu.edu/people/burford.furman/docs/me120/FFT_tutorial_NI.pdf for \nmore info\n\nCheers,\n\nAlister\n\nOn Monday, 18 January 2021 at 13:47:25 UTC xu-...@mails.tsinghua.edu.cn \nwrote:\n\n> Hi Dimitry,\n>      We have exported sub-tomograms by warp after picking particles. \n> However, we have met some trouble.\n> (1) The size of CTF mask is only a half of box size we have set.\n> (2) The shape of CTF mask looks strange.(see in attachment)\n>\n> Is it normal?Can we move on or are there something wrong in our progress?\n>\n> Looking forward to your reply, thank you !\n>\n> Peng Cheng\n>\n> [image: subtomogram.png]\n> above is one of the subtomogram (boxsize: 100X100X100)\n>\n> [image: CTFmodel.png]\n> this is the coresponding CTF model (box size 51X100X100)\n>"
+}

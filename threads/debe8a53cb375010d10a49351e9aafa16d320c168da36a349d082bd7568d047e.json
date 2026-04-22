@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHq7bfjb9RQ0C5GZZFprUkBD2MxkTWG9evm_yD74yTLLPA@mail.gmail.com>",
+  "thread_id": "<c43a9274-ecb1-4654-9d57-e5a11653069cn@googlegroups.com>",
+  "subject": "Re: Exporting particles back to RELION after M refinement (MCore)",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 9 Dec 2024 09:39:42 -0800",
+  "body": "Hi Juha,\r\n\r\nc.f. https://github.com/warpem/warp/issues/149\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Sat, 7 Dec 2024 at 01:24, Juha Huiskonen <juha.huiskonen@gmail.com>\r\nwrote:\r\n\r\n> Hi all,\r\n>\r\n> I have refined particles with MCore and I want to classify them further in\r\n> RELION. What is the correct way to do this?\r\n>\r\n> First, I tried using the particles.star file from\r\n> M/species/particle/particles.star in WarpTools ts_export_particles. This\r\n> STAR file is, however, not compatible.\r\n>\r\n> Should I use the STAR file created by RELION (the same one I used to\r\n> create the species in M) instead? Does this workflow use the updated XML\r\n> files for tilt series alignment? Are the updated particle alignment\r\n> parameters in the M/species/particle/particles.star file relevant here?\r\n>\r\n> Cheers,\r\n> Juha\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/c43a9274-ecb1-4654-9d57-e5a11653069cn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/c43a9274-ecb1-4654-9d57-e5a11653069cn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<831a41ff-5308-4d41-8ecc-20823380cdc0n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Stack alignment in Imod tiltalign / autoalign_dynamo",
+  "sender": "Stefan Kreida <stefankreida@gmail.com>",
+  "date": "Mon, 24 Apr 2023 06:17:45 -0700 (PDT)",
+  "body": "Hi! \n\nI'm processing a cryo-ET dataset following the teamtomo walkthrough. \n\nI'm preprocessing and generating the unaligned stacks in Warp. I have been \nusing autoalign_dynamo for alignment and then reconstructed the tomograms \nin Warp. autoalign_dynamo selects all gold fiducials that it can find, but \nI would like to try to exclude those that are located on carbon to see if \nthat improves the quality of the reconstructions. \n\n1.) Does anyone know if it's possible to add a mask for autoalign_dynamo to \ndo bead selection - similar to the imod \"use boundary model\"? I've been \ngoing through the scripts but cannot find anything. \n\nMy Plan B is to use etomo until tiltalign:\n2a)  As far as I understand Warp only needs the .xf files generated from \ntiltalign to be able to reconstruct? \n2b) Is it \"allowed\" to refine global variables in etomo fine alignment, e.g \nRotation, Magnification, Tilt Angle for Warp reconstruction to work \noptimally? i.e, will there be a problem if the refined tilt-angles in the \ntaSolution.log are different from the \"nominal\" ones (those in .rawtilt)? \n\nBest,\nStefan"
+}

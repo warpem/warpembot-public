@@ -1,0 +1,8 @@
+{
+  "message_id": "<d15f5133-12b4-4f19-afc0-44ad29bd02c3n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Boxnet vs 3090",
+  "sender": "Simon Erlendsson <simonerlendsson@gmail.com>",
+  "date": "Sun, 17 Jan 2021 07:37:02 -0800 (PST)",
+  "body": "Hi all,\n\nIs anyone else experiencing problem with denoising and particle picking on \nthe Geforce 3090? Motioncorr and CTF works very well though. \n\n I have another workstation with two Ti2080s running fine. \n\nThanks and best \nSimon"
+}

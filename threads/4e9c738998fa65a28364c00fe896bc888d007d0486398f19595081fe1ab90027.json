@@ -1,0 +1,8 @@
+{
+  "message_id": "<e75fe05a-74f2-44f6-9fc4-a15fc238f211n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WarpTools: Picking particles on motion-corrected SPA data",
+  "sender": "\"mjja...@gmail.com\" <mjjaremko@gmail.com>",
+  "date": "Mon, 15 Jul 2024 10:51:07 -0700 (PDT)",
+  "body": "Hello,\n\nHas anyone successfully picked particles on already motion-corrected \nmicrographs using WarpTools? If so, can you provide example commands on how \nto do this? I haven't had success with the fs_boxnet_infer.\n\nThanks,\nMatt"
+}

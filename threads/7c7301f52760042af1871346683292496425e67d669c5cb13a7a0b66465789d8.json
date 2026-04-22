@@ -1,0 +1,8 @@
+{
+  "message_id": "<7cbfed68-6d34-4724-ac3f-c1f6915abb9en@googlegroups.com>",
+  "thread_id": "f80dd37b-3471-4601-b336-01d91323ef7c",
+  "subject": "Re: Particle recentering from Relion to Warp",
+  "sender": "Tom Crosskey <fafrat@googlemail.com>",
+  "date": "2026-03-24T09:41:57.000Z",
+  "body": "Hi Warpers,\n\nThank you for the enlightening discussion about this topic. I am having a related problem where I have subtomogram averages of a particle and am decreasing the binning as I refine and discard junk. Going from 8x to 4x binning didn't seem to be a problem (reconstructing an average from 10,000 particles gave a reasonable shape although weak signal, but a round of refinement hugely improved the signal), but going from 4x to 2x is giving problems. If I try to reconstruct a random average at this binning there is a huge ball of noise unless I apply a low pass filter, and refinement in Relion crashes during a ~300 hour iteration and the halfmap from the iteration before looks like nothing.\n\nI am wondering if during the subtomogram extraction in Warp there is something that I am missing. I take the output star file from refinement in Relion and modify it for Warp (remove most of the columns except CoordinateX/Y/Z, AngleRot/Tilt/Psi, MicrographName and OriginX/Y/Z (with the last numbers untouched). I am just trying manually subtracting the offset (after pixel size correction) from the CoordinateX/Y/Z and zero'ing it, but I assume Warp should do that by default?\n\nIs this likely to be the issue or am I missing something else at this unbinning step? Thanks a lot for this helpful community.\n\nMany thanks,\nTom"
+}

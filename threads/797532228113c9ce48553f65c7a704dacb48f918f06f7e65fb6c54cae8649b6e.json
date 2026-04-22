@@ -1,0 +1,8 @@
+{
+  "message_id": "<f7d2ecf6-a1b4-458c-b960-fa07abdacbc6n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomogram reconstruction bin4>bin2",
+  "sender": "Josh Jenkins <joshuajjenkins1@gmail.com>",
+  "date": "Fri, 24 May 2024 07:23:13 -0700 (PDT)",
+  "body": "Hello Everyone, \r\n\r\n \r\n\r\nI’ve reconstructed bin4 subtomograms with no issues and have taken these \r\ninto relion. When I try to reconstruct the refined subtomograms at bin2, \r\nwarp doesn’t write any subvolumes to the subtomo directory. I’ve checked \r\nthe input star file(s) and the format is consistent with previous star \r\nfiles I’ve used that have worked. I’m also using near-identical inputs to \r\nprevious datasets that have worked. When I’m prompted to save the scaled \r\nsubvolumes to the output star file, warp returns me to the overview tab \r\nwithout crashing. It also doesn’t save the output star file.\r\n\r\n \r\n\r\nAny suggestions on what I could check or change to troubleshoot this would \r\nbe much appreciated.\r\n\r\n \r\n\r\nMany thanks,\r\n\r\nJosh"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<398e6d6e-da55-4dee-806c-4f2997ca9592n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Defect map does not match image dimensions",
+  "sender": "Niharika Shukla <ns.niharika.shukla@gmail.com>",
+  "date": "Fri, 26 Sep 2025 15:26:18 -0700 (PDT)",
+  "body": "Hi everyone,\n\nI am trying to apply a defect map during motion correction after pointing \nto it during creation of the settings files.\n\nWarpTools fs_motion_and_ctf --settings warp_frameseries.settings --m_grid \n1x1x6 --c_grid 2x2x1 --c_range_max 6 --c_range_min 40 --c_use_sum \n--out_averages\nHowever, I consistently get the following error:\n\nSystem.Exception: Image dimensions don't match those of the defect map\\n\n\nWhen I check the headers of the frames, the gain reference, and the defect \nmap, they all appear to be the same dimensions in X and Y. Both the gain \nreference and defect map were originally exported as .dm4 files, but I \ncontinue to get this error if I convert to .tif as well. When I convert the \ndefect map to a .mrc, the motion correction job instead gets stuck at:\n\nConnecting to workers...\n\nI am able to process this dataset when I omit the defect map.\n\nThank you for any help!\n\nBest,\nNiharika"
+}

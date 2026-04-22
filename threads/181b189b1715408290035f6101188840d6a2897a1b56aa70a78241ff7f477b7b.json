@@ -1,0 +1,8 @@
+{
+  "message_id": "<0ea3c25f-13b6-4680-8a9c-334e8f531f52@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Re-centering particles on different coordinates",
+  "sender": "Mia Shin <414mia@gmail.com>",
+  "date": "Mon, 3 Feb 2020 12:33:36 -0800 (PST)",
+  "body": "Hi! \nI've had great luck using Warp pre-processing in combination with cryoSPARC \nv2 for processing my single particle data. \nHowever, I am working with a protein complex whose N-terminus is much less \nstable than its C-terminus. \nTherefore, both Warp and cryoSPARC like to pick particles and align \nprimarily based on the C-terminus. \nI would like to perform \"split\" processing, i.e. take the particles that \nare aligned on the C-terminus then re-center the particles using an offset \nin the y-direction, then refine based on the new coordinates to resolve the \nN-terminal region. \nWe are used to doing this in RELION for several other samples from our lab, \nbut I'm not entirely sure if it's possible to do this with a particle stack \nfrom Warp or how I would go about doing so. \n\nAny input is gladly appreciated! \n\nBest, \n \nMia Shin\nGraduate Student \nScripps Research\nLander and Wiseman Labs"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<26b2ae82-a944-4488-8d5c-bc144b661c2c@googlegroups.com>",
+  "thread_id": "",
+  "subject": "rotated tiff",
+  "sender": "TC <xtalfire@googlemail.com>",
+  "date": "Thu, 22 Nov 2018 08:17:40 -0800 (PST)",
+  "body": "Hi Dimitry,\n\nProbably a dumb question, but in order to make sure, what is the direction \nused in the Transpose of the gain, clockwise or counter? \n\nPractically, we have a user that has the tifs collected from SerialEM \nrotated 90 degree clockwise, and it seems to us Transpose + flipY is better \nthan Transpose +flipX. What's your opinion on this?\nAnd the program FlipTiff.exe is using a lot of memory (~60Gb) for just 2 \nfiles in parallel.\n\nThanks,\n\nTat"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<f41abf14-cebe-49e3-a01c-2f2238a3b3c7o@googlegroups.com>",
+  "thread_id": "",
+  "subject": "=?UTF-8?Q?how_to_import_Warp=E2=80=99s_on-the-fly_results_into_CryoSparc?=",
+  "sender": "Meiling Zhang <meilingzhang257@gmail.com>",
+  "date": "Fri, 26 Jun 2020 21:54:31 -0700 (PDT)",
+  "body": "I'm trying to impart Warp's on-the-fly results into Cryosparc by creating a \nnew data source in cryosparc. But I couldn't figure out how to create the \nnew data source in cryosparc. This is the instruction from \"Quick Start\" of \nwarpem.com. Can anyone help me please? Thank you!"
+}

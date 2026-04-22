@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALUrcWBHQSfm1PeDgXrRXTtaRQ=DUJOBS1GgJcoQ-WDyVMw_NQ@mail.gmail.com>",
+  "thread_id": "<CALUrcWB+39mEZiXwv5NLLvkYPpM0Wy14nS=rgHXp6J=xGzebnA@mail.gmail.com>",
+  "subject": "Re: max number of frames with K3 data?",
+  "sender": "Matt Harrington <matt@msg.ucsf.edu>",
+  "date": "Mon, 22 Apr 2019 21:18:00 -0700",
+  "body": "I tried again with an AWS p3.2xlarge instance, which has a V100 with\r\n16 GB VRAM.  Got the following exception:\r\n\r\nRunning on GPU #0 (15282 MB free) through WarpWorker0\r\n\r\nReceived \"SetHeaderlessParams\", with 3 arguments, for GPU #0, 15282 MB free\r\nSet headerless parameters to 11520, 8184, 0, int16\r\n\r\nReceived \"LoadGainRef\", with 4 arguments, for GPU #0, 15282 MB free\r\nLoaded gain reference: 11520, 8184, 1, normal, real, 1 A/px, ID = 0,\r\nFalse, False, False\r\n\r\nReceived \"LoadStack\", with 2 arguments, for GPU #0, 15282 MB free\r\nLoaded stack: 5760, 4092, 120, normal, real, 1 A/px, ID = 1, 0.5\r\n\r\nReceived \"MovieProcessCTF\", with 2 arguments, for GPU #0, 15028 MB free\r\n\r\nUnhandled Exception: System.AccessViolationException: Attempted to\r\nread or write protected memory. This is often an indication that other\r\nmemory is corrupt.\r\n   at Warp.GPU.CopyHostToHost(Single[] h_source, IntPtr h_dest, Int64 elements)\r\n   at Warp.Image.GetHostPinned(Intent intent)\r\n   at Warp.Movie.ProcessCTF(Image originalStack,\r\nProcessingOptionsMovieCTF options)\r\n   at WarpWorker.Program.Main(String[] args)"
+}

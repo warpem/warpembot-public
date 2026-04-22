@@ -1,0 +1,8 @@
+{
+  "message_id": "github:warpem/warp/issues/463",
+  "thread_id": "github:warpem/warp/issues/463",
+  "subject": "WarpTools fail to reconstruct tomograms (Tutorial and own data)",
+  "sender": "helgepat",
+  "date": "2026-04-13T09:33:02Z",
+  "body": "I am trying to wrap my head around a persistent issue with WarpTools on our cluster. When I follow the tutorial (and also when using own data that works in IMOD), I cannot reconstruct tomograms. We are running v36 and v32 on our cluster and I have tried both versions with the same results. I have succesfully reconstructed tomograms from the data in IMOD, using the image stacks that were produced by WarpTools. This also worked for my own data. I have also tried to import my own IMOD alignments which also did not result in any useable tomograms: WarpTools ts_import_alignments --settings warp_tiltseries.settings --alignments warp_tiltseries/tiltstack/ --alignment_angpix 10. Interestingly, checking the handedness after running the etomo wrapper produces very small numbers: Average correlation: 0,050. The average correlation is positive, which means that the defocus handedness should be set to 'no flip'. Commands used: create_settings, fs_motion_and_ctf with --c_grid 2x2x1, ts_import with --dont_invert, ts_etomo_patches with --initial_axis -85.6, ts_defocus_hand --check, ts_ctf, ts_reconstruct at 10 angpix."
+}

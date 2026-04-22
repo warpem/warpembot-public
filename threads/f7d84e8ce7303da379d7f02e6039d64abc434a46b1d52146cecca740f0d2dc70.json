@@ -1,0 +1,8 @@
+{
+  "message_id": "<b1fc78de-fd08-4a7c-84d8-9afcebf8445dn@googlegroups.com>",
+  "thread_id": "<d047310e-116f-4f15-bf2b-dda10acd4121n@googlegroups.com>",
+  "subject": "Re: tensorflow error when particle picking",
+  "sender": "Olivier Le Bihan <olivier.le_bihan@outlook.com>",
+  "date": "Thu, 2 Dec 2021 05:15:30 -0800 (PST)",
+  "body": "Hi all,\n\nI have the same problem with the exact same error message running Warp 1.09 \non a windows 10 threadripper machine with an RTX 3090 and 128 Gb of RAM.\n\nProcessing works fine otherwise except for the particle picking tool.\n\nWould the Warp nightly build 2020-11-04 \n<http://deployment.warpem.com/nightly/Warp_20201104.zip> have any chance of \nfixing the problem?\n\nRegards,\n\nOlivier Le Bihan\n\nOn Wednesday, 1 December 2021 at 21:07:16 UTC+1 Dominique wrote:\n\n> Hello I have a windows laptop with these specs\n>\n> Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz   2.60 GHz\n> Installed RAM 32.0 GB (31.8 GB usable)\n> Device ID C7DFC50F-AE3A-4D98-8B8C-0790472B6BEF\n> Product ID 00325-81709-59805-AAOEM\n> System type 64-bit operating system, x64-based processor\n> 1X Nvidia GeForce GTX 1660 Ti\n>\n> I installed WARP 1.09 on it and everything ran except for particle \n> picking. I get the error message in the screenshot. \n>"
+}

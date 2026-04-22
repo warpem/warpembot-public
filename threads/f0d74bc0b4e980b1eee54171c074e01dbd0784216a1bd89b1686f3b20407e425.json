@@ -1,0 +1,8 @@
+{
+  "message_id": "<9836bccb-e6b6-49bd-97e2-07982f96040dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Unbinned tomogram dimensions in Reconstruct tomograms",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 1 Jun 2021 01:42:12 -0700 (PDT)",
+  "body": "I found a difference between Warp and IMOD reconstruction. If I used \n0.675/0.675A, bin1,4000*4000*3000 in Warp. The resultof size was half of \nIMOD reconstruction. And I tried 8000*8000*6000, it had a right size. \nMaybe, does the \"Unbinned\" mean the super resolution?"
+}

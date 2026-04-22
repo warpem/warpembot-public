@@ -1,0 +1,8 @@
+{
+  "message_id": "<B3615721-2241-48C8-9B88-7CE7A646B630@gmail.com>",
+  "thread_id": "<71439f4a-69d2-4e69-b868-a4273852a257n@googlegroups.com>",
+  "subject": "Re: Missing information in optics.star file Warp to Relion 4.0.1",
+  "sender": "Philipp Erdmann <philipp.stawski@gmail.com>",
+  "date": "Tue, 13 Jun 2023 11:34:08 +0200",
+  "body": "Hi Felix,\nYou’ll need\n_rlnVoltage #6\n_rlnSphericalAberration #7\n_rlnAmplitudeContrast #9\nAnd the corresponding columns with the data (300, 2.7, 0.07)\nBest,\nPhilipp.\nSent from my iPhone\nOn Jun 13, 2023, at 10:50 AM, Felix Lange <felix.lange.le@gmail.com> wrote:\n﻿Hi guys,\nI am following the tt tutorial for the Warp-Dynamo-Relion pipeline with my own data. I extracted subtomograms in Warp at 5Apx according to the settings given in the tutorial. Now in Relion, the _optics.star is missing entries for the optics causing an error in Relion. The entry now looks like this:\ndata_optics\nloop_ \n_rlnOpticsGroup #1 \n_rlnOpticsGroupName #2 \n_rlnImagePixelSize #3 \n_rlnImageSize #4 \n_rlnImageDimensionality #5 \n           1 opticsGroup1     5.000000           60            3\nHow cann I pass along the missing information? Thanks and all the best,\nFelix \n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/71439f4a-69d2-4e69-b868-a4273852a257n%40googlegroups.com\n."
+}

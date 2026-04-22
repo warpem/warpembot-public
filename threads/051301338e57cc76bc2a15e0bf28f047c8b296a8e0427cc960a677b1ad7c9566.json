@@ -1,0 +1,8 @@
+{
+  "message_id": "<a1db928c-dcb6-4420-8569-50cc93747d11@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Black micrographs for 90% of data set",
+  "sender": "Jonathan Grimes <jonathan.m.grimes@gmail.com>",
+  "date": "Thu, 26 Jul 2018 08:16:33 -0700 (PDT)",
+  "body": "We are trying to process 2 data sets collected using VPP and Falcon III \ndetectors. \n\n\nPrevious processing with motioncorr2 gave nice results but the processing \nin warp gave black micrographs in the real Space tab for ~90% of the data \nset. \n\n\nDid you already observed this issue?\n\n\nIs there something that we are missing.  i can post the saved settings if \nthis will help\n\n\nthanks\n\njon grimes"
+}

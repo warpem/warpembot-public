@@ -1,0 +1,8 @@
+{
+  "message_id": "<e5a49d5c-3789-401d-8771-b061bc801089n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M-refined tilt angles",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "Mon, 13 Feb 2023 09:48:11 -0800 (PST)",
+  "body": "Dear all,\n\nI have a dataset of ribosomes where resolution goes from 16A to 10A using \nM. I suspect the new tilt angles are much better but I cannot find a way to \nmake new tomostar files with the new angles.  Does anyone know how can I \nget this info to reconstruct improved tomograms?\n\nBest,\nHamid"
+}

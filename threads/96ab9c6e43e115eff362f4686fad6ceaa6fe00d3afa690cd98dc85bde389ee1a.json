@@ -1,0 +1,8 @@
+{
+  "message_id": "<81d32871-7daa-4d1c-90bc-1107eaac7f14n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomograms constantly coming out black",
+  "sender": "Nadav Elad <nadavelad@gmail.com>",
+  "date": "Sun, 13 Sep 2020 23:06:29 -0700 (PDT)",
+  "body": "Hi,\nMy reconstructed subtomograms are constantly coming out black, i.e with \nvoxel values of zero. Would appreciate any idea how to solve this.\n\nI am running Warp on a workstation with Windows 10 and 4 Nvidia 1080 Ti GPU \ncards, so I don't see a memory issue. Reconstructing small (50 pixel) boxes \ndoes not help. The tomograms are of purified ribosomes, collected using \nSerialEM with phase plate. Movies were motion corrected and summed in Warp, \nfollowed by alignments of the tilts using IMOD, as described in the \ntutorial. The tomograms reconstruct nicely in Warp and I used template \nmatching to locate the particles, which seem to give nice peaks, and the \nresulting star file looks OK. I tried all the options in the subtomogram \nreconstruction menu, but subtomos and 3D CTFs are always black. Image \nseries option results are fine, containing proper density.\n\nThere was a suggestion in the forum to change the regional settings of \nWindows 10, but it did not help here.\n\nI will be happy to share any file related to this project.\n\nThank you\nNadav"
+}

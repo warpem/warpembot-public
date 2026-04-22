@@ -1,0 +1,8 @@
+{
+  "message_id": "<3082bd07-2817-4ff8-b2ec-a85b6bbefbf4n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warptools reconstruction and denoise",
+  "sender": "Zhu Qiao <jasonqiao03@gmail.com>",
+  "date": "Wed, 23 Apr 2025 11:46:23 -0700 (PDT)",
+  "body": "Hi community\n\nI am very new to the tomography and subtomogram averaging. Really \nappreciate it if I can get helps/suggestions about my tomo data processing.\n\nWhen I collected the tilt series data, I used the on the fly ARETomo3 data \nprocessing pipline. and it generated super good contrast tomograms with \nbin8. \n\nI also processed the raw data in Warptools and imported the ARETomo3 \nalignment settings. But, then the reconstructed tomogram looks not as good \nas ARETomo3, visually. I also noticed the image plan shifted/rotated a bit. \nMy question is how can I get the tomogram without the image rotation? \nPlease see the pictures attached. \n\nI tried the Noise2map in Warp and denoised my tomogram, but looks like no \ndifference. what parameters shall I adjust to make the constrast better? \nBecuase I use the current tomograms, the template matching results are not \nvery good. I am thinking denosieng the tomogram could help template \nmatching. \n\nhere is the commands  for denoise (Noise2Map --a \nwarp_tiltseries/reconstruction/even --b warp_tiltseries/reconstruction/odd \n--observation_combined warp_tiltseries/reconstruction --iterations 600 \n--angpix 10 --dont_flatten_spectrum)\n\nBest Regards\nZhu"
+}

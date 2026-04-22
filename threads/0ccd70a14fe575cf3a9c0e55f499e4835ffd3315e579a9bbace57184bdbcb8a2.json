@@ -1,0 +1,8 @@
+{
+  "message_id": "<1376e694-fab4-4a9d-b871-f0e33b0e9a79n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "removing bad tilts before WARP",
+  "sender": "mrJ <bluufive@gmail.com>",
+  "date": "Thu, 19 Oct 2023 05:53:09 -0700 (PDT)",
+  "body": "hi all,\n\nI am processing large number of tilt series and trying to think of how to \noptimize the pipeline for high throughput.  Currently I import frames into \nWARP and manually remove the bad tilts.  This is time consuming.  \n\nI had the idea to instead use AREtomo to \"preprocess\" all of the tilt \nseries, which automatically removes the bad tilts and outputs a file \ncontaining a list of bad tilts.  I could conceivably use this list to \n\"clean\" my data before importing into WARP.  I'm just a bit confused about \nhow to do this.  I could simply remove those .tif movies corresponding to \nbad tilts, but presumably I need to also edit the mdoc file.\n\n If I'm editing the mdoc file I think I can't just remove the whole \nparagraph for the bad tilts.  How might I go about this, if it is at all \npossible?\n\nthanks!\n\nJesse"
+}

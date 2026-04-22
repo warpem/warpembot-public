@@ -1,0 +1,8 @@
+{
+  "message_id": "<7d695c38-d9cf-4b19-b7ce-3cef2c153aaan@googlegroups.com>",
+  "thread_id": "",
+  "subject": "A question about dynamo2warp",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Thu, 10 Jun 2021 08:43:10 -0700 (PDT)",
+  "body": "When I did the tutorial of teamtomo.org, I met a problem about dynamo2warp. \nAfter finishing the subset_table_based_on_neighbours, I could not extract \nsubtomo particles with dynamo2warp. The annoying point was that the \nrelion_reconstruct could not give me a hexagonal lattice map. There was \nonly noise. \n\nI have tried specified different parameter of subtomo particles extract in \nwarp. It did not work. \nSo I suspected whether the process of removing the trash particles had \nerror. Then, I tried to align the particles with the \n'result_10Apx_nodup_neighbourcleaning.tbl', which has no trash particles, \nin the tutorial in dynamo. However, the alignment result was correct.\n\nI think maybe the dynamo2warp script went wrong. Can someone teach me \nsomething?"
+}

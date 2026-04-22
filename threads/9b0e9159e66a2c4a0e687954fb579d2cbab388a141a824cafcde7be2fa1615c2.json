@@ -1,0 +1,8 @@
+{
+  "message_id": "<d4e45899-29e6-4d35-83ba-804b3fa26323n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Particle recentering from Relion to Warp",
+  "sender": "=?UTF-8?Q?Juan_Carlos_De_la_Concepci=C3=B3n?=\r\n <jcdelaconcepcion@gmail.com>",
+  "date": "Mon, 25 Sep 2023 05:07:01 -0700 (PDT)",
+  "body": "Hi all,\n\nAfter extracting subtomograms at high binning in Warp and refining the \nparticles in Relion all the way to Nyquist, I'm trying to recenter the \n_rlnCoordinates of my particles (i.e. add _rlnOriginX/Y/ZAngst to \n_rlnCoordinateX/Y/Z, then decrease _rlnOriginX/Y/ZAngst to sub-pixel \naccuracy -- although I realized that these coordinates are not expressed in \nthe same reference frame) to extract subtomograms at lower binning in Warp. \nSo far, averaging particles re-extracted at lower binning with my \ntext-edited .star files came out as only noise. Not-recentered subtomos \ngave a reasonable average but I would like them recentered.\n\ntl;dr : Does any of you know how to recenter the particles coming from \nRelion in a way that Warp can understand?\n\nThat would equate with using relion_preprocess --recenter on a .star file \nwithout actually extracting subtomograms. (since my tomograms are set up in \nWarp but not in relion, extraction fails.) I tried `relion_star_handler \n--center`  but it only acts on _rlnOriginX/Y/ZAngst, not on \n _rlnCoordinateX/Y/Z.\n\nThanks a lot for helping!\nJC"
+}

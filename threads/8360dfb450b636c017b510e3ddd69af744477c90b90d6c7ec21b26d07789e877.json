@@ -1,0 +1,8 @@
+{
+  "message_id": "<a149d88a-2758-4357-95f0-3ac2a79074c7n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Quality Fit curve drop",
+  "sender": "Julien Maufront <julien.maufront@gmail.com>",
+  "date": "Thu, 17 Mar 2022 04:57:19 -0700 (PDT)",
+  "body": "Hi everyone,\n\nI have a concerned with my data :\nit seems there is a redundant drop in the quality fit curves of my data set \nat a given spatial frequency range (5 - 7 anstrom, see screenshots).\n\nIs it something relevant or should I ignore this ?\nWhat could be the cause ? I do not see particular features in the  Fourier \nspace image which could explain this deviation between fit and data.\n\nThank you,\nJulien"
+}

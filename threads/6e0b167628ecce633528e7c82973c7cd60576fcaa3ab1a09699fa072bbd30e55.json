@@ -1,0 +1,8 @@
+{
+  "message_id": "<51911b8a-e053-445c-a2a1-dad9c2f3b137n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Issues trying to run BoxNet2",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Thu, 2 Nov 2023 14:43:00 -0700 (PDT)",
+  "body": "Hello,\n\nCurrently I'm trying to use Boxnet to mask gold fiducials but I seem to be \nhaving issues getting Boxnet to work in general.  Essentially whenever I \nrun any pretrained Boxnet model (any of the ones in the public repository \nor Goldnet), no particles are found in any micrograph.  There is no error \nor crash after running the models, it loads the model pretty quickly, and \nanalyzes the micrographs to report that no particles are found.  \n\nCurrently we are running Warp 1.0.9 and I had to download the Boxnet models \nvia the Public Repository so its possible I may have downloaded the files \nto the wrong locations.  Any advice or help troubleshooting would be \ngreatly appreciated."
+}

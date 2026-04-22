@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHH4-vwBzz-CyZqJuAosSjevj_Tb15cg4+yfv_Ap2PwJ=oLxxA@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Batch pre-processing in Warp and white lines across thon rings",
+  "sender": "Cyan Ching <xingyichengcyanching@gmail.com>",
+  "date": "Mon, 6 Dec 2021 12:45:49 +0100",
+  "body": "Dear Dimitry,\r\n\r\nGood morning!\r\n\r\nIs there perhaps a way to batch pre-process tens of tomograms of one\r\nacquisition using Warp? Does Warp require special file naming to\r\ndistinguish frames of different tomograms?\r\n\r\nFollowing Warp-based pre-processing (motion and CTF correction) of a few\r\ntomograms (in mrc format, acquired on a TF Glacios 200kV cryo-transmission\r\nelectron microscopes (Cryo-TEM) equipped with Falcon 3 direct electron\r\ndetectors), white lines appeared across thon rings in the Fourier space and\r\nindividual tilts in real space seemed artificially cut as it is shown in\r\nthe attached images. Each movie of the frames is named as:\r\nPosition_1_001[-9.00]_Fractions.mrc. Is there an explanation for this? Do\r\nyou have any suggestions on how this could be fixed?\r\n\r\nThank you so much for your help in advance!\r\n\r\nWish you a great day!\r\n\r\nBest,\r\n\r\nCyan Ching\r\n\r\nPhD student at the Physical Chemistry Curie Lab"
+}

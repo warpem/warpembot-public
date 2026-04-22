@@ -1,0 +1,8 @@
+{
+  "message_id": "<dbab23b8-db8b-42b1-b46c-7667393ef810n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "How can I visualize the picked particles?",
+  "sender": "aijia wen <abetty0330@126.com>",
+  "date": "Fri, 11 Nov 2022 01:01:07 -0800 (PST)",
+  "body": "Hi all,\n\nI used a template to pick 1200 particles in a tomogram, but the generated \nstar file only presents the coordinates. Is there any way that I can \nvisualize the picked particles in Warp?\n\nThanks in advance for your help!"
+}

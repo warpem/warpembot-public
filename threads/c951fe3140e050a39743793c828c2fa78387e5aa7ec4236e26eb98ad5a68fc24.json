@@ -1,0 +1,8 @@
+{
+  "message_id": "<e435c093-243f-4777-b055-f52278894c8d@googlegroups.com>",
+  "thread_id": "",
+  "subject": "CPU RAM",
+  "sender": "mcianfro@umich.edu",
+  "date": "Sun, 12 Aug 2018 19:45:43 -0700 (PDT)",
+  "body": "Hi Dimitry, \n\nCan you comment on the amount of CPU RAM required for a Warp machine? I see \nthat yours has 128GB RAM for 4 GPU cards, would it be safe to get 64 GB RAM \nfor 2 GPU cards? \n\nThanks,\nMike"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<8facfd56-4185-4391-a366-e8a9e4a84fffn@googlegroups.com>",
+  "thread_id": "<9e829251-e4cf-4147-bd04-129b3c4db22cn@googlegroups.com>",
+  "subject": "Re: Warp cannot recognize -?",
+  "sender": "=?UTF-8?Q?Florian_F=C3=A4=C3=9Fler?= <tuarhir@gmx.de>",
+  "date": "Wed, 29 Mar 2023 22:05:24 -0700 (PDT)",
+  "body": "Hi Wenfei,\r\n\r\nJudging from the error message, have a look at how the acquisition times \r\nare formatted in your .mdoc files.\r\nI remember a case when deviating from a format like this: 10-Feb-21 \r\n 16:36:36   \r\ncaused similar problems for me.\r\n\r\nHope this helps,\r\nFlorian \r\n\r\nwenfei....@gmail.com schrieb am Mittwoch, 29. März 2023 um 22:09:05 UTC+2:\r\n\r\n> Dear all, \r\n>\r\n> I found that I couldn't export tomograms for imod in warp after initial \r\n> processing. It said \" String was not recognized as a valid DateTime.\". Has \r\n> anyone encountered this before? If so, how to solve this? \r\n> I am wondering if my file name is abc-efd-001-_000.tif, and warp cannot \r\n> recognize \"-\"/ \r\n> I am using version 1.0.9\r\n>\r\n> Thanks in advance.\r\n>\r\n> Best,\r\n> Wenfei\r\n>"
+}

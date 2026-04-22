@@ -1,0 +1,8 @@
+{
+  "message_id": "<25878434-6b9a-480b-bd66-7df64e6d1e24n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Importing old alignments from imod question",
+  "sender": "Doulin Shepherd <doulin.shepherd@gmail.com>",
+  "date": "Wed, 10 Sep 2025 06:59:52 -0700 (PDT)",
+  "body": "Hello everyone,\n\nIs there a way to flip the sign of the tilt angles when importing alignment \ninformation from IMOD?\n\nI have a dataset of about 500 manually aligned tilt series from an older \nproject that I would like to process in WARP. If I create the tomostar \nfiles using the \"--dont-invert\" flag, I can directly use the old alignment \ninformation, but the resulting tomograms have the wrong geometric \nhandedness, even though the defocus handedness is correct (some how).\n\nI vaguely recall that the Windows version of WARP had an option to invert \nthe angles when importing from IMOD, but after checking the current flags \nfor importing alignments, I couldn't find one. I'm assuming this option is \nno longer available.\n\nThe description for ts_import states, \"Create .tomostar files based on a \ncombination of MDOC files, aligned frame series, and optional tilt series \nalignments from IMOD or AreTomo.\" I was hoping this function would include \nthe feature I need, but there doesn't seem to be an option to use ts_import \nwith IMOD alignments.\n\nIt appears I might have to realign and repick all 500 tomograms, but I am \nreally hoping that there is way to avoid that.\n\nCheers,\nDoulin"
+}

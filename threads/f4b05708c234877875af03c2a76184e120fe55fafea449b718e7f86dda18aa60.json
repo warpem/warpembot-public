@@ -1,0 +1,8 @@
+{
+  "message_id": "<fd4d8bd0-86f4-4434-940e-6f7b6c9231d0@googlegroups.com>",
+  "thread_id": "<d97348bb-0375-4433-8b5b-c36250d0f064@googlegroups.com>",
+  "subject": "Re: Can't run. The message(\"there was an error loading the\r\n specified boxnet model for picking) pops up",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 5 Jul 2018 07:18:27 -0700 (PDT)",
+  "body": "Dear Donghyun,\n\nis it possible that you have some non-Latin characters in the path to the \nBoxNet model folder? I just tried including a Korean character in the \nfolder name, and it appears TensorFlow can't handle it properly. I'm afraid \nthe only immediate workaround would be to make sure the paths are \nall-Latin. I'll look into modifying the TensorFlow interface, but this \nmight take a while and there is no guarantee I will succeed.\n\nCheers,\nDimitry\n\nOn Thursday, July 5, 2018 at 9:55:15 AM UTC+2, kukudas wrote:\n>\n> When i click the \"Start pressing\", The message(\"there was an error loading \n> the specified boxnet model for picking) pops up. How do i overcome this \n> problem?\n> Please help me.....\n>\n>\n> <https://lh3.googleusercontent.com/-4rv9JeVSc4s/Wz3O0VH4FHI/AAAAAAAAALc/bkB-Lmv9UW0zcJGfKfBYKSSlWFn2ncx3ACLcBGAs/s1600/KakaoTalk_20180705_164205200.jpg>\n>\n>"
+}

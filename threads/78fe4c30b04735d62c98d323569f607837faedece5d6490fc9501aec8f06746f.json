@@ -1,0 +1,8 @@
+{
+  "message_id": "<4ef2384c-08f9-4f90-8325-e3ed90f2741a@googlegroups.com>",
+  "thread_id": "<3f9bc321-b4f6-4d07-9a5f-0087aed7d0b0@googlegroups.com>",
+  "subject": "Re: Machine Stamp on Particle Stacks",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Mon, 8 Jul 2019 12:04:59 -0700 (PDT)",
+  "body": "You're absolutely right, first byte should be 0x44. Will be fixed in the \nnext release. What software does this bug currently break?\n\n\nOn Monday, July 8, 2019 at 8:56:48 PM UTC+2, Benjamin Barad wrote:\n>\n> The machine stamp on the particle stack mrcs files is `0x43 0x41 0x00 \n> 0x00`, which is unrecognized by the mrcfile library and doesn't seem to \n> match the options I can find for the mrc2014 spec. Should the machine stamp \n> be `0x44 0x41 0x00 0x00` (one of the options I found for little-endian \n> data), or is there a reason that the specific machine stamp is written?\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<bf5ef69e-a783-4229-ae9d-146527d60833@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Don't extract particles if close to the edge of the micrograph",
+  "sender": "matthew.belousoff@monash.edu",
+  "date": "Tue, 21 Aug 2018 17:47:51 -0700 (PDT)",
+  "body": "Hey mate,\n\nSometimes we work with very large particles which also need a large box. If \na large portion of the box is outside the micrograph, reconstructions don't \nalways work great due to no Fourier information in them as box padding \nisn't the greatest. Anyway, it would be cool to see an option that \nautomates this somewhat in WARP. Perhaps a button \"don't extract if on \nmicrograph edge\". I can always write a little script to ignore the \nparticles close the micrograph edge in in the star files, but it a more \nuser friendly option might be a good idea. Anyway, its just a suggestion. \nThe software is great man, we are using it to stream straight off the \nmicroscope to assess how our data collections are going, its a real game \nchanger in my opinion. Good stuff!\n\ncheers\n\nmatt B"
+}

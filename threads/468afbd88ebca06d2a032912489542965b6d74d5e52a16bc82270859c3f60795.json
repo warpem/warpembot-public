@@ -1,0 +1,8 @@
+{
+  "message_id": "<ff88bcdc-8407-4837-8d01-4e53794c2690n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Can I use M without having done the motioncorr in warp?",
+  "sender": "=?UTF-8?Q?Carlos_Fern=C3=A1ndez_Rodr=C3=ADguez?= <cafern14@ucm.es>",
+  "date": "Thu, 20 Aug 2020 04:33:33 -0700 (PDT)",
+  "body": "I have a dataset already processed in relion 3.1 and I just wanted to test \nM for the polishing and the local filtering, but I dont have any .settings \nfile for the data source, or anything done in WARP.\n\nCan I still user M?"
+}

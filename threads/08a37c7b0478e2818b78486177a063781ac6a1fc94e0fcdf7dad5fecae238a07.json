@@ -1,0 +1,8 @@
+{
+  "message_id": "<1874fef6-e2c1-4975-ae58-3480399f0c14n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp/Dynamo/Relion Processing of a big dataset",
+  "sender": "Piotr Tokarz <ptskold@gmail.com>",
+  "date": "Fri, 29 Apr 2022 01:58:08 -0700 (PDT)",
+  "body": "I am just starting with WARP/Dynamo/Relion pipeline and have 2 questions \nregarding the processing. I have quite a big dataset (hundreds of \ntomograms) divided into different folders from different data collections. \nI would be extremely thankful if anyone could make the following points \nclear to me.\n\n1. Can I process datasets in separate folders and how will that look later \nwhen I will pick particles in dynamo and process them back in WARP and then \nRelion. Will these programs find all the files in different folders and \nsubfolders or should I keep everything together?\n\n2. How much should I worry about reconstruction at the very beginning. \nSince the dataset is large i can't really go through all tilts and not go \ncrazy (WARP is not really helping in deleting bad ones like ice chunks and \nso on). Sometimes I can see my particles but I can tell that reconstruction \ncould be better. Will another round of reconstruction in sub-volumes deal \nwith it or should I already pay more attention to it before picking \nparticles. So the question is: are visible particles good enough to go \nfurther?\n\nThanks a lot for any input and tips!\n\nHave a great Friday,\nPiotr"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<d2f9a709-79e3-45ac-a6e4-6428c2728477n@googlegroups.com>",
+  "thread_id": "<b88e0d46-5688-4ba5-aac3-2bb9bda2d473o@googlegroups.com>",
+  "subject": "Re: Warp 1.09 sporadic crashing before starting processing",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Tue, 1 Sep 2020 04:56:16 -0700 (PDT)",
+  "body": "Hi Tom,\n\ndoes this happen even before 'figuring out memory capacity' appears as a \nprogress message? I haven't seen reports of crashes at that stage yet. I \nassume the species creation process finished successfully? \n\nCheers,\nDimitry\n\nOn Tuesday, September 1, 2020 at 2:58:38 AM UTC+2 thomas.la...@gmail.com \nwrote:\n\n> Hello any and all,\n>\n> I'm running into an issue with crashing of Warp-v1.0.9 before it even \n> starts processing.\n>\n> After clicking a few check-boxes and setting parameters, the program will \n> briefly a hang, the load animation will circle the cursor, and then crash.\n> It doesn't seem to be the result of a particular order of clicks, but \n> after 5-6 clicks the crash occurs.\n>\n> Unfortunately, there isn't an error message window that pops-up after the \n> crash to help with diagnosis.\n>\n> Is anyone familiar with this sort of behavior/issue and have potential \n> possible solutions to attempt to resolve it? \n>\n>\n> Since the crashing is in the absence of processing, I wouldn't think the \n> hardware would an issue but here it is if it helps:\n>\n> The build is:\n>\n> OS: MS Windows 10 Pro N version: 10.0.18363 Build 18363\n> CPU: AMD EPYC 7252\n> RAM: 128 Gb\n> GPUs: Titan RTX\n>            Quadro RTX 4000\n>\n> Thanks for the help,\n>\n> -Tom\n>"
+}

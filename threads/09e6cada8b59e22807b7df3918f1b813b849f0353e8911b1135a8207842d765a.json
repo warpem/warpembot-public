@@ -1,0 +1,8 @@
+{
+  "message_id": "<4c9f4ec0-02eb-4383-92b0-2dbbbeeb1b5cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp not connecting to etomo",
+  "sender": "Daniel Cai <dxhcai@gmail.com>",
+  "date": "Sun, 4 Aug 2024 18:18:54 -0700 (PDT)",
+  "body": "Hi all,\n\nI've been following along with the warp frame-series tutorial both with my \nown data and the EMPIAR dataset. I tried to run etomo with the commands \nverbatim from the website, but etomo failed to find the files. I checked \nthe title of the directory and it's correct, so I'm unsure what's going on.\n\nHas anyone else encountered this problem before? Here is the error code \nbelow.\n\nBest,\nDaniel\n\nError code:\nSystem.ComponentModel.Win32Exception (2): An error occurred trying to start \nprocess 'batchruntomo' with working directory \n'/path/to/data/warp_tiltseries/tiltstack/TS_32'. No such file or directory\n   at System.Diagnostics.Process.ForkAndExecProcess(ProcessStartInfo \nstartInfo, String resolvedFilename, String[] argv, String[] envp, String \ncwd, Boolean setCredentials, UInt32 userId, UInt32 groupId, UInt32[] \ngroups, Int32& stdinFd, Int32& stdoutFd, Int32& stderrFd, Boolean \nusesTerminal, Boolean throwOnNoExec)\n   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)\n   at WarpWorker.WarpWorker.EvaluateCommand(NamedSerializableObject \nCommand) in /opt/warp/WarpWorker/WarpWorker.cs:line 447"
+}

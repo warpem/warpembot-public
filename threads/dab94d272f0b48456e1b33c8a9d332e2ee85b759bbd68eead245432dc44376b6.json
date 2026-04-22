@@ -1,0 +1,8 @@
+{
+  "message_id": "<3d9a1696-25b2-4721-a393-938bc2deae40n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M create species failed to match datasource",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Tue, 22 Jul 2025 11:50:54 -0700 (PDT)",
+  "body": "Hi all,\n\nI ran M to create species on the cluster. I got this error message:\n\n14045 particles couldn't be matched to data source. Please run again with \n--ignore_unmatched to proceed anyway.\n\nI used M in the workstation with exact same workflow and it works. Anyone \nhas experience with this error on SLURM?\n\nBest,\n\nHuy"
+}

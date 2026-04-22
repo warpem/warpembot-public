@@ -1,0 +1,8 @@
+{
+  "message_id": "<9b4e3349-a6f8-4576-bd64-6ceb40b1cba7n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "tomo reconstruction: frames or averages?",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Wed, 15 May 2024 06:45:25 -0700 (PDT)",
+  "body": "hi all,\n\nwhen WARP reconstructs tomos/subtomos does it do so from the frames or from \nthe aligned movies (\"average\" folder)? I'm guessing the latter.\n\nthanks\n\nJesse"
+}

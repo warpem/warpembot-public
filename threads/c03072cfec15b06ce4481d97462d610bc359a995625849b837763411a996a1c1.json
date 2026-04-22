@@ -1,0 +1,8 @@
+{
+  "message_id": "<fb5144c0-a0d7-41b1-9be7-075e2bc18bda@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Compressed tiffs from SerialEM",
+  "sender": "Gabor Papai <papaig@gmail.com>",
+  "date": "Thu, 28 Jun 2018 06:59:40 -0700 (PDT)",
+  "body": "Dear Dimitry,\n\nI try to process compressed tiff stacks from SerialEM (3.7 beta5) with Warp \n(unnormalized data packed as 4-bit in super-resolution). In our setup the \ngain should be rotated counterclockwise for the normalization. Even if I \nrotate the gain reference image accordingly, Warp complains that the image \ndimensions of gain and stack do not match. In our recent pipeline we use \nclip from Imod to unpack the tiff stack and motioncor2 treats them well \nsubsequently. Eman2 reports a dimension of 3710 x 7676 for the original \ntiff stacks. After the clip command the dimension of the output is restored \nto 7420 x 7676.\nI would be grateful if you could point out what I should do to make it run.\nThank you,\nGabor"
+}

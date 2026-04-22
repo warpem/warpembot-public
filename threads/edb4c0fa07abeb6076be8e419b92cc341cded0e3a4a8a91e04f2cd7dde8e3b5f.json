@@ -1,0 +1,8 @@
+{
+  "message_id": "<5fdd4f9f-ea5a-490a-99a9-f3c229f07079n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Potential explanations for resolution not improving",
+  "sender": "joe dobbs <dobbsjoseph12@gmail.com>",
+  "date": "Mon, 29 May 2023 15:06:01 -0700 (PDT)",
+  "body": "Hi all,\n\nI wondered if anyone might have any suggestions for when resolution doesn't \nimprove in M for a particle that I know should improve. In other datasets \n(with the same particle) M has substantially improved my resolution, but in \na new dataset it's only made extremely small improvements: less than 1 A \ndifference with poses, image warp, volume warp and tilt angles turned on.\n\nI seem to be stuck around 13.5 A. I have some things I'll be trying, but I \nwondered if anyone has any ideas about limiting factors that could be \nstopping M from improving my resolution?\n\n\nBest,\nJoe."
+}

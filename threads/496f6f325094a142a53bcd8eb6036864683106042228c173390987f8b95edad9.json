@@ -1,0 +1,8 @@
+{
+  "message_id": "<def9c38a-cac7-48cc-a886-d910423cb31d@googlegroups.com>",
+  "thread_id": "<590857eb-86b1-461d-b59a-f67dde6c8ee2@googlegroups.com>",
+  "subject": "Re: .tiff extention and/or symbolic link in Windows",
+  "sender": "yonelab.tem@gmail.com",
+  "date": "Tue, 9 Apr 2019 21:07:21 -0700 (PDT)",
+  "body": "Dear Dimitry,\n\nThat's great! Thank you!\nI am sorry, but one more thing:\nJADAS changes the directory for every 1000 movie stacks like IMAGE/ for 1 - \n1000, IMAGE2/ for 1001 - 2000, IMAGE3/ for 2001 - 3000 and so on.\nWe just wonder if Warp can accept the wild card for the directory name as \nIMAGE*/ or if you could consider this in the next release.\nOtherwise, we will use \"mklink /H\" following your advice. \nThank you again.\nBest regards,\nKoji"
+}

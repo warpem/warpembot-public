@@ -1,0 +1,8 @@
+{
+  "message_id": "<1acb024d-1be1-4341-ba91-fb89759467adn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Contrast issues with drifty tilt series",
+  "sender": "\"cla...@gmail.com\" <clazzy@gmail.com>",
+  "date": "Thu, 6 Oct 2022 07:56:52 -0700 (PDT)",
+  "body": "Hi all,\n\nI've recently been processing a cryo-FIB tilt series collection through \nWarp and I've discovered some interesting contrast issues. The motion \ncorrection of Warp has added a bright line at the bottom of many of the \ntilts that affects the contrast of the tilt series stack it generates (see \nbelow for an example). As such, the contrast of the area of interest is \nextremely poor and Aretomo then struggles to align the tilt series as it \nseems to focus on the bright area. Is there a way for Warp to generate the \ntilt series with a slight crop or for it to rescale the contrast, clipping \nthe high values? Failing that, is there a way of using an external program \nto do this? I tried the -meansd in newstack and ccderaser but no joy so \nfar. I've considered cropping the .st output but haven't in case the \nalignment .xf file is no longer valid for Warp, but if someone can confirm \notherwise I can use that as a solution.\n\nCheers,\n\nMat"
+}

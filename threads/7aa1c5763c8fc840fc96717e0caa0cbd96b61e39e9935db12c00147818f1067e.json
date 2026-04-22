@@ -1,0 +1,8 @@
+{
+  "message_id": "<5ea18483.1c69fb81.e97eb.d910@mx.google.com>",
+  "thread_id": "",
+  "subject": "RE: Weird behavior after 3D denoising of reconstructed tomograms",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Thu, 23 Apr 2020 14:05:20 +0200",
+  "body": "Hi Linhua,\n \nI think this is normal, the network splits the tomogram into small cubes and denoises the cubes independently – because you’ve used so few iterations it hasn’t learnt how to do the reconstruction well yet and that makes the borders between the cubes very visible! Looks like you’ll have nice denoised tomograms after some more training.\n \nBest,\n \nAlister\n \nSent from \nMail\n for Windows 10\n \nFrom: \nLinhua Tai\nSent: \nThursday, April 23, 2020 12:47 PM\nTo: \nWarp\nSubject: \nWeird behavior after 3D denoising of reconstructed tomograms\n \nDear all,\nI've been testing Warp's 3D denoising of tomograms, I've got it running successfully, and the command I use is:\nnoise2map.exe --observation1 even --observation2 odd --dont_flatten_spectrum --iterations 800 --batchsize 1 --gpuid_network 0 --gpuid_preprocess 0.\n \nI'm using 800 iterations in order to see whether this program could be running properly, but the output tomogram have a really strange look, as attached, does anybody know why the output looks like this?\n \nThank you very much in advance!\n \nCheers,\nLinhua Tai\n-- \nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/8c92efa7-35ff-4331-af2b-620316bfe3e8%40googlegroups.com\n."
+}

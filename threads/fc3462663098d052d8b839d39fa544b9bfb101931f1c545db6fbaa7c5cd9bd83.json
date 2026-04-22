@@ -1,0 +1,8 @@
+{
+  "message_id": "<ece498fd-dd42-4972-b9d2-c905d6aeec39@googlegroups.com>",
+  "thread_id": "<25B554556C625B47816986CE723AA4FE0253FE43@MBX2010-K01.ad.fz-juelich.de>",
+  "subject": "Re: EPU - TIFF vs TIF",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 31 Jan 2020 11:08:13 -0800 (PST)",
+  "body": "Hi Julio,\r\n\r\nthe GUI lets you specify TIFF instead of TIF as the input file extension. \r\nDoes this not work?\r\n\r\nCheers,\r\nDimitry\r\n\r\n\r\nOn Tuesday, January 21, 2020 at 7:33:20 AM UTC+1, Ortiz, Julio wrote:\r\n>\r\n> Dear Dimitri,\r\n>\r\n>  \r\n>\r\n> I am wondering if someone is using WARP with the new version of EPU which \r\n> support the K3 camera.\r\n>\r\n> EPU is saving compressed non-corrected frames with the extension .tiff \r\n> (two “t”s). If I manually change the file extension to .tif (single “t”), \r\n> WARP works as usual with SerialEM.\r\n>\r\n> I am using staker2 to copy files from the original folder to the WARP \r\n> computer. \r\n>\r\n> Do you have a solution different to make a home-made script to change the \r\n> file extension of the movies?\r\n>\r\n>  \r\n>\r\n> Saludos,\r\n>\r\n> Julio\r\n>\r\n>  \r\n>\r\n> Dr. Julio Ortiz\r\n>\r\n> Forschungszentrum Jülich GmbH\r\n>\r\n> Ernst Ruska-Centrum für Mikroskopie und Spektroskopie mit Elektronen\r\n>\r\n> ER-C-3: Strukturbiologie\r\n>\r\n> 52425 Jülich\r\n>\r\n> Germany\r\n>\r\n> Phone (office): +49 2461 61-2032\r\n>\r\n> Phone (Microscope- Arctica): +49 2461 61- 85521\r\n>\r\n> Fax:       +49 2461 61-1448\r\n>\r\n> EMAIL: j.ortiz@fz-juelich.de\r\n>\r\n>  \r\n>"
+}

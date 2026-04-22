@@ -1,0 +1,8 @@
+{
+  "message_id": "<3086c363-f0dd-48a7-8b15-cbb441ebaad7@googlegroups.com>",
+  "thread_id": "<0c97a827-0026-4ccf-92a1-0c405462a814@googlegroups.com>",
+  "subject": "Problem with reconstruction of CTF corrected tomograms in Warp\r\n using nvidia P3200",
+  "sender": "Jan Felix <janwfelix@gmail.com>",
+  "date": "Wed, 25 Dec 2019 04:13:40 -0800 (PST)",
+  "body": "Hi,\nMy gpu was not the issue. It took a while to find out, but in the end I traced the problem to my regional windows 10 settings for decimal separator symbol (comma vs dot). While initial ctf estimation and 3d ctf correction seem to go fine, having a comma as the decimal separator in regional settings apparently interferes with tomogram reconstruction. Changing regional settings to English (uk), with a dot as decimal separator instead of comma, completely fixed the issue. Maybe this could be addressed in a future Warp update? \nBest regards,\nJan"
+}

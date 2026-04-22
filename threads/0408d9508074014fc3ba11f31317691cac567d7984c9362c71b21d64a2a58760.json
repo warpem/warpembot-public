@@ -1,0 +1,8 @@
+{
+  "message_id": "<3ffa6529-5415-4985-b2d1-66e4eb0ccb79n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Blank subtomograms after export with M",
+  "sender": "cyril reboul <cyril.reboul@gmail.com>",
+  "date": "Mon, 22 Nov 2021 22:15:01 -0800 (PST)",
+  "body": "Hi there, after a couple of rounds of refinement (yielding fsc improvement) \nwith m I try to export subtomograms for relion. But the produced volumes \nare blank, e.g., hard zero everywhere.\n\nAny idea? Thanks."
+}

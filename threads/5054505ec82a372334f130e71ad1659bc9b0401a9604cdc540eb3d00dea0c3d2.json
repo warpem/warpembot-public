@@ -1,0 +1,8 @@
+{
+  "message_id": "<d1570588-179f-48b8-af44-b26df66a335b@googlegroups.com>",
+  "thread_id": "<a0fc0326-e19e-4803-9e66-8b84c47c5f68@googlegroups.com>",
+  "subject": "Re: warp crashes on motion correction",
+  "sender": "r.fernandez.leiro@gmail.com",
+  "date": "Thu, 18 Apr 2019 07:36:37 -0700 (PDT)",
+  "body": "Hi, thanks for the quick reply,\n\nI was running 1.06 and was crashing. Updated to 1.07 beta and everything \nworks well (really well actually :))\n\nCheers\n\nRafa\n\nOn Thursday, 18 April 2019 12:47:13 UTC+2, Dimitry Tegunov wrote:\n>\n> Hi Rafa,\n>\n> was that with 1.0.6 or 1.0.7? Using 1.0.7, the movie goes through all \n> steps (including BoxNet, which leaves 3.7 GB for everything else) without \n> crashes on a 1080 with 8 GB. If it's 1.0.7 and it crashes specifically at \n> the motion estimation step, reducing the upper frequency in the settings \n> should help. I used 0.4 Ny.\n>\n> Cheers,\n> Dimitry\n>\n> On Thursday, April 18, 2019 at 11:52:11 AM UTC+2, r.ferna...@gmail.com \n> <javascript:> wrote:\n>>\n>> Hi,\n>>\n>> Warp is crashing without any feedback/error message when I try to correct \n>> motion on a Falcon3 movie (75 frames). I tried with different settings but \n>> it crashes the same way in all\n>>\n>> I can see the memory used by GPU gets to 6.5GB and stays like that until \n>> it crashes (first empties GPU then warp closes). So it doesn't seem to be \n>> filling up the GPU...\n>>\n>> Latest WARP version running on win10\n>> 2x2070ti (8GB)\n>>\n>> I have sent you a link to a movie for you to be able to reproduce the \n>> problem\n>>\n>> Thx!\n>>\n>> Rafa\n>>\n>"
+}

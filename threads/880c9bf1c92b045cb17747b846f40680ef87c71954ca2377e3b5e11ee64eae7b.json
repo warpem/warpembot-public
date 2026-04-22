@@ -1,0 +1,8 @@
+{
+  "message_id": "<0d59d79b-6f87-42ad-95c5-7ab6f172a384n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "CTF mask from export sub-tomograms looks strange",
+  "sender": "\"xu-...@mails.tsinghua.edu.cn\" <xu-jl17@mails.tsinghua.edu.cn>",
+  "date": "Mon, 18 Jan 2021 05:47:24 -0800 (PST)",
+  "body": "Hi Dimitry,\n     We have exported sub-tomograms by warp after picking particles. \nHowever, we have met some trouble.\n(1) The size of CTF mask is only a half of box size we have set.\n(2) The shape of CTF mask looks strange.(see in attachment)\n\nIs it normal?Can we move on or are there something wrong in our progress?\n\nLooking forward to your reply, thank you !\n\nPeng Cheng\n\n[image: subtomogram.png]\nabove is one of the subtomogram (boxsize: 100X100X100)\n\n[image: CTFmodel.png]\nthis is the coresponding CTF model (box size 51X100X100)"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<04BC3ABE-5E30-46C2-BE6D-47BAE134862F@gmail.com>",
+  "thread_id": "",
+  "subject": "Re: Centring Tomograms in WARP Reconstruction",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 8 Jan 2025 06:46:27 -0800",
+  "body": "Hi Katie,\nHappy new year! 🥳 \nControl over tomogram centering is only implicitly exposed via the ability to import tilt series alignments - we don’t expose it or provide any utilities for this.\nCould you elaborate on why you would like this control? \nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jan 8, 2025, at 02:29, Katie Downes <katiegdownes@gmail.com> wrote:\n﻿Hello and Happy New Year Warpers!\nHow do you centre a tomogram in the reconstruction using warp? \nI have a batch of tomograms, the majority of which are centred, however one is too low and the other is too high. I'm not sure how to tinker with the reconstruction parameters in general given that the command doesn't have too many inputs. \nThis is my command: WarpTools ts_reconstruct --settings warp_tiltseries.settings --angpix 10 --halfmap_frames --dont_invert\nAny help or insight into this would be greatly appreciated! \nMany thanks, \nDr Katie Downes \n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/5dc369de-e392-4e33-aee1-4e6d65edbbfcn%40googlegroups.com\n."
+}

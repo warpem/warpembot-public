@@ -1,0 +1,8 @@
+{
+  "message_id": "<241fb89d-020d-46af-acdc-29098a66aa48n@googlegroups.com>",
+  "thread_id": "<3ff4d12c-cb12-48bc-8e5e-7bc6649ede91n@googlegroups.com>",
+  "subject": "Re: Warpworker.exe closing before M refinement complete",
+  "sender": "\"thomas.la...@gmail.com\" <thomas.laughliniii@gmail.com>",
+  "date": "Thu, 17 Dec 2020 20:11:02 -0800 (PST)",
+  "body": "Problem seems to be the stability of the network connection.\n\nAdded a drive to store data locally and runs now complete.\n\nNow to talk to facilities/IT...\n\nBest,\n-Tom\n\nOn Thursday, December 10, 2020 at 11:26:02 AM UTC-8 thomas.la...@gmail.com \nwrote:\n\n>\n> Hello again everyone!\n>\n> I seem to be running into an issue where the console running a \n> Warpworker.exe during an M refinement closes sporadically (sometimes, 30% \n> through and other times 75-80%). The M UI stays open but  is hung on a \n> different .tif movie each time.\n>\n> The Warp-1.0.9 install includes the 11-04-2020 nightly files.\n>\n> I don't get an error message or anything written to the worker_*_crash.txt\n>\n> This is for a 4kx4k K2 dataset of about 4k movies of 40 frames each being \n> processed using a single 24 Gb GPU. \n>\n> I've tried reducing the parameters refined during a single iteration, but \n> get the same result.\n> Using either GPU or CPU memory (128 Gb) for the particles doesn't change \n> the sporadic Warpworker.exe closure.\n>\n> Anyone else encounter something similar and have suggestions on what to \n> try?\n>\n> Curious if a brief interruption in the network connection could be causing \n> this, but don't know how to test this beyond camping out at the computer \n> screen for a few hours hoping to catch the crash live... \n>\n> Thanks for the help!\n>\n> Cheers,\n> -Tom\n>\n>"
+}

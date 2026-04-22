@@ -1,0 +1,8 @@
+{
+  "message_id": "<77a885d1-43d8-41c5-824a-7772c61be57en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "ODD/EVEN Frame Averages in Warp1.1 beta",
+  "sender": "3P1L <philipp.stawski@gmail.com>",
+  "date": "Wed, 26 Jul 2023 05:26:46 -0700 (PDT)",
+  "body": "Dear All,\n\nodd/even frame averages are currently saved in a different size than the \noriginal images\n\nIn my case, full frame = 4096^2 (Falcon4i), but odd/even = 1600^2\n\nIs there any reason for that, and can it be changed to full frame?\n\nThanks,\n\nPhilipp."
+}

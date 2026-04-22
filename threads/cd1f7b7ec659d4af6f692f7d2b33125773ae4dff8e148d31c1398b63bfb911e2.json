@@ -1,0 +1,8 @@
+{
+  "message_id": "<414E0CC6-4EB3-43BF-992B-CC50D7A944A8@gmail.com>",
+  "thread_id": "<CAB7-Rrt3-Jt1O1oehq7pg0wo37ZNZWVVT7svkqY8UBSZcRFPTg@mail.gmail.com>",
+  "subject": "Re: Generating initial reconstruction after exporting particles",
+  "sender": "Philipp Erdmann <philipp.stawski@gmail.com>",
+  "date": "Wed, 5 Mar 2025 19:09:20 +0100",
+  "body": "Hi Ricardo,\nI think it is currently the only way.\nFor this reason we currently always extract —3d, too.\nBest,\nPhilipp.\nSent from my iPhone\nOn 5 Mar 2025, at 17:40, Ricardo Righetto <ricardorighetto@gmail.com> wrote:\n﻿\nHi,\nI might be missing something obvious, but I don't see a way of generating an initial average from my particles STAR file when exporting particles from WarpTools using --2d. If using --3d, we can use relion_reconstruct_mpi as before in Windows Warp. Is that the only way?\nThanks in advance!\n--\nRicardo Diogo Righetto\n\n\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/CAB7-Rrt3-Jt1O1oehq7pg0wo37ZNZWVVT7svkqY8UBSZcRFPTg%40mail.gmail.com\n."
+}

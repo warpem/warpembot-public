@@ -1,0 +1,8 @@
+{
+  "message_id": "<94fdf8d5-6a99-4807-a30b-357550bdc3a7n@googlegroups.com>",
+  "thread_id": "<CADr5kpgW+mLwWg5PJAMKzudbxG8vXtpzi33GebGuUWnyTC53OA@mail.gmail.com>",
+  "subject": "Re: Pick particles without extraction",
+  "sender": "\"mjja...@gmail.com\" <mjjaremko@gmail.com>",
+  "date": "Wed, 21 Sep 2022 07:46:25 -0700 (PDT)",
+  "body": "Great, thanks Matthias.\n\nOn Tuesday, September 20, 2022 at 3:59:43 PM UTC-4 mvorl...@gmail.com wrote:\n\n> Hi Matt,\n>\n> no, it's not you ;) . As a workaround I usually extract particles with a \n> 2px box size, just to get the Star file. Hope that helps.\n>\n> Best, Matthias \n>\n> On Tue, 20 Sep 2022, 21:57 mjja...@gmail.com, <mjja...@gmail.com> wrote:\n>\n>> I would like to generate particle coordinates in WARP without extraction, \n>> but when I deselect Extraction a .star file is not generated. Am I doing \n>> something wrong?\n>>\n>> Thanks,\n>> Matt\n>>\n>> -- \n>> You received this message because you are subscribed to the Google Groups \n>> \"Warp\" group.\n>> To unsubscribe from this group and stop receiving emails from it, send an \n>> email to warp-em+u...@googlegroups.com.\n>> To view this discussion on the web visit \n>> https://groups.google.com/d/msgid/warp-em/981b81be-62a1-42cf-af2e-b87db90c5218n%40googlegroups.com \n>> <https://groups.google.com/d/msgid/warp-em/981b81be-62a1-42cf-af2e-b87db90c5218n%40googlegroups.com?utm_medium=email&utm_source=footer>\n>> .\n>>\n>"
+}

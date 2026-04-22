@@ -1,0 +1,8 @@
+{
+  "message_id": "<48CD6F99-6027-4297-9233-91ACBDD1C775@gmail.com>",
+  "thread_id": "<6349e4fc-daab-420a-9d90-5415b987e4a1n@googlegroups.com>",
+  "subject": "Re: Download links broken on warpem.com",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 27 Sep 2023 18:53:32 +0100",
+  "body": "Hi Dennis,\r\n\r\nI’d recommend following the retraining guide <http://www.warpem.com/warp/?page_id=137> and training your own network (then uploading the weights to zenodo and posting here! 😉) rather than sticking with an old version of warp because of the pretrained weights for masking fiducials.\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> On 27 Sep 2023, at 18:03, Dennis Michalak <dennisjmichalak@gmail.com> wrote:\r\n> \r\n> Are there new links to the previous versions of Warp? We had a previous workflow using 1.0.9 and the nightly build (before 1.1.0). The neural network model used for the teamtomo tutorial is not compatible with 1.1.0 as far as I'm aware. \r\n> \r\n> Dennis\r\n> \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com <mailto:warp-em+unsubscribe@googlegroups.com>.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/6349e4fc-daab-420a-9d90-5415b987e4a1n%40googlegroups.com <https://groups.google.com/d/msgid/warp-em/6349e4fc-daab-420a-9d90-5415b987e4a1n%40googlegroups.com?utm_medium=email&utm_source=footer>."
+}

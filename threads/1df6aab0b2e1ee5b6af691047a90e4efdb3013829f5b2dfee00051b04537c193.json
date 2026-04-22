@@ -1,0 +1,8 @@
+{
+  "message_id": "<12a6e277-1cc5-4e17-99fa-f6b7b798dfbdn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "mdoc file issue for DM data",
+  "sender": "Alex Hempelmann <alexhempelmann@googlemail.com>",
+  "date": "Wed, 16 Feb 2022 05:52:34 -0800 (PST)",
+  "body": "Dear All,\nI am Alex and fairly new to the cryoEM world (coming from the x-ray world).\nI am trying to apply the EMPIAR tutorial steps to my data. Unfortunately, \nwe have not collected the data with SerialEM, but DigitalMicrograph, thus \nwe lack the mdoc.file.\nFor the first step using .mdoc  (stack generation) it should be fine to \njust use newstack and get away with it.\nLater, after tilt-series alignment, the re-implementation into Warp by \n''import tilt series from IMOD'' requires a .mdoc file yet again.\n\nAnyone has a solution how I could bypass this step without .mdoc file? :)\n\nI found in another thread  a nice tool called ''mdocspoofer'' for creating \na dummy .mdoc file from tomo5 data. Would this work with DM data as well?\n\nI tried to install it according to the instructions, but faced some \ndifficulties:I attached the error log in a txt file here.\n\nMaybe something obvious is off and someone could guide me into the right \ndirection. Many thanks for any input on my issues!\nBest,\nAlex"
+}

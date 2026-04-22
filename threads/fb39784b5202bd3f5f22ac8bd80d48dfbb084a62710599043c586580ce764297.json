@@ -1,0 +1,8 @@
+{
+  "message_id": "<1b0ca761-498e-4953-b8be-1012b4e0cb9fn@googlegroups.com>",
+  "thread_id": "<ed7dce61-4b1c-4726-8bbc-dc824d8e0603n@googlegroups.com>",
+  "subject": "Re: How to set WARP to run two GPUs",
+  "sender": "Yahui Yan <yahuiuk@gmail.com>",
+  "date": "Thu, 24 Aug 2023 04:16:03 -0700 (PDT)",
+  "body": "Forgot to mention I am running WARP 1.0.9 on Windows 11 Education.\n\nOn Thursday, 24 August 2023 at 12:05:28 UTC+1 Yahui Yan wrote:\n\n> Hi everyone,\n>\n> I have an intel UHD Graphics 750 (GPU 0) and a NVIDIA Quadro RTX5000 (GPU \n> 1) as shown in my Task manager. WARP only recognise the GPU 0 by default. I \n> am wondering how to run WARP to on GPU 1 or both GPUs.\n>\n> Thanks,\n> Yahui\n>\n>"
+}

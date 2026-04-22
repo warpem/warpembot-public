@@ -1,0 +1,8 @@
+{
+  "message_id": "github:warpem/warp/issues/464",
+  "thread_id": "github:warpem/warp/issues/464",
+  "subject": "Locale bug: TiltSeries.SaveMeta writes alignment values without InvariantCulture",
+  "sender": "dtegunov",
+  "date": "2026-04-15T02:20:05Z",
+  "body": "In WarpLib/TiltSeries/TiltSeries.cs, the SaveMeta() method serializes several float arrays using .ToString() without CultureInfo.InvariantCulture: TiltAxisAngles, TiltAxisOffsetX, TiltAxisOffsetY, FOVFraction. On systems with a locale that uses comma as the decimal separator, values like -85.6 are written as -85,6. When LoadMeta() reads them back with float.Parse(v, CultureInfo.InvariantCulture), the comma is silently interpreted as a thousands separator, producing -856.0. This corrupts tilt axis angles and shifts, making all downstream processing produce incorrect results. WarpWorker sets CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture at startup, but WarpTools does not. Fix: either add InvariantCulture to each affected .ToString() call, or set DefaultThreadCurrentCulture in WarpTools/Program.cs. Workaround: export LC_ALL=C before running WarpTools. Related to issue #463."
+}

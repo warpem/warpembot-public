@@ -1,0 +1,8 @@
+{
+  "message_id": "<45cd636d-55fb-4c3f-8928-2408bf1888cfn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Question about GPU selection for processing K3 images",
+  "sender": "Zhaoqian Wang <pbpwang@gmail.com>",
+  "date": "Fri, 18 Jun 2021 15:10:08 -0700 (PDT)",
+  "body": "Hi all,\n\nWe are currently facing a GPU memory issue starting processing K3 images. \nOur old workstation has 4 2080Ti, but is unable to process super-res K3 \nimages. We are currently looking for a new workstation with RTX3090, A6000 \nor Quadro 6000/8000. I went through the conversations, it seems not many \npeople are using A6000 or Quadro cards. I just wondering if these cards are \ncompatible with Warp. And do we have an exact GPU memory estimation for \nprocessing super-res K3 images (11520x8184)?\n\nAlso, due to the thermal issue with RTX3090 and stockout of RTX and Quadro \ncards, is it possible to SLI two 2080Ti cards with NVLink in order to \ndouble the memory. Will Warp works with this setup?\n\nPlease let me know if you any thought! Thanks a lot!\n\nBest,\nZhaoqian Wang"
+}

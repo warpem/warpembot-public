@@ -1,0 +1,8 @@
+{
+  "message_id": "<ed3ad436-4c04-4259-adf6-0e8ae3d776cen@googlegroups.com>",
+  "thread_id": "",
+  "subject": "cropping on X side of image",
+  "sender": "Jesse Hansen <bluufive2@gmail.com>",
+  "date": "Tue, 13 Jun 2023 07:19:15 -0700 (PDT)",
+  "body": "hi all,\n\nhas anyone seen such a weird artifact (far right side of image) when \nimporting data from falcon 4.  I checked the raw data with 3dmod and do not \nsee this effect, so it seems to be rather something up with WARP.    \n\nthanks\n\nJesse\n[image: Screenshot from 2023-06-13 16-15-44.png]"
+}

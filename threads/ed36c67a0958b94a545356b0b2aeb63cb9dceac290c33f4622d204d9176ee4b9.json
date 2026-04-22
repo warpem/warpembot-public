@@ -1,0 +1,8 @@
+{
+  "message_id": "<8f6d9191-e753-4fa6-a0be-9034cd694b26n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "problem with subtomogram reconstruction after conversion from\r\n Dynamo",
+  "sender": "Anna Beck <annamaria.beck0143@gmail.com>",
+  "date": "Tue, 16 Aug 2022 00:40:56 -0700 (PDT)",
+  "body": "Dear all,\n\nI have been trying to follow the team-tomo tutorial on HIV, and encountered \na problem at the step of conversion from Dynamo to Warp/Relion.\nI have already got some feedback from the Dynamo google group, and my \nconclusion at this point is that it's Warp that is likely doing something \nstrange at the level of Subtomogram Reconstruction.\n\nAre there any known problems that occur at this step?\n\nCause all steps before look fine (tomograms reconstructed in Warp are fine, \nDynamo averages are fine). But when I convert my dynamo table to .star, \nreconstruct subtomos in Warp and do the first averaging step in relion - it \nlooks horrible.\n\nAny input would be highly appreciated! I am out of ideas! What else can I \ncheck?\n\nAnna"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<925dbf54-1477-461b-aa90-a873713424c5n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "importing alignments from standalone AreTomo2",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Fri, 4 Oct 2024 06:58:27 -0700 (PDT)",
+  "body": "hi all.\n\nFor reasons that are very complicated (which I won't get into), I am \nattempting to import standalone AreTomo2 alignmnets into Warp 2.  \n\nduring ts_align I notice that Warp generates the xml, does the alignment \n(generates aln), then modifies the xml to uploads the rotation/XYshifts.  \nIdeally I could just swap in my aln file from standalone AreTomo, but there \nseems to be no way to regenerate the xml file using that aln is input.\n\nInstead I decided to try modifying the xml directly.   For each tilt angle \nin the xml file I swap in the Rot/TX/TY from the aln file.  I replace the \nAxisAngle, AxisOffsetX and AxisOffsetY for each tilt.  I notice that the \nvalues in Warp are in Ang, while in AreTomo it's in pixels, so I convert in \nthe process.     \n\nHowever when I try to reconstruct the tomos they look terrible.  Is there \nsomething I'm missing?\n\nthanks in advance\n\nJesse"
+}

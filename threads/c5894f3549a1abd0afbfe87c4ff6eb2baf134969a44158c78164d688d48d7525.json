@@ -1,0 +1,8 @@
+{
+  "message_id": "<90366207-f452-49c7-aaf0-6466fc18687fn@googlegroups.com>",
+  "thread_id": "<03834250-3a72-4d23-8e77-2f26afa13877n@googlegroups.com>",
+  "subject": "Re: No averages created during processing",
+  "sender": "Tracy Nixon <b.tracy.nixon@gmail.com>",
+  "date": "Wed, 20 Apr 2022 10:56:09 -0700 (PDT)",
+  "body": "We are also having this issue.\n\nTracy Nixon\n\nOn Friday, February 25, 2022 at 5:25:31 AM UTC-5 julien....@gmail.com wrote:\n\n> Dear Warp users,\n>\n> Wen I process in Warp my frames of a tilt serie the power spectrums are \n> well generated but it happens that no average is generated.\n>\n> In the \"real space\" section  \"no motion data available yet\" is displayed \n> and no average folder is created on my computer. Both \"Motion\" option and \n> \"Output - average\" are checked..\n>\n> Did that happen to someone of you ? What is the trick to fix this ?\n>\n> Thanks,\n> Best regards,\n>\n> Julien Maufront\n>"
+}

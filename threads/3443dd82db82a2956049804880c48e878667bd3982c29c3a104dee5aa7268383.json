@@ -1,0 +1,8 @@
+{
+  "message_id": "<93875dc8-1d33-40c7-a882-fa3d76a71d9dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Local refinement of particles from a 2D lattice in M (MCore)",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Mon, 16 Dec 2024 00:22:24 -0800 (PST)",
+  "body": "Hi all,\n\nWhen particle poses are refined in MCore, how are the search parameters \n(shifts, rotations) limited around the initial pose?\n\nMy particles come from a 2D lattice, and I would like to make sure that 1. \nM does not match the neighboring unit and 2. M does not search too far from \nthe initial pose (which I know from geometry of the lattice and have \nlimited as a prior in RELION). The structure I am currently averaging is a \npatch from this lattice i.e. more than one repeating unit. \n\nBest wishes,\nJuha"
+}

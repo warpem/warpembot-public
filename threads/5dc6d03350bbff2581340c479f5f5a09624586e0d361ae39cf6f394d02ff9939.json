@@ -1,0 +1,8 @@
+{
+  "message_id": "<9e40238e-cca1-43a0-b0a6-b73de2e57abcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "bin1 refinement",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "Thu, 24 Aug 2023 13:17:07 -0700 (PDT)",
+  "body": "Dear all,\n\nI was wondering if anyone has done a refinement at bin 1 (apix=1.66A) with \nbox size of 256? \n\nI have a lot of problems with extraction and some tilt-series just dont \nwork (even though they work fine at bin2 or pixel size of 2.5A!!!). After \nbreaking into individual tilt-series and going to relion I cannot refine bc \nI run out of GPU memory.  I have access to GPUs  with 48G of memory and \nonly using 1 thread per GPU. \n\nAm I doing something wrong? or do I just need even bigger GPUs?\n\nBest,\nHamid"
+}

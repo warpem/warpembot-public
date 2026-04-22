@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAFWrpLeQ7KjXPNu=68Kf-LE3bK=3csuQ5Ur0CcLJW_AKiREspg@mail.gmail.com>",
+  "thread_id": "<241DF3E6-CB53-4FEA-B864-E0F5612CA869@merck.com>",
+  "subject": "BoxNet picking issues with UltraAuFoil grids",
+  "sender": "Matt Jaremko <mjjaremko@gmail.com>",
+  "date": "Thu, 22 Sep 2022 13:00:24 -0400",
+  "body": "Hello,\r\n\r\nI'm having BoxNet picking issues when there is a considerable amount of the\r\nUltraAuFoil grid scaffold in the images:\r\n\r\nBoxNet seems to be missing a lot of particles. This doesn’t happen when\r\nless gold is in the image. Any way to fix this?\r\n\r\nHere are my CTF settings:\r\n\r\n\r\nThank you,\r\n\r\nMatt"
+}

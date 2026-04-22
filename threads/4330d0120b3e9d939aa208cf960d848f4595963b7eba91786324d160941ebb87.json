@@ -1,0 +1,8 @@
+{
+  "message_id": "<91B3F841-61AC-481E-98AB-0E65C86518AD@gmail.com>",
+  "thread_id": "<7b462ad0-696e-46c4-abc8-d3326cbd082fn@googlegroups.com>",
+  "subject": "Re: Can ts_aretomo generate .aln files?",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 20 Jan 2025 08:38:51 -0800",
+  "body": "Hi Jesse,\nNothing should be deleted unless you use —delete_intermediate\nWe use the IMOD alignment output rather than the aln files though as there was already logic in warp for this. Not sure if this replaces aln output or only makes extra files.\nNote IMOD output is broken in AreTomo2 and AreTomo3\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jan 20, 2025, at 06:20, Jesse Hansen <bluufive@gmail.com> wrote:\n﻿hi,\nPresumably ts_aretomo generates .aln files internally in order to generate the xml files contianing the alignments.  Is it somehow possible to have ts_aretomo output the aln file?  \nthanks\nJesse\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/7b462ad0-696e-46c4-abc8-d3326cbd082fn%40googlegroups.com\n."
+}

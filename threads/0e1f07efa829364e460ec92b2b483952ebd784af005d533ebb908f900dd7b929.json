@@ -1,0 +1,8 @@
+{
+  "message_id": "<26b5f0d7-aba4-40cc-b1b9-a0ca4bf4c4bb@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Using links",
+  "sender": "Arne Moeller <elwoodencinitas@gmail.com>",
+  "date": "Mon, 22 Oct 2018 00:57:05 -0700 (PDT)",
+  "body": "Dear Dimitry,\n\nmany thanks for Warp - its fantastic and we use it regularly. \n\nFor data storage we like to confine folders to either large or small files \n- which works quite well if we generate links in our processing directory \npointing at an isolated Raw-Data folder. \nWarp has no problem in seeing the links and also processing the files \ncorrectly - however, it does not recognize if new links are added. \nTherefore, we cannot before on-the-fly-processing anymore. \n\nThe way we are using it is that we have a script moving the raw-mics from \nthe scope to the main storage and automatically generating a link for every \nnew file once it has fully appeared on the storage. \n\nRight now we have to regularly restart Warp - actually we to \"fake-change\" \na parameter in addition - in order for Warp to see the new images \nappearing. \n\nI am happy to provide more information if necessary.\n\n\nYour help would be greatly appreciated,\n\nmany thanks\ncheers\nArne\n\n\n\nMPI-Biophysics Frankfurt"
+}

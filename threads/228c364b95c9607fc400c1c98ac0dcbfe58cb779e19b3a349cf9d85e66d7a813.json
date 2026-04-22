@@ -1,0 +1,8 @@
+{
+  "message_id": "<9f247bfc-5c6d-4e05-ab77-4cb4477d0f4bn@googlegroups.com>",
+  "thread_id": "4090c9cb-a414-48e0-8457-ea7575974ccd",
+  "subject": "Introducing Warp Bot",
+  "sender": "warp-em@googlegroups.com",
+  "date": "2026-03-19T19:13:04.000Z",
+  "body": "Hi everyone,\n\nClaude Code has been reliably writing most of my code lately, so I'd like to test it in a user support role too. I've given it access to all relevant code repositories and past messages from this mailing list. It receives your emails like any regular subscriber and is authorized to reply.\n\nIf it doesn't solve your problem, just reply asking to speak to a human and Warp Bot will notify me. If it determines your problem requires a code change in Warp, it will create a GitHub issue.\n\nNote that it has no special access beyond what a Claude Code instance running on your own system could find online – but hopefully it can remove some friction from the process.\n\nI will be triggering bot runs manually for now, so please expect some delay.\n\nPlease don't ask it for cake recipes :-)\n\nCheers,\nDimitry"
+}

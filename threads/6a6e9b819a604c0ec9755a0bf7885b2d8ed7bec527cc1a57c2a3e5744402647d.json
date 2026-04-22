@@ -1,0 +1,8 @@
+{
+  "message_id": "<da2d31ad-a957-49ae-bf89-142334f06e50n@googlegroups.com>",
+  "thread_id": "<90ee086d-432b-4d6e-8924-cda469b1a168n@googlegroups.com>",
+  "subject": "Re: EER movies processed as UNSELECTED",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Wed, 5 Oct 2022 12:12:30 -0700 (PDT)",
+  "body": "Hi Paul,\n\nFormatting the whole drive is probably too extreme ;-) Removing the old \ninstallation, the previous.settings file in the processing directory, as \nwell as the per-movie .xml metadata and processing results would be the \nhardest reset you can make.\n\nDo you see any error messages in the terminal windows that pop up when you \nclick \"Start Processing\"? Or do they get nuked during processing before \nthey can tell you anything?\n\nCheers,\nDimitry\n\nOn Friday, September 30, 2022 at 12:43:10 AM UTC-7 windy...@gmail.com wrote:\n\n> Selected the data folder where the eer movies are located and setup \n> parameters. All eer files can be seen as UNPROCESS, until I click [start \n> processing], from that point one by one each file  becomes  UNSELECTED?\n>\n> I have tried numerous things... uncheck MOTION, uncheck CTF, change \n> parameters, reinstall the 1.0.9 warpm but the behaviour is the same.\n>\n> Weirdly straight after the first installation I just selected the file \n> path and click [start processing]and it was working with the incorrect not \n> optimised parameters.\n>\n> Second installation puzlled in a file from somewhere that was not \n> uninstalled as it remember my previous parameters!\n>\n> Next step is to format the drive and start again.\n>\n> It would be nice to know what the bug is... previous convers mentioned CTF \n> settings?\n>\n> thanks\n> Paul (Imperial college London)\n>"
+}

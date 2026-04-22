@@ -1,0 +1,8 @@
+{
+  "message_id": "<2096fee6-e48d-4246-a8bf-f02d077bfdcdn@googlegroups.com>",
+  "thread_id": "<6b7c46c7-6d86-4ce7-ba8b-7c89cd8cb603n@googlegroups.com>",
+  "subject": "Re: Denoise and particle picking bug in Warp",
+  "sender": "\"mjja...@gmail.com\" <mjjaremko@gmail.com>",
+  "date": "Thu, 3 Nov 2022 09:29:39 -0700 (PDT)",
+  "body": "Reviving this thread. I'm testing with 2x RTX A6000s and I have the same \nissue. So does WARP not support the RTX A series GPUs? Or has anyone found \na solution?\n\nThanks,\nMatt\n\nOn Wednesday, October 13, 2021 at 8:16:20 PM UTC-4 pbp...@gmail.com wrote:\n\n> Hi,\n>\n> Our lab just moved from old 2080TI box to a new GPU box for Warp with 4 \n> RTX A5000.\n>\n> We currently have fatal errors on Denoise and particle picking, which all \n> related to neutral net. \n>\n> Hard to describe in words, the screenshot is attached. In short, Warp runs \n> fine without any error message, but the output from Denoise is totally \n> wrong. And I assume this leads the error in particle picking (no particle \n> has been picked). The test set is old datasets that were processed by Warp \n> on our old machine, so all the settings and reference should be good.\n>\n> Please let me know if anyone have any idea what may cause this. Does Warp \n> not support A5000, or a specific driver or setting may be needed?\n>\n> [image: Screen Shot 2021-10-13 at 3.40.18 PM.png]\n> [image: Screen Shot 2021-10-13 at 4.59.17 PM.png]\n>\n> Best,\n> Zhaoqian Wang\n>\n>\n>"
+}

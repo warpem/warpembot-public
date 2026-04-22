@@ -1,0 +1,8 @@
+{
+  "message_id": "<dd8e4c25-a33d-44d0-bc15-763d3d026867@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Binning particle stacks instead of average micrographs",
+  "sender": "Andres Hernandez <andreshernandez123@gmail.com>",
+  "date": "Tue, 12 Nov 2019 12:40:10 -0800 (PST)",
+  "body": "Hi Dimitry,\nIt would be useful to have the option to not bin the average micrograph \n(just the particle stacks). This way the particles can be re-extracted and \nre-centered into the unbinned pixel size (useful for large box size \nworkflows, low ram setups, or off-centered particles).\n\nDo you know of anyone using the binned micrographs to match pixel size \nacross scopes? This could be very useful too, I just haven't had data to \ntest it out."
+}

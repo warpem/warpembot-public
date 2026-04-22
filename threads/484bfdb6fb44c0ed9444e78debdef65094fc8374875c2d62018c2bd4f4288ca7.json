@@ -1,0 +1,8 @@
+{
+  "message_id": "<10b0a5bc-332e-42c4-91e9-503c3b96a067n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "unable to import motion-corrected frames for TS",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Sat, 9 Jan 2021 04:48:12 -0800 (PST)",
+  "body": "HI Dimitry,\n\nI am trying to import frames that were motion corrected outside Warp and I \nfollowed the guidance described here \nhttp://www.warpem.com/warp/?page_id=378, but it seems that something may \nhave broken because, when I tried to build stacks for imod, warp failed to \nimport. I have chekced that the file names are not altered, so I am not \nsure what is going wrong here. I was able to do this with the warp 1.0.9 \nfrom last year (ca. June-August). Have TS import steps have changed since \nthen?\n\nBest,\nPranav"
+}

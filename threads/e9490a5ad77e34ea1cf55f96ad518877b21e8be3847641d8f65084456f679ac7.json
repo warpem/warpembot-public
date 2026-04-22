@@ -1,0 +1,8 @@
+{
+  "message_id": "<7c545dba-23a1-430b-9d6c-c1ae3b7382f8@googlegroups.com>",
+  "thread_id": "",
+  "subject": "EPU folder structure with Warp",
+  "sender": "Christos Savva <beetle75@gmail.com>",
+  "date": "Tue, 11 Feb 2020 06:21:52 -0800 (PST)",
+  "body": "Hi\n\nWe write EPU K3 Tiff files on the K3 PC SSD array and then copy them to our \nstorage server for further processing. I would like to use Warp on the K3 \nPC and have it read the files that are in the \n\\DoseFractions\\EPUSessionFolder\\Images-Disk\\GridSquarexxxxx\\Data\\... which \naccording to the website isn't possible as all micrographs have to bee in \nthe same folder. Ideally  I dont want to use stacker to move the files to \nanother location but can do if there aren't other options. Can I ask what \nother EPU users that process files on the K3 PC with Warp are doing?\n\nThanks\n\n\nChristos"
+}

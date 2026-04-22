@@ -1,0 +1,8 @@
+{
+  "message_id": "<82ec2784-fe70-4041-b64a-0adfffef3c79n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "referenced frame series could not be found",
+  "sender": "Pankaj Vilas Jadhav <pvjadhav@umich.edu>",
+  "date": "Tue, 11 Jun 2024 13:07:32 -0700 (PDT)",
+  "body": "Hi all,\nI am using warp2.0, i am getting the following error while trying to import \ntitseires to get the .tomostar file:\n\nFailed to parse TS_001.mrc.mdoc: At least one of the referenced frame \nseries could not be found:\n\nAny suggestions what must be going wrong?\n\nPankaj"
+}

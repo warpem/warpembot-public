@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAB7-RrtBhV1i9-aRRkCtGssBPDR4hTLJY+T3GtrEezsCgWEX0g@mail.gmail.com>",
+  "thread_id": "<e8f0f648-10c5-4538-a2f1-86430db9d6afn@googlegroups.com>",
+  "subject": "Re: SLURM and error",
+  "sender": "Ricardo Righetto <ricardorighetto@gmail.com>",
+  "date": "Wed, 5 Mar 2025 21:10:27 +0100",
+  "body": "I'm not entirely sure, but this might be fixed with\r\n\r\nexport no_proxy=\"localhost,127.0.0.1\"\r\n\r\nor if you have a lua modulefile:\r\n\r\nsetenv(\"no_proxy\", \"localhost,127.0.0.1\")\r\n\r\nBest wishes,\r\n\r\n--\r\nRicardo Diogo Righetto\r\n\r\n\r\nEm qua., 5 de mar. de 2025 às 20:57, Huy Bui <huybk81@gmail.com> escreveu:\r\n\r\n> I use Warp in our cluster. Occasionally, I got this error.\r\n>\r\n> Workers cannot be connected within the allotted time.\r\n>\r\n> Does anyone have this problem? It doesn't always happen unfortunately but\r\n> when it happened, we tried so many ways to get around but never worked :(\r\n>\r\n> Best,\r\n> Huy\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/e8f0f648-10c5-4538-a2f1-86430db9d6afn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/e8f0f648-10c5-4538-a2f1-86430db9d6afn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

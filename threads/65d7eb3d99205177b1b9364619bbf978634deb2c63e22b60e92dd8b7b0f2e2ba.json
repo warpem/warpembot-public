@@ -1,0 +1,8 @@
+{
+  "message_id": "<3160d789-b7cf-42f4-a694-59085e82e0d9n@googlegroups.com>",
+  "thread_id": "<c5e707f1-2533-4891-83e0-ae9cf030984dn@googlegroups.com>",
+  "subject": "Re: subtomogram reconstruction crashes - network issue?",
+  "sender": "=?UTF-8?Q?Matthias_Vorl=C3=A4nder?= <mvorlaender@gmail.com>",
+  "date": "Tue, 6 Jul 2021 00:03:41 -0700 (PDT)",
+  "body": "PS: For those who face similar issues, reducing the number of active GPUs \r\nsolved the crashing.\r\n\r\n\r\n\r\nMatthias Vorländer schrieb am Montag, 5. Juli 2021 um 14:46:56 UTC+2:\r\n\r\n> Hi there, \r\n>\r\n> I am processing a 110 tomogram dataset, and everything went ok until \r\n> subtomogram export. However, during subtomogram reconstruction (as \r\n> Volumes), warp always crashes at some point. I am using a 180 px box with 5 \r\n> Å/px. \r\n> I have now manually deselected most tomograms, and only export 4 or 8 \r\n> tomograms at a time, which seems to work. I have also unselected the \"Use \r\n> CPU\" option. Looking at the windows task manager Network utilisation \r\n> monitor, I noticed that it sometimes briefly reaches 100%  when all 4 GPUs \r\n> are active, so I am suspecting that the crashes occur when network capacity \r\n> is reached or exceeded. So I think I have two options\r\n>\r\n>    1. Reduce the number of GPUs used for processing to reduce I/O\r\n>    2. Increase bandwidth.\r\n>\r\n> Regarding 2. our machine lists 3 ethernet cards, only one of which is \r\n> used. Would plugging in two additional ethernet cables incrase the i/o \r\n> capacity of our machine, and would Warp be able to utilize these?\r\n>\r\n> Thanks a lot in advance,\r\n> Matthias\r\n>"
+}

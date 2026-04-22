@@ -1,0 +1,8 @@
+{
+  "message_id": "<03982d7e-63a8-44e2-8f5b-42b7758eb7d3n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Unexpected particle positions after template matching",
+  "sender": "Lorenzo Gaifas <lorenzo.gaifas@gmail.com>",
+  "date": "Wed, 28 Oct 2020 03:43:26 -0700 (PDT)",
+  "body": "Dear all,\n\nWe are trying to use template matching in Warp, and we encountered some \nunexpected results when visualizing the output.\n\nPoints and orientations were extracted from the relative .star file. Since \nin the file they are normalized between 0 and 1, we multiplied them by the \nsize of the volume in each dimension. As you can see from the attached \nfigure `volume.png`, this operation yields points that are within the \nconfines of the cylindrical space occupied within the cross-correlation \nvolume, so we expected this operation to be correct.\n\nWhile the peaks in the cross-correlation volume clearly match the expected \nlocation of the structure in the tomogram, the particle positions in the \nstarfile don't seem to correspond to the peaks in the CC volume (as shown \nin `peaks.png`).\n\nOn the other hand, the few points that ARE on the surface of interest seem \nto all be aligned perpendicularly to the surface, as we would expect (as \n(poorly) visible in in `zoomed.png`).\n\nThe overall particle positions (correctly within the volume, some aligned \nas expected) seem to imply that we're visualizing them correctly, but the \nfact that most of the points do not gather on the highest peaks does not \nmatch our expectations.\n\nDoes anyone have any experience/advice with this? There aren't many \nparameters to change.\n\nBest,\nLorenzo"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<064e6888-6381-458d-992f-255cb5dd3ea9@googlegroups.com>",
+  "thread_id": "",
+  "subject": "How to skip some views in warp's tomogram reconstruction?",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Mon, 23 Mar 2020 07:06:20 -0700 (PDT)",
+  "body": "Dear all,\nHi, another silly question, how can I skip some views in tomogram \nreconstruction in warp?\nThe problem for me is, I collected data as -60 to +60 in 3 degree step, \nresulted in 41 views each tilt series, as I use dose symmetric scheme, my \nsample starts bubbling at high tilts. For picking particles and initial \nrefinement I use full views for each tilt series, but for final refinement \nI would like to use views between -45 to +45 degrees. As the .xf file and \ntaSolution.log I have is correspond to full 41 views, I'm curious if \nthere's a way for me to skip views as -60 to -45 & +45 to +60 degrees to \ngenerate the subvolumes for final refinement? Also, if there is a way to do \nso, does that way the same as I should do for the subsequent M refinement?\nThank you very much in advance!\nYours sincerely,\nLinhua Tai"
+}

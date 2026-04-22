@@ -1,0 +1,8 @@
+{
+  "message_id": "<209f9d69-cfd8-41e1-91aa-db4ae2377d92@googlegroups.com>",
+  "thread_id": "",
+  "subject": "improving file read/write",
+  "sender": "Reza B <r.behrouzi@gmail.com>",
+  "date": "Tue, 9 Apr 2019 09:36:05 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI was trying Warp on our first batch of K3 data. There are 60 frames as \nopposed to 40-50 which I used to have and of course the area is abotu 50% \nlarger. The processing speed has come down to ~25 hour and it's all in file \nread write, about 40s for read, 23 s for write, other steps take 2-3 \nseconds. The data is on 4 striped SSDs with 64 GB RAM and a 6 core Intel \ni7-6850 3.6 GHz. I was wondering if there's anything that can be optimized \nfurther to improve overall read write speeds. Thanks.\n\nBest,\nReza"
+}

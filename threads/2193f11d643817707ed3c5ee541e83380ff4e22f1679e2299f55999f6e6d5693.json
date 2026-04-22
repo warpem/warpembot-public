@@ -1,0 +1,8 @@
+{
+  "message_id": "<0b25b18d-0832-48ef-96e9-0f27bc6d271dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Any idea to make RTX 3090 works properly?",
+  "sender": "\"888...@gmail.com\" <8883669@gmail.com>",
+  "date": "Mon, 7 Mar 2022 20:06:14 -0800 (PST)",
+  "body": "Dear All,\nHi, we recently bought a workstation with 4x RTX3090, 384G RAM and 2x intel \nxeon CPUs, we expect this thing to be running super fast but the \npreprocessing with boxnet tool enabled was disastrous, I'm wondering if \nanyone have discovered a way to make the RTX 30 series working properly?\n\nThank you very much in advance!\nYours sincerely,\nLinhua Tai"
+}

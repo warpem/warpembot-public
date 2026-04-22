@@ -1,0 +1,8 @@
+{
+  "message_id": "<00bb61a7-5cfb-4a58-b530-3dd32939eb18@googlegroups.com>",
+  "thread_id": "<8bec0a6d-5e23-4dde-9ecd-3c4789384c56@googlegroups.com>",
+  "subject": "Re: Crash when writing to network drive",
+  "sender": "greene4@gene.com",
+  "date": "Tue, 7 Aug 2018 13:51:20 -0700 (PDT)",
+  "body": "After restarting the computer it seems to be working just fine. Looking \nforward to those beautifully picked particles on the fly. \n\nCheers,\nEvan\n\nOn Monday, August 6, 2018 at 11:15:04 AM UTC-7, gre...@gene.com wrote:\n>\n> Hi Dimitry,\n>\n> Fantastic software! I'm currently having issues being able to write output \n> files across a network mount. When I run the job locally everything runs \n> perfectly. However, when attempting to write across our network drive for \n> on-the-fly processing with Warp the program crashes without any error \n> message before writing any files. I do not think this is a bug with the \n> software but as I'm not as familiar with Windows systems communicating with \n> linux filesystems I was hoping you could advise a possible solution. I'm \n> currently able to create directories from the Windows machine over the \n> network from the File Explorer but it seems that Warp cannot. Any \n> suggestions would be greatly appreciated as we would prefer not to have to \n> continually transfer data to the local storage. \n>\n> Thanks,\n> Evan\n>"
+}

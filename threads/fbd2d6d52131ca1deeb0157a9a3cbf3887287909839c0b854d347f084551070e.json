@@ -1,0 +1,8 @@
+{
+  "message_id": "<3f9a486d-29cf-4f08-8abd-6f9915ef5e75n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Particles reextraction in MTools",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Thu, 5 Sep 2024 20:30:08 -0700 (PDT)",
+  "body": "HI all,\n\nWarp2 would be a gamechanger of my project. Thank you for developing this \nsoftware!\nBut I couldn't find particle re-extraction function in MTools. Is there any \nway to re-extract subtomograms in MTools? I wanna try 4x binned -> 2x \nbinned -> 1x binned extraction. \n\nThank you!\n\nBest,\nMingyu"
+}

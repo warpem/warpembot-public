@@ -1,0 +1,8 @@
+{
+  "message_id": "<738e728e-dd2e-46d3-9151-69175c2259f6@googlegroups.com>",
+  "thread_id": "",
+  "subject": "image dimension of gain reference does not match (??)",
+  "sender": "Da Cui <cuida1991@gmail.com>",
+  "date": "Tue, 15 Jan 2019 06:57:03 -0800 (PST)",
+  "body": "Hi Dimitry, \n  I'm processing a dataset with Warp, and it says that image dimension of \ngain reference doesn't match, and it asks me whether I need to rotate or \ntranspose. But after I transpose, the micrographs are not gained properly. \nI used the same gain reference (without transpose or rotate) to process in \nRelion, and it worked well. \n  Do you have any suggestions so that I can proceed with Warp? Warp worked \nperfectly with my other datasets, and it's my first time to encounter \nquestion like that. \n  Thank you so much. \n\nBest wishes, \n      Da"
+}

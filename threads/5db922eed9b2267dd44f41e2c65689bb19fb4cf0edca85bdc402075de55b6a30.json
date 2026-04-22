@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5rfU6-TnZLQtX=wQ1VWUV7Zj0Oq9_u=5WbkcAxGZPJ4Yg@mail.gmail.com>",
+  "thread_id": "<d5af20f4-b5ba-4e6d-a605-f0a9aa219c43n@googlegroups.com>",
+  "subject": "Re: Error: \"System.Exception\" in M subtomo refine AGAIN",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Tue, 4 May 2021 12:57:51 +0100",
+  "body": "Are you at a resolution that justifies refinement of higher order\r\nZernike polynomials and defocus? What happens if you just run the\r\n\"vanilla\" steps i.e. pose, stage angle, image and volume warp\r\nrefinement?\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK\r\n\r\n\r\nOn Tue, May 4, 2021 at 12:40 PM yuqi zhang <824586412@qq.com> wrote:\r\n>\r\n> And the warp.exe had some error information.\r\n>\r\n> And some parameter about refinement.\r\n> 在2021年5月4日星期二 UTC+8 下午7:07:21<yuqi zhang> 写道：\r\n>>\r\n>> When I did the sub-tomo averaging refinement, it stopped at this step in the figure.\r\n>>\r\n>> I wanted to know how to deal with that.\r\n>>\r\n>> The GPU was Quadro GV100 32GB *2. The memory size was 128GB.\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/d5af20f4-b5ba-4e6d-a605-f0a9aa219c43n%40googlegroups.com."
+}

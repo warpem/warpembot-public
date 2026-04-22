@@ -1,0 +1,8 @@
+{
+  "message_id": "<620b0487-d766-4bab-9fe0-aba70bda02afn@googlegroups.com>",
+  "thread_id": "<CAHGKq=yr76dLHON7YNyLQnF+m+NL3osksgGm91JKR9hDJrYrBA@mail.gmail.com>",
+  "subject": "Re: how to import one tilt stack from SerialEM",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 20 Nov 2020 14:50:39 -0800 (PST)",
+  "body": "Hi, thanks for the quick reply.  I have done that.  I have tried to give \nthe correct folder names on the next page that opens, but nothing appears \nin the list.\n\nOn Saturday, 21 November 2020 at 00:24:50 UTC+2 miki...@gmail.com wrote:\n\n> Hi,\n>\n> Change the input format to *.tomostar and press import tilt series from \n> imod. \n>\n> V\n>\n> On Fri, 20 Nov 2020, 23:09 Juha Huiskonen, <juha.hu...@gmail.com> wrote:\n>\n>> Hi, \n>>\n>> I have an unaligned stack (MRC) and an MDOC file from SerialEM. How can I \n>> import them to Warp 1.0.9 for processing.  \n>>\n>> To clarify, I have one image per tilt and all of the images are in one \n>> MRC file. \n>>\n>> Best wishes\n>> Juha\n>>\n>> -- \n>> You received this message because you are subscribed to the Google Groups \n>> \"Warp\" group.\n>> To unsubscribe from this group and stop receiving emails from it, send an \n>> email to warp-em+u...@googlegroups.com.\n>> To view this discussion on the web visit \n>> https://groups.google.com/d/msgid/warp-em/1fb90696-6f0f-4c11-8d64-555d818e6241n%40googlegroups.com \n>> <https://groups.google.com/d/msgid/warp-em/1fb90696-6f0f-4c11-8d64-555d818e6241n%40googlegroups.com?utm_medium=email&utm_source=footer>\n>> .\n>>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<e9b468a6-4b5e-4844-8bcd-eb27ca5da488n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Gold removal in the Warp workflow",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Thu, 16 Jan 2025 08:15:02 -0800 (PST)",
+  "body": "Hi all,\n\nI want to ask your experience in fiducial removal in the Warp workflow. \n\nI tried Fidder. I found that the predicted mask by Fidder using probability \nfrom 0.5 to 0.9 contains a lot of stuffs, not only fiducial but also ice \ncontamination and sometimes proteins in the background. \n\nIs there anyway that I can limit Fidder to only very high contrast gold \nfiducials? Also, does the fiddle mask contain so many things such as ice \ncontaminations affecting subtomogram averaging later on at all?\n\nBest regards,\nHuy"
+}

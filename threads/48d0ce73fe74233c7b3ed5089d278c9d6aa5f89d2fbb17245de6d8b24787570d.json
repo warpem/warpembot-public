@@ -1,0 +1,8 @@
+{
+  "message_id": "<5a271c56-80df-4bf3-add6-87548023d6a1@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Particle export",
+  "sender": "C Arthur <cparthurphd@gmail.com>",
+  "date": "Sat, 4 Apr 2020 14:58:43 -0700 (PDT)",
+  "body": "Hi Dimitry,\nIf I want to export filtered particle picks for relion, do I set the filter \nin Warp (i.e. I only want particles from microgrphs with 3A CTF fit or \nbetter), then go to \"export particles\". Will this create a star file that I \ncan then run 2D classification in relion?\nMany thanks!\nStay safe!\n-Chris"
+}

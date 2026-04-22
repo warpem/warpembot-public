@@ -1,0 +1,8 @@
+{
+  "message_id": "<9722071b-5f9e-475d-847a-12db54a1444bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Importing Relion4 Refine3D star file to M",
+  "sender": "PirateFernandez <israel.s.fernandez@gmail.com>",
+  "date": "Mon, 22 Aug 2022 11:20:04 -0700 (PDT)",
+  "body": "Hello!\nThis is my first message here!\nI want to re-process a ribosome SPA dataset in Warp/M. Warp version 1.09 \nrun quite well so I have all the frames aligned and ready to go. Now, \nstarting M I can set up the populations (2 populations as I have to \ndatasets) and hashes are generated I think properly. However, when I try to \ndefine the species corresponding to the Relion4 refine 3D job , I can \nimport the half-maps, the mask but once I tried to import the run_data.star \nfile, M crashes. Because this is a Relion4 star file, I though that perhaps \nI can remove the first loop of the start file and go back to old relion \nstar format. With this modified star file M does work, it does not crashes \nand seems to be looking for the particles but, after a while it can't find \nany particle to map from this species to the populations.\nMy specific question is, which relion star file format (in the sense of \nwhich columns and perhaps in which order) is M expecting the run_data.star \nto be? \nIs having x/y coordinates,  micrograph name and the angles enough? \nAdditionally, do I need to specify the complete path to the micrograph name \nin my Windows machine in the star file? Perhaps that is the issue?\nThanks!\nIsrael"
+}

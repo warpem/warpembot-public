@@ -1,0 +1,8 @@
+{
+  "message_id": "<368cfa7b-0b27-44f2-ad6d-daae04b5e271n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Motion Tracks from XML files?",
+  "sender": "3P1L <philipp.stawski@gmail.com>",
+  "date": "Mon, 4 Dec 2023 05:26:31 -0800 (PST)",
+  "body": "Dear WarpM Community,\n\ndo you know if the motion correction values (the ones plotted in the Warp \nGUI) are also saved in XMLs somewhere?\n\nWhat I see are the individual shifts per patch.\n\nThanks! :-) \n\nPhilipp."
+}

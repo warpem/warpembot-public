@@ -1,0 +1,8 @@
+{
+  "message_id": "<323b8958-d874-430f-8567-7e16ada73f77@googlegroups.com>",
+  "thread_id": "<381797d2-25e5-4eda-ae89-3b1aa54979a7@googlegroups.com>",
+  "subject": "Re: deselected micrographs",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 6 Mar 2019 07:44:35 -0800 (PST)",
+  "body": "Hi Gabor,\n\nthe easiest would be to delete the corresponding .xml files and restart \nWarp. Items become deselected if something goes wrong during processing. In \nmost cases the CTF is unfittable with the current parameters, or you don't \nhave write permissions to save the results. It would be important to figure \nout what went wrong, otherwise the items will turn grey again.\n\nCheers,\nDimitry\n\nOn Monday, March 4, 2019 at 1:28:22 PM UTC+1, Gabor Papai wrote:\n>\n> Hi Dimitry,\n>\n> I had a strange behavior of Warp this weekend: after processing around \n> 3500 tiffs all the new entries got deselected and they were not processed. \n> I don't know why this happened. \n> I can re-select the tiffs manually, but I don't know how to re-select them \n> all, not one-by-one.\n>\n> Thanks,\n> Gabor\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<90ee086d-432b-4d6e-8924-cda469b1a168n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "EER movies processed as UNSELECTED",
+  "sender": "Paul Simpson <windypauls@gmail.com>",
+  "date": "Fri, 30 Sep 2022 00:43:09 -0700 (PDT)",
+  "body": "Selected the data folder where the eer movies are located and setup \nparameters. All eer files can be seen as UNPROCESS, until I click [start \nprocessing], from that point one by one each file  becomes  UNSELECTED?\n\nI have tried numerous things... uncheck MOTION, uncheck CTF, change \nparameters, reinstall the 1.0.9 warpm but the behaviour is the same.\n\nWeirdly straight after the first installation I just selected the file path \nand click [start processing]and it was working with the incorrect not \noptimised parameters.\n\nSecond installation puzlled in a file from somewhere that was not \nuninstalled as it remember my previous parameters!\n\nNext step is to format the drive and start again.\n\nIt would be nice to know what the bug is... previous convers mentioned CTF \nsettings?\n\nthanks\nPaul (Imperial college London)"
+}

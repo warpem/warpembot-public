@@ -1,0 +1,8 @@
+{
+  "message_id": "<d459f35f-9563-4909-ae45-c50889ea9e4fn@googlegroups.com>",
+  "thread_id": "<d15f5133-12b4-4f19-afc0-44ad29bd02c3n@googlegroups.com>",
+  "subject": "Re: Boxnet vs 3090",
+  "sender": "\"tom.de...@gmail.com\" <tom.dendooven@gmail.com>",
+  "date": "Wed, 24 Feb 2021 09:47:44 -0800 (PST)",
+  "body": "Hi Simon,\n\nI'm seeing the same here. \n\n Motioncorr and CTF estimation work fine, but particle picking and \ndenoising don't work properly on a workstation with Geforce RTX 3090 cards. \nThe same dataset runs fine on a workstation with 2080 cards. I'll try to \nretrain the picking/denoising to see if that helps and post the outcome \nhere.\n\nCheers,\nTom\n\n\n\nOp zondag 17 januari 2021 om 15:37:02 UTC schreef simoner...@gmail.com:\n\n> Hi all,\n>\n> Is anyone else experiencing problem with denoising and particle picking on \n> the Geforce 3090? Motioncorr and CTF works very well though. \n>\n>  I have another workstation with two Ti2080s running fine. \n>\n> Thanks and best \n> Simon\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<2e54887f-e4f5-4da8-b86d-8386f92e0199n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Import Warp coordinates into Relion",
+  "sender": "=?UTF-8?Q?Julia_Dai=C3=9F?= <juli8.daiss@gmail.com>",
+  "date": "Mon, 30 Nov 2020 01:14:56 -0800 (PST)",
+  "body": "Hi,\n\nI'm trying to import the coordinates of the Warp-picking into Relion.\n\nThe Warp coordinates are saved as .star files, but Relion is only accepting \n.box or _pick.star files as particle coordinate files. I assume that's the \nproblem, but there is no error message, it's just extracting zero particles \nin the next step.\n\nAlso simply renaming the file to _pick.star or .box isn't working. In this \ncase there is the error massage \n\"RELION version: 3.1.1-commit-9f3bf1\n exiting with an error ...  \".\n\n\nI also compared the content of the different files and there are slight \ndifferences, which I don't know if they matter.\nFor the Warp .star file there are the columns:\n_rlnCoordinateX #1\n_rlnCoordinateY #2\n_rlnMicrographName #3\n_rlnAutopickFigureOfMerit #4\n\nAnd for Relion Autopick (_autopick.star) or Relion Manual Pick \n(_manualpick.star) the columns are:\n_rlnCoordinateX #1 \n_rlnCoordinateY #2 \n_rlnAutopickFigureOfMerit #3 \n_rlnClassNumber #4 \n_rlnAnglePsi #5 \nFor the manualpick file the columns #3 to #5 or indicated with -999.\n\n\nFor all variants, I have an extra file for each micrograph with the unique \nmicrograph name in the file name.\n\nI'm currently working with the Relion version: RELION-3.1.1-commit-b9f3bf1\n\n\nIt would be great if you can help me!\nThank you a lot in advance!!!\n\nBest,\nJulia"
+}

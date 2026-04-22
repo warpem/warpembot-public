@@ -1,0 +1,8 @@
+{
+  "message_id": "<f5647adb-2242-4a1d-8dfb-68fb1918cc0en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp reconstruct tomograms creates a lot of empty space",
+  "sender": "Felix Lange <felix.lange.le@gmail.com>",
+  "date": "Mon, 29 Jan 2024 11:27:10 -0800 (PST)",
+  "body": "Hi guys,\r\n\r\nI am using dynamo_autoalign (thanks Alister!) to process tilt series for \r\nWarp. But during reconstruction, I have to use fairly large dimensions to \r\ncapture the whole information of the tomograms. For example 4500 x 6500 x \r\n1500 pixels (images from K3 with tilt axis of 95.4° - enclosed you can find \r\nan example image) Especially in z, the tomograms could fit into a much \r\nsmaller volume but whenever I reduce the z-height, the information in the \r\ntomogram will be truncated from the bottom and not equally from top and \r\nbottom. Is there a way to handle the \"centering\" a little better/smoother?\r\nThank you for your help and all the best,\r\nFelix\r\n[image: Capture.PNG]"
+}

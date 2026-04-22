@@ -1,0 +1,8 @@
+{
+  "message_id": "<0eba445f-a8ea-4fcb-ae9a-e20240a5b017n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tomograms reconstruction in Warp after Relion 4.0 Tomo frame\r\n alignment",
+  "sender": "Piotr Tokarz <ptskold@gmail.com>",
+  "date": "Tue, 10 Jan 2023 07:08:09 -0800 (PST)",
+  "body": "Dear all,\n\nIs it possible to feed improved information from Relion 4.0 tomo frame \nalignment into Warp (or any other) to reconstruct tomograms more precisely? \nI am trying to improve fiducial-less tomogram reconstruction.\n\nThanks for any tips!\n\nBest,\nPiotr"
+}

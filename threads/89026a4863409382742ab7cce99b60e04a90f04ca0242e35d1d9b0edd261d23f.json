@@ -1,0 +1,8 @@
+{
+  "message_id": "<9995b23f-a686-432b-b8ea-bac36fc4d5a5n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Padding subtomos for particles close to the boundary",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Tue, 16 Apr 2024 16:12:56 -0700 (PDT)",
+  "body": "hi folks,\n\nIs there a way to pad subtomos for particles close to the boundary when \nextracting in WARP? So that such particles are not excluded in subtomo \ngeneration step. \n\n\nThanks & cheers,\nDigvijay"
+}

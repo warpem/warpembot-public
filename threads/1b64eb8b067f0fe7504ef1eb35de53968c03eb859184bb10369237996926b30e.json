@@ -1,0 +1,8 @@
+{
+  "message_id": "<1f5d6181-e066-4549-bcfb-44008864dc7an@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Refinement in MCore - Choosing parameters",
+  "sender": "Paris Watson <paris.watson@be-labs.org>",
+  "date": "Mon, 27 Oct 2025 16:07:48 -0700 (PDT)",
+  "body": "Hi, \n\nI am currently wanting trying to refine in M with particles that went to 8A \nin relion. \n\nI was just wondering if there were any guidelines on refinement in M and \nwhat parameters to use/try and if there is a particular order? I wasnt \ncertain that the parameters in the tutorial were good for every case. \n\nThank you for any help you can provide to get started!!\n\nParis"
+}

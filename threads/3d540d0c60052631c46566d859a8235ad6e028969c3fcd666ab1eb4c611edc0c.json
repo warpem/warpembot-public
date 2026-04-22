@@ -1,0 +1,8 @@
+{
+  "message_id": "<c59b361b-f540-42bb-b594-ace95da003f9@googlegroups.com>",
+  "thread_id": "<7c2d96ca-2e5e-4ae4-904f-dbda261ee968@googlegroups.com>",
+  "subject": "Re: Can't run, is this a known thing?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 26 Jun 2018 07:09:37 -0700 (PDT)",
+  "body": "Hi Bart,\r\n\r\nI'm afraid there aren't many known things yet as this is the first help \r\nrequest since release :-) \r\n\r\nUsually, when GPUAcceleration.dll \"can't be found\", it's because of a \r\nmissing dependency. The only immediate dependency not supplied with the \r\ninstaller is vcomp140.dll – that's the VC++ redistributable \r\n<https://go.microsoft.com/fwlink/?LinkId=746572>. Please make sure to \r\ninstall it.\r\n\r\nAnother issue might be an outdated GPU driver \r\n<http://www.nvidia.com/Download/index.aspx?lang=en-us>, or a GPU \r\narchitecture older than Maxwell. If that isn't the case, could you please \r\ndescribe your system configuration, and what you've installed so far?\r\n\r\nCheers,\r\nDimitry\r\n\r\n\r\n\r\nOn Tuesday, June 26, 2018 at 3:39:56 PM UTC+2, Bart Alewijnse wrote:\r\n>\r\n> Hi, I can't start wrap. \r\n>\r\n> It gives me a dialog box complaining it can't find CUDA devices (which I \r\n> think isn't correct, e.g. CUDA-Z seems happy, and because...).\r\n>\r\n> ...At first with the explanation that it couldn't find GPUAcceleration.dll \r\n> (in the same directory)\r\n>\r\n>\r\n> I then tried to compile the thing from source, which I failed to do \r\n> (dependency blah, gave up),\r\n> but this seems to have changed the dialog box's explanation to a \r\n> System.Exception in Warp.MainWindow..ctor()\r\n>\r\n>\r\n> This sounds like it may be a simple stupid thing I'm doing wrong?\r\n>\r\n>"
+}

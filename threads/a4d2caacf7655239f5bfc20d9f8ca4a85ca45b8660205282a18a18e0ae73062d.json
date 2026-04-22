@@ -1,0 +1,8 @@
+{
+  "message_id": "<edda93aa-3824-4c35-8dd3-e1f295212908@googlegroups.com>",
+  "thread_id": "",
+  "subject": "subtomogram averaging with warp extracted particles",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Thu, 27 Feb 2020 08:15:23 -0800 (PST)",
+  "body": "Hi all,\n\nI'm looking at doing subtomogram averaging with particles extracted in warp \nand have a couple of questions\n\n   1. In the designed workflow, (warp extraction, relion alignment, (later \n   M... :)) is there anything particular about the way I should run \n   relion_refine? I've tried with --ctf (in relion 3.0.8) but seem to be \n   getting stuck suspiciously close to the average first zero of the CTF. Do I \n   need any of the other ctf-related options enabled? (--ctf_phase_flipped \n   --ctf_multiplied etc). \n   2. I see from the paper that the weights are inserted as |CTF| and \n   weighted by the dose-dependent B-factor so assume that multiplication in \n   fourier space of the particle with the CTF volume brings them to CTF^2. Am \n   I right in thinking the particles themselves have already been phase \n   flipped? If so, I should be able to try subtomogram in other packages \n   directly on these files, correct?\n   \nThanks in advance!\n\nBest,\n\nAlister"
+}

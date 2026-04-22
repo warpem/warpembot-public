@@ -1,0 +1,8 @@
+{
+  "message_id": "<c6ff651c-343b-4710-8907-68132c4ebc2cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "FSC curve issue with M",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Wed, 24 Jul 2024 19:51:47 -0700 (PDT)",
+  "body": "Hi\n\nI have some issues with M. When I refined my particles with M, the FSC \ncurve didn't go under specific value. But in relion, there is no issue with \nmy FSC curve. One more weird thing is the box size from M is different from \nmy input half map(160 -> 204). \nI posted 2 FSC curve. The normal one is from relion and weird one is from \nM. My pipeline was Warp-relion4.0-M. Anyone knows the causes of issues?\n\nBest,\nMingyu"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<609313a8-f7cd-49b4-9074-dea149c577c0@googlegroups.com>",
+  "thread_id": "<2d54b406-749e-4f21-bf7b-35da5650bd82@googlegroups.com>",
+  "subject": "Re: BoxNet public model",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 23 Oct 2019 05:12:53 -0700 (PDT)",
+  "body": "Hi Chen,\n\nthe error message suggests that TensorFlow is trying to initialize the \nmodel on the CPU instead of GPU. Could you please describe what GPUs are \ninstalled in that system? Does the driver work properly, e.g. are you able \nto launch the Nvidia control panel without error messages?\n\nCheers,\nDimitry\n\n\nOn Wednesday, October 23, 2019 at 4:48:54 AM UTC+2, Chen Sun wrote:\n>\n> Hello,\n>\n> I am trying to run warp 1.0.7 on windows 10. There was nothing in the \n> folder of boxnet2 in the warp installation folder. So I manually downloaded \n> the models and extracted and copied them to that folder. However, it still \n> crashed with the following error right after I hit start processing. I am \n> nor sure what is causing this issue. I have installed .NET Framework 4.7, \n> Visual C++ 2017 Redistributable and Latest GPU driver from Nvidia. How can \n> I work around this problem? \n>\n> [image: Annotation 2019-10-22 22315.png]\n>\n> [image: Annotation 2019-10-22 223155.png]\n>\n>\n>\n> Thanks,\n>\n> Chen\n>\n>\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<22476e4b-cbc3-4546-81c3-670f6477ed0an@googlegroups.com>",
+  "thread_id": "49220201-8a4a-4ffc-a467-bafebe10e4e1",
+  "subject": "White Spots Created in Warp, but not RELION5",
+  "sender": "Luke <dillardluke@gmail.com>",
+  "date": "2026-04-07T17:46:56.000Z",
+  "body": "Hello all, When processing a series of tomograms in warp, I'm observing some artificial bright white spots. The white spots spread along the rotation axis as the tilt increases. When I process in RELION5 using the same gain, reconstruction dimensions, and dose parameters the white dots are not present. I have also used both a .gain and tif2mrc converted gain thinking that could be the issue. Does anyone have any idea what might be different between the two reconstructions?"
+}

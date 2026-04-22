@@ -1,0 +1,8 @@
+{
+  "message_id": "<c6ab2ee1-cf2d-42fc-904e-170519c3b020n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "The dautoalign4warp didn't generate the xf file",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Sat, 22 May 2021 03:27:18 -0700 (PDT)",
+  "body": "The dautoalign4warp didn't generate the xf file with the tutorial in \n*https://teamtomo.org/walkthrough/EMPIAR-10164/*\n\nThe generate files in folder dynamo_alignments/TS_??.mrc:\ninfo/         taSolution.log    TS_54.mrc.mod     workingMarkers.dms\nnominal.tlt  tiltalign.stdout  TS_54.mrc.rawtlt\n\nI did not know how to deal with that?"
+}

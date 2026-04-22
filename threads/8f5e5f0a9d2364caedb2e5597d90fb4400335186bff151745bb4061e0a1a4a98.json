@@ -1,0 +1,8 @@
+{
+  "message_id": "<70f920d0-6185-402d-9c87-180a453206de@googlegroups.com>",
+  "thread_id": "",
+  "subject": "AdobeDeflate with LZW TIFF",
+  "sender": "Mike Lockhart <m.p.lockhart@gmail.com>",
+  "date": "Fri, 11 Oct 2019 07:41:43 -0700 (PDT)",
+  "body": "Hi\n\nI've updated Warp to 1.0.7 from 1.0.6 and I'm having trouble running the \nrelion test data though the pipeline. It was working on 1.0.6 but now it \nseems there is a problem with AdobeDeflate. \n\nIt works fine on gain corrected and uncorrected MRC stacks and single frame \nMRCs but doesn't seem to be happy with LZW compressed tiffs.\n\nI converted teh tiffs to MRCs to test again and found that it causes Warp \nto crash by killing the WarpWorkers.\n\nAny help would be greatly appreciated\nMike"
+}

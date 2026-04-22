@@ -1,0 +1,8 @@
+{
+  "message_id": "<a290b183-bc00-4ac7-a4a8-721775368053n@googlegroups.com>",
+  "thread_id": "<CAHNYQ5qLw_gUdd+HKO7GOfo6RyQV6WRu3vopTt8pXwox-o7kSQ@mail.gmail.com>",
+  "subject": "Re: CDS mode",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Sun, 28 Mar 2021 17:32:11 -0700 (PDT)",
+  "body": "Hi Pranav,\n\nWe still don't have CDS enabled on our K3, so I never had to deal with \nthis. There is no setting, but if you can go from frames to aligned \naverages without any NaN values, you should be good (can't remember if \nthere could be an unchecked divide by 0 along the way). Though tilt movie \nrefinement in M might crash later. The dose weighting will also be slightly \noff, but that's just a crude heuristic anyway.\n\nMaybe there is a way to discard it at the SerialEM stage?\n\nCheers,\nDimitry\n\nOn Sunday, March 28, 2021 at 6:56:58 PM UTC+2 Pranav Shah wrote:\n\n> Hi Dimitry,\n>\n> How does Warp deal with movies collected on a K3 with CDS mode turned\n> on? Is there a button or knob that I need to turn so that Warp\n> discounts the first blank frame?\n>\n> Best,\n> Pranav\n> --\n> Pranav Shah\n> Postdoctoral Research Fellow.\n>\n> Division of Structural Biology,\n> Wellcome Trust Centre for Human Genetics,\n> University of Oxford,\n> Roosevelt Drive, Oxford OX3 7BN,\n> UK\n>"
+}

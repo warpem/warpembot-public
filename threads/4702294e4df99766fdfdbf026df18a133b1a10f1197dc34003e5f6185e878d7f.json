@@ -1,0 +1,8 @@
+{
+  "message_id": "<52d6d69d-9268-4134-9cce-db26c3933dbb@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes after initiating template matching",
+  "sender": "Anthony Nguyen <anthonyhnguyen1@gmail.com>",
+  "date": "Tue, 14 Aug 2018 11:51:03 -0700 (PDT)",
+  "body": "Dear Dimitry,\n\nI'm having trouble running the template matching function in Warp. \nEssentially, the program crashes when the first mic is about to finish and \ngives this error in the lastcrash.txt file. I'm not quite sure what's \nhappening, and any help would be appreciated. \n\nThanks,\nAnthony\n\n__________________________________________________________________________\n\n8/14/2018 2:27:30 PM:\nSystem.Exception: cudaErrorIllegalAddress\n   at Warp.GPU.CheckGPUExceptions()\n   at Warp.Movie.MatchFull(Image originalStack, ProcessingOptionsFullMatch \noptions, Image template, Func`4 progressCallback)\n   at \nWarp.Controls.TaskDialogs.TwoD.Dialog2DMatch.<>c__DisplayClass18_1.<ButtonMatch_OnClick>b__4(Movie \nitem, Int32 gpuID)\n   at Warp.Tools.Helper.<>c__DisplayClass41_2`1.<ForEachGPU>b__0()\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext \nexecutionContext, ContextCallback callback, Object state, Boolean \npreserveSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext \nexecutionContext, ContextCallback callback, Object state, Boolean \npreserveSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext \nexecutionContext, ContextCallback callback, Object state)\n   at System.Threading.ThreadHelper.ThreadStart()"
+}

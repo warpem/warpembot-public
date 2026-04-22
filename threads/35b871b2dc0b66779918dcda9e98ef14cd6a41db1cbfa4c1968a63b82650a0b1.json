@@ -1,0 +1,8 @@
+{
+  "message_id": "<0c97a827-0026-4ccf-92a1-0c405462a814@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Problem with reconstruction of CTF corrected tomograms in Warp\r\n using nvidia P3200",
+  "sender": "Jan Felix <janwfelix@gmail.com>",
+  "date": "Mon, 16 Dec 2019 00:56:09 -0800 (PST)",
+  "body": "Hi all, \nI am currently processing a set of tilt series using Warp. I am using a \nmobile DELL workstation with Windows 10 OS, 32 GB RAM, an Nvidia quadro \nP3200 GPU (6 GB memory of GDDR5 type , pascal achitecture) and the folder \nwith frames stored on an external HD. I installed the newest nvidia driver \nfor my GPU (version 441.66) and have .NET framework vesion 4.8 installed as \nwell.\nTilt movie pre-processing, importing tilt series from IMOD and 3D CTF \ncorrection all work smoothly. However, reconstruction of the full-tomograms \n(15 A/pix) seems to finish without errors but gives very strange results \n(all black tomos, or with black and grey parts and strange patches with \nartefacts). \nFirst I assumed there was a problem with the alignment files generated in \nEtomo, but a colleague of mine could succesfully reconstruct tomograms in \nWarp using my files from two different tilt series (and corresponding \ntaSolution and .xf files from Etomo) as an input without any problems at \nall. He is using an almost identical mobile workstation, but with the sole \ndifference that he has a slightly newer Nvidia quadro RTX3000 GPU (6 GB \nmemory of GDDR6 type,Turing architecture). \nI was wondering if anybody experienced similar problematic behaviour during \nreconstructing tomograms using a similar GPU as mine? Is there a possible \nfix for this? \nBest regards, \nJan Felix"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<382c3932-c025-411a-8fa5-ab796761bac2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "gain correction and 3d classification",
+  "sender": "Ameen Khosrozadeh <m.a.khosrozadeh@gmail.com>",
+  "date": "Mon, 23 Sep 2024 06:51:39 -0700 (PDT)",
+  "body": "Dear Alister,\r\n\r\nThank you for developing such a great tool!  have a couple of questions \r\nthat I’d really appreciate your help with:\r\n\r\n1. After completing all the refinements in M, is there any way to bring all \r\nthe particles back into Relion for 3D classification? what would be the \r\nbest approach for that?\r\n\r\n2. I was double-checking the gain correction to ensure it's correct for our \r\nsetup. I estimated the gain by summing up all the TIFF files and checking \r\nthe output (I've attached the .py file, which is not inverted). When I \r\ncompared the achieved result (mygain.mrc) with the gain.mrc from the \r\napoferritin data, they were identical. My question is: Why do we need to \r\nflip the data using --gain_flip_y?\r\n \r\n(cause when I estimate the gain in the same way for our Falcon 4i detector \r\n(data acquired with Tomo5), the result is flipped in both the X and Y axes \r\ncompared to the microscope output)\r\n\r\nI appreciate your guidance and help.\r\n\r\nBest regards,\r\nAmin"
+}

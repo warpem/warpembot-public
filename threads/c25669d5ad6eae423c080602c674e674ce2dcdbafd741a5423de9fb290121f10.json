@@ -1,0 +1,8 @@
+{
+  "message_id": "<485efcd6-82f9-4bb6-930a-17336426c1abn@googlegroups.com>",
+  "thread_id": "<aa637a25-aa9d-44e5-b3b1-8fae6270a41en@googlegroups.com>",
+  "subject": "Re: Problem with reconstruct sub-tomograms",
+  "sender": "aijia wen <abetty0330@126.com>",
+  "date": "Tue, 22 Nov 2022 20:33:52 -0800 (PST)",
+  "body": "Thank you very much for your help!\r\n\r\n在2022年11月23日星期三 UTC+8 03:50:12<thomas.la...@gmail.com> 写道：\r\n\r\n> If you are running Warp <= v1.09, then run relion_convert_star on the \r\n> particle.star written out by Warp to convert it from RELIONv3 to RELIONv3.1 \r\n> format.\r\n>\r\n> Hope that helps,\r\n> -Tom\r\n>\r\n>\r\n> On Monday, November 21, 2022 at 11:25:34 PM UTC-8 abett...@126.com wrote:\r\n>\r\n>> Hi all,\r\n>> I reconstructed sub-tomograms in Warp, and the generated particles.star \r\n>> file doesn't contain the necessary variables for Relion3.1: rlnPixelSize, \r\n>> rlnVoltage and rlnSpherical Aberration. Therefore, when I input the star \r\n>> file to run Class3D in Relion3.1, it doesn't work.\r\n>> How can I fix it?\r\n>> Thanks in advance!\r\n>>\r\n>> The star file only contains the following columns:\r\n>>\r\n>> rlnCoordinatex #1\r\n>>\r\n>> rlnCoordinatey #2\r\n>>\r\n>> rlnCoordinateZ #3\r\n>>\r\n>> rlnAngleRot #4\r\n>>\r\n>> rlnAngleTilt #5\r\n>>\r\n>> rLnAnglePst #6\r\n>>\r\n>> rlnMicrographName #7\r\n>>\r\n>> rlnAutopickFigure0fMerit #8\r\n>>\r\n>> rInMagnification #9\r\n>>\r\n>> rlnDetectorPixelSize #10\r\n>>\r\n>> rlnCtfMaxResolution #11\r\n>>\r\n>> rnImageName #12\r\n>>\r\n>> _rUnCtfImage #13\r\n>>\r\n>>"
+}

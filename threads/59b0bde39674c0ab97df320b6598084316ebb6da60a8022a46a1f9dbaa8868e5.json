@@ -1,0 +1,8 @@
+{
+  "message_id": "<3a5aa68d-b101-4385-be30-291235ead06b@googlegroups.com>",
+  "thread_id": "<8b6ece6f-ff39-4290-a7f5-6aef39bdea5e@googlegroups.com>",
+  "subject": "Re: Warp Missing GPUAcceleration.dll",
+  "sender": "achintangal@berkeley.edu",
+  "date": "Mon, 15 Oct 2018 10:30:10 -0700 (PDT)",
+  "body": "It worked!\n\nReinstalling the nvidia driver, .NET framework and Wrap seem to have \nworked. \n\nLooking forward to your new release. \n\nCheers!\n\nAbhiram \n\nOn Monday, October 15, 2018 at 10:20:11 AM UTC-7, achin...@berkeley.edu \nwrote:\n>\n> Thanks Dimitry. Will give it a try today. \n>\n>\n>\n> On Sunday, October 14, 2018 at 4:44:02 AM UTC-7, Dimitry Tegunov wrote:\n>>\n>> Hi Abhiram,\n>>\n>> while past Windows updates didn't seem to break anything Warp-related, I \n>> wouldn't rule them out as the cause. I'll release 1.0.6 next week. It's \n>> compiled with CUDA 10 and the latest versions of all frameworks, so maybe \n>> it will fix your problem. Meanwhile, re-installing the MSVC++ \n>> redistributable might help.\n>>\n>> Cheers,\n>> Dimitry\n>>\n>> On Saturday, October 13, 2018 at 1:49:28 AM UTC+2, achin...@berkeley.edu \n>> wrote:\n>>>\n>>> Hello,\n>>>\n>>>\n>>> I setup Warp on a new workstation with two 1080ti's. I was able to test \n>>> it with a small data-set. \n>>> Today, it complains that it cannot find the GPUAcceleration.dll \n>>>\n>>> The system has the following installed. \n>>>\n>>>  - Nvidia Driver 416.16\n>>> -  Cuda 10.0.132\n>>> -  .NET framework 4.7.2\n>>>\n>>> Any ideas? I  had to restart the system today to add a new disk. Windows \n>>> installed some updates and that's pretty much it. \n>>>\n>>> Reinstalling Warp didn't work too.\n>>>\n>>> Thanks for your time,\n>>>\n>>> Abhiram\n>>>\n>>"
+}

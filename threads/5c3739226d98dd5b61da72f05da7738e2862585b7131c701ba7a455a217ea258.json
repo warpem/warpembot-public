@@ -1,0 +1,8 @@
+{
+  "message_id": "<d2ffe718-f7f9-4c5a-9700-fee1feb9e2e9o@googlegroups.com>",
+  "thread_id": "<d0d7e012-b089-4044-8946-7e09237da6f3o@googlegroups.com>",
+  "subject": "Re: Warp 1.0.9 Crash",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 13 Aug 2020 04:49:33 -0700 (PDT)",
+  "body": "Hi Shyamal,\n\nI haven't seen this line fail before. Can you share the <CTF></CTF> section \nfrom the previous.settings file in that folder? Also, the usual annoying \nquestion: What happened between the time it worked and now? :-)\n\nCheers,\nDimitry\n\nOn Thursday, August 13, 2020 at 9:47:10 AM UTC+2, shyamal mosalaganti wrote:\n>\n> Hi Dimitry & others,\n>\n> After i have imported my tilts (each tilt is is motion corrected  average \n> in .mrc format) i get the following error (attached). \n> I had successfully run this dataset before without any problems. However, \n> now it just continuously crashes. \n> Any idea why this might be happening? \n>\n> Thank you very much in advance,\n> Shyamal\n>"
+}

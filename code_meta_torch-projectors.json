@@ -1,0 +1,1124 @@
+{
+  "checksums": {
+    "CLAUDE.md": "e8324225b46701c981e2d4bf8fce2185fd31925c09bc67cc9cda42bf400ab0c6",
+    "tests\\2d\\back\\test_batching_back.py": "1172deeb8d971a3ba2c10ddba38a0f9646031c87f13b72ced6d84a1607ec66c9",
+    "tests\\2d\\__init__.py": "e48ff4f152f5da42cfb1fc5040d72914b98fef4473d8dbbfc5c32e8af2477aaa",
+    "tests\\3d\\forw\\test_gradients_3d_to_2d.py": "e4770de4ef8d5be82b499df3298bcd32f0433cfe04fefc2ad8a253882e2b3f2a",
+    "generate_metal_headers.py": "47870e3e29373c45dda30c94f1b96ceb289efa15392ee0a6dbbf40056b5526ae",
+    "tests\\2d\\back\\test_oversampling_back.py": "f3ddbd39401f539893310ebb9a3d8df522f04455e3fdddfe0e26d8fc77023e5b",
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu": "dbc9c76d06b94116b8b8d972138e1b1577d65768479e74e04b3d56e65d03718a",
+    "tests\\2d\\back\\test_visual_validation_back.py": "a97f2a5fb40fc3492de9f2b6c94399ec153df0bd0dd6e1beaa7cc014dc37d7dd",
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.h": "d113f0e2c80715f362e27805beb7453b3fc96651204cdf86623e9a7d80305886",
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.h": "4f9c44ff4dafb6ab4bab1c78394f5868bfcb4669caad85d27f9bbe7c79c18026",
+    "tests\\3d\\forw\\test_basic_projection_3d_to_2d.py": "662ecdc87025114ce105306cd20e41c3b3a6587dc1ffa73d1c6cb33ff966da72",
+    "tests\\3d\\back\\test_batching_back_2d_to_3d.py": "c4d3a557f0dd06f6a47aa87dd4d345c49d4b86c289d9f4da77e1b2c3d590a735",
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py": "20d1bbc1e716c2b0d02093d23a48900dd9fe1b12dc2e04f892adef62ec737b59",
+    "paper\\results\\benchmarks\\forward_2d.py": "27858e8f25b3d9fd62fe2cb478c86c9d949bc5c62fcbc5e0b7b0f332ae2904fd",
+    "paper\\results\\make-tables\\comparison_to_latex.py": "5297c4348683e5c74996d4ef5f6dc634d7a47adc47d04c6b8d1914d6fcb462f2",
+    "paper\\results\\benchmarks\\backward_2d.py": "ffbfc44ab34759bdcc84232df9648c9588a13fcbafe73a2b3cea47d70cefb6f1",
+    "csrc\\mps\\3d\\projection_3d_to_2d_kernels.h": "8e0465c764de50135da61db29275f0ef530c9a67f9e3e399771be9fe3c4cdd60",
+    "csrc\\cpu\\common\\fftw_sampling.h": "ac11613493bfe994f75f92814f37348502d5c3b808f95d56d1b39cb4ae042445",
+    "csrc\\cpu\\common\\cubic_kernels.h": "9c3b88c76457fb3c8050a737f660fa03da0bc10d8421e23c869de25f5b07f00d",
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py": "cfb78c2b103ab8fdfaf09a8c0647eb3d04c7373cf7ad9226205ca04ad8b1b9be",
+    "csrc\\mps\\2d\\backprojection_2d_kernels.h": "501ca2eb5c16e782f09c4e14df593859c865fad8f077456ff1fc6803ffaec30d",
+    "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py": "104603229cb76092332a11dc0b4e45424c8b1f951c234ca357b91d9ceea1e3a2",
+    "tests\\2d\\back\\test_basic_backprojection.py": "572c916c5b0506a6ca399bc90d92a0a00faee2a26c6221709e586da0fdfbe856",
+    "paper\\results\\benchmarks\\interpolation_accuracy.py": "65eaa0fe84cd9b54310d7ae540880acbbca8401c3c4b97c7d371b9a964d65e5c",
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.h": "c150e393d6aa8706c3fa84f0710f6bd57921e165ff633d10715f8d75fd371ff1",
+    "tests\\2d\\forw\\test_oversampling.py": "769d95f0dfd45a2d2fa3410a4b5a5a42c15e4ae091a8b4e13f1efe48ad62d6b6",
+    "tests\\3d\\__init__.py": "7cf73384e2e7c09f5ffaae28dca255c71df18e7157b0ac2063db7d04743519c4",
+    "tests\\3d\\forw\\test_oversampling_3d_to_2d.py": "65b97614475d876f3c4e730120a548b905bbfda5b319a7df7ed05dd4b7df6bb9",
+    "tests\\2d\\forw\\test_gradients.py": "371b08b1d15b12461e9d748f57a853402620f0bcda767e8656fa9f4bd553a584",
+    "paper\\results\\make-tables\\json_to_latex.py": "4880e5598c12c8b5e5d94712ebb7ade6108c2311fa7a0aeeeac1db02eda14665",
+    "tests\\2d\\back\\test_gradients_back.py": "1da1458641aef6d4367cc7b0b41888b267c334547b1c2100eadc866dbe7ee523",
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.h": "aa466d862e0f7a2586dd6e7c6a3d12fc81092080d9deb7f847940273d7405355",
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp": "058e014d62aca00270cdd69f051806668d91d4147b396545a02c2e23ac21c4b7",
+    "tests\\3d\\back\\test_basic_backprojection_2d_to_3d.py": "b5902d8b32eeda51c688a9a8a226b4f9af53167a2fb9e313900c02e35d6ee9a1",
+    "tests\\3d\\forw\\test_performance_3d_to_2d.py": "8197772de40979fc9dff461aeaea0ed28efa6293a53087bcb9732b325d231799",
+    "csrc\\mps\\2d\\projection_2d_kernels.h": "0358df26c704062c69cea140cc060cbaa15cef11aeb7f11b682abedc947af13e",
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp": "1b1a36fdb5be041312f6cbd7a098c059a8328b8cbf2f4bef35318548b7355c4e",
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu": "35cf7b5c3847b11c597e755f1fb642b924f45f08b3751b7ced6cc1b7e39fdd9b",
+    "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py": "5a8e761f8ea969c374f1419e6f5f7cef1bfedbbc337de90c364c6e9d14eac082",
+    "tests\\conftest.py": "7302ce6cdded6dd1adfcf1aadc711f6e86b8c3dbe807b151c848212e359d8f17",
+    "csrc\\mps\\3d\\backprojection_2d_to_3d_kernels.h": "cf5b4bfcc1cca5ed38e8a4a719b0ae84ac9c1d3ac0c2a8a0118a89a572e49c78",
+    "tests\\2d\\back\\test_performance_back.py": "8def2a19978109e4e948ada44fa2c8c2c030b8b54b7dcc062da3fe25eb2db91f",
+    "csrc\\cuda\\2d\\projection_2d_kernels.h": "e06e39997144088df31cf66ecff935438c13a3f8351da8810cb01499308de46f",
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.h": "3ced9b9d0f2c2e84ed284e8a59727093b90aaa1f78b185ca568b06a626dc1479",
+    "tests\\3d\\back\\test_oversampling_back_2d_to_3d.py": "72b100d4ba0788e9219c72a66b4fe579db3f4841691c50a156d7d9d577fac71e",
+    "paper\\results\\benchmarks\\forward_3d_to_2d.py": "3c0b4a6cec9c5e79572491e8e7fb34716dabdbedcc817a0a69dbb54406bf651b",
+    "csrc\\torch_projectors.cpp": "c3c298064beae6c6a83795b6f0be75c239b13e1b7f8341a8071d192bd3246267",
+    "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py": "42d994b24654930cb9e21b5f1ec8873c0dc710df573ba7b2151c43215a1ea0de",
+    "tests\\2d\\forw\\test_batching.py": "9313eba54b703db816f0341a6ad0bafb37540ff89954f3d1bf19e0b84365ff18",
+    "tests\\3d\\back\\test_gradients_back_2d_to_3d.py": "aafa40deb43da186718b839f24eb8ddd6661b8d07c5409a8c1a1ff18b86c8c10",
+    "README.md": "428752026851cd34701dd82860501ac71924d033d41ec6afaf31c1319023a19d",
+    "paper\\results\\benchmarks\\oversampling_benchmark.py": "f54fd47b74aad26c8d453328c416314b7cb9a954fa228c7b513127e22a90f7e7",
+    "csrc\\cpu\\2d\\projection_2d_kernels.cpp": "dcb535f130df9f02366c8b590db39fd825118f8d90a9edc1fb7b74806f60d916",
+    "tests\\3d\\forw\\test_visual_validation_3d_to_2d.py": "ed6f85e848478e50cfc565c83847b4a0404c64d7b15e6061a025288451c36e89",
+    "torch_projectors\\ops.py": "11a921a447a59da1200fbc913c20461e6817b217dda9999fd45e7eba8b9e4e53",
+    "tests\\__init__.py": "b0d19b50ebdac50eb655e5aea1d24aaaad2ccef83ddad284396ba1fed43716cf",
+    "csrc\\cpu\\common\\atomic_ops.h": "60a153dfdc5c78d1e569e0908b09c42754aed807c78c3c81a4272d2851138b5a",
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.h": "0feeb63cce5d33a92e9497bbfc261a960b50f25a42cbe4a924a29f404571f788",
+    "tests\\2d\\forw\\test_basic_projection.py": "a7a64c11621859b5cbf5db75c053b7ed168832658d01e1e51905702e7a54140c",
+    "tests\\2d\\forw\\test_visual_validation.py": "7d116acdb7b1414e9f0e84de89a68b56d3185002800f000e9eb63e1b19633c71",
+    "tests\\test_utils.py": "f0aaa7406dfd3f85b54da15eef2a33d5084a9f8f15eba43f62eba96882f2c85f",
+    "paper\\results\\benchmarks\\benchmark_base.py": "5dba8b76652cdc346fbe076047593f6b00e47da3d19fe5c9bd3585355391a713",
+    "paper\\results\\make-tables\\oversampling_table_generator.py": "c6137ca2f817db09c4c034a57b5ceecf555986fc8b2fd26fab7ad31e544997c3",
+    "paper\\results\\benchmarks\\backward_2d_to_3d.py": "8ea93495ca4ff89af192eeed9a25b3c0e8c39d1322bffd4594b48cecb0b5fefb",
+    "torch_projectors\\__init__.py": "9f885f014a0e7a68acf443975fa3e4822ecdd18c0c5adfc8aa9c830e2ca92395",
+    "csrc\\cpu\\common\\projection_utils.h": "6c7a2cba9b47f61ebb63ff25c807b23f5545b2b4f26b28cb9898b6ada688112d",
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py": "aa0d5d147c80ccafa11bc77252d76811948fcfb5be72e4ec15b9bd9ce702608c",
+    "tests\\2d\\back\\test_cross_platform_back.py": "ba8ad6f2022315c09853731b00d7338d5d85c6db0f5f6e7c9e92478803fb7455",
+    "tests\\2d\\forw\\test_performance.py": "0f710c5aa9b7cf001e05bafb1e65a36a3a50ca32e0557bc185e8cacb19f2532d",
+    "setup.py": "2c02c8a05dc96a469d0391650203fd0a69e82292d17d6a0d387fbaba7bc775e7",
+    "csrc\\cpu\\common\\interpolation_kernels.h": "91d62a1d1642992d0287478fb6959afb38e9ac8c89caf675d2e794d09b64b5ba",
+    "paper\\verify_equations.py": "ba66db936b94da1d54940dc2117b38fd4a6afaef9808ed7b0a419c276276620b",
+    "tests\\2d\\forw\\test_cross_platform.py": "512520ac0e807c61d9082376af84137a6d575a294f0b3dda9955b452332488e0",
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp": "0a1abfdff0a5fd671f8ac0a968d5e050317e65ab5b06437abb09f31defc49af7",
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu": "61afb5f127f1faaf0026330e7c5e6471051ffeaad3c5b451653a9b8afb5e6289",
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu": "d0e2687c3c8ed1265e2ee9a378e7b70a83459eb1007361e4e8e5a7672032650f",
+    "tests\\3d\\forw\\test_batching_3d_to_2d.py": "d3d006c9690b7ae0ea22d7523c067f04f59ad0fc24e4987f6696706403da522e",
+    "csrc\\cpu\\2d\\projection_2d_kernels.h": "0b6b037e277635e57083e808201ddf2128587257cd87e3ddb68932e4f810ae0e"
+  },
+  "chunks": {
+    "CLAUDE.md::0": {
+      "file": "CLAUDE.md",
+      "start_line": 1,
+      "end_line": 89
+    },
+    "README.md::0": {
+      "file": "README.md",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "README.md::1": {
+      "file": "README.md",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "README.md::2": {
+      "file": "README.md",
+      "start_line": 301,
+      "end_line": 359
+    },
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp::0": {
+      "file": "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp::1": {
+      "file": "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp::2": {
+      "file": "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp::3": {
+      "file": "csrc\\cpu\\2d\\backprojection_2d_kernels.cpp",
+      "start_line": 451,
+      "end_line": 537
+    },
+    "csrc\\cpu\\2d\\backprojection_2d_kernels.h::0": {
+      "file": "csrc\\cpu\\2d\\backprojection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 24
+    },
+    "csrc\\cpu\\2d\\projection_2d_kernels.cpp::0": {
+      "file": "csrc\\cpu\\2d\\projection_2d_kernels.cpp",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\2d\\projection_2d_kernels.cpp::1": {
+      "file": "csrc\\cpu\\2d\\projection_2d_kernels.cpp",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\2d\\projection_2d_kernels.cpp::2": {
+      "file": "csrc\\cpu\\2d\\projection_2d_kernels.cpp",
+      "start_line": 301,
+      "end_line": 375
+    },
+    "csrc\\cpu\\2d\\projection_2d_kernels.h::0": {
+      "file": "csrc\\cpu\\2d\\projection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 24
+    },
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp::0": {
+      "file": "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp::1": {
+      "file": "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp::2": {
+      "file": "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp::3": {
+      "file": "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.cpp",
+      "start_line": 451,
+      "end_line": 590
+    },
+    "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.h::0": {
+      "file": "csrc\\cpu\\3d\\backprojection_2d_to_3d_kernels.h",
+      "start_line": 1,
+      "end_line": 73
+    },
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp::0": {
+      "file": "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp::1": {
+      "file": "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp::2": {
+      "file": "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.cpp",
+      "start_line": 301,
+      "end_line": 402
+    },
+    "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.h::0": {
+      "file": "csrc\\cpu\\3d\\projection_3d_to_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 95
+    },
+    "csrc\\cpu\\common\\atomic_ops.h::0": {
+      "file": "csrc\\cpu\\common\\atomic_ops.h",
+      "start_line": 1,
+      "end_line": 47
+    },
+    "csrc\\cpu\\common\\cubic_kernels.h::0": {
+      "file": "csrc\\cpu\\common\\cubic_kernels.h",
+      "start_line": 1,
+      "end_line": 70
+    },
+    "csrc\\cpu\\common\\fftw_sampling.h::0": {
+      "file": "csrc\\cpu\\common\\fftw_sampling.h",
+      "start_line": 1,
+      "end_line": 162
+    },
+    "csrc\\cpu\\common\\interpolation_kernels.h::0": {
+      "file": "csrc\\cpu\\common\\interpolation_kernels.h",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\common\\interpolation_kernels.h::1": {
+      "file": "csrc\\cpu\\common\\interpolation_kernels.h",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\common\\interpolation_kernels.h::2": {
+      "file": "csrc\\cpu\\common\\interpolation_kernels.h",
+      "start_line": 301,
+      "end_line": 444
+    },
+    "csrc\\cpu\\common\\projection_utils.h::0": {
+      "file": "csrc\\cpu\\common\\projection_utils.h",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cpu\\common\\projection_utils.h::1": {
+      "file": "csrc\\cpu\\common\\projection_utils.h",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cpu\\common\\projection_utils.h::2": {
+      "file": "csrc\\cpu\\common\\projection_utils.h",
+      "start_line": 301,
+      "end_line": 497
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::0": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::1": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::2": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::3": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::4": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::5": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 751,
+      "end_line": 950
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::6": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 901,
+      "end_line": 1100
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.cu::7": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.cu",
+      "start_line": 1051,
+      "end_line": 1192
+    },
+    "csrc\\cuda\\2d\\backprojection_2d_kernels.h::0": {
+      "file": "csrc\\cuda\\2d\\backprojection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 28
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::0": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::1": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::2": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::3": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::4": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.cu::5": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.cu",
+      "start_line": 751,
+      "end_line": 921
+    },
+    "csrc\\cuda\\2d\\projection_2d_kernels.h::0": {
+      "file": "csrc\\cuda\\2d\\projection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 26
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::0": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::1": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::2": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::3": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::4": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::5": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 751,
+      "end_line": 950
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::6": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 901,
+      "end_line": 1100
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::7": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 1051,
+      "end_line": 1250
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu::8": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.cu",
+      "start_line": 1201,
+      "end_line": 1363
+    },
+    "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.h::0": {
+      "file": "csrc\\cuda\\3d\\backprojection_2d_to_3d_kernels.h",
+      "start_line": 1,
+      "end_line": 28
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::0": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::1": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::2": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::3": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::4": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::5": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 751,
+      "end_line": 950
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::6": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 901,
+      "end_line": 1100
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu::7": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.cu",
+      "start_line": 1051,
+      "end_line": 1181
+    },
+    "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.h::0": {
+      "file": "csrc\\cuda\\3d\\projection_3d_to_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 26
+    },
+    "csrc\\mps\\2d\\backprojection_2d_kernels.h::0": {
+      "file": "csrc\\mps\\2d\\backprojection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 87
+    },
+    "csrc\\mps\\2d\\projection_2d_kernels.h::0": {
+      "file": "csrc\\mps\\2d\\projection_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 26
+    },
+    "csrc\\mps\\3d\\backprojection_2d_to_3d_kernels.h::0": {
+      "file": "csrc\\mps\\3d\\backprojection_2d_to_3d_kernels.h",
+      "start_line": 1,
+      "end_line": 87
+    },
+    "csrc\\mps\\3d\\projection_3d_to_2d_kernels.h::0": {
+      "file": "csrc\\mps\\3d\\projection_3d_to_2d_kernels.h",
+      "start_line": 1,
+      "end_line": 76
+    },
+    "csrc\\torch_projectors.cpp::0": {
+      "file": "csrc\\torch_projectors.cpp",
+      "start_line": 1,
+      "end_line": 101
+    },
+    "generate_metal_headers.py::0": {
+      "file": "generate_metal_headers.py",
+      "start_line": 1,
+      "end_line": 149
+    },
+    "paper\\results\\benchmarks\\backward_2d.py::0": {
+      "file": "paper\\results\\benchmarks\\backward_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\backward_2d.py::1": {
+      "file": "paper\\results\\benchmarks\\backward_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\backward_2d.py::2": {
+      "file": "paper\\results\\benchmarks\\backward_2d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\backward_2d.py::3": {
+      "file": "paper\\results\\benchmarks\\backward_2d.py",
+      "start_line": 451,
+      "end_line": 566
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d.py::0": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d.py::1": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d.py::2": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d.py::3": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d.py",
+      "start_line": 451,
+      "end_line": 588
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py::0": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py::1": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py::2": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py::3": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py::4": {
+      "file": "paper\\results\\benchmarks\\backward_2d_to_3d_comparison.py",
+      "start_line": 601,
+      "end_line": 690
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::0": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::1": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::2": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::3": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::4": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::5": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 751,
+      "end_line": 950
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::6": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 901,
+      "end_line": 1100
+    },
+    "paper\\results\\benchmarks\\benchmark_base.py::7": {
+      "file": "paper\\results\\benchmarks\\benchmark_base.py",
+      "start_line": 1051,
+      "end_line": 1212
+    },
+    "paper\\results\\benchmarks\\forward_2d.py::0": {
+      "file": "paper\\results\\benchmarks\\forward_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\forward_2d.py::1": {
+      "file": "paper\\results\\benchmarks\\forward_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\forward_2d.py::2": {
+      "file": "paper\\results\\benchmarks\\forward_2d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\forward_2d.py::3": {
+      "file": "paper\\results\\benchmarks\\forward_2d.py",
+      "start_line": 451,
+      "end_line": 552
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d.py::0": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d.py::1": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d.py::2": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d.py::3": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d.py",
+      "start_line": 451,
+      "end_line": 584
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::0": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::1": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::2": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::3": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::4": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py::5": {
+      "file": "paper\\results\\benchmarks\\forward_3d_to_2d_comparison.py",
+      "start_line": 751,
+      "end_line": 879
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::0": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::1": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::2": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::3": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::4": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 601,
+      "end_line": 800
+    },
+    "paper\\results\\benchmarks\\interpolation_accuracy.py::5": {
+      "file": "paper\\results\\benchmarks\\interpolation_accuracy.py",
+      "start_line": 751,
+      "end_line": 813
+    },
+    "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py::0": {
+      "file": "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py::1": {
+      "file": "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py::2": {
+      "file": "paper\\results\\benchmarks\\oversampling_backprojection_benchmark.py",
+      "start_line": 301,
+      "end_line": 439
+    },
+    "paper\\results\\benchmarks\\oversampling_benchmark.py::0": {
+      "file": "paper\\results\\benchmarks\\oversampling_benchmark.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\benchmarks\\oversampling_benchmark.py::1": {
+      "file": "paper\\results\\benchmarks\\oversampling_benchmark.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\benchmarks\\oversampling_benchmark.py::2": {
+      "file": "paper\\results\\benchmarks\\oversampling_benchmark.py",
+      "start_line": 301,
+      "end_line": 450
+    },
+    "paper\\results\\make-tables\\comparison_to_latex.py::0": {
+      "file": "paper\\results\\make-tables\\comparison_to_latex.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\make-tables\\comparison_to_latex.py::1": {
+      "file": "paper\\results\\make-tables\\comparison_to_latex.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\make-tables\\comparison_to_latex.py::2": {
+      "file": "paper\\results\\make-tables\\comparison_to_latex.py",
+      "start_line": 301,
+      "end_line": 355
+    },
+    "paper\\results\\make-tables\\json_to_latex.py::0": {
+      "file": "paper\\results\\make-tables\\json_to_latex.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\results\\make-tables\\json_to_latex.py::1": {
+      "file": "paper\\results\\make-tables\\json_to_latex.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\results\\make-tables\\json_to_latex.py::2": {
+      "file": "paper\\results\\make-tables\\json_to_latex.py",
+      "start_line": 301,
+      "end_line": 356
+    },
+    "paper\\results\\make-tables\\oversampling_table_generator.py::0": {
+      "file": "paper\\results\\make-tables\\oversampling_table_generator.py",
+      "start_line": 1,
+      "end_line": 155
+    },
+    "paper\\verify_equations.py::0": {
+      "file": "paper\\verify_equations.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "paper\\verify_equations.py::1": {
+      "file": "paper\\verify_equations.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "paper\\verify_equations.py::2": {
+      "file": "paper\\verify_equations.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "paper\\verify_equations.py::3": {
+      "file": "paper\\verify_equations.py",
+      "start_line": 451,
+      "end_line": 553
+    },
+    "setup.py::0": {
+      "file": "setup.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "setup.py::1": {
+      "file": "setup.py",
+      "start_line": 151,
+      "end_line": 228
+    },
+    "tests\\2d\\__init__.py::0": {
+      "file": "tests\\2d\\__init__.py",
+      "start_line": 1,
+      "end_line": 1
+    },
+    "tests\\2d\\back\\test_basic_backprojection.py::0": {
+      "file": "tests\\2d\\back\\test_basic_backprojection.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_basic_backprojection.py::1": {
+      "file": "tests\\2d\\back\\test_basic_backprojection.py",
+      "start_line": 151,
+      "end_line": 236
+    },
+    "tests\\2d\\back\\test_batching_back.py::0": {
+      "file": "tests\\2d\\back\\test_batching_back.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_batching_back.py::1": {
+      "file": "tests\\2d\\back\\test_batching_back.py",
+      "start_line": 151,
+      "end_line": 335
+    },
+    "tests\\2d\\back\\test_cross_platform_back.py::0": {
+      "file": "tests\\2d\\back\\test_cross_platform_back.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_cross_platform_back.py::1": {
+      "file": "tests\\2d\\back\\test_cross_platform_back.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\2d\\back\\test_cross_platform_back.py::2": {
+      "file": "tests\\2d\\back\\test_cross_platform_back.py",
+      "start_line": 301,
+      "end_line": 415
+    },
+    "tests\\2d\\back\\test_gradients_back.py::0": {
+      "file": "tests\\2d\\back\\test_gradients_back.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_gradients_back.py::1": {
+      "file": "tests\\2d\\back\\test_gradients_back.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\2d\\back\\test_gradients_back.py::2": {
+      "file": "tests\\2d\\back\\test_gradients_back.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests\\2d\\back\\test_gradients_back.py::3": {
+      "file": "tests\\2d\\back\\test_gradients_back.py",
+      "start_line": 451,
+      "end_line": 556
+    },
+    "tests\\2d\\back\\test_oversampling_back.py::0": {
+      "file": "tests\\2d\\back\\test_oversampling_back.py",
+      "start_line": 1,
+      "end_line": 158
+    },
+    "tests\\2d\\back\\test_performance_back.py::0": {
+      "file": "tests\\2d\\back\\test_performance_back.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_performance_back.py::1": {
+      "file": "tests\\2d\\back\\test_performance_back.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\2d\\back\\test_performance_back.py::2": {
+      "file": "tests\\2d\\back\\test_performance_back.py",
+      "start_line": 301,
+      "end_line": 361
+    },
+    "tests\\2d\\back\\test_visual_validation_back.py::0": {
+      "file": "tests\\2d\\back\\test_visual_validation_back.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\back\\test_visual_validation_back.py::1": {
+      "file": "tests\\2d\\back\\test_visual_validation_back.py",
+      "start_line": 151,
+      "end_line": 341
+    },
+    "tests\\2d\\forw\\test_basic_projection.py::0": {
+      "file": "tests\\2d\\forw\\test_basic_projection.py",
+      "start_line": 1,
+      "end_line": 174
+    },
+    "tests\\2d\\forw\\test_batching.py::0": {
+      "file": "tests\\2d\\forw\\test_batching.py",
+      "start_line": 1,
+      "end_line": 147
+    },
+    "tests\\2d\\forw\\test_cross_platform.py::0": {
+      "file": "tests\\2d\\forw\\test_cross_platform.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\forw\\test_cross_platform.py::1": {
+      "file": "tests\\2d\\forw\\test_cross_platform.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\2d\\forw\\test_cross_platform.py::2": {
+      "file": "tests\\2d\\forw\\test_cross_platform.py",
+      "start_line": 301,
+      "end_line": 380
+    },
+    "tests\\2d\\forw\\test_gradients.py::0": {
+      "file": "tests\\2d\\forw\\test_gradients.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\forw\\test_gradients.py::1": {
+      "file": "tests\\2d\\forw\\test_gradients.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\2d\\forw\\test_gradients.py::2": {
+      "file": "tests\\2d\\forw\\test_gradients.py",
+      "start_line": 301,
+      "end_line": 496
+    },
+    "tests\\2d\\forw\\test_oversampling.py::0": {
+      "file": "tests\\2d\\forw\\test_oversampling.py",
+      "start_line": 1,
+      "end_line": 96
+    },
+    "tests\\2d\\forw\\test_performance.py::0": {
+      "file": "tests\\2d\\forw\\test_performance.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\2d\\forw\\test_performance.py::1": {
+      "file": "tests\\2d\\forw\\test_performance.py",
+      "start_line": 151,
+      "end_line": 227
+    },
+    "tests\\2d\\forw\\test_visual_validation.py::0": {
+      "file": "tests\\2d\\forw\\test_visual_validation.py",
+      "start_line": 1,
+      "end_line": 75
+    },
+    "tests\\3d\\__init__.py::0": {
+      "file": "tests\\3d\\__init__.py",
+      "start_line": 1,
+      "end_line": 1
+    },
+    "tests\\3d\\back\\test_basic_backprojection_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_basic_backprojection_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\back\\test_basic_backprojection_2d_to_3d.py::1": {
+      "file": "tests\\3d\\back\\test_basic_backprojection_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 330
+    },
+    "tests\\3d\\back\\test_batching_back_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_batching_back_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\back\\test_batching_back_2d_to_3d.py::1": {
+      "file": "tests\\3d\\back\\test_batching_back_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\back\\test_batching_back_2d_to_3d.py::2": {
+      "file": "tests\\3d\\back\\test_batching_back_2d_to_3d.py",
+      "start_line": 301,
+      "end_line": 355
+    },
+    "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py::1": {
+      "file": "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py::2": {
+      "file": "tests\\3d\\back\\test_cross_platform_back_2d_to_3d.py",
+      "start_line": 301,
+      "end_line": 429
+    },
+    "tests\\3d\\back\\test_gradients_back_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_gradients_back_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\back\\test_gradients_back_2d_to_3d.py::1": {
+      "file": "tests\\3d\\back\\test_gradients_back_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\back\\test_gradients_back_2d_to_3d.py::2": {
+      "file": "tests\\3d\\back\\test_gradients_back_2d_to_3d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests\\3d\\back\\test_gradients_back_2d_to_3d.py::3": {
+      "file": "tests\\3d\\back\\test_gradients_back_2d_to_3d.py",
+      "start_line": 451,
+      "end_line": 605
+    },
+    "tests\\3d\\back\\test_oversampling_back_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_oversampling_back_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 177
+    },
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py::0": {
+      "file": "tests\\3d\\back\\test_performance_back_2d_to_3d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py::1": {
+      "file": "tests\\3d\\back\\test_performance_back_2d_to_3d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py::2": {
+      "file": "tests\\3d\\back\\test_performance_back_2d_to_3d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py::3": {
+      "file": "tests\\3d\\back\\test_performance_back_2d_to_3d.py",
+      "start_line": 451,
+      "end_line": 650
+    },
+    "tests\\3d\\back\\test_performance_back_2d_to_3d.py::4": {
+      "file": "tests\\3d\\back\\test_performance_back_2d_to_3d.py",
+      "start_line": 601,
+      "end_line": 664
+    },
+    "tests\\3d\\forw\\test_basic_projection_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_basic_projection_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\forw\\test_basic_projection_3d_to_2d.py::1": {
+      "file": "tests\\3d\\forw\\test_basic_projection_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 277
+    },
+    "tests\\3d\\forw\\test_batching_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_batching_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 158
+    },
+    "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py::1": {
+      "file": "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py::2": {
+      "file": "tests\\3d\\forw\\test_cross_platform_3d_to_2d.py",
+      "start_line": 301,
+      "end_line": 407
+    },
+    "tests\\3d\\forw\\test_gradients_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_gradients_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\forw\\test_gradients_3d_to_2d.py::1": {
+      "file": "tests\\3d\\forw\\test_gradients_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\forw\\test_gradients_3d_to_2d.py::2": {
+      "file": "tests\\3d\\forw\\test_gradients_3d_to_2d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests\\3d\\forw\\test_gradients_3d_to_2d.py::3": {
+      "file": "tests\\3d\\forw\\test_gradients_3d_to_2d.py",
+      "start_line": 451,
+      "end_line": 557
+    },
+    "tests\\3d\\forw\\test_oversampling_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_oversampling_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 94
+    },
+    "tests\\3d\\forw\\test_performance_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_performance_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\forw\\test_performance_3d_to_2d.py::1": {
+      "file": "tests\\3d\\forw\\test_performance_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\3d\\forw\\test_performance_3d_to_2d.py::2": {
+      "file": "tests\\3d\\forw\\test_performance_3d_to_2d.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "tests\\3d\\forw\\test_performance_3d_to_2d.py::3": {
+      "file": "tests\\3d\\forw\\test_performance_3d_to_2d.py",
+      "start_line": 451,
+      "end_line": 628
+    },
+    "tests\\3d\\forw\\test_visual_validation_3d_to_2d.py::0": {
+      "file": "tests\\3d\\forw\\test_visual_validation_3d_to_2d.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\3d\\forw\\test_visual_validation_3d_to_2d.py::1": {
+      "file": "tests\\3d\\forw\\test_visual_validation_3d_to_2d.py",
+      "start_line": 151,
+      "end_line": 300
+    },
+    "tests\\__init__.py::0": {
+      "file": "tests\\__init__.py",
+      "start_line": 1,
+      "end_line": 1
+    },
+    "tests\\conftest.py::0": {
+      "file": "tests\\conftest.py",
+      "start_line": 1,
+      "end_line": 17
+    },
+    "tests\\test_utils.py::0": {
+      "file": "tests\\test_utils.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "tests\\test_utils.py::1": {
+      "file": "tests\\test_utils.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "tests\\test_utils.py::2": {
+      "file": "tests\\test_utils.py",
+      "start_line": 301,
+      "end_line": 384
+    },
+    "torch_projectors\\__init__.py::0": {
+      "file": "torch_projectors\\__init__.py",
+      "start_line": 1,
+      "end_line": 23
+    },
+    "torch_projectors\\ops.py::0": {
+      "file": "torch_projectors\\ops.py",
+      "start_line": 1,
+      "end_line": 200
+    },
+    "torch_projectors\\ops.py::1": {
+      "file": "torch_projectors\\ops.py",
+      "start_line": 151,
+      "end_line": 350
+    },
+    "torch_projectors\\ops.py::2": {
+      "file": "torch_projectors\\ops.py",
+      "start_line": 301,
+      "end_line": 500
+    },
+    "torch_projectors\\ops.py::3": {
+      "file": "torch_projectors\\ops.py",
+      "start_line": 451,
+      "end_line": 574
+    }
+  }
+}

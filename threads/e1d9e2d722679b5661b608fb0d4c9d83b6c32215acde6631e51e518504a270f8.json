@@ -1,0 +1,8 @@
+{
+  "message_id": "<343dee1c-9024-4447-b953-542f2d64a742n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashing at the subtomogram reconstruction step",
+  "sender": "=?UTF-8?B?5byg5r2H5rSB?= <xiaojie11.zhang@gmail.com>",
+  "date": "Thu, 28 Mar 2024 06:41:24 -0700 (PDT)",
+  "body": "Dear Warp users,\n\nI recently encountered crashing of Warp when reconstructing subtomograms. \nFull tomograms were reconstructed well as usual. The errors in the attached \npicture start with \n\n\"Couldn't export the particles!\nat Warp.WorkerWrapper.TomoExportParticles(String path, \nProcessingOptionsTomoSubReconstruction options, float3 coordinates, float3 \nangles) in\nD:\\Dev\\warp2\\WarpLib\\WorkerWrapper.cs:line 197\n...\n\"\nI run Warp with 2 of 4090 GPU cards. \nAny suggestions on what I can try? Many thanks!\n\nBest,\nXiaojie Zhang\n\nPI, assistant professor\nShanghaiTech University\n\n[image: Warp_error_reconstruct_subtomo.jpg]"
+}

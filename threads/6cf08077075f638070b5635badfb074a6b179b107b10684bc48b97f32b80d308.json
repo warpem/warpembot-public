@@ -1,0 +1,8 @@
+{
+  "message_id": "<bcc805d4-c96d-47e0-99fe-8a8f0ae94c48@googlegroups.com>",
+  "thread_id": "<6baec4a7-196e-4c94-9f8b-89d3193bcb1f@googlegroups.com>",
+  "subject": "Re: warp not starting",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Mon, 11 Nov 2019 09:13:24 -0800 (PST)",
+  "body": "Can you try connecting the display to the Titan Xp and disabling the 720 in \nthe device manager?\n\nOn Monday, November 11, 2019 at 6:07:10 PM UTC+1, Mike Strauss wrote:\n>\n> Hi Dmitry,\n>\n> yes, I also have a GT720 for the display.\n>\n> mike\n>\n> On Sunday, November 10, 2019 at 2:50:33 PM UTC-5, Dimitry Tegunov wrote:\n>>\n>> Hi Mike,\n>>\n>> that is indeed an annoying message to get and to troubleshoot. What is \n>> the exact system config? Any GPUs beside the Titan?\n>>\n>> Cheers,\n>> Dimitry\n>>\n>> On Thursday, November 7, 2019 at 6:06:42 PM UTC+1, Mike Strauss wrote:\n>>>\n>>> I also get this annoying message that says I don't have a compatible \n>>> card, despite my nvidia applications claiming otherwise.\n>>>\n>>>\n>>>\n>>> On Wednesday, November 6, 2019 at 3:26:41 PM UTC-5, Mike Strauss wrote:\n>>>>\n>>>> I have installed warp 1.0.7 and it crashes immediately upon starting.  \n>>>> it gives this error:\n>>>>\n>>>> It then tells me to reinstall things, which i have done numerous times, \n>>>> and it doesn't change anything.  1.0.6 will at least open the window, but \n>>>> it crashes after asking to start processing anything.  I am on Win10 and \n>>>> have a Titan Xp\n>>>>\n>>>> Regards,\n>>>> mike\n>>>>\n>>>"
+}

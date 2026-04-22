@@ -1,0 +1,8 @@
+{
+  "message_id": "<1f5991bd-308f-4595-a82c-410e489c7796n@googlegroups.com>",
+  "thread_id": "<72f5a19a-3115-4202-b6da-9354eddfa425o@googlegroups.com>",
+  "subject": "Re: Workstation configurations",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Mon, 28 Sep 2020 09:41:24 -0700 (PDT)",
+  "body": "Hi Bob,\r\n\r\nI'd go with approximately the average of both configurations if that's an \r\noption. The 24 GB 3090 card would have better chances of keeping up with \r\n400 movies/hour since it can fit 2–3 processes running in parallel. I'd \r\nalso go with a 16 core CPU. A large local SSD is not required, unless you \r\nplan to store data locally. Warp's disk footprint during processing is tiny.\r\n\r\nCheers,\r\nDimitry\r\n\r\nOn Friday, September 25, 2020 at 1:37:24 AM UTC+2 reas...@ucsd.edu wrote:\r\n\r\n> I was wondering if anyone had any feedback on two GPU workstation \r\n> configurations I'm considering for our Warp setup. I currently image with a \r\n> K2 with 400 frames and 50 fractions per movie on our Krios. Basically \r\n> wondering if the cheaper one will handle the load or if I should get the \r\n> more expensive version to be safe or if there is some other changes I \r\n> should make to the them.\r\n>\r\n> Thanks for your help,\r\n>\r\n> Bob Ashley\r\n> Facility Manager UC San Diego\r\n>"
+}

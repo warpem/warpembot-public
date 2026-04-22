@@ -1,0 +1,8 @@
+{
+  "message_id": "<4daab4f2-2a6a-4953-8d63-2e1a0efc7636n@googlegroups.com>",
+  "thread_id": "<2703517b-321c-4901-a52b-921211448ac2n@googlegroups.com>",
+  "subject": "Re: .gain reference file not usable",
+  "sender": "Takanori Nakane <nakane.t@gmail.com>",
+  "date": "Fri, 26 Feb 2021 02:21:32 -0800 (PST)",
+  "body": "Hi,\n\nAn EER gain reference with an .gain extension is internally a TIFF file.\nAn important point is that Warp (and RELION) divide raw detector values by \nEER's gain reference in the MRC format.\nThis is the convention used by earlier versions of the Falcon4 controller. \nIn contrast to this, a newer gain reference in the TIFF container\nis a multiplicative gain, as in K2 and K3. That is, the raw values must be \nmultiplied by the gain reference.\n\nSo, what you should do is:\n1. convert .gain into .mrc\n2. take the reciprocal of the file\n\nBoth can be done with e2proc2d.py in EMAN2.\n\nBest regards,\n\nTakanori Nakane\n\nOn Friday, February 26, 2021 at 10:10:10 AM UTC Sebastien Moniot wrote:\n\n> Hi all,\n>\n> I recently obtained a cryo-EM dataset collected on a Falcon 4 detector and \n> thus with .eer files.\n> Warp handles them fine but I cannot get to use the reference.gain file for \n> preprocessing. Warp only accepts .dm4, .mrc, or .em extensions.\n> I tried to replace the extension of my .gain file to the others without \n> success, Warp then complaining that the file cannot be read.\n>\n> Any Idea how to solve my problem?\n> Thanks.\n>\n> Sebastien\n>"
+}

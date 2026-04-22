@@ -1,0 +1,8 @@
+{
+  "message_id": "<d13d0c6a-83cb-48cd-a12a-099e70205313n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "import particleseries data",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Mon, 16 Sep 2024 18:08:49 -0700 (PDT)",
+  "body": "Hi all,\n\nI got particleseries data from M and refine in relion. When I tried to \nre-import this particleseries data to M, M couldn't recognize the particles \nand star files.Is there any ways to import particleseries data to M?\n\nThanks!\n\nBest,\nMingyu"
+}

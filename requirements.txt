@@ -1,0 +1,7 @@
+agentmail
+numpy
+requests
+mcp
+beautifulsoup4
+tqdm
+pytest

@@ -1,0 +1,8 @@
+{
+  "message_id": "<a9bea847-b79c-4af4-a092-645280a3696cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp/M <--> Relion",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Wed, 9 Oct 2024 01:19:55 -0700 (PDT)",
+  "body": "WarpTools/2.0.0dev28 and Relion 5.0 beta3 commit 12cf15.\n\nI imported tilt series alignments into Relion and Warp. I generate \ntomograms and they are perfectly aligned with one another.  However, I \ncannot successfully move particles between RELION and Warp/M.\n\n1) Particles extracted in Relion refines well to 7A.  I import into M, run \nfirst round of refinement (iter 0) and it produces a blob at 50A.  \n\n2) Same particles as above are instead extracted in Warp. Run a refinement \nin RELION and it gets stuck at 30A and overall is poor quality map.\n\nany thoughts are welcome.\n\nJ"
+}

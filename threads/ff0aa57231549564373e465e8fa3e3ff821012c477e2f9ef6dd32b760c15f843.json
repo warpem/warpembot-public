@@ -1,0 +1,8 @@
+{
+  "message_id": "<bb8707f9-83cd-4d84-8495-6b7365d8b531@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warpcraft in container running windows simulator",
+  "sender": "mcianfro@umich.edu",
+  "date": "Thu, 21 Mar 2019 08:14:42 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nWhat windows simulator do you recommend to run warp craft? And what \ndependencies do I need? I'm new to this, so I was going to try 'Wine':\n\nhttps://www.winehq.org/\n\nOr is there a different way? \n\nThanks! We will be sharing this once we get it built.\n\nMike"
+}

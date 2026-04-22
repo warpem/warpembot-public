@@ -1,0 +1,8 @@
+{
+  "message_id": "<0C1DD8D5-6263-4C63-A018-95D21E8FB4E9@gmail.com>",
+  "thread_id": "<2210a8a8-4f2d-4897-93dd-437fd523d2b0n@googlegroups.com>",
+  "subject": "Re: Subtomogram reconstruction in Warp not working",
+  "sender": "tom dendooven <tom.dendooven@gmail.com>",
+  "date": "Tue, 26 Sep 2023 21:40:58 +0300",
+  "body": "Hi Rose,\r\n\r\nSometimes just restarting Warp resolves this particular issue.\r\n\r\nBest wishes,\r\nTom\r\n\r\n> On 26 Sep 2023, at 21:28, RWilfong <rwilfong24@gmail.com> wrote:\r\n> \r\n> Hi all, \r\n> \r\n> I'm working on learning the warp, m, relion pipeline and I've been following the TeamTomo walkthrough (https://teamtomo.org/walkthroughs/EMPIAR-10164/relion.html). \r\n> \r\n> I just recreated my star file for the first 5A reconstruction in Warp, but when I go to select \"reconstruct sub-tomograms\", it will not let me select \"volumes\" on the export subtomograms list. Does anyone know what the problem might be? Is it a naming convention problem, a data location problem, or a star file problem? Thank you! \r\n> \r\n> Cheers, \r\n> Rose\r\n> \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com <mailto:warp-em+unsubscribe@googlegroups.com>.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/2210a8a8-4f2d-4897-93dd-437fd523d2b0n%40googlegroups.com <https://groups.google.com/d/msgid/warp-em/2210a8a8-4f2d-4897-93dd-437fd523d2b0n%40googlegroups.com?utm_medium=email&utm_source=footer>."
+}

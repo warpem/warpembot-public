@@ -1,0 +1,8 @@
+{
+  "message_id": "<086ca1b7-aeb4-467b-997f-9004363515eao@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M Masks",
+  "sender": "3P1L <philipp.stawski@gmail.com>",
+  "date": "Tue, 11 Aug 2020 06:41:38 -0700 (PDT)",
+  "body": "*Dear All,*\r\n\r\nI have a question regarding masks in M. Whenever I try to import masks from \r\nWarp, they fail to display properly and unfortunately result in a crash \r\nduring refinement.\r\n\r\nUsing the built-in function to create a mask (filter to X Å and use \r\nthreshold of Y), I'm a bit afraid that the mask will not be 100% correct \r\nand 'too sharp'\r\n\r\nFor example, I cannot extend by a few pixels and set a smooth falloff on \r\nthe borders. I think that might be responsible for some crashes, too.\r\n\r\nDoes anybody have a solution for this? Are there any special requirements \r\nfor masks in M, or do you know how to properly import Relion masks?\r\n\r\n\r\nThanks for any advice!\r\n\r\n\r\nPhil."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<BF54C3A9-0AB8-4431-BB90-FA127C5F1C26@gmail.com>",
+  "thread_id": "<cdb8a643-9c0f-45f2-9ced-8f16e7674aadn@googlegroups.com>",
+  "subject": "Re: External component has thrown an exception in M",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 9 Aug 2024 08:53:14 +0200",
+  "body": "Hi Mingyu,\nSorry but it’s quite hard to help here now that desktop Warp/M are now up to date. All I can recommend is moving to the Linux version where hopefully a few more kinks have been ironed out…\nWe don’t yet provide windows builds for desktop Warp for version 2, only the Linux builds are available\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Aug 9, 2024, at 03:53, Mingyu Jung <jmg0910@snu.ac.kr> wrote:\n﻿Hi all,\nI have an issue(the error message external component has thrown an exception) when I tried to extract unbinned subtomogram with 250 voxel box size in M. I imported relion data from 2x binned subtomogram to M. Anyone experience similar issue with me? There was an same issue in this forum but he resolved his problem using 1.5x binned extraction. I wanna try unbinned subtomogram.\nThank you!\nBest,\nMingyu\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/cdb8a643-9c0f-45f2-9ced-8f16e7674aadn%40googlegroups.com\n."
+}

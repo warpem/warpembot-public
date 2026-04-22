@@ -1,0 +1,8 @@
+{
+  "message_id": "<693a29ca-ece8-45b2-afd0-519413f8d1e5n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Import tilt series from IMOD",
+  "sender": "Genis Valentin Gese <snooze94@gmail.com>",
+  "date": "Wed, 17 Feb 2021 11:58:15 -0800 (PST)",
+  "body": "Hi!\n\nI'm trying to process the 5 tilt series from Turonova et al. for training \npurposes.\n\nWhen I import the tilt series aligned in IMOD, WARP produced tomostar files \nas expected, but these files do not seem to be readable by WARP for further \nprocessing.\n\nI noticed that these files contain decimal points _wrpAngleTilt #2 column. \nIf I manually remove the decimal points then the file is properly read.\n\nFor example, this file is ignored (I just copied the first rows as an \nexample)\n\ndata_\n\nloop_\n_wrpMovieName #1\n_wrpAngleTilt #2\n_wrpAxisAngle #3\n_wrpAxisOffsetX #4\n_wrpAxisOffsetY #5\n_wrpDose #6\n  TS_01_038_-57.0.mrc   57.09  85.01966    35.42966   113.2249  115\n  TS_01_035_-54.0.mrc   54.11  85.04208     20.4199   93.81467  106\n  TS_01_034_-51.0.mrc   51.13   85.0446    30.81794   117.7421  103\n....\n\n\nBut this file is properly read by WARP\n\n\ndata_\n\nloop_\n_wrpMovieName #1\n_wrpAngleTilt #2\n_wrpAxisAngle #3\n_wrpAxisOffsetX #4\n_wrpAxisOffsetY \n_wrpDose #6\n  TS_01_038_-57.0.mrc   57  85.01966    35.42966   113.2249  115\n  TS_01_035_-54.0.mrc   54  85.04208     20.4199   93.81467  106\n  TS_01_034_-51.0.mrc   51   85.0446    30.81794   117.7421  103\n...\n\nIs this the expected behaviour?\n\nThanks and best regards\n\nGenis"
+}

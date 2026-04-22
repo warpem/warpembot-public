@@ -1,0 +1,8 @@
+{
+  "message_id": "<8c1a56f5-1a80-46bd-9dd5-865013c5c7fc@googlegroups.com>",
+  "thread_id": "<5e691031-15b3-4053-86df-fa50ad193522@googlegroups.com>",
+  "subject": "Re: Gatan DM gain ref",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 21 Nov 2018 04:57:26 -0800 (PST)",
+  "body": "Hi Wim,\r\n\r\nthis is expected behavior for the new version if the combination of TIFF + \r\nDM gain ref didn't require flipping previously. I honestly don't know why \r\nanyone thought it would be a good idea to not read the data in the order it \r\nphysically exists, but rather adhere to some axis conventions only relevant \r\nfor display – but that's the way it is now. Please note that RELION won't \r\naccept a DM gain ref or do any flipping itself, so converting to MRC and \r\nflipping will be necessary if you want to polish particles.\r\n\r\nCheers,\r\nDimitry\r\n\r\nOn Wednesday, November 21, 2018 at 11:35:25 AM UTC+1, wimhag@gmail.com \r\nwrote:\r\n>\r\n>\r\n> Using TIF, the DM gain ref needs \"Flip Y axis\" in 1.06.\r\n> Wim\r\n>"
+}

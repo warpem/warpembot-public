@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHr6a6zvEJ8YVQKeCkUSxGywHAESjagzNV7K0X4oy7QTeA@mail.gmail.com>",
+  "thread_id": "<82ec2784-fe70-4041-b64a-0adfffef3c79n@googlegroups.com>",
+  "subject": "Re: referenced frame series could not be found",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 11 Jun 2024 18:31:52 -0400",
+  "body": "Hi Pankaj,\r\n\r\nDo the file names in your mdoc files match the file names in your frame\r\nseries data folder?\r\n\r\nAlister\r\n\r\nOn Tue, 11 Jun 2024 at 16:07, Pankaj Vilas Jadhav <pvjadhav@umich.edu>\r\nwrote:\r\n\r\n> Hi all,\r\n> I am using warp2.0, i am getting the following error while trying to\r\n> import titseires to get the .tomostar file:\r\n>\r\n> Failed to parse TS_001.mrc.mdoc: At least one of the referenced frame\r\n> series could not be found:\r\n>\r\n> Any suggestions what must be going wrong?\r\n>\r\n> Pankaj\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/82ec2784-fe70-4041-b64a-0adfffef3c79n%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/82ec2784-fe70-4041-b64a-0adfffef3c79n%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<b39cc2d6-7df2-41e5-b9aa-d7833482ac47n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "external GPU for Warp?",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Thu, 30 Mar 2023 02:46:38 -0700 (PDT)",
+  "body": "Hi, \n\nIs anyone successfully using an external GPU card (via a docking station \nsuch as Razer Core X Chroma)?  We are using currently one MSI Geforce \nVentus RTX 2080 8Gt. It seems we are running out of memory and are \nconsidering adding a second card of the same type, using this external \ndevice (we cannot fit two cards in the box). But can Warp use an internal \nGPU and an external GPU at the same time?\n\nBest wishes,\nJuha"
+}

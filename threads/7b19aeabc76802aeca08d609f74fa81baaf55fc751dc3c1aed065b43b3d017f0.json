@@ -1,0 +1,8 @@
+{
+  "message_id": "<eab42ecf-aac5-4164-b8bc-44efd8da287f@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.0.7 keeps crashing",
+  "sender": "Da Cui <cuida1991@gmail.com>",
+  "date": "Fri, 12 Apr 2019 10:26:36 -0700 (PDT)",
+  "body": "Dear community, \n   I just gave an initial test with Warp 1.0.7 using some unbinned K3 data, \nbut it is either crashing, or working with no output and no GPU \nconsumption. I'm using a single 2080 Ti. \n   Also, when I use Warp 1.0.7 to process some unbinned K2 data (which is \nworking properly on Warp 1.0.6), it is still crashing when I choose \n\"particle picking\". \n   Is it just a special case, or is there anyone else encountering the same \nissue?\n   Thank you so much for your help!\n\nBest wishes, \n        Da"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<4F6658CD-0435-467B-896C-DB0F25CB8C38@gmail.com>",
+  "thread_id": "<ed3ad436-4c04-4259-adf6-0e8ae3d776cen@googlegroups.com>",
+  "subject": "Re: cropping on X side of image",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 13 Jun 2023 20:47:41 +0100",
+  "body": "Hey Jesse,\nThere is some mismatch between the data in the extended header and what warp is expecting there - a simple way to solve this would be to run each image through the imod program newstack\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn 13 Jun 2023, at 15:19, Jesse Hansen <bluufive2@gmail.com> wrote:\n﻿\nhi all,\nhas anyone seen such a weird artifact (far right side of image) when importing data from falcon 4.  I checked the raw data with 3dmod and do not see this effect, so it seems to be rather something up with WARP.    \nthanks\nJesse\n<Screenshot from 2023-06-13 16-15-44.png>\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/ed3ad436-4c04-4259-adf6-0e8ae3d776cen%40googlegroups.com\n.\n\n\n<Screenshot from 2023-06-13 16-15-44.png>"
+}

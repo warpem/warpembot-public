@@ -1,0 +1,8 @@
+{
+  "message_id": "<A37DC7ED-F651-465B-A1F8-0FDC1001ED32@gmail.com>",
+  "thread_id": "<f29f3698-c88d-49b4-9755-0a857f6c67een@googlegroups.com>",
+  "subject": "Re: Tomograms CTF corrected? - Warp 1.1",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 21 May 2025 08:01:54 -0700",
+  "body": "I’m not sure what those extra files were intended for but denoising seems likely\nSent from mobile - apologies for brevity\nOn May 21, 2025, at 07:48, Arjun Bhatta <arjun.bhatta2052@gmail.com> wrote:\n﻿\nHi all,\nJust briefly wanted to ask: are the tomograms reconstructed using \"Reconstruct tomogram\" interface by Warp v1.1 CTF corrected already? My understanding is that the subtomograms are not CTF corrected but the CTF, tilt and accumulated dose information is instead in the 3D-CTF files that are written out along with the subtomograms. But, I am not clear on the how the tomograms are treated; especially because I read some answers on the forum saying the tomograms are CTF corrected (which I also assumed), but I saw that Warp 1.1 also writes out 3D-CTF files for the tomograms in reconstruction/ctf directory, and I am wondering why they are necessary (something with denoising?) if the tomograms are already CTF corrected.\nBest,\nArjun\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/f29f3698-c88d-49b4-9755-0a857f6c67een%40googlegroups.com\n."
+}

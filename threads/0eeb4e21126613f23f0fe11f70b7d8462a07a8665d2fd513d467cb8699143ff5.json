@@ -1,0 +1,8 @@
+{
+  "message_id": "<ae604fc1-21c2-4cde-81c2-90ac6d191f5an@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WarpTools is awesome, but I miss the GUI for checking CTF fits",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Fri, 19 Jul 2024 03:41:43 -0700 (PDT)",
+  "body": "hi, \n\nthanks so much for WarpTools.  It's phenomenal.  Definitely a game changer \nfor our pipelines.  \n\nIt seems like it's reasonable to use command line for all features of this \nprocessing, except perhaps one point I can think of.  When I check the CTF \nfits of the tilt series I sometimes have to play around a bit with the CTF \nfitting params, process for a single TS, check the fit, and repeat as \nneeded.  Do you have a suggestion on how to circumvent this need?  Perhaps \nis it possible to view to CTF estimation results in the windows GUI then \ncontinue processing in WarpTools?\n\nthanks again!\n\nbest\n\nJesse"
+}

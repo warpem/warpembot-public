@@ -1,0 +1,8 @@
+{
+  "message_id": "<7c33b9d5-586b-4dba-a726-93c343e50f86n@googlegroups.com>",
+  "thread_id": "18418555-1df2-43db-bf87-3b3e51f51320",
+  "subject": "Problem in relion refinement steps pre M",
+  "sender": "'Dylan Noone' via Warp <warp-em@googlegroups.com>",
+  "date": "2026-03-30",
+  "body": "I am encountering an issue with the RELION 5.0-tomo pipeline during the refinement of bacterial ribosomes. While the process runs smoothly initially, it consistently fails at the M-step of the final converged iteration. Particles: 14,771. Box Size: 403 pixels (at 10 Å/px). Upstream Tool: WarpTools. RELION Version: 5.0.0-17-gadfec821. Hardware: NVIDIA A10 GPUs (24 GB VRAM per card). I suspect a potential memory bottleneck. Tested on both 4-GPU and 8-GPU configurations. Error: corrupted size vs. prev_size, signal Aborted (6). Stack trace shows crash in fftw_malloc_plain during BackProjector::reconstruct in MlOptimiserMpi::maximization."
+}

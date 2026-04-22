@@ -1,0 +1,8 @@
+{
+  "message_id": "<382af1e1-0c16-4302-a63a-003800318094n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "dautoalign4warp",
+  "sender": "Felix Lange <felix.lange.le@gmail.com>",
+  "date": "Wed, 7 Jun 2023 01:49:55 -0700 (PDT)",
+  "body": "Dear all,\n\nI wanted to test the dautoalign4warp script to align tilt series processed \nin warp in dynamo. Right at the first TS I receive the following error:\n\nWarning: All string and cell array inputs must be the same size or scalars.\n\nMy input looks like this:\n\ndautoalign4warp(\"scripts/dynamo/imod/\", 1.984, 2, 95.4, \n\"scripts/dynamo/dRecon\")\nfor the requested format of the function \"dautoalign4warp(warp_imod_dir, \napix, fiducial_diameter_nm, nominal_rotation_angle, output_folder)\"\n\nDoes anyone knows how to solve this issue? Thank you and all the best,\n\nFelix"
+}

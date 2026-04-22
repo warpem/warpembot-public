@@ -1,0 +1,8 @@
+{
+  "message_id": "<4a5ced95-3cbc-422e-890c-84ce5a2fd8a3n@googlegroups.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Tilt series deselected with change_selection still processed",
+  "sender": "Spencer Rothfuss <spencerrothfuss@gmail.com>",
+  "date": "2026-04-07T20:58:51.000Z",
+  "body": "Hello! I'm having trouble with tilt series deselection using WarpTools change_selection. After running fs_motion_and_ctf and ts_import, I can see that several of my tilt series aren't worth processing (ice contamination, bad tracking, grid bars blocking the view, etc.) so I run: WarpTools change_selection --settings warp_tiltseries.settings --deselect --input_data tomostar/Position_1_4.tomostar. For each excluded tilt series I can confirm success by reading the XML (UnselectManual=\"True\"). However, when I run later analyses all positions are processed even the \"unselected\" ones. For example, I ran ts_ctf and power spectra were generated for all positions. This is true for other commands also, for example ts_aretomo also processes all positions. Am I misusing or misunderstanding change_selection? Running WarpTools 2.0.0 from SBGrid on Rocky 8.10."
+}

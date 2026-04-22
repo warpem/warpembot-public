@@ -1,0 +1,8 @@
+{
+  "message_id": "<33fa6b53-999c-4d6e-8f82-5b7381f15363@googlegroups.com>",
+  "thread_id": "<92b366a7-ef97-49e6-938e-5eea85963028@googlegroups.com>",
+  "subject": "Re: Image re-centering feature?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Mon, 11 Nov 2019 08:49:49 -0800 (PST)",
+  "body": "Ah yes, this is annoying. I think there was actually a bug in 1.0.6 or \n1.0.5 that made the image jump unpredictably between zoom levels when using \nthe mouse wheel -- it got fixed in 1.0.7 or 1.0.6. I'll include an \nadditional limit that makes sure at least a small portion of the image is \nalways within the field of view.\n\nCheers,\nDimitry\n\n\nOn Monday, November 11, 2019 at 12:00:01 PM UTC+1, Kotaro Tanaka wrote:\n>\n> Hi,\n>\n> I'm enjoying Warp so much, but I sometimes lose sight of a real space \n> image because it goes out of the Warp window while zooming in and out.\n>\n> I would appreciate if there is something like 'image re-centering' feature \n> to get back the images in.\n>\n> Thank you.\n>\n> Best regards,\n> Kotaro\n>\n>"
+}

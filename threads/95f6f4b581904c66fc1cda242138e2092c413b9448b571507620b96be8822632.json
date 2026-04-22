@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5rzHrMgr36S3SjjjERj79BhySdHBvymsc+GALdmkQZTdw@mail.gmail.com>",
+  "thread_id": "<10a5602c-7592-40a0-a2b4-c3a0dce0360fn@googlegroups.com>",
+  "subject": "Re: Remove bad tilts in WarpTools",
+  "sender": "Pranav Shah <Pranav.shah@strubi.ox.ac.uk>",
+  "date": "Tue, 6 Aug 2024 11:15:40 +0100",
+  "body": "Run the unselect job type to deselect bad tilts\r\n\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK\r\n\r\n\r\nOn Tue, 6 Aug 2024 at 10:05, 'Lorenz Grundmann' via Warp <\r\nwarp-em@googlegroups.com> wrote:\r\n\r\n> Hi all,\r\n>\r\n> Is there a way (or a napari tool) to remove the bad tilts before tomo\r\n> reconstruction using  similar to the way one would do this in the warp-GUI\r\n> or relion 5?\r\n>\r\n> Cheers,\r\n> Lorenz\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/10a5602c-7592-40a0-a2b4-c3a0dce0360fn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/10a5602c-7592-40a0-a2b4-c3a0dce0360fn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

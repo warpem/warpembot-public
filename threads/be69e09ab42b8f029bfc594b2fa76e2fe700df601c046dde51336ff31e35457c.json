@@ -1,0 +1,8 @@
+{
+  "message_id": "<36c34a91-c6b0-438d-a928-abb0006f41c1n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "matching IMOD clip flipyz tomogram handness",
+  "sender": "Oleksiy Kovtun <memtralab@gmail.com>",
+  "date": "Sun, 2 Mar 2025 08:45:46 -0800 (PST)",
+  "body": "Hi all, \n\nNeed your help with figuring out how to recreate tomogram orientation from \nIMOD in WarpTool 2.0 \n\n*Established IMOD pipeline: * -85 Rotation Angle *does not* require \nflipping for defocus estimation,  and clip flipyz produce tomograms with \ncorrect molecular handiness.   \n\n*WarpTool pipeline without tilt angle inversion:  *ts_import with  \n--override_axis -85 and omitted --dont_invert flags. Check with  \nts_defocus_hand if tilt angle hand need flipping. If does, use \n--dont_invert flag for ts_import. *Problem:* tomograms from ts_reconstruct \nwill be of a wrong molecular handness, assuming their default orientation \nmatches IMODs clip rotx.\n\n*WarpTool pipeline with tilt angle inversion:  *set Rotation Angle to 95 \n(native angle +180).  ts_import. with --override_axis 95, --dont_invert \nflags. *Problem: * not sure if this will result in correct tilt angle hand \nand molecular handness of the tomograms.  \n\nThank you and best, \n\nOleksiy"
+}

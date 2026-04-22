@@ -1,0 +1,8 @@
+{
+  "message_id": "<f1f8077c-6d39-407e-b9c5-1d125a59a5a2@googlegroups.com>",
+  "thread_id": "<0f7b86a3-a155-456a-8954-9f9949d34ca0@googlegroups.com>",
+  "subject": "Re: Template matching giving flat CC volumes and no results",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 11 Dec 2019 05:38:39 -0800 (PST)",
+  "body": "Hi Alister,\n\nthe memory consumption depends on the Y dimension of the full tomogram. \nMatching the tilt series you sent me before at 10 A/px, the memory \nconsumption peaks at around 7 GB. You can decrease the memory footprint by \nmatching at a larger pixel size.\n\nThere are plans to rewrite the template matching procedure for tilt series \nto make it faster and less memory-intensive, but this will take some time.\n\nCheers,\nDimitry\n\n\nOn Tuesday, December 10, 2019 at 6:01:10 PM UTC+1, Alister Burt wrote:\n>\n> Hi all,\n>\n> I was looking to test out the template matching routine today and ran into \n> a problem, the process seems to run fine (the nice animation shows up) but \n> CC volumes which are output are completely flat and the resulting star file \n> thus contains no particles.\n>\n> Some info...\n> My tomograms are not inverted (protein is dark), my reference is the same. \n> Could this cause a problem?\n> I tried with and without spectral whitening at various angular samplings \n> and with a few different symmetries, all gave the same result.\n>\n> Any ideas?\n>\n> Cheers,\n>\n> Alister\n>\n>"
+}

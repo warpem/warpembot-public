@@ -1,0 +1,8 @@
+{
+  "message_id": "<b0c56e69-3ee0-4f74-9b58-79468400085bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes on startup",
+  "sender": "\"wim...@gmail.com\" <wimhag@gmail.com>",
+  "date": "Tue, 12 Jan 2021 01:54:23 -0800 (PST)",
+  "body": "Every now and then Warp 1.0.9 will always crash upon start, until we \nuninstall, restart pc and reinstall, this is on. a Gatan K3 pc.\n\nAny ideas what's happening?\n\nBest,\nWim Hagen\n\n1/12/2021 10:43:44 AM:\nSystem.InvalidOperationException: Dispatcher processing has been suspended, \nbut messages are still being processed.\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 \nmsg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, \nIntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate \ncallback, Object args, Int32 numArgs)\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, \nDelegate callback, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 \nmsg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, \nIntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate \ncallback, Object args, Int32 numArgs)\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, \nDelegate callback, Object args, Int32 numArgs, Delegate catchHandler)"
+}

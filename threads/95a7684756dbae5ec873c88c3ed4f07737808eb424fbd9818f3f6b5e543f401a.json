@@ -1,0 +1,8 @@
+{
+  "message_id": "<0f7b86a3-a155-456a-8954-9f9949d34ca0@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Template matching giving flat CC volumes and no results",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 10 Dec 2019 09:01:10 -0800 (PST)",
+  "body": "Hi all,\n\nI was looking to test out the template matching routine today and ran into \na problem, the process seems to run fine (the nice animation shows up) but \nCC volumes which are output are completely flat and the resulting star file \nthus contains no particles.\n\nSome info...\nMy tomograms are not inverted (protein is dark), my reference is the same. \nCould this cause a problem?\nI tried with and without spectral whitening at various angular samplings \nand with a few different symmetries, all gave the same result.\n\nAny ideas?\n\nCheers,\n\nAlister"
+}

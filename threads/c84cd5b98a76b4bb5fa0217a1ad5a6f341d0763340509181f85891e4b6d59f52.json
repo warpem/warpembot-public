@@ -1,0 +1,8 @@
+{
+  "message_id": "<0c845fb2-c9f9-4725-8122-4ad3ce40c9e2@googlegroups.com>",
+  "thread_id": "<d5f69a2d-248e-4a48-b43d-71cc8ee6ea4e@googlegroups.com>",
+  "subject": "Re: Tomogram CTF estimation / Reconstruction of CTF corrected\r\n tomograms",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Thu, 5 Dec 2019 03:51:39 -0800 (PST)",
+  "body": "Problem solved!\r\n\r\nDmitry tested one of my tilt-series and everything worked fine, going back \r\n- I hadn't been deleting .xml files corresponding to each tilt series \r\nbetween attempts, something was wrong with my first attempt (no dose \r\nspecified I think) which was not fixed by reimporting without deleting \r\nthese files.\r\n\r\nSteps to fixing problem\r\nRemove all .tomostar files\r\nremove all .xml files for tilt-series (not individual movies)\r\nreimport tilt series with the \"import tilt series\" task dialogue\r\nlaunch ctf estimation!\r\n\r\nThanks for the help Dmitry.\r\n\r\nAlister\r\n\r\nOn Tuesday, 3 December 2019 20:04:22 UTC+1, Alister Burt wrote:\r\n>\r\n> Hi Dmitry, \r\n>\r\n> The having crashed previously is definitely a possibility, my first tests \r\n> were just hitting buttons to try things without really knowing what was \r\n> happening. The tip about the tomostar and xml files is useful, thank you. \r\n>\r\n> I did the control about half an hour ago with EMD-10164 (HIV) and \r\n> unfortunately that works fine under the same workflow - I’ll dig a little \r\n> deeper and send you a tilt-series tomorrow! \r\n>\r\n> Cheers, \r\n>\r\n> Alister"
+}

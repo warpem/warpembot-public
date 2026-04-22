@@ -1,0 +1,8 @@
+{
+  "message_id": "<dc344081-40a4-4009-979d-2203fac3f49fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Different motion corr outcome when applying the gain reference to\r\n the same dataset using dev31 vs. dev34",
+  "sender": "Siyu Chen <sic027@ucsd.edu>",
+  "date": "Fri, 29 Aug 2025 16:32:49 -0700 (PDT)",
+  "body": "Hi all,\n\nWe recently updated our warp2 version from dev31 to dev34. When I used \ndev34 to process the same Falcon4 dataset, I realized that I need to apply \n'--gain_flip_y' to the motion_ctf function, otherwise I see strong gain \nartifact after motion correction. However, I never have to worry about this \nflag when using dev31.\n\nMy question is whether dev31 was able to successfully apply the gain and if \nthere is anything changed between these two builds, as I have used dev31 to \nprocess several datasets and I would like to make sure that they are well \ncorrected and don't need to be re-processed. I never see apparent error \nmessages applying the .gain file into the WarpTool commands in dev31 or \ndev34 and I can see the correct link in setting files.\n\nIn the long term, I also wonder where is the best place for a user to check \nwhat has been changed between different builds.\n\nThank you so much for your help!\n\nBest,\nSiyu"
+}

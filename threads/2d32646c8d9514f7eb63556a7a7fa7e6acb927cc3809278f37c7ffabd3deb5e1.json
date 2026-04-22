@@ -1,0 +1,8 @@
+{
+  "message_id": "<3fd6ef48-4435-4489-b46d-5272dbd7059f@googlegroups.com>",
+  "thread_id": "",
+  "subject": "export micrograph list for Relion's polishing",
+  "sender": "Yingyi Zhang <yingyizhangg@gmail.com>",
+  "date": "Fri, 1 Nov 2019 10:04:42 -0700 (PDT)",
+  "body": "Dear All,\n\nWhen I tried to export micrographs list for Relion polishing, there was no \ncheck box for the option \"Generate files for RELION's polishing\" to select, \nI'm using version 1.0.5,\ndose it not having this option? If so, which version should I update to?\n\nBeside, warp 1.0.7 on our machine tends to crash when attempted to pick \nparticles, something went wrong when loading picking model. While our IT \ncolleagues are working on it, it could be our hardware has some issue, as \nafter shifting back to version 1.0.5, particle picking caused another \nfailure. \nI mentioned it as if it is a function available from version 1.0.7, I would \nhave to wait.\n\nMany thanks for your help.\nBest regards,\n\nYingyi"
+}

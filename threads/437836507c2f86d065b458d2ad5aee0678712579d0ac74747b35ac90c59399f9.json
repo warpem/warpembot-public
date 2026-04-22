@@ -1,0 +1,8 @@
+{
+  "message_id": "<36a067d5-d61b-4dc5-8dea-462c8fb1c256@googlegroups.com>",
+  "thread_id": "<de7cea01-a353-49d0-8ba7-2a9e10b64416@googlegroups.com>",
+  "subject": "Re: denoised images with noise2noise",
+  "sender": "Gabor Papai <papaig@gmail.com>",
+  "date": "Fri, 21 Sep 2018 09:03:18 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nThanks for the explanation! \nI will be happy to try the not pre-deconvolved images with the stand-alone \ntool.\n\nBest,\nGabor\n\nOn Friday, September 21, 2018 at 3:21:29 PM UTC+2, Dimitry Tegunov wrote:\n>\n> Hi Gabor,\n>\n> I'm afraid saving the denoised version has been intentionally left out of \n> the current release. While the result is useful for visual interpretation, \n> it's hard to say what kind of corruption the neural net introduces. Please \n> note that the images are first deconvolved before the denoising, so the CTF \n> is also very different. All downstream processing algorithms assume the \n> data adhere to a physical model, and feeding them potentially corrupted \n> data will lead to undefined behavior. I felt this would be too big a can of \n> worms to open right now.\n>\n> I'm finalizing a stand-alone tool that lets you train the same network \n> (and its 3D equivalent) on arbitrary 2D and 3D data. I'll let you know when \n> it's done. If you really want to try using denoised 2D data for processing, \n> I'd suggest using not pre-deconvolved images. They won't be as visually \n> pleasing (see the example image attached), but closer to what the \n> algorithms expect.\n>\n> Cheers,\n> Dimitry\n>\n>\n> On Wednesday, September 5, 2018 at 9:50:16 AM UTC+2, Gabor Papai wrote:\n>>\n>> Hi Dimitry,\n>>\n>> Is it possible to save the noise2noise denosied micrographs in warp?\n>>\n>> Best,\n>> Gabor\n>>\n>"
+}

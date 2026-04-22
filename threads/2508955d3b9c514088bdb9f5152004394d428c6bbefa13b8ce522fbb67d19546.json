@@ -1,0 +1,8 @@
+{
+  "message_id": "<36405006-cdcf-45f6-bd3c-bbe0de37756dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "I create an artifact map of teamtomo.org EMPIAR-10164 dataset in\r\n 1.6Apx",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Fri, 18 Jun 2021 08:24:49 -0700 (PDT)",
+  "body": "I did the teamtomo.org EMPIAR-10164. After relion_reconstruct_mpi 1.6Apx \nrefinement, the map was only noise. I used relion 3.0.6. The missing wedge \naffected the orientation distribution.\ncommand:   \n*mpirun -np 40 `which relion_reconstruct_mpi` --i subtomograms_1.6Apx.star \n--o reconstruction_1.6Apx.mrc --3d_rot --ctf*\n[image: reconstruct_1.6A_mrc_view1.jpg][image: \nreconstruct_1.6A_mrc_view2.jpg]\n\n*I desire that someone can help me check the whole workflow about \nEMPIAR-10164 teamtomo.org. I didn't know which step went wrong. *This \ntutorial has confused me for several months. Very very thank you.\n\nThe warp(version 1.0.9) *preprocessing settings*:\nAnd I deselected 2 micrographs as the toturial said.\n[image: 1624028532.jpg]\n\n*To generate the .st .rawtlt*\npress \"create stack for imod\"\n[image: 1624028804(1).jpg]\n\n*dautoalign2warp in dynamo* (I use the IMOD version : 4.12.6)\n*dautoalign4warp('./imod', 1.35, 10, 85.3, './dynamo_alignments')*\n\n*To import the aligned tilt series*\npress \"import\"\n\n*[image: 1624029277(1).jpg]*\n\n*3dCTF & handness check*\nI knew that the handness was very important. So I pressed the process only \nthis item ctf and check the tilt handness one by one. They are all positive \nvalue and I never invert them.\n[image: 1624029411(1).jpg]"
+}

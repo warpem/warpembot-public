@@ -1,0 +1,8 @@
+{
+  "message_id": "<b88e0d46-5688-4ba5-aac3-2bb9bda2d473o@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.09 sporadic crashing before starting processing",
+  "sender": "Thomas Laughlin <thomas.laughliniii@gmail.com>",
+  "date": "Mon, 31 Aug 2020 17:58:37 -0700 (PDT)",
+  "body": "Hello any and all,\n\nI'm running into an issue with crashing of Warp-v1.0.9 before it even \nstarts processing.\n\nAfter clicking a few check-boxes and setting parameters, the program will \nbriefly a hang, the load animation will circle the cursor, and then crash.\nIt doesn't seem to be the result of a particular order of clicks, but after \n5-6 clicks the crash occurs.\n\nUnfortunately, there isn't an error message window that pops-up after the \ncrash to help with diagnosis.\n\nIs anyone familiar with this sort of behavior/issue and have potential \npossible solutions to attempt to resolve it? \n\n\nSince the crashing is in the absence of processing, I wouldn't think the \nhardware would an issue but here it is if it helps:\n\nThe build is:\n\nOS: MS Windows 10 Pro N version: 10.0.18363 Build 18363\nCPU: AMD EPYC 7252\nRAM: 128 Gb\nGPUs: Titan RTX\n           Quadro RTX 4000\n\nThanks for the help,\n\n-Tom"
+}

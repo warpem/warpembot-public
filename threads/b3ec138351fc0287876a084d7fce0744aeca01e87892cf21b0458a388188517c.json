@@ -1,0 +1,8 @@
+{
+  "message_id": "<f9dca2cf-4e37-4c96-a7f3-625a1ea3d769n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.09 - Error while processing CTFs",
+  "sender": "Ivan Zumeta <ivan.zumeta99@gmail.com>",
+  "date": "Wed, 16 Mar 2022 09:29:28 -0700 (PDT)",
+  "body": "Hi everyone,\n\nWe are new to WARP, and we have run into a problem while making the CTF \ncorrection of our movies. \n\nWhen we started doing motion correction, Warp was doing fine, but when we \ntried to do the CTF, Warp started deselecting all the files. Trying to do a \nsingle CTF (in the Fourier tab) gives an error (see image attached) \n\nWe tried playing with the parameters, but it always gives the same error. \nFor reference, we want to use (and have used) the following CTF parameters:\n\nWindow: 512 px\nRange: 30-5 A\nVoltage: 300kV\nCs: 2.7 mm\nAmplitude: 0.1\nDefocus: 0 - -5 um\n\nKind regards,\n\nIvan"
+}

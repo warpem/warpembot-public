@@ -1,0 +1,8 @@
+{
+  "message_id": "<8883ee4d-1c2e-4cf0-b402-11492d770d22n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Removing most 2.0.0dev releases from conda channel",
+  "sender": "\"alist...@gmail.com\" <alisterburt@gmail.com>",
+  "date": "Fri, 22 Nov 2024 09:23:53 -0800 (PST)",
+  "body": "Hi all,\n\nWe've hit a storage limit on our conda channel - to get around this I've \nremoved all of the 2.0.0dev* releases except the latest two.\n\nc.f. https://github.com/warpem/warp/issues/299\n\nCheers,\n\nAlister"
+}

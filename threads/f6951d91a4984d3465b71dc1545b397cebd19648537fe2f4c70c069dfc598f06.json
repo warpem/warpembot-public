@@ -1,0 +1,8 @@
+{
+  "message_id": "<7de1b28e-af5e-47cc-87f1-78cf058d19cdn@googlegroups.com>",
+  "thread_id": "<1670142a-236c-4000-8a0a-a39a70b7b45cn@googlegroups.com>",
+  "subject": "Re: M Crashes during species creation",
+  "sender": "Sunny Yi <sunny32156@gmail.com>",
+  "date": "Tue, 16 Mar 2021 22:32:05 -0700 (PDT)",
+  "body": "If your boxsize is verge large, M will report error. I have used a box size \r\nand failed in DeNoise, then I use \"relion_image_handler\" to create a \r\nsmaller model and it works. Please try. \r\n\r\n在2021年2月23日星期二 UTC+8 上午3:18:02<bencr...@gmail.com> 写道：\r\n\r\n> Hello, \r\n>\r\n> I am trying to import a species into M that I have exported from Warp and \r\n> refined in Relion. When I try to create the species using a Relion star \r\n> file M crashes and gives this error: \r\n>\r\n> System.NullReferenceException: Object reference not set to an instance of \r\n> an object.\r\n>    at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \r\n> 301\r\n>    at Warp.NoiseNet3D.Finalize() in \r\n> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 290\r\n>    at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \r\n> 301\r\n>    at Warp.NoiseNet3D.Finalize() in \r\n> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 290\r\n>\r\n> Do you have any ideas what I may be doing wrong?\r\n>\r\n> Thanks,\r\n> Ben\r\n>"
+}

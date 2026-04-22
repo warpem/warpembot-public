@@ -1,0 +1,8 @@
+{
+  "message_id": "<aed8cbd5-4bdf-4389-9fa2-8a6ee0f150af@googlegroups.com>",
+  "thread_id": "",
+  "subject": ".tiff extention and/or symbolic link in Windows",
+  "sender": "yonelab.tem@gmail.com",
+  "date": "Mon, 8 Apr 2019 19:53:53 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nWe use JADAS for automatic data collection. This program produces movie \nstacks with the *.tiff extension. Warp cannot treat this, and we rename it \nto *.tif, but like to use *.tiff files directly. We'd appreciate it if you \ncould consider this option in the next release. Or I wonder if there is a \nway to create symbolic links in Windows 10?\n\nThank you in advance.\nBest regards,\n\nKoji"
+}

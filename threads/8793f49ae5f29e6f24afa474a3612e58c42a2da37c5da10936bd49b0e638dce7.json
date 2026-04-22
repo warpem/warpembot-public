@@ -1,0 +1,8 @@
+{
+  "message_id": "<985ca768-a3aa-4e3c-b2ca-e908db09df42n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp_tools 2D Particle Series and Relion5: reconstruct vs initial\r\n model",
+  "sender": "3P1L <philipp.stawski@gmail.com>",
+  "date": "Thu, 8 Aug 2024 05:33:08 -0700 (PDT)",
+  "body": "*Dear All,*\r\n\r\nThis question not only concerns warp_tools but more generally 2D particle \r\nseries and WARP + relion 5, but I hope somebody has a suggestion for me 😇\r\n\r\nIn our particular case, we are running relion 5.0-beta-0-commit-84ba16 and \r\nwarp_tools on linux.\r\n\r\nWe use a python version of TOMOMAN to export TS to warp_tools and pytom_GPU \r\nfor template matching.\r\n\r\nWe then extract the particle series in warp_tools.\r\n\r\nWhen I generate an initial model from the 2D particle series, everything \r\nlooks fine and I can run a refinement afterwards. [a bit annoying that the \r\nparticle pose can change relative to the TM reference, but OK ... 😉]\r\n\r\nHowever, having to run an initial model just to check if particle picks / \r\nparticles are good is a bit cumbersome ...\r\n\r\n>From the traditional (3d subtomo) workflow, I would just use \r\nrelion_reconstruct to get the initial reference.\r\n\r\nHowever, when trying to use relion_tomo_reconstruct_particle on my \r\noptimization set (the initial one from warp_tools), I only get empty \r\nvolumes.\r\n\r\nI suppose this is bc warp_tools will only link a \"dummy_tiltseries.mrc\"?\r\n\r\nIs there a way to actually link the correct data in a relion-v5 approved \r\nway?\r\n\r\n\r\nAre there any other options in v5 + warp_tools to reconstruct the particle \r\nseries directly (i.e. without alignment)? [as relion reconstruct does not \r\nwork on 2D particle stacks]\r\n\r\nThanks!"
+}

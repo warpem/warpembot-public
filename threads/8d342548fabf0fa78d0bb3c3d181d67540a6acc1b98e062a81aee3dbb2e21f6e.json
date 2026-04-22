@@ -1,0 +1,8 @@
+{
+  "message_id": "<2627cebe-79a8-4af6-8b48-173863d9969e@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Clarifying Binning",
+  "sender": "Farzad Hamdi <farzaad@gmail.com>",
+  "date": "Fri, 30 Aug 2019 07:29:58 -0700 (PDT)",
+  "body": "Hi All,\n\nI am using the warp for Falcon 3 without superresolution or binning. I \nunderstood that the binning is the binary log of the number of the binned \npixels: so I guess I must use bin=0 when I do not bin my data or use \nsuperresolution mode. But when I set Bin:=0 the software fails to fit CTF \ncorrectly in most cases. It is while I can clearly see the Thon-rings. Is \nmy understanding about the bin parameter wrong?\n\nRegards\n\nFarzad"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<0007b235-7b8e-4b84-805a-d3f64904cf51n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "FSC dip after refinement",
+  "sender": "Mingyu Jung <jmg0910@snu.ac.kr>",
+  "date": "Wed, 16 Oct 2024 17:23:14 -0700 (PDT)",
+  "body": "Hi all,\n\nI got an normal fsc curve after postprocessing in relion but I had an issue \nwith fsc curve dipping at the low spatial frequency after refinement in M. \nI used temporal resolution at 3, and image warp only 3x3 and turned off \nother options. Are there any possible causes of this issue?\n\nBest,\nMingyu"
+}

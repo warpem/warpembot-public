@@ -1,0 +1,8 @@
+{
+  "message_id": "<ef764250-5dd9-4ca0-8e2c-76c609fc117dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M crashes with multiple sources connected",
+  "sender": "Leonie Anton <leoant42@gmail.com>",
+  "date": "Wed, 10 Nov 2021 12:56:59 -0800 (PST)",
+  "body": "Hello everyone, \r\n\r\nI have been having a lot of problems with M crashing in various different \r\nsituations since I have been connecting multiple data sources. I have not \r\nhad these issues before when just using a single source. I don’t know if \r\nthese errors are connected or caused by different underlying problems.\r\n\r\nI have the 20201104 nightly build on a workstation with 96 CPUs and 4x RTX \r\n2080Ti with 10 GB memory.\r\n\r\n \r\n\r\n1.      M crashes when trying to open a previous session file for M. Error \r\nmessage attached\r\n\r\n2.       M crashes at very end of refinement during reconstruction and \r\nfiltering. There is no error message, the WARP workers just close and the M \r\nwindow as well. No reconstruction is written out.\r\n\r\n3.       M crashes during refinement (see 2nd attachment)\r\n\r\n4.       When extracting subtomograms at a pixel size of 2.2Apx, M crashes, \r\nwhile 2.5Apx is fine. The boxes are quite large and would be 275 at 2.2Apx.\r\n\r\n\r\nSorry for the long message! Has anyone seen these issues and found a \r\nsolution? I have tried turning on/off the CPU option during refinement and \r\nreducing the batch size, but there was no difference.\r\n\r\n\r\nBest regards,\r\n\r\nLeonie"
+}

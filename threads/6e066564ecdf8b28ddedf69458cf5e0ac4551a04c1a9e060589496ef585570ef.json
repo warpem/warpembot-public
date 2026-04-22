@@ -1,0 +1,8 @@
+{
+  "message_id": "<9349E537-A36F-4471-91A5-5615AE641C28@gmail.com>",
+  "thread_id": "",
+  "subject": "Boxnet loading extremely slow",
+  "sender": "Teige Matthews-Palmer <teige.lg@gmail.com>",
+  "date": "Fri, 5 Feb 2021 18:12:15 +0900",
+  "body": "Hi Warpers,\r\n\r\nSearch brought up a couple previous similar messages but no helpful info, and I guess this might not be an easy fix but I’ll try just in case:\r\nOn a Windows 10 workstation with Geforce RTX 3090, Warp 1.0.9, BoxNet2Mask_20180531 from public repository\r\nLoading the boxnet model, either upon start processing, or upon first test picking one micrograph, takes a very long time, >10 minutes, with the “loading boxnet model” message hanging, and Windows periodically declaring Warp is not responding, then recovering in ~1 minute cycles.\r\n\r\nIs this a bug others have had and can I provide more info to make this more useful?\r\n\r\nAll the best\r\nTeige"
+}

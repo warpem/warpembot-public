@@ -1,0 +1,8 @@
+{
+  "message_id": "<16c50516-4cb0-4b65-bf04-8e651e6ea3db@googlegroups.com>",
+  "thread_id": "<d4fbc616-ce56-4d8f-a863-644752fa9d72@googlegroups.com>",
+  "subject": "Re: RFE: output directory",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Mon, 27 May 2019 13:52:57 -0700 (PDT)",
+  "body": "This has been requested a few times, and is definitely on my mind. The \ndifficulty is in finding a solution that is transparent to all downstream \nprocessing without maintaining physical copies of the raw data. For now, \ncreating hard symbolic links in the processing directory is probably the \nbest workaround if your file system permits it.\n\nOn Friday, May 24, 2019 at 9:23:13 PM UTC+2, Rafa Fernandez-Leiro wrote:\n>\n> +1 on this one\n>\n> On Friday, 24 May 2019 17:14:17 UTC+2, Matt Harrington wrote:\n>>\n>>\n>> Request for Enhancement: would you consider letting users choose the \n>> output directory?  We prefer to keep raw data and processed data in \n>> separate locations.\n>>\n>> Matt\n>>\n>>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<c51aa1cf-ce06-425b-8c3d-660318c2bea8@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tweaks for better CTF / polishing ?",
+  "sender": "mcianfro@umich.edu",
+  "date": "Tue, 14 Aug 2018 13:28:12 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nVery nice software package, we now have a map at 4 A from a tilted data \nset. \n\nDo you have any recommendations for ways to tweak the motion and CTF \nestimation for this dataset to see if we can improve resolution further? \nI'm tempted to try per particle polishing (a la Rubinstein or RELION) and \nCTF refinement to see if we can get 0.1-0.3A better.  I wasn't sure if Warp \nwill have improved estimation of region/particle motion and CTF if we used \na finer sampling. \n\nWhat do you think? We will likely need to collect more data, but it's \nalways worth trying to squeeze the most out of our datasets!\n\nMike"
+}

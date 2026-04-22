@@ -1,0 +1,8 @@
+{
+  "message_id": "<4e083b4b-f9ac-47d3-9a3f-d4a9550952a1@googlegroups.com>",
+  "thread_id": "",
+  "subject": "CTF range & Fourier in Overview tab",
+  "sender": "Joanne Lo <joannelo.hk@gmail.com>",
+  "date": "Wed, 19 Sep 2018 13:27:49 -0700 (PDT)",
+  "body": "Hi Dimitry\r\n\r\nI got 2 questions:\r\n\r\n1.In your Quick Start guide CTF fitting options section about the Range, it \r\nmentioned 'It is usually best to ignore the lowest frequencies.´, can you \r\nexplain this more? I thought it is more the highest frequencies need to be \r\nignored to avoid overfitting.\r\n\r\n2. In the Fourier Overview (see attachment), when I put the mouse to wach \r\nindividual CTF peak, other than A, there's also a value of 3-4 digits \r\ngiven, what's does it mean?  \r\n\r\nMany thanks in advance!\r\n\r\nBest wishes\r\nJoanne"
+}

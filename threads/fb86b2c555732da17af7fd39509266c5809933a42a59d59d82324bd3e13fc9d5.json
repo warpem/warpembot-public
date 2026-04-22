@@ -1,0 +1,8 @@
+{
+  "message_id": "<8901cb71-bb1c-4beb-af57-6b892d1b09afn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Weird-ordering of tilt-images",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Sun, 19 Jun 2022 21:37:34 -0700 (PDT)",
+  "body": "Hi everyone\n\nI used Alister's mdocspoofer to spoof an mdoc for a particular set of \ntilt-images. The resultant mdoc is totally fine. It lists the tilt-images \nin the order specified in the _00n suffix in tilt-images' names. \n\nBut when Warp reads them, the order seems off. Please see attached a \nscreenshot. The cumulative dose from +39 to +36 tilt-angle jumps from 2 to \n114 e-/A2, whereas, it should increase from 2 to 6 e-/A2 as per the mdoc ( \nthe one spoofed above & also attached). \n\nIn my other set of data using docs from serial em where I store \ntilt-images' frames with date-time stamps encoded by serialEM, the WARP \nreads the tilt-series acquisition order perfectly. So I had assumed that \nWARP reads the tilt-series acquisition order from the name in the \nSubFramePath. \n\nOfcourse, this incorrect reading of the order messes up the 3D-CTF model. \n\nDoes anyone know how exactly does the WARP read the order of tilt-series \nacquisition from the mdoc file and/or what could be an issue here?  The \nWARP I am using is 1.0.9\n\nThanks and cheers,\nDigvijay"
+}

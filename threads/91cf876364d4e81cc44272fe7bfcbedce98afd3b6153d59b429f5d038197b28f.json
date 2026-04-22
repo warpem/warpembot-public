@@ -1,0 +1,8 @@
+{
+  "message_id": "<639EA961-4C79-4781-A11F-1E27A7D19D8D@gmail.com>",
+  "thread_id": "<28a1aa6d-b7b6-4039-9c58-7fc1f13fccben@googlegroups.com>",
+  "subject": "Re: AreTomo and Dark Images in WARP",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 12 Mar 2025 07:08:31 -0700",
+  "body": "Hi Katie,\nI’ve not looked closely enough at how DarkTol is used to know off the top of my head, sorry about that! \nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Mar 12, 2025, at 05:52, Katie Downes <katiegdownes@gmail.com> wrote:\n﻿Hi Alister, \nWhat is the relationship between --min_intensity in WARP and -DarkTol in AreTomo? DarkTol of 0.7 works well for my data and I want to include this in my WARP pipeline. \nMany thanks in advance, \nDr Katie Downes\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/28a1aa6d-b7b6-4039-9c58-7fc1f13fccben%40googlegroups.com\n."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<d7266f6b-5f24-4af7-a93d-bb6a4bdce8f9n@googlegroups.com>",
+  "thread_id": "<EDA9A5E0-CE57-4469-8489-EA7AE593B416@gmail.com>",
+  "subject": "Re: WarpTools ts_export_particles failes with half of the tilt\r\n series",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 18 Oct 2024 07:02:34 -0700 (PDT)",
+  "body": "I checked the logs, and it seems these tilt series are just skipped; there \r\nis no error, no reason printed. \r\n\r\nOn Friday 18 October 2024 at 16:57:53 UTC+3 alist...@gmail.com wrote:\r\n\r\n> Hi Juha,\r\n>\r\n> Did you “Check logs in \r\n> /scratch/project_2007321/users/huiskone/warptools/g2/relion_new2/logs for \r\n> more info” as the message suggests?\r\n>\r\n> Cheers,\r\n>\r\n> Alister\r\n>\r\n> Sent from mobile - apologies for brevity\r\n>\r\n> > On Oct 18, 2024, at 00:02, Juha Huiskonen <juha.hu...@gmail.com> wrote:\r\n> > \r\n> > Check logs in \r\n> /scratch/project_2007321/users/huiskone/warptools/g2/relion_new2/logs for \r\n> more info\r\n>"
+}

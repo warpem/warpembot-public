@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5rxovXn7r7NabJqMFAt-R-Qyee47WBR5xkMMqk1QWsasw@mail.gmail.com>",
+  "thread_id": "<2a8a3aba-84b5-4448-abff-7dc399be28adn@googlegroups.com>",
+  "subject": "Re: Relion 4.0 starfile to M",
+  "sender": "Pranav Shah <Pranav.shah@strubi.ox.ac.uk>",
+  "date": "Tue, 23 Aug 2022 08:14:00 +0100",
+  "body": "By not not changing the column headers… you can however remove the optics\r\ntable… and in M in the “shifts correspond to” field enter 1Å/px.\r\n\r\nOn Tue, 23 Aug 2022 at 07:40, 클레이 <mgmg980910@gmail.com> wrote:\r\n\r\n> Hi\r\n>\r\n> I was trying to process apoferritin which was auto-refined in Relion 4.0.\r\n> So I converted the columns rlnOriginXAngstroms to rlnOriginX and Y, Z too.\r\n> Then, I  specified 1.0A/px for the shifts. But M told me Star files didn't\r\n> contain all essential columns. How can I solve this problem?\r\n>\r\n> Thank you\r\n>\r\n> Min-gyu\r\n>\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/2a8a3aba-84b5-4448-abff-7dc399be28adn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/2a8a3aba-84b5-4448-abff-7dc399be28adn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>\r\n-- \r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK"
+}

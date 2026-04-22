@@ -1,0 +1,8 @@
+{
+  "message_id": "<515ac3a0-c6e1-4f91-bd3e-1c5254d5ae9dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Comparison between methods used to estimate and fit CTF, Warp\r\n versus CTFplotter in IMOD",
+  "sender": "Cyan Ching <xingyichengcyanching@gmail.com>",
+  "date": "Mon, 4 Oct 2021 02:42:52 -0700 (PDT)",
+  "body": "Dear all,\r\n\r\nGood morning/afternoon/evening!\r\n\r\nDoes anyone happen to have knowledge on the comparison between methods used \r\nto estimate and fit CTF in Warp versus the CTFplotter in IMOD? \r\n\r\nThe latter uses the Welch method which divides image FT signal into \r\noverlapping snips and averages them after edge effect correction (tapering, \r\nthe signal is averaged with a Gaussian-like function). With this approach, \r\nCTFs are smoothed at high spatial frequencies to rid of noise. \r\n\r\nUsing Warp, however, it seems CTFs are generally well-preserved across \r\nspatial frequencies when expected max defocus is set as 5 in both Warp and \r\nCTFplotter. \r\n\r\nNow I am confused about the difference between CTF estimation/fitting \r\nmethods implemented in Warp and CTFplotter as I read Warp also does the \r\nfollowing: 'Like in the frame alignment procedure, groups of patches \r\nmatching the desired PS size (for example 5122–1,0242 pixels) are extracted \r\nwith a spatial overlap of 50% from the raw movie data, transformed into \r\nFourier space and converted to PS by taking their squared amplitudes.'\r\n\r\nThank you for your help in advance!\r\n\r\nBest,\r\n\r\nCyan"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<ef9407aa-3214-4d35-be3f-9ce9a8868859@googlegroups.com>",
+  "thread_id": "<fb5144c0-a0d7-41b1-9be7-075e2bc18bda@googlegroups.com>",
+  "subject": "Re: Compressed tiffs from SerialEM",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 29 Jun 2018 05:59:20 -0700 (PDT)",
+  "body": "Dear Gabor,\n\nmy first guess would be a header issue since EMAN also appears to be \nmisreading the dimensions. Would it be possible to get my hands on the gain \nreference file and one of the TIFF movies?\n\nCheers,\nDimitry\n\nOn Thursday, June 28, 2018 at 3:59:40 PM UTC+2, Gabor Papai wrote:\n>\n> Dear Dimitry,\n>\n> I try to process compressed tiff stacks from SerialEM (3.7 beta5) with \n> Warp (unnormalized data packed as 4-bit in super-resolution). In our setup \n> the gain should be rotated counterclockwise for the normalization. Even if \n> I rotate the gain reference image accordingly, Warp complains that the \n> image dimensions of gain and stack do not match. In our recent pipeline we \n> use clip from Imod to unpack the tiff stack and motioncor2 treats them well \n> subsequently. Eman2 reports a dimension of 3710 x 7676 for the original \n> tiff stacks. After the clip command the dimension of the output is restored \n> to 7420 x 7676.\n> I would be grateful if you could point out what I should do to make it run.\n> Thank you,\n> Gabor\n>"
+}

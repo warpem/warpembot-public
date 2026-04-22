@@ -1,0 +1,8 @@
+{
+  "message_id": "<D99769BD-BD86-4106-8677-2728723394E6@gmail.com>",
+  "thread_id": "<ba456f92-f516-4c17-9cc5-c9653496bba8n@googlegroups.com>",
+  "subject": "Re: Memory of tomogram CTF",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 22 Mar 2021 10:49:30 +0000",
+  "body": "Hi Yuqi,\r\n\r\nSomething about your workflow seems a bit wrong - you should estimate the CTF of each tilt-series then reconstruct the tomograms.\r\nCan you share the error and some information about your images (detector? Super-resolution?)? \r\n\r\nYour hardware should be fine for what you’re trying to do - some people have mentioned previously that changing language settings to US English (particularly the decimal separator) has solved problems for them.\r\n\r\nCheers,\r\n\r\nAlister\r\n> On 22 Mar 2021, at 10:41, yuqi zhang <824586412@qq.com> wrote:\r\n> \r\n> After reconstructing the tomogram with Warp, I did CTF as tutorial. However, there was an error that memory was not enough. My hardware was 1080Ti 12G, RAM 128G. I didn't know the hardware requirements that could do all of tomogram data processing in Warp and M.\r\n> \r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com <mailto:warp-em+unsubscribe@googlegroups.com>.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/ba456f92-f516-4c17-9cc5-c9653496bba8n%40googlegroups.com <https://groups.google.com/d/msgid/warp-em/ba456f92-f516-4c17-9cc5-c9653496bba8n%40googlegroups.com?utm_medium=email&utm_source=footer>."
+}

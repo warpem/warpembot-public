@@ -1,0 +1,8 @@
+{
+  "message_id": "<f3950df2-487d-42a0-b156-d9634c2d4476@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Exporting particle stack files to cisTEM",
+  "sender": "C Arthur <cparthurphd@gmail.com>",
+  "date": "Tue, 22 Jan 2019 10:48:11 -0800 (PST)",
+  "body": "Hi,\nI am working on exporting picked particles to cisTEM. cisTEM is looking for \na STAR file, and a one particle stack file. From what I can tell, WARP \ncreates the STAR file, but creates a particle stack file for each \nindividual micrograph (.mrcs). Is it possible to export a single particle \nstack file?\nMany thanks!\n-Chris"
+}

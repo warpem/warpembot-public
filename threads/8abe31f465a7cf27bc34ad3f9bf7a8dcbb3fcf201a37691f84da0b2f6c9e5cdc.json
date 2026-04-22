@@ -1,0 +1,8 @@
+{
+  "message_id": "<17a96665-c667-4226-8e29-b06bd75f327dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Any experiences with using Warp through a Windows virtual machine\r\n with GPU passthrough?",
+  "sender": "Dennis Michalak <dennisjmichalak@gmail.com>",
+  "date": "Thu, 6 Oct 2022 09:35:18 -0700 (PDT)",
+  "body": "I'd be interested in hearing about others' experience with trying to run \nWarp through a Windows virtual machine on a Linux system with GPU \npassthrough. I'm putting together a cryoET workstation and would like to \nknow if something like this could work, and if it does, what needs to be \ndone to make it work.\n\nBest,\nDennis"
+}

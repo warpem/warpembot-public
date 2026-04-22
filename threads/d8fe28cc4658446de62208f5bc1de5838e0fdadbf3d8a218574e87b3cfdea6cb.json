@@ -1,0 +1,8 @@
+{
+  "message_id": "<fbeb009f-5866-4d33-9098-a7cb6b1a952fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Imod vs warp reconstruction - tilt series alignments import query",
+  "sender": "Miles Graham <miles.graham98@gmail.com>",
+  "date": "Fri, 31 Oct 2025 09:48:38 -0700 (PDT)",
+  "body": "Hi all, \n\nI'm hoping there is something simple to explain this, but I've noticed a \ndifference in my imod vs warp reconstructions of the same tomogram. I \nperformed tilt series alignment externally (finally with imod using \nfiducial positions from dynamo). I then imported these alignments into \nwarp. I'll provide the commands and relevant files at the end of this \nmessage. \n\nMy Imod reconstructions look lovely (gold beads spherical), whereas my warp \nreconstructions appear slightly stretched. Is there a reason for this? \nMight it represent an issue with my tilt series alignments import and could \nit affect downstream averaging? \n\nI'm sure there is something I haven't considered yet, but time is \nespecially precious at the moment, so decided to ask on here!\n\nBest wishes and many thanks for your time,\nMiles\n\n\nCommands : \n\nWarpTools ts_import_alignments --settings tiltseries.settings --alignments \ntiltseries/tiltstack --alignment_angpix 1.864 --input_data input_list_2.txt\n\nWarpTools ts_defocus_hand --settings tiltseries.settings --set_flip \n--input_data input_list_2.txt\n\nWarpTools ts_ctf --settings tiltseries.settings --range_high 7 \n--defocus_max 8 --input_data input_list_2.txt\n\nWarpTools ts_reconstruct --settings tiltseries.settings --angpix 5.592 \n--perdevice 1 --dont_invert --halfmap_frames --input_data input_list_2.txt"
+}

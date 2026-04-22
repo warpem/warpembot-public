@@ -1,0 +1,8 @@
+{
+  "message_id": "<db9af9ff-e8b7-4b77-ab47-1a3f7d3226ea@googlegroups.com>",
+  "thread_id": "<e2b8b084-51e4-4db9-91fc-790a23da3458@googlegroups.com>",
+  "subject": "Re: Training a new model",
+  "sender": "\"A.Masoumzadeh\" <a.masoumzadeh@gmail.com>",
+  "date": "Wed, 6 Mar 2019 09:23:49 -0800 (PST)",
+  "body": "Hello Dimitry,\n\nThank you so much for your reply.\n\nThe training data you have provided seems so good that I have stopped \nlooking for others\nActually, I am working on a related problem for which I have modified the \nimages of the same dataset.\nI just want to rule out the risk of giving any less/more information when \ntraining boxnet.\n\nThank you for giving the link to the blank model.\nIt should actually help with the idea of simulating a training from scratch.\n\nBest regards,\nAbbas\n\nOn Wednesday, March 6, 2019 at 10:57:35 AM UTC-5, Dimitry Tegunov wrote:\n>\n> Hi,\n>\n> you can try using this blank model \n> <http://boxnet.warpem.com/models/BoxNet2_blank.zip>, but I predict the \n> results won't be satisfactory. When training from scratch, a lot more \n> iterations are needed than the number used in Warp for retraining. There is \n> currently no way to perform training from scratch inside Warp.\n>\n> May I ask how your particles differ from those already known to BoxNet? It \n> would be very valuable to add such data to the central repository \n> <http://www.warpem.com/warp/?page_id=72>, and to include them when \n> training from scratch for future releases.\n>\n> Cheers,\n> Dimitry\n>\n> On Wednesday, March 6, 2019 at 4:37:09 PM UTC+1, A.Masoumzadeh wrote:\n>>\n>> Could you please tell me if I can train a new model from scratch?\n>> (Instead of re-training one of the available models)\n>>\n>>"
+}

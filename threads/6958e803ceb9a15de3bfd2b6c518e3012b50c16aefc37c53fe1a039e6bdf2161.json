@@ -1,0 +1,8 @@
+{
+  "message_id": "<37cf3bfe-8f0a-4dd4-bf5d-1c3a4b5b9e70@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Configuring available GPUs?",
+  "sender": "Andrey Malyutin <malyutinag@gmail.com>",
+  "date": "Fri, 18 Oct 2019 10:00:38 -0700 (PDT)",
+  "body": "Is it possible already, or would it be possible, to edit the config file to \nrestrict which GPUs can be selected to run Warp jobs? I have been testing \non the K3 server and I can imagine many users forgetting to unselect \ndisplay GPU when launching a job. \n\nThank you,\n\nAndrey"
+}

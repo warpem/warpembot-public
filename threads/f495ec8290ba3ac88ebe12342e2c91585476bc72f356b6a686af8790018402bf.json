@@ -1,0 +1,8 @@
+{
+  "message_id": "<590857eb-86b1-461d-b59a-f67dde6c8ee2@googlegroups.com>",
+  "thread_id": "<aed8cbd5-4bdf-4389-9fa2-8a6ee0f150af@googlegroups.com>",
+  "subject": "Re: .tiff extention and/or symbolic link in Windows",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 9 Apr 2019 10:09:48 -0700 (PDT)",
+  "body": "Hi Koji,\n\nI've now included *.tiff in the upcoming 1.0.7W. Beta should be out \ntomorrow.\n\nYou can also create symbolic links on Windows, and it looks like Warp will \nhandle them just like normal files. You can create them using 'mklink' from \nthe command line. Make sure to use the /H option, as soft symlinks won't be \ndiscovered by Warp.\n\nCheers,\nDimitry\n\nOn Tuesday, April 9, 2019 at 4:53:53 AM UTC+2, yonelab.tem@gmail.com wrote:\n>\n>\n> Hi Dimitry,\n>\n> We use JADAS for automatic data collection. This program produces movie \n> stacks with the *.tiff extension. Warp cannot treat this, and we rename it \n> to *.tif, but like to use *.tiff files directly. We'd appreciate it if you \n> could consider this option in the next release. Or I wonder if there is a \n> way to create symbolic links in Windows 10?\n>\n> Thank you in advance.\n> Best regards,\n>\n> Koji\n>"
+}

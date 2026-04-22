@@ -1,0 +1,8 @@
+{
+  "message_id": "<af0fe695-9937-441a-9993-d14be851739dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "can't import tilt series from IMOD",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 26 Feb 2021 00:08:24 -0800 (PST)",
+  "body": "Hi All,\n\nI have been able to follow the Warp tutorial to the point where the \ntomostar files are created based on IMOD alignment:\n\n-  I import the tilt series and alignment information to Warp\n\n- I see the tick box appearing, indicating that alignment was found from \nthe IMOD folders.\n\n- The Tomostar files are created and they point to raw frames that are in \nthe same directory.  \n\nHowever, nothing happens when I click start processing (the circle \nindicating the number of items to process does not appear).\n\nAny idea why this could happen and what should I do next?\n\nbest wishes,\n\nJuha"
+}

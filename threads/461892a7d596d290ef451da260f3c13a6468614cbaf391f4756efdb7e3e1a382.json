@@ -1,0 +1,8 @@
+{
+  "message_id": "<ace8aac9-36d1-411e-8fde-eaec61b9af43n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Boxnet model not visible for selection",
+  "sender": "Mark Frank <markafrank7@gmail.com>",
+  "date": "Sun, 13 Jun 2021 10:38:45 -0700 (PDT)",
+  "body": "Dear Warp community,\r\n\r\nWe are using a Window 10 workstation with a GTX 1080 with 8GB GPU. We \r\nrecently installed Warp ver. 1.0.9 on June 3rd. We are currently unable to \r\nutilize Boxnet for particle picking despite it being installed in the \r\ninstallation directory. \r\n\r\n\r\nDirectory Local: Users/…/AppData/Roaming/Warp/boxnet2dmodels\r\n\r\nWhen in Warp and “pick particles” is selected, attempting to select the \r\nBoxnet models shows no models available (see attached screenshot).\r\n\r\nOur workstation has a total of 32 GB RAM and 12 CPUs (Hex-core Intel \r\nprocessor).  \r\n\r\nWindows OS Version: Windows 10 Home 20H2 (Build: 19042.1052)"
+}

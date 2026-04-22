@@ -1,0 +1,8 @@
+{
+  "message_id": "<c7e6c64b-579c-43ce-a9ba-43f6e5465ecfn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WarpTools template matching",
+  "sender": "Lorenz Grundmann <lorenz.grundmann@googlemail.com>",
+  "date": "Fri, 2 Aug 2024 03:41:52 -0700 (PDT)",
+  "body": "Hi everyone,\n\nI am playing around with WarpTools and try to wrap my head around the \ncommands and respective settings.  After following the tutorial, I am \ntrying to apply this workflow to in-situ data and would like to play around \nwith the thresholding for optimization purposes, but I do not fully get the \nthresholding.\n1. In the tutorial the --minimum is set to 6, but what is its unit?\n2. Do I threshold on the _rlnAutopickFigureOfMerit in the star file or by \nfinding local maxima and their correlation?\n3. Can I somehow visualize which particles are thresholded (other than \nchecking the previews)?\nAfter performing the tutorial, I am trying to apply this workflow to \nin-situ data and would like to play around with the thresholding for \noptimization purposes.\n\nCheers,\nLorenz"
+}

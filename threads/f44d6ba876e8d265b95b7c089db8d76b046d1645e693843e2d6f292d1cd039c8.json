@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAA59SzPWDXTQmQst78x0it4_TVtJCmrRN-gAs3kVyo7Zdb289g@mail.gmail.com>",
+  "thread_id": "84f447d3-8e6b-4c66-bf1f-b80ad67c58a7",
+  "subject": "Re: Tilt series deselected with change_selection still processed",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "2026-04-07T21:04:36.000Z",
+  "body": "I am not sure but I believe the change selection is for images and it is hard to trust. I would just delete the xml files in the warp_tiltseries/ directly for those bad tilt series."
+}

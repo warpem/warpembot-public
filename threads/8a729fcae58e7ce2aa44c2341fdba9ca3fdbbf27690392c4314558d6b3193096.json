@@ -1,0 +1,8 @@
+{
+  "message_id": "<67698ac0-17c8-4b60-babe-4e748be2f707n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Generating an upsampled gain for super-resolution processing in M",
+  "sender": "R Nwo <rnwokonko@gmail.com>",
+  "date": "Mon, 7 Jul 2025 09:34:03 -0700 (PDT)",
+  "body": "Hi all,\nI'm trying to process data collected in Tomo5 using the Falcon4i and want \nto go to super res with Warp. My gain reference off the microscope is 4K, \nand I would like to upsample to 8K. I've tried using EMAN2's e2proc2d to do \nthis: \n\ne2proc2d.py --clip=8192,8192 --scale 2 --outtype=mrc 4K_GainReference.gain \n8K_GainReference.mrc\n\nHowever this is seemingly normalizing the pixel intensity in the resulting \nMRC and it totally washes out the gain artifacts. As is, the data will go \npast Nyquist even with the poor gain reference, however I would like to get \nthis properly sorted. I wanted to reach out to the group to see if anyone \nhas any tips or tricks for this?\n\nBest,\nRobert"
+}

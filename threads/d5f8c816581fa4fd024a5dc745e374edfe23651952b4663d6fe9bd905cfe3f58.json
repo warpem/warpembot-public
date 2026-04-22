@@ -1,0 +1,8 @@
+{
+  "message_id": "<e5733fc9-5d71-42fb-885b-b7a9fdf96d9an@googlegroups.com>",
+  "thread_id": "<d54de2e6-206d-410c-96ae-31b78735a11en@googlegroups.com>",
+  "subject": "Re: warp display crash when using denosie",
+  "sender": "\"mcia...@umich.edu\" <mcianfro@umich.edu>",
+  "date": "Sun, 28 Jun 2020 11:04:21 -0700 (PDT)",
+  "body": "Hi Zhenyu,\n\nI always assume there is some sort of clash with the GPU processes when I \ntry to do denoising while Warp is running, which is what I think could have \nhappened here. B/c of this I try not to be running anything on warp when I \nclick the denoise using deep learning. \n\nMike\n\n\nOn Saturday, June 27, 2020 at 3:47:27 PM UTC-4 Zhenyu Tan wrote:\n\n> Hi \n> When I using denosie function to denosie micrograph to pick particles for \n> retraining, the display often crash and lead to 0MB for GPU memory.\n> zhenyu \n>"
+}

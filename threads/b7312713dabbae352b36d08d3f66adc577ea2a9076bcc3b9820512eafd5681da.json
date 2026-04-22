@@ -1,0 +1,8 @@
+{
+  "message_id": "<d332ea4d-ba07-4e9c-bf20-2836f156fc8en@googlegroups.com>",
+  "thread_id": "<3d9a1696-25b2-4721-a393-938bc2deae40n@googlegroups.com>",
+  "subject": "Re: M create species failed to match datasource",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "Tue, 22 Jul 2025 14:59:45 -0700 (PDT)",
+  "body": "Apparently, my mistake. When I create population, I used a script so it is \r\ncreated without the .population extension.\r\n\r\nBest,\r\nHuy\r\n\r\nOn Tuesday, July 22, 2025 at 2:50:55 PM UTC-4 Huy Bui wrote:\r\n\r\n> Hi all,\r\n>\r\n> I ran M to create species on the cluster. I got this error message:\r\n>\r\n> 14045 particles couldn't be matched to data source. Please run again with \r\n> --ignore_unmatched to proceed anyway.\r\n>\r\n> I used M in the workstation with exact same workflow and it works. Anyone \r\n> has experience with this error on SLURM?\r\n>\r\n> Best,\r\n>\r\n> Huy\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<da8662c5-28bf-4750-bfba-fec7ec6c8256n@googlegroups.com>",
+  "thread_id": "<8f780f6e-853b-4e73-8432-4c4594767aa5n@googlegroups.com>",
+  "subject": "Re: Manually deslected tilt still used for tomogram reconstruction",
+  "sender": "alain scaiola <alain.scaiola@gmail.com>",
+  "date": "Fri, 22 Oct 2021 03:02:35 -0700 (PDT)",
+  "body": "Hi Dimitry,\r\n\r\nThanks for the quick answer. Yes, they are labelled as False, but it \r\ndoesn't change anything. Could it be a bug on my local installation ?\r\n\r\nCheers\r\n\r\nAlain\r\n\r\nLe vendredi 22 octobre 2021 à 11:49:21 UTC+2, teg...@gmail.com a écrit :\r\n\r\n> Hi Alain,\r\n>\r\n> If you look into the /TiltSeries/UseTilt node of the corresponding XML \r\n> file, are the tilts marked as 'False'?\r\n>\r\n> Cheers,\r\n> Dimitry\r\n>\r\n> On Friday, October 22, 2021 at 11:28:08 AM UTC+2 alain....@gmail.com \r\n> wrote:\r\n>\r\n>>\r\n>> Hi all,\r\n>>\r\n>> I have some tomograms series where the extremes tilts are way too thick \r\n>> and where there was issue with tracking.\r\n>>\r\n>> Is there an easy way to remove those from the tomogram reconstruction \r\n>> other than modifying the mdoc file before going to imod ?\r\n>>\r\n>> I tried to deselect manually those tilt in tomostar mode of Warp, \r\n>> unchecking the boxes in the fourier space view, but they are still used to \r\n>> generate the tomograms.\r\n>>\r\n>> Thank you for your help.\r\n>>\r\n>> Best wishes,\r\n>>\r\n>> Alain\r\n>>\r\n>"
+}

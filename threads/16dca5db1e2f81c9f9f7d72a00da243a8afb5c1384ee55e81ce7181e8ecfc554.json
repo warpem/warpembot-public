@@ -1,0 +1,8 @@
+{
+  "message_id": "<71439f4a-69d2-4e69-b868-a4273852a257n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Missing information in optics.star file Warp to Relion 4.0.1",
+  "sender": "Felix Lange <felix.lange.le@gmail.com>",
+  "date": "Tue, 13 Jun 2023 01:50:19 -0700 (PDT)",
+  "body": "Hi guys,\n\nI am following the tt tutorial for the Warp-Dynamo-Relion pipeline with my \nown data. I extracted subtomograms in Warp at 5Apx according to the \nsettings given in the tutorial. Now in Relion, the _optics.star is missing \nentries for the optics causing an error in Relion. The entry now looks like \nthis:\n\n\ndata_optics\n\nloop_ \n_rlnOpticsGroup #1 \n_rlnOpticsGroupName #2 \n_rlnImagePixelSize #3 \n_rlnImageSize #4 \n_rlnImageDimensionality #5 \n           1 opticsGroup1     5.000000           60            3\n\nHow cann I pass along the missing information? Thanks and all the best,\n\nFelix"
+}

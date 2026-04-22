@@ -1,0 +1,8 @@
+{
+  "message_id": "<45533027-1895-47e3-8200-74626532e794n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomogram export (warp)",
+  "sender": "Marius Knauf <knaufmarius@gmail.com>",
+  "date": "Mon, 29 Nov 2021 10:01:45 -0800 (PST)",
+  "body": "Dear all, \n\nIm currently working on a tilt series dataset of the SERCA pump in its \nnative membrane and want to export subtomograms of the SERCA protein from \nmy cells, but when i try to use the export tomogram function in Warp i get \nthe following error:\n\nSystem.Exception: Couldn't find rlnCoordinateZ column.\n  \n*Does anybody know what the rlncoordinateZ column is?*\n\nI have been training my tilt series with boxnet_20180602\n\nHopefully someone know what causes this error and how to eventuelly fix it \n\nBest wishes,\nMarius Knauf\nAarhus University, Denmark"
+}

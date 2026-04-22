@@ -1,0 +1,8 @@
+{
+  "message_id": "<fc8c32df-5bef-442a-9a7a-6a816e8b8b25n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "cuFFT error in WarpTools template matching on large tomogram",
+  "sender": "Irene Hu <huirene@umich.edu>",
+  "date": "Fri, 10 Oct 2025 13:20:27 -0700 (PDT)",
+  "body": "I am trying to run template matching at different pixel sizes (WarpTools \r\nv2.0.0dev34) but encounter a cuFFT error: CUFFT_INTERNAL_ERROR on a \r\ntomogram reconstructed at 2070x2070x1020 px, while the same parameters run \r\nfine on the same tomogram reconstructed with dimensions 1242×1242×606 px \r\n(24 px template). With the larger tomogram, I tried the following settings:\r\n• --batch_angles: 1, 4, 16, 32\r\n• --subdivisions: 2, 3\r\n• --subvolume_size: 64 , 128, 192\r\n• one or two A40s\r\n• template with box sizes 24, 32 and 40 px \r\n\r\nAll produce the following error\r\nLog excerpt (full log attached):\r\nReceived \"TomoMatch\"... 45215 MB free\r\nUsing 18432 orientations\r\n0%\r\nUsing 192 sub-volumes\r\nLoading...\r\n0%\r\nterminate called after throwing an instance of 'std::runtime_error'\r\nwhat(): cuFFT error: CUFFT_INTERNAL_ERROR\r\nat .../gtom/src/FFT/FFT.cu:23 \r\n\r\nHas anyone experienced anything similar or have advice on running template \r\nmatching with larger volumes? \r\n\r\nThanks,\r\nIrene Hu\r\nPhD Candidate, Fung Lab\r\nLife Sciences Institute / Department of Cell and Developmental Biology\r\nUniversity of Michigan"
+}

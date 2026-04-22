@@ -1,0 +1,8 @@
+{
+  "message_id": "<843d0935-3f53-4515-80c9-3a205a9f51c9n@googlegroups.com>",
+  "thread_id": "<CAHNYQ5rUfe2dSQOFBb8Bi3GPJvwKRavguewvD2sq2-HNgs5p6A@mail.gmail.com>",
+  "subject": "Re: Warp hiccups on Nvidia a6000 with cu11.4",
+  "sender": "Takanori Nakane <nakane.t@gmail.com>",
+  "date": "Sat, 11 Dec 2021 07:10:52 -0800 (PST)",
+  "body": "Hi,\n\nMy colleagues who have 30x0 experienced very slow particle picking. This \nalso suggests a TensorFlow issue.\nPerhaps it is taking time to JIT compile PTX for the latest GPUs?\n\nBest regards,\n\nTakanori Nakane\n\nOn Sunday, December 12, 2021 at 12:02:01 AM UTC+9 p.sha...@gmail.com wrote:\n\n> Hi,\n> Has anyone on this group tried to run Warp with the latest/greatest\n> Nvidia GPU's and willing to share their experience?\n>\n> I am trying to benchmark our shiney new and dedicated Warp/M machine that \n> has 2x\n> A6000 with 48GB of memory each and it is loaded with CUDA 11.4 and\n> driver version 472.93. While the Warp part of the pipeline was fairly\n> snappy (2mins/tilt series with 2 GPUs), M is really struggling (the\n> pathology is stuttering progress and the program window freezing)\n> especially at the denoising step of the species generation. I suspect\n> that this is most likely due to the CUDA drivers and the special\n> version of TensorFlow that Warp ships with and the resulting\n> incompatibility.\n> I'd be happy to hear from anyone who has a similar computer setup as\n> ours and learn from their experience in setting up the machine to work\n> optimally with Warp/M.\n>\n> Best,\n> Pranav\n> --\n> Pranav Shah\n> Postdoctoral Research Fellow.\n>\n> Division of Structural Biology,\n> Wellcome Trust Centre for Human Genetics,\n> University of Oxford,\n> Roosevelt Drive, Oxford OX3 7BN,\n> UK\n>"
+}

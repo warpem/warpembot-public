@@ -1,0 +1,8 @@
+{
+  "message_id": "<0f4b7b5a-dc7c-41b4-8561-ece7c1039352@googlegroups.com>",
+  "thread_id": "<82613d30-c84d-44b7-9c47-d0c1fa3d8c07@googlegroups.com>",
+  "subject": "Re: Can't run, is this a known thing?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 27 Jun 2018 05:23:47 -0700 (PDT)",
+  "body": "I'm glad it's running now! Unfortunately, the exception thrown by the \nruntime when loading the DLL is very generic and can have many causes. I'll \nextend the error message with this and other potential fixes, which should \ncover most of the cases.\n\n\nOn Wednesday, June 27, 2018 at 1:56:27 PM UTC+2, Bart Alewijnse wrote:\n>\n> It's a GTX 960, so Maxwell.\n>\n> A bunch of runtimes got installed when I trued to set up the visual studio \n> environment, which is probably why it changed from that first error to \n> exception in ctor() error.\n>\n> Whoop, updated the nvidia driver and that fixed it.\n>\n> Slightly nicer error message might be nice though :)\n>\n>\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<a4a4ad36-8adb-4187-b907-fedb4abf4bc2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Relion CTF",
+  "sender": "jonathan gabriel piccirillo <jonathangpiccirillo@gmail.com>",
+  "date": "Tue, 20 Jul 2021 09:21:18 -0700 (PDT)",
+  "body": "Hi all,\n\nI am recently working with warp. I am pretty new to it.\n\nI was wondering something about the CTF obtained from the \"reconstruct \nsub-particles.\"\n\nThe CTF volume obtained has a dimension of:\n\nNumber of columns, rows, sections 41      80      80\n\nInstead, the images have these dimensions:\n\nNumber of columns, rows, sections 80      80      80\n\n\nI am attaching a screenshot of the volume opened with chimera. \n\nIs this data the usual one? If not, what could be the problem.\n\nThanks all,\n\nJonathan"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<ea9dbae1-3e60-4355-9654-f2a4937b6be6@googlegroups.com>",
+  "thread_id": "<4ef2384c-08f9-4f90-8325-e3ed90f2741a@googlegroups.com>",
+  "subject": "Re: Machine Stamp on Particle Stacks",
+  "sender": "Benjamin Barad <baradb@gene.com>",
+  "date": "Mon, 8 Jul 2019 12:25:19 -0700 (PDT)",
+  "body": "`mrcfile` from ccp-em throws an error by default when loading the files, \nbut permissive=True turns it into a warning; though I'd rather not run in \npermissive mode, its not a critical bug.\n\nOn Monday, July 8, 2019 at 12:05:00 PM UTC-7, Dimitry Tegunov wrote:\n>\n> You're absolutely right, first byte should be 0x44. Will be fixed in the \n> next release. What software does this bug currently break?\n>\n>\n> On Monday, July 8, 2019 at 8:56:48 PM UTC+2, Benjamin Barad wrote:\n>>\n>> The machine stamp on the particle stack mrcs files is `0x43 0x41 0x00 \n>> 0x00`, which is unrecognized by the mrcfile library and doesn't seem to \n>> match the options I can find for the mrc2014 spec. Should the machine stamp \n>> be `0x44 0x41 0x00 0x00` (one of the options I found for little-endian \n>> data), or is there a reason that the specific machine stamp is written?\n>>\n>"
+}

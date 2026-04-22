@@ -1,0 +1,8 @@
+{
+  "message_id": "<8eb26215-0fcd-4416-b6d6-4197599bab73@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Bayesian Polishing on Warp-extracted particles",
+  "sender": "tom dendooven <tom.dendooven@gmail.com>",
+  "date": "Tue, 22 Jan 2019 03:33:33 -0800 (PST)",
+  "body": "Hi Dimitry,\n\nA very quick question: After exporting the micrographs list from Warp for \nBayesian polishing in Relion3, would one also need the raw movies to do the \npolishing (besides a decent map, particles.star file and the particle \nstacks), or would the averaged images from Warp somehow suffice? I couldn't \nfind any paths to the raw movies in the star files but may have overlooked \nthem, hence my question.\n\nMany thanks,\nTom"
+}

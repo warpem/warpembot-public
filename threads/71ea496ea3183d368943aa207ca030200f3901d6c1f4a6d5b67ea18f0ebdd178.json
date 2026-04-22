@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAMWnF5=pjApTFTG9xsOxnsG-9SRCQbLojhbkNu2jaS-Yad=AuQ@mail.gmail.com>",
+  "thread_id": "<fd4f79a6-5374-4cae-a738-831f37e0ab32n@googlegroups.com>",
+  "subject": "Re: can WARP remove gold fiducials?",
+  "sender": "Lorenzo Gaifas <lorenzo.gaifas@gmail.com>",
+  "date": "Wed, 25 Oct 2023 10:33:50 +0200",
+  "body": "Hey Jesse,\r\n\r\nWe have a nice little guide over at\r\nhttps://teamtomo.org/walkthroughs/EMPIAR-10164/2d-preprocessing.html where\r\nyou can find some info about this. If you switch to the `Fiducials` tab in\r\nthe text, you'll see how to use GoldNet to mask out fiducials in\r\nreconstructions.\r\n\r\nNote that this works with 1.0.9, not 1.1, for which you'd have to retrain\r\nthe network.\r\n\r\nBest,\r\nLorenzo\r\n\r\nOn Wed, Oct 25, 2023 at 10:29 AM mrJ <bluufive@gmail.com> wrote:\r\n\r\n> hi all,\r\n>\r\n> Just wondering if there is any way to remove gold fiducials in WARP?\r\n>\r\n> Currently the gold is disrupting template matching in the tomograms.\r\n>\r\n> thanks!\r\n>\r\n> Jesse\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/fd4f79a6-5374-4cae-a738-831f37e0ab32n%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/fd4f79a6-5374-4cae-a738-831f37e0ab32n%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

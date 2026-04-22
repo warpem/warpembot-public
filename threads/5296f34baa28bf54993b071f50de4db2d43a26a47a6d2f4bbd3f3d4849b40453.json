@@ -1,0 +1,8 @@
+{
+  "message_id": "<badb6281-3eaf-467a-910f-e2cbef95455en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Reconstruction artaefacts in tomograms reconstructed from half-sets",
+  "sender": "Arjun Bhatta <arjun.bhatta2052@gmail.com>",
+  "date": "Thu, 20 Oct 2022 05:31:14 -0700 (PDT)",
+  "body": "Hi all,\n\nI am getting these grid-like reconstruction artaefacts, which I assume are \nassociated with chunk-by-chunk reconstruction, in the tomograms \nreconstructed by Warp from odd/even frames (attachment 1).\n\nStrangely, this seems to be the case only for tomograms reconstructed from \nhalf-sets; reconstructions from full set of frames seems to not have these \nartaefacts (attachment 2).\n\nAs you might have guessed, I am trying to denoise my tomograms in Warp \nusing odd/even frame sets, but the denoiser appears to be working \nsuboptimally because of these artaefacts. I tried a couple different \nbinning factors for tomogram reconstruction, but the artaefacts are always \nthere.\n\nHas anyone experienced, and more importantly troubleshot this, before? I \nimagine increasing the \"padding\" while keeping the cropped volume the same \nfor chunks might  get rid of these artaefacts, but I don't know how I can \nchange the number/size/padding of chunks for tomogram reconstruction in \nwarp. \n\nAlso, why do these artaefacts not appear for tomograms reconstructed with \nfull set of frames? Does warp use different padding for chunks for \ntomograms reconstructed from full-sets or half-sets?\n\nI would appreciate any help with this.\nThanks,\nArjun"
+}

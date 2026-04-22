@@ -1,0 +1,8 @@
+{
+  "message_id": "<7a2b5869-c536-4c72-a18d-3e472f2e43b2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Changing Particle Diameter in Relion refinement, from the one used\r\n in WARP extraction",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Wed, 24 Nov 2021 00:56:57 -0800 (PST)",
+  "body": "Hi folks,\n\nI extracted the particles in Warp using a certain particle diameter (say \n300A). While I do run some 3D refinements/classification using the particle \ndiameter of 300A. \n\nBut for some refinements, I want to use smaller particles. E.g., 200A or \n150A. And I do not want to re-extract the particles, at least for now;\n\nThe Relion is not complaining about any particle normalization issues and \nrefinements does proceed, but I was thinking whether this has any \nsystematically significant adverse effects on refinement/classification \nusing particle diameter significantly lower than that used for particle \nextraction in WARP.\n\nThanks and cheers,\nDigvijay"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAB7-Rrt3-Jt1O1oehq7pg0wo37ZNZWVVT7svkqY8UBSZcRFPTg@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Generating initial reconstruction after exporting particles",
+  "sender": "Ricardo Righetto <ricardorighetto@gmail.com>",
+  "date": "Wed, 5 Mar 2025 17:40:18 +0100",
+  "body": "Hi,\r\n\r\nI might be missing something obvious, but I don't see a way of generating\r\nan initial average from my particles STAR file when exporting particles\r\nfrom WarpTools using --2d. If using --3d, we can use relion_reconstruct_mpi\r\nas before in Windows Warp. Is that the only way?\r\n\r\nThanks in advance!\r\n\r\n--\r\nRicardo Diogo Righetto"
+}

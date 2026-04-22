@@ -1,0 +1,8 @@
+{
+  "message_id": "<04abadb5-48b1-4ad5-98f9-78c0f13a201fn@googlegroups.com>",
+  "thread_id": "<0e324827-4fd1-4464-bf5f-6b1005e8047an@googlegroups.com>",
+  "subject": "Re: Warp 1.0.9 Crash",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Tue, 15 Sep 2020 15:18:33 -0700 (PDT)",
+  "body": "Hi Ben,\n\nI'm afraid Shyamal's error was not reproducible, and he fixed it himself by \ncopying the raw data into a new folder and reprocessing everything. My \nhypothesis is that the auxiliary hidden files that Macs like to create \n(starting with .) were part of the problem, but I'm not sure.\n\nCheers,\nDimitry\n\nOn Friday, September 11, 2020 at 1:10:56 AM UTC+2 benjami...@gmail.com \nwrote:\n\n> We ran into this specific issue today. Loading settings from a previous, \n> successful run recovered it (I am sorry that I didn't save the failed \n> previous.settings file so I could share it!).\n>\n> On Thursday, August 13, 2020 at 4:49:33 AM UTC-7 teg...@gmail.com wrote:\n>\n>> Hi Shyamal,\n>>\n>> I haven't seen this line fail before. Can you share the <CTF></CTF> \n>> section from the previous.settings file in that folder? Also, the usual \n>> annoying question: What happened between the time it worked and now? :-)\n>>\n>> Cheers,\n>> Dimitry\n>>\n>>\n>> On Thursday, August 13, 2020 at 9:47:10 AM UTC+2, shyamal mosalaganti \n>> wrote:\n>>>\n>>> Hi Dimitry & others,\n>>>\n>>> After i have imported my tilts (each tilt is is motion corrected  \n>>> average in .mrc format) i get the following error (attached). \n>>> I had successfully run this dataset before without any problems. \n>>> However, now it just continuously crashes. \n>>> Any idea why this might be happening? \n>>>\n>>> Thank you very much in advance,\n>>> Shyamal\n>>>\n>>"
+}

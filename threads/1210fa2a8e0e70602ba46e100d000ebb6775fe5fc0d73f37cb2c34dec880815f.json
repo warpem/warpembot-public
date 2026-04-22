@@ -1,0 +1,8 @@
+{
+  "message_id": "<25c8201b-26a0-43cf-9e33-53221d33bb5cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "size limitation of subtomogram",
+  "sender": "Qiang Guo <guoq.tiger@gmail.com>",
+  "date": "Mon, 1 Aug 2022 05:56:09 -0700 (PDT)",
+  "body": "Hi all, \n\nHas anyone noticed a size limitation for subtomogram exporting in Warp? For \nus it seems box size larger than 220 pix or so will result in empty \nsubtomograms. any idea why this would happpen?\n\nBTW, we are using RTX 3080 card.\n\nBest,\nQiang"
+}

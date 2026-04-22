@@ -1,0 +1,8 @@
+{
+  "message_id": "<d4594894-8a4d-437b-93ee-85f585e27cc8n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "simple transformation of a star file",
+  "sender": "P C <peter.p.cherepanov@gmail.com>",
+  "date": "Wed, 8 Oct 2025 18:37:22 -0700 (PDT)",
+  "body": "Is there a tool to shift origins of a species by a specified vector (no \nrotation, just a shift) within Warp/M tools? If yes, Is it possible to \ncombine multiple species into one and filter for duplicates?\n\nAll these problems could be solved if I could export M star file back to \nRelion star file. But it seems that there is no easy way back."
+}

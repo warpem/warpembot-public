@@ -1,0 +1,8 @@
+{
+  "message_id": "<ee2b913b-88eb-480a-a165-60cd7d09515fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Cannot press finish button for create species when deselecting some\r\n data sources",
+  "sender": "Gaoxingyu Huang <hgxy15@mails.tsinghua.edu.cn>",
+  "date": "Sat, 22 Aug 2020 11:25:29 -0700 (PDT)",
+  "body": "Hi Dimitry, I'm now trying to use M to refine three data sets together. \nThese three data sets were collected on three different sessions. When I \ntry to create species, an ambiguous file name error pops up. I followed the \ninstruction on the website and did the following thing in attempt to bypass \nthis problem.\n\n1.All my rlnmicrographnames has the following format:stack_????.mrcs. My \nguess is that different micrographs with the same micrograph number from \ndata collected on different sessions is what's causing the problem, so I \nmanually split the combined data set according to the session they were \ncollected on in to three subset of particle stars so that microgaraph \nnumber is unique within each subset. \n2.I selected one of the subset stars in the create species menu and \ndeactivated the other two irrelevant data sources. After this step the \nparticle number shown on the create species menu is as expected and no more \nambiguous file name error shows up.\n3.However, at this stage, the finish button on the create species menu \nremains gray and cannot be clicked on. To see whether my splitting is \nwhat's causing the problem, I deleted the two irrelevant data sources and \nretried to create the species, this time, the finish button can be clicked \non and create species is successful with the correct particle number. \n\nCould you give some advice on how to solve this issue?\nMany thanks in advance!\nGaoxing"
+}

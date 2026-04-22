@@ -1,0 +1,8 @@
+{
+  "message_id": "<6a772608-505c-4e36-bc36-27ea5336a0bf@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp crashes on motion correction",
+  "sender": "r.fernandez.leiro@gmail.com",
+  "date": "Thu, 18 Apr 2019 02:52:11 -0700 (PDT)",
+  "body": "Hi,\n\nWarp is crashing without any feedback/error message when I try to correct \nmotion on a Falcon3 movie (75 frames). I tried with different settings but \nit crashes the same way in all\n\nI can see the memory used by GPU gets to 6.5GB and stays like that until it \ncrashes (first empties GPU then warp closes). So it doesn't seem to be \nfilling up the GPU...\n\nLatest WARP version running on win10\n2x2070ti (8GB)\n\nI have sent you a link to a movie for you to be able to reproduce the \nproblem\n\nThx!\n\nRafa"
+}

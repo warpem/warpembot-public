@@ -1,0 +1,8 @@
+{
+  "message_id": "<02c1359c-5b2f-42f0-b3b8-9f702085071eo@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Relion 3.1 star file support",
+  "sender": "Mathew McLaren <clazzy@gmail.com>",
+  "date": "Thu, 20 Aug 2020 12:05:07 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI've been using Warp with Relion 3.1 to process a single particle dataset. \nAfter 3D refinement I'd now like to move into M and continue processing but \nwhen I import the run_data.star file I get the error \"Table does not \ncontain all essential columns (coordinates, angles, micrograph name)\". I'm \nguessing this is because Warp/M don't support the new Relion 3.1 star \nformat. If so, are there plans to support the updated format in the near \nfuture? Do you know of any workarounds in the meantime or will I need to \nreprocess on an earlier version of Relion?\n\nCheers,\n\nMathew"
+}

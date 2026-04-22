@@ -1,0 +1,8 @@
+{
+  "message_id": "<38422766-b8e0-4ba2-8e80-235d92203221n@googlegroups.com>",
+  "thread_id": "<654f33ee-aaff-436d-84af-8489da2119f9n@googlegroups.com>",
+  "subject": "Re: object reference not set to an instance of an object",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Mon, 19 Sep 2022 08:39:43 -0700 (PDT)",
+  "body": "Hi mrJ,\n\nIs there anything different about the processing of those series in IMOD \ncompared to the other 3? Skipped tilts? Added pre-rotation?\n\nCheers,\nDimitry\n\nOn Monday, September 19, 2022 at 4:23:51 PM UTC+5 mrJ wrote:\n\n> hi all, \n>\n> I do the usual tilt series pipeline from WARP to IMOD then re-import to \n> WARP.  However when re-importing to WARP I get the error \" object reference \n> not set to an instance of an object\".  I have 10 tomos and only 3 can be \n> reimported.  No idea what is happening with the other 7.  Literally are all \n> being treated identically.  \n>\n> had this problem in the past and it still persists.  Previously I resolved \n> it by using the nightly build, but that is not working anymore.  I am \n> running 10.9, and when I ran nightly build 20201104 this solved the issue \n> before.  However now when I try running with that version I get the error \n> \"Invalid URI : The URI is Empty\".    \n>\n> Thanks\n>\n>\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<60700467-0c6f-49a3-a87b-ea6c4b368696n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Spherical aberration in fs_motion_and_ctf",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Thu, 20 Feb 2025 07:03:55 -0800 (PST)",
+  "body": "Hello,\n\nI have a question about spherical aberration (Cs) in Warp and CTF parameter \nestimation. At low resolution, it should be kept fixed (2.7 mm in my case). \nHowever, I noticed that values change during CTF parameter estimation.  \n\nFollowing the tutorial, I have run these two commands:\n\nWarpTools fs_motion_and_ctf \\\n--settings warp_frameseries.settings \\\n--m_grid 1x1x3 \\\n--c_grid 2x2x1 \\\n--c_range_max 7 \\\n--c_defocus_max 8 \\\n--c_use_sum \\\n--out_averages \\\n--out_average_halves\n\nWarpTools ts_ctf \\\n--settings warp_tiltseries.settings \\\n--range_high 7 \\\n--defocus_min 2 --defocus_max 8 --window 256\n\nWhen I examine the tilt series XML files, I can see that the Cs values in \nthe <CTF> block differ a lot from 2.7 - the values range from -6.0 to 8.0.\n\nHow can I stop Warp from refining the Cs? \n\nCheers,\nJuha"
+}

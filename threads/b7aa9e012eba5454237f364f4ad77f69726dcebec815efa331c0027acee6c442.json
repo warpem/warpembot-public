@@ -1,0 +1,8 @@
+{
+  "message_id": "<0289874c-c7ea-4665-b926-a1a20c37f3e5@googlegroups.com>",
+  "thread_id": "<518d40f7-7de6-4d8d-b8eb-1176dc28ffba@googlegroups.com>",
+  "subject": "Re: Input movie format",
+  "sender": "mcianfro@umich.edu",
+  "date": "Wed, 11 Jul 2018 22:13:17 -0700 (PDT)",
+  "body": "As a follow up - this appears to be an issue with my install of Warp. I've \ninstalled Warp on AWS Windows Server 2016 on which I had installed CUDA9.2 \nand the latest Visual C++. \n\nThe problem is that no matter movie format I provide, .mrcs, .mrc, .tif, \nWarp will run and then output a value of 0 for defocus, and the display \nimage will be black. While it runs, I can see that the GPU is doing \nsomething as the amount of GPU RAM changes during the run. \n\nDo you have any suggestions on how to troubleshoot this? I don't see any \nlog files or information anywhere. \n\nIf you'd prefer, I can set up a machine then give you remote desktop access \nso you can look around. \n\nMike  \n\nOn Wednesday, July 11, 2018 at 4:03:06 PM UTC-4, mcia...@umich.edu wrote:\n>\n> Hi Dmitry,\n>\n> We collect our movies using Leginon, and the movies are saved un-gain \n> normalized in MRC format in Map Mode 6 (unsigned 16-bit integer). \n>\n> I know that 1) these movies are not read by Warp and 2) if I convert these \n> into TIFF using mrc2tif they are also not read by Warp. \n>\n> What is the best way to store these as compressed files that are also \n> readable by Warp?\n>\n> Thanks,\n> Mike\n>"
+}

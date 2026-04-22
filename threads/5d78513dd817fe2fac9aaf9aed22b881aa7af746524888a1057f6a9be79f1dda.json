@@ -1,0 +1,8 @@
+{
+  "message_id": "<2788A4AF-9AFB-4CBE-94AA-DC5E7DA9212C@gmail.com>",
+  "thread_id": "<231111cc-db6a-4ff6-8a15-790857c917b8n@googlegroups.com>",
+  "subject": "Re: physical overlap of species",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 6 Oct 2025 21:14:11 -0700",
+  "body": "Overlapping density is not modelled explicitly and the low resolution information in your data will match projected maps less well because of this - despite this, M should still perform very well in these cases :-)\nSent from mobile - apologies for brevity\nOn Oct 6, 2025, at 18:36, P C <peter.p.cherepanov@gmail.com> wrote:\n﻿in my case, species are fragments of a lattice (viral capsid). Because the lattice curvature is not uniform, one could define multiple sets of species each corresponding to a local shape property. This means that some individual particles from different species would physically overlap in the space of the tomogram. Am I correct to assume that M does not care of such a \"clash\"? (In ideal case, I would have multiple species that would together describe the complete assembly, with multiple physical overlaps within the tomogram space). \r\n\r\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/231111cc-db6a-4ff6-8a15-790857c917b8n%40googlegroups.com\n."
+}

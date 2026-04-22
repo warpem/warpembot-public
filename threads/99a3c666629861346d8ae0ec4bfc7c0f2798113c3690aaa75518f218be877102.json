@@ -1,0 +1,8 @@
+{
+  "message_id": "<310f44cd-84e1-4791-b9e2-b26a33bfb805n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "joining datasets in warp",
+  "sender": "=?UTF-8?Q?Przemys=C5=82aw_Dutka?= <przemyslaw.dutka@gmail.com>",
+  "date": "Thu, 14 Oct 2021 23:10:08 -0700 (PDT)",
+  "body": "Hi All,\n\nI have two datasets that were collected on the same microscope, same camera \nand same pixel size. They were collected couple months apart so they have \ndifferent gain reference. I wonder if there is some easy way to join them \nin warp so that I can easily continue downstream processing in Dynamo, \nRelion and M?\n\nThanks,\nPrzemek"
+}

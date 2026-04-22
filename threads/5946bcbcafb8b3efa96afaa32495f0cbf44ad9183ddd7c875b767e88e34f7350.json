@@ -1,0 +1,8 @@
+{
+  "message_id": "<580533b6-8f85-4f4d-93d2-275a58923265@googlegroups.com>",
+  "thread_id": "<45709b5a-4220-4c25-a1c9-2549eac5862a@googlegroups.com>",
+  "subject": "Re: exported micrographs list has too few micrographs",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Sun, 10 Nov 2019 12:56:56 -0800 (PST)",
+  "body": "Hi Yingyi,\n\ndoes 1300 correspond to any of the numbers you see in the overview \nstatistics? Does the problem persist if you check/uncheck \"generate files \nfor RELION's polishing\"?\n\nCheers,\nDimitry\n\n\nOn Wednesday, November 6, 2019 at 8:49:07 PM UTC+1, Yingyi Zhang wrote:\n>\n> Dear All,\n>\n> When I tried export micrograph list, it seemed like only part of my \n> micrographs got written in the star file. I have all together about 6000 \n> micrographs.\n> In warp/motion/ and warp/average, the total number of files are correct, \n> which is 6000 (doubled with log files) and 12000.\n>\n> And I have about 6000 images processed within warp, but the output only \n> has about 1300 images.\n>\n> When doing it, I clicked on all checkboxes, including both [Include items \n> outside of filter ranges], and [Include manually excluded items]. \n> It took a couple of minutes to get me the star file. \n>\n> And I tried once again, still about 1300 images in the output star file.\n> Do you know why? Could anyone help me with that?\n>\n> Many thanks.\n> Best,\n> Yingyi\n>\n>\n>"
+}

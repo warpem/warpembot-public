@@ -1,0 +1,8 @@
+{
+  "message_id": "<8e332bfa-da67-460e-a485-1701cbab12e2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Has anyone get improved resolution using M & RTX30 series?",
+  "sender": "\"888...@gmail.com\" <8883669@gmail.com>",
+  "date": "Tue, 15 Mar 2022 23:17:34 -0700 (PDT)",
+  "body": "Dear all,\nHi, we recently bought a workstation equipped with 4x RTX3090, I've \nencountered the issue as quite a few have mentioned, very slow and/or \ninefficient boxnet tool, denoise problem and so on.\n\nAside from all those things, I didn't get a resolution boost from M, no \nmatter how I tried to adjust the refinement parameters, so I'm curious, has \nanyone had some experience with M & RTX 30 series and actually got a \nresolution boost? Am I doing M refine wrong or it's just M simply doesn't \nwork with RTX 30 series?\n\nThank you very much in advance!\nYours sincerely,\nLinhua Tai"
+}

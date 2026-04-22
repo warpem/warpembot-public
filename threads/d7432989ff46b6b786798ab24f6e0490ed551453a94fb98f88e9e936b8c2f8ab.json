@@ -1,0 +1,8 @@
+{
+  "message_id": "<243f3dda-6fb3-45da-8049-8fae2bb0d535n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "stripey stripe stripe",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Tue, 5 Jan 2021 12:12:26 -0800 (PST)",
+  "body": "Hi Dimitry,\n\nI am processing a Falcon 4 dataset and i am consistently seeing a band in \nthe right third of image following motion correction. I dont see this \nartefact when I processed the same dataset using MotionCor2, could you help \nunderstand what is causing this and if should fret about it? Image attached \nfor reference.\n\n\nBest,\nPranav"
+}

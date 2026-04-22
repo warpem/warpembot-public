@@ -1,0 +1,8 @@
+{
+  "message_id": "<7CCCD827-B52A-42DE-AEB2-DB20280F0C61@gmail.com>",
+  "thread_id": "<CAHH4-vxykx7JQhSKCHTuHUyz4XZVLLLFqrftnX3xYB0qCMa89Q@mail.gmail.com>",
+  "subject": "Re: Re-process a single item's CTF",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 10 Dec 2021 09:51:53 +0000",
+  "body": "Hi Cyan,\r\n\r\nIf you did this once the processing was finished then don’t worry, you still have all of your results and appropriate metadata for the ‘outdated’ results in the xml files. The fact that entries are outdated shouldn’t stop you from moving forward with your processing 🙂\r\n\r\nI don’t think there’s a way to change settings for a subset of images from the GUI.\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\n> On 10 Dec 2021, at 09:39, Cyan Ching <xingyichengcyanching@gmail.com> wrote:\r\n> \r\n> ﻿\r\n> Dear all,\r\n> \r\n> Good morning! \r\n> \r\n> During mass frame series pre-processing in Warp, is there a way to keep processing status of tilts following re-processing? All processed tilts just became outdated following the re-processing of a single item's CTF. \r\n> \r\n> Thank you for your help!\r\n> \r\n> Best,\r\n> \r\n> Cyan\r\n> \r\n> PhD student at Physical Chemistry Curie Lab\r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/CAHH4-vxykx7JQhSKCHTuHUyz4XZVLLLFqrftnX3xYB0qCMa89Q%40mail.gmail.com."
+}

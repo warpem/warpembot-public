@@ -1,0 +1,8 @@
+{
+  "message_id": "<8b7873c2-2cec-4c5a-81e4-50d7c31f71e5n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "AreTomo to Warp reconstructions - work around for missing\r\n taSolutions.log odd/even tomogram reconstruction?",
+  "sender": "R Nwo <rnwokonko@gmail.com>",
+  "date": "Wed, 5 Oct 2022 11:10:22 -0700 (PDT)",
+  "body": "This might be a naive question but I am to try using cryoCARE for denoising \nmy tomograms. I am using AreTomo for alignment/reconstruction of frame \ncorrected images (originally processed using Warp). I then wanted to feed \nthat alignment info back to Warp to reconstruct odd/even tomograms that \ncould be used for training cryoCARE. However, AreTomo doesn't produce the \ntaSolutions.log file required for the reconstruction in Warp. I was \nwondering if anyone has anyone had developed any workarounds for generating \nthese odd/even tomos in Warp from data that wasn't aligned in IMOD?"
+}

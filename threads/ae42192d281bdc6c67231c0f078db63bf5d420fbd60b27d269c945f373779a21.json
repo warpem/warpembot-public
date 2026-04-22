@@ -1,0 +1,8 @@
+{
+  "message_id": "<67c99ccb-9d9a-40d7-bc9f-9a35b8920847n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Use of averaged .mrc images in Subtomo pipeline",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Fri, 5 Nov 2021 02:25:10 -0700 (PDT)",
+  "body": "Hi folks,\n\nDoes the averaged .mrc images (motion-average of frames of tilt-images) \nhave any role in the Subtomogram pipeline of M/WARP/Relion? \n\nI perused the .xml and .tomostar file of the tilt series and they store the \ninfo about the .tif images (frames-series) for each tilt angle, but do not \nhave any links to the averaged .mrc images (stored in the average folder)? \n\nI was hoping to delete those after .tif processing to save space and reduce \nclutter. \n\nThanks and cheers,\nDigvijay"
+}

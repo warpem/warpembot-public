@@ -1,0 +1,8 @@
+{
+  "message_id": "<CADBiWEa179xD6ELoSy0jvZqO8O+Oy_F5W9E5UdXyH3y7cs_Z8A@mail.gmail.com>",
+  "thread_id": "49220201-8a4a-4ffc-a467-bafebe10e4e1",
+  "subject": "Re: White Spots Created in Warp, but not RELION5",
+  "sender": "Huy Bui <huybk81@gmail.com>",
+  "date": "2026-04-07T18:05:42.000Z",
+  "body": "Hi Luke, You can look at the stack from Warp and Relion if you see very bright pixels there (or even the motion corrected micrographs). There are certain times that our camera produces a lot of hot pixels that cannot be corrected using the gain reference and might/might not be addressed using IMOD Xray removal. So, at least you can conclude whether Relion corrects for those hot pixels better."
+}

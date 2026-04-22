@@ -1,0 +1,8 @@
+{
+  "message_id": "<2fb649f5-fb49-46b3-930f-62f8e37331e8n@googlegroups.com>",
+  "thread_id": "<7c0b2406-c7d5-409f-832d-6a76d2e77e97n@googlegroups.com>",
+  "subject": "Re: Quality Fit curve drop",
+  "sender": "Julien Maufront <julien.maufront@gmail.com>",
+  "date": "Thu, 28 Jul 2022 04:59:11 -0700 (PDT)",
+  "body": "Dear Chris,\r\n\r\nIndeed our samples were thicker than expected !\r\nThanks for this relevant suggestion, i will take a look to this paper.\r\n\r\nBest regards,\r\nJulien\r\n\r\nLe jeudi 28 juillet 2022 à 12:38:09 UTC+2, Chris Dienemann a écrit :\r\n\r\n> Dear Julien,\r\n>\r\n> this is likely caused by thick ice (specimen thickness exceeding the \r\n> microscope's depth of field). Nothing to worry about, this can be fixed by \r\n> running a per-particle defocus refinement (within CTFrefine) later.\r\n>\r\n> Also see: \r\n> https://www.sciencedirect.com/science/article/abs/pii/S0304399119303705\r\n>\r\n> Best,\r\n> Chris\r\n>\r\n> julien....@gmail.com schrieb am Donnerstag, 17. März 2022 um 12:57:19 \r\n> UTC+1:\r\n>\r\n>> Hi everyone,\r\n>>\r\n>> I have a concerned with my data :\r\n>> it seems there is a redundant drop in the quality fit curves of my data \r\n>> set at a given spatial frequency range (5 - 7 anstrom, see screenshots).\r\n>>\r\n>> Is it something relevant or should I ignore this ?\r\n>> What could be the cause ? I do not see particular features in the  \r\n>> Fourier space image which could explain this deviation between fit and data.\r\n>>\r\n>> Thank you,\r\n>> Julien\r\n>>\r\n>>"
+}

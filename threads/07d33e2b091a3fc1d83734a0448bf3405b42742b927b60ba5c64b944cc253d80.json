@@ -1,0 +1,8 @@
+{
+  "message_id": "<ba456f92-f516-4c17-9cc5-c9653496bba8n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Memory of tomogram CTF",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Mon, 22 Mar 2021 03:41:42 -0700 (PDT)",
+  "body": "After reconstructing the tomogram with Warp, I did CTF as tutorial. \nHowever, there was an error that memory was not enough. My hardware was \n1080Ti 12G, RAM 128G. I didn't know the hardware requirements that could do \nall of tomogram data processing in Warp and M."
+}

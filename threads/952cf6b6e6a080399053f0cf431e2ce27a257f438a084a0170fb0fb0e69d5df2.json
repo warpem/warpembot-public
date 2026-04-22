@@ -1,0 +1,8 @@
+{
+  "message_id": "<6f1338c4-5f1c-46e2-9e2f-1c5493b9e6afn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp processing triggers random blue screen and windows reboot",
+  "sender": "Sebastien Moniot <sebastien.moniot@gmail.com>",
+  "date": "Thu, 1 Jul 2021 10:29:53 -0700 (PDT)",
+  "body": "Dear all,\n\nI am experiencing random blue screen and reboot while processing a Falcon3 \n.tiff dataset.\nAfter reboot, Warp won't continue to process as it hangs at the \"repairing \nmetadata\" step.\n\nThe only way is to remove all warp directories and folders and start from \nscratch but the problem appears again after 100-150 movies.\n\nI have tried to check in the Windows event viewer but was not successful at \npinpointing the possible problem.\n\nAny help would be appreciated.\n\nSebastien"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<b4d6999a-cca0-4f65-86c3-628449c68400@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes when boxnet model is to run",
+  "sender": "Panagiotis Kastritis <pkastrit@gmail.com>",
+  "date": "Wed, 22 May 2019 07:15:57 -0700 (PDT)",
+  "body": "Dear Dimitry, \n\nFirst thanks a lot for your Warp software. I have installed it on my \nGlacios microscope in Halle and looks really good! I have an i7-3770 Cpu \n3.4 GHz, 32 GB of RAM, an RTX2070 a solid state drive of 512 GB, and a \nsystem running Windows 7. All calculations at the micrograph level work \nfine and calculations keep up with the speed of acquisition smoothly.\n\nHowever, if I want to pick particles, when I select a boxnet model, e.g. \nBoxNet2_20180602, installed under C:\\......\\Warp\\boxnet2models\\, when I \npress start processing, Warp crashes. Do you have any idea why? \n\nThanks, \n\nPanos"
+}

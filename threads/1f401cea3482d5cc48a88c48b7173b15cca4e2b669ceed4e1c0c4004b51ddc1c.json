@@ -1,0 +1,8 @@
+{
+  "message_id": "<d2bdaae3-8c31-4c54-a01b-a501b6c6c131n@googlegroups.com>",
+  "thread_id": "<f01db8e5-91ef-4758-8e30-647b1af7c84cn@googlegroups.com>",
+  "subject": "Re: WARP extreme slowing",
+  "sender": "Chris Dienemann <chris_dienemann@gmx.de>",
+  "date": "Wed, 10 Aug 2022 06:20:55 -0700 (PDT)",
+  "body": "Hi emma,\n\ndid you check that all the WarpWorkers are still running (the little \nterminals that open when ypu press start processing)? They sometimes \nsilently crash (just disappear) which makes the processing slow down or \neven stop when they are all gone.\n\nBest,\nChris\n\n216em...@gmail.com schrieb am Freitag, 22. Juli 2022 um 23:17:36 UTC+2:\n\n> Hi all,\n>\n> Our lab is trying to process a dataset of 10,500 .tiff files. However none \n> of the data move past CTF and motion correction and the processing speed \n> slows down to 24 files/hour. Has anyone else seen this issue before that \n> could provide some guidance? Thanks in advance -\n>\n> Emma\n>"
+}

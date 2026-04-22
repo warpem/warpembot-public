@@ -1,0 +1,8 @@
+{
+  "message_id": "<9F3D230E-D8E8-48D4-8C9A-D2F50B06BC4F@gmail.com>",
+  "thread_id": "<ece89c39-6912-41ec-9538-bd1fa9be5285n@googlegroups.com>",
+  "subject": "Re: Warp Threshold_picks Question",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 16 Jun 2025 08:48:10 -0700",
+  "body": "Hey!\nThe cc volumes are normalised so that the background is mean 0, std 1 - thresholds can be interpreted as “number of standard deviations” \nBe careful when choosing —peak_distance - a lot complaints about the performance of template matching are actually great peaks being excluded because of this parameter :-)\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jun 16, 2025, at 08:36, 'Kyle Messina' via Warp <warp-em@googlegroups.com> wrote:\n﻿Hello again,\nFor the threshold_picks command, what exactly is being used as a threshold to determine what particles are included or excluded?  I assume its using some physical property (like how well it matches a template) but its not specified in the tutorial and I haven't been able to find searching around.  I really just want to know so I have a better idea of why particles are being excluded when I input a number.\nThank you,\nKyle\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/ece89c39-6912-41ec-9538-bd1fa9be5285n%40googlegroups.com\n."
+}

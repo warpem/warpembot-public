@@ -1,0 +1,8 @@
+{
+  "message_id": "<a37073d1-b3c5-4f57-b839-b5522cf0776an@googlegroups.com>",
+  "thread_id": "b8c18ef7-9c22-4e2c-9a15-2e328b768999",
+  "subject": "sphere.mrc file in tilt series tutorial",
+  "sender": "Ian McCue <ianmccue@umich.edu>",
+  "date": "2026-04-15T14:42:56.000Z",
+  "body": "Hello!\n\nI am working through the Warp tutorial and have landed at initial 3D refinement in Relion. I noticed in the command that the reference map called is called sphere.mrc. Could someone explain the rationale for this file against using optimization_set.star to generate the reference map? I feel like I'm missing something at this step, where does sphere.mrc \"come from\"?\n\nThanks in advance for any help!"
+}

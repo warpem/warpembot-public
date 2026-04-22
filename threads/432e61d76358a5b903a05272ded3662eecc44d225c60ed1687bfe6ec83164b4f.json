@@ -1,0 +1,8 @@
+{
+  "message_id": "<1560d4e3-19aa-4d7a-87ed-66ba24d736den@googlegroups.com>",
+  "thread_id": "",
+  "subject": "reconstructing non-CTF corrected tomograms",
+  "sender": "Tamara Sijacki <tamsi011@gmail.com>",
+  "date": "Mon, 2 Feb 2026 05:22:35 -0800 (PST)",
+  "body": "Hi everyone!\r\n\r\n\r\nI’d like to reconstruct my tomograms with WarpTools, but do the CTF \r\ncorrection using a different, external software.\r\n\r\nWhat’s the best way to do this? Can I just skip ts_ctf and run \r\nts_reconstruct after tilt alignment or is there a specific flag I can use \r\nin e.g. ts_reconstruct?\r\n\r\n\r\nThanks in advance!\r\n\r\n\r\nBest,\r\n\r\n\r\nTamara"
+}

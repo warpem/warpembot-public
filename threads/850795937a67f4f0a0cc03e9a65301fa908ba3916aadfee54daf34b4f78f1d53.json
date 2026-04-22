@@ -1,0 +1,8 @@
+{
+  "message_id": "<1c01bc1b-d762-4467-be6a-f57ff22ad1a2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "The error information in the worker_0_crash.txt in M refinement.",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Wed, 5 May 2021 04:33:39 -0700 (PDT)",
+  "body": "When I did the subtomo-averaging refinement after relion's results, M \nreported this error information in the worker_0_crash.txt.\n\n*System.Exception: cudaErrorMemoryAllocation*\n*   at Warp.GPU.CheckGPUExceptions() in D:\\Dev\\warp2\\WarpLib\\GPU.cs:line \n1175*\n*   at WarpWorker.Program.Main(String[] args) in \nD:\\Dev\\warp2\\WarpWorker\\Program.cs:line 322*\n\nMy GPU was Quadro GV100 32GB*2. The memory was 128 GB."
+}

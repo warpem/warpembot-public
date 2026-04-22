@@ -1,0 +1,8 @@
+{
+  "message_id": "<44B5C357-3F06-4BFB-B331-671D76F9A507@gmail.com>",
+  "thread_id": "<382af1e1-0c16-4302-a63a-003800318094n@googlegroups.com>",
+  "subject": "Re: dautoalign4warp",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 7 Jun 2023 09:57:53 +0100",
+  "body": "Hey Felix,\nCan you post the full trace back? Probably some matlab update has changed how you’re supposed to do something simple \nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn 7 Jun 2023, at 09:49, Felix Lange <felix.lange.le@gmail.com> wrote:\n﻿Dear all,\nI wanted to test the dautoalign4warp script to align tilt series processed in warp in dynamo. Right at the first TS I receive the following error:\nWarning: All string and cell array inputs must be the same size or scalars.\nMy input looks like this:\ndautoalign4warp(\"scripts/dynamo/imod/\", 1.984, 2, 95.4, \"scripts/dynamo/dRecon\")\nfor the requested format of the function \"dautoalign4warp(warp_imod_dir, apix, fiducial_diameter_nm, nominal_rotation_angle, output_folder)\"\nDoes anyone knows how to solve this issue? Thank you and all the best,\nFelix \n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/382af1e1-0c16-4302-a63a-003800318094n%40googlegroups.com\n."
+}

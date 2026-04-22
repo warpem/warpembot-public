@@ -1,0 +1,8 @@
+{
+  "message_id": "<9d2c7b98-9de1-4e33-be1a-94eda98c847fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "How to export particles from several directories",
+  "sender": "Reika Watanabe <reika.watanabe.c@gmail.com>",
+  "date": "Sat, 27 Sep 2025 17:16:52 -0700 (PDT)",
+  "body": "Hi,\nI want to export particles from two different WarpTool directories taken at \ndifferent dates.\nI have one data_star file, which contains coordinates from both data sets.  \nCan I export particles directly from two (or more) directories at once? If \nso, how can I do this?\n\nAlternatively,  I could imagine the following way.  I first separate the \none-star file into two and then export the particles separately; finally, I \nmerge them for Relion5 processing. \n\nIf you have done something like this, could you please share your \nexperience with me?\n\nThank you very much!\nWith best wishes,\nReika"
+}

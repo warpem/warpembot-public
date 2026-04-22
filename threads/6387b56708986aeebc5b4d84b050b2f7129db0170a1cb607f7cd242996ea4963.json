@@ -1,0 +1,8 @@
+{
+  "message_id": "<42b15278-4f1a-44a3-a271-109fd71654e6@googlegroups.com>",
+  "thread_id": "",
+  "subject": "[feature request] low-pass filter option",
+  "sender": "Reza B <r.behrouzi@gmail.com>",
+  "date": "Fri, 14 Jun 2019 09:54:56 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI'm working with floppy particles that tend to come close together in the \nice. When picking particles for retraining, I've found it very useful to \nflip denoise on and off to pick single particles near each other. It'd be \nnice if there is a low-pass filter option to use when denoise is off. I \nsuppose it could be combined with deconvolve option; one could set power \nand cutoff to 0 and adjust low pass and high pass filters. \n\nThanks.\n\nReza"
+}

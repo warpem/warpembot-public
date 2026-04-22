@@ -1,0 +1,8 @@
+{
+  "message_id": "<a2770178-edff-4856-b92b-eb3c0e3e1596n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Multi gain reference to create setting files",
+  "sender": "=?UTF-8?Q?yoko_=E2=80=9Cyokomaz=E2=80=9D_maz?=\r\n <chenxiangru2333@gmail.com>",
+  "date": "Wed, 2 Jul 2025 00:57:09 -0700 (PDT)",
+  "body": "Hey there, I'm working with WarpTools to reconstruct about 200 tomograms \r\nfrom 200 tilt series .st files, for each tilt series it has its own gain \r\nreference. \r\n\r\nI‘ve split each .st file into slices based on its tilt angle and I followed \r\nQuick Start: Tilt Series.\r\n\r\nI noticed that when using create_settings, it required gain reference file \r\nas into to correct detector value. I'd like to ask if there are any \r\nsolution to import serval gain reference files at one time? or I should \r\ncreate a setting file for each tomogram to apply its corresponding gain \r\ncorrection?"
+}

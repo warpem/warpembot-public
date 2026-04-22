@@ -1,0 +1,8 @@
+{
+  "message_id": "<d7ad8f92-873f-432d-b831-4aab78ac5272o@googlegroups.com>",
+  "thread_id": "<9da64b5a-0811-41e1-9193-a2a06a6e5a14n@googlegroups.com>",
+  "subject": "Re: gain_reference for polishing",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 23 Jul 2020 15:27:18 -0700 (PDT)",
+  "body": "Hi Zhenyu,\n\nthe transformed.mrc file incorporates all selected transforms (flip X/Y, \ntranspose) as Relion doesn't support them. In practice, polishing without \n(or even with a wrong) gain reference is unlikely to affect resolution.\n\nCheers,\nDimitry\n\nOn Friday, July 10, 2020 at 1:20:12 AM UTC+2, Zhenyu Tan wrote:\n>\n> Hi,\n> I am a little confused about the using warp results for particle \n> polishing. \n> For the gain_reference, warp will generate a transformed.mrc file, should \n> I use this for the particle polishing or the original gain_reference file? \n> Thanks for you help\n> Zhenyu \n>"
+}

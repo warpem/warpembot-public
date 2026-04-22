@@ -1,0 +1,8 @@
+{
+  "message_id": "<ddf5e3aa-b6ff-4709-b7c6-43e68eea2ebcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "AMD vs Intel for Warp/M and sub-tomo averaging",
+  "sender": "kklee <kklee@uw.edu>",
+  "date": "Sat, 31 Jul 2021 10:33:15 -0700 (PDT)",
+  "body": "Wondering if any have advice/experience on choosing between Intel or AMD \r\nprocessors for Warp and M (and more generally for cryo-EM processing)? \r\n\r\nThe processors we are considering are for primarily sub-tomo averaging work \r\nwith packages such as Warp/M, EMAN2, PEET and RELION:\r\n\r\n*AMD Threadripper Pro 3975wx with 32 cores 3.5 Ghz*\r\n\r\n*AMD Threadripper 3970X 32 cores 3.7 Ghz*\r\n\r\n*Intel Core i9-10980XE **18-Core 3.00 GHz*\r\n\r\n*Two Intel** Xeon Silver 4216 (each with 16 cores for a combined 32 cores) **2.1 \r\nGhz*\r\n\r\nThese would be *paired with 256 Gb RAM *and* two RTX 3090 GPU cards *(happy \r\nto hear any suggestions if these choices are not balanced well with the \r\nprocessors).\r\n\r\nThe speeds, core counts, efficiency and PCI-e 4.0 for the AMD processors \r\nseem like it would be helpful, but I’d be eager to hear any thoughts. Is \r\nthere any compelling reason to go with the Intel processors? Do Warp and M \r\nmake use of the AVI-512 instruction set like Relion does?\r\n\r\nMany thanks for any thoughts and advice!\r\n\r\nKelly"
+}

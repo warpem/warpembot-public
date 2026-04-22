@@ -1,0 +1,8 @@
+{
+  "message_id": "<7179e8cc-c171-49ec-8c39-eeb5bf8be83dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Preventing over-writing of existing subtomos from the same tomogram",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Sun, 13 Mar 2022 22:36:12 -0700 (PDT)",
+  "body": "Hi everyone\n\nFor me, The WARP crashes when reconstructing the subtomos, so I split the \n.star file into pieces using relion_star_handler and then reconstruct using \nthe pieced star files. \n\nBut this creates an issue. During the split, particles from the same \ntomogram can and sometimes do get split into separate pieces. \n\nIf the subtomo folder is not renamed, then the particles belonging to the \nsame tomogram from one pieced .star file replace the different & already \nexisting particles belonging to the same tomogram from the other pieced \n.star file. To save time, I hope to run two subtomogram reconstruction \nsimultaneously, but currently, this is not possible because of this \noverwrting issue. \n\nWould it be possible to get the ability to specify the folder in which the \nsubtomos are reconstructed, instead of hard-set & default subtomo folder? \n\nThanks and cheers,\nDigvijay"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<13530192-154b-410f-9a4d-64455d7001aen@googlegroups.com>",
+  "thread_id": "<DDB82056-A06E-4F60-B4F9-5572A2E15337@gmail.com>",
+  "subject": "Re: Warp to Etomo Tilt Axis Rotation Angle Off",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Mon, 3 Mar 2025 11:35:38 -0800 (PST)",
+  "body": "Hi Alister,\n\nTo make sure I can eyeball/understand the tilt axis angle correctly, is it \njust the number of degrees counterclockwise from the Y-axis that the tilt \naxis rotates around (like you described in the previous post)?  So if the \ntilt axis is running from the lower left of the micrograph to the upper \nright of the micrograph, then tilt axis angle would be 135 degrees?\n\nAlso manually putting in the the mdoc value of -176.26 actually gave me a \ngood Aretomo reconstruction...but its rotated 90 so it looks like I just \nneed to learn the correct tilt axis angle.  Etomo seemed like it was being \na bit wonky with coarse alignment but if Aretomo is working, so I can run \nwith that as a check for now.  Thanks again for the help and helping me \nlearn some of minor things I either glossed over or was not taught! \n\nFrom,\nKyle"
+}

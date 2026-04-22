@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5qOu+YdynhSZcx8why_kP0KpNpnK2-U9N6hohn_ew6_uA@mail.gmail.com>",
+  "thread_id": "<5e886b1c-ccd8-4377-b2af-9a433657a64dn@googlegroups.com>",
+  "subject": "Re: Helical refinement in M",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Fri, 14 Nov 2025 14:37:29 +0100",
+  "body": "Yes. Recommend reprocessing your subset data (with target assemblies) in\r\nwarptools\r\n\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK\r\n\r\n\r\nOn Fri, 14 Nov 2025 at 12:43, Charlie <charlie.lovatt.rfi@gmail.com> wrote:\r\n\r\n> Good morning,\r\n>\r\n> Does anyone know if it is possible to refine tilt series in M using\r\n> co-ordinates of a filament with known helical symmetry? I currently am\r\n> using windows warp version 1.0.9, but could switch to linux if there is a\r\n> helical implementation there.\r\n>\r\n> Thank you,\r\n> Charlie\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/5e886b1c-ccd8-4377-b2af-9a433657a64dn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/5e886b1c-ccd8-4377-b2af-9a433657a64dn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

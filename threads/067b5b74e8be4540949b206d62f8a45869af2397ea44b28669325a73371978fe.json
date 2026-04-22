@@ -1,0 +1,8 @@
+{
+  "message_id": "<00d303fd-792c-4147-8068-551b67d18f8bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "the outdated files will be processed again together with\r\n unprocessed data",
+  "sender": "wenhong jiang <werhoog@gmail.com>",
+  "date": "Tue, 14 Feb 2023 05:04:14 -0800 (PST)",
+  "body": "I once processed a batch of data which is stored in the tilt folder. \nAnd  then I collected new data and placed it into this tilt folder \ncontaining processed data. The new data will appear as unprocessed, in \ngray. Some files appeared as outdated, in yellow. When estimated these new \nunprocessed files' CTF, the outdated files will be processed again as well. \nHow can I avoid the outdated files being processed again?"
+}

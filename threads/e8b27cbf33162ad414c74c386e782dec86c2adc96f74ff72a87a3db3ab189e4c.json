@@ -1,0 +1,8 @@
+{
+  "message_id": "<8e4f8559-d237-d1e7-1b40-1e7651ed4b64@fz-juelich.de>",
+  "thread_id": "",
+  "subject": "EER files do not update with recursive search in Warp 1.1.0 Beta",
+  "sender": "Daniel Mann <d.mann@fz-juelich.de>",
+  "date": "Sat, 17 Sep 2022 21:10:27 +0200",
+  "body": "Hi all,\r\n\r\nlove the new Ukraine themed Warp Version, but it's giving me some \r\nproblems with EER files from FalconIV/EPU.\r\n\r\nWhen I'm using recursive processing with EPUs GridSquare*/Data/*eer \r\nformat it finds initial images and processes them fine when pointed to \r\nthe Images-Disc1 folder. However, the file list is not updating although \r\nnew images keep flying in. When I stop processing and refresh the folder \r\nmanually it finds the new images. My processing folder is different from \r\nmy data folder.\r\n\r\nWhen I untick the \"Search recursively\" option and go to the \r\nGridsquare*/Data/ folder it keeps updating and works fine on-the-fly.\r\n\r\nOf course this can be fixed with some quick linux mv commands, but I \r\nstill wanted to report it.\r\n\r\nCheers,\r\n\r\nDan\r\n\r\n-- \r\nDr. Daniel Mann\r\n\r\nForschungszentrum Jülich GmbH\r\nErnst-Ruska Centre for Microscopy and Spectroscopy with Electrons / ER-C-3 Structural Biology\r\nInstitute for Biological Information Processing / IBI-6 Cellular Structural Biology\r\nWilhem-Johnen-Straße, 52425 Jülich, Germany\r\nPhone: +49 2461 61 9499\r\nhttps://go.fzj.de/erc3-ibi6\r\nEmail:d.mann@fz-juelich.de"
+}

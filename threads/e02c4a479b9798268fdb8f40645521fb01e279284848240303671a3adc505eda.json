@@ -1,0 +1,8 @@
+{
+  "message_id": "<8fbc5c72-1169-4664-9fab-25c40b7f0136@googlegroups.com>",
+  "thread_id": "<11aea60b-3bd4-44b2-b81c-de5a740198ef@googlegroups.com>",
+  "subject": "Re: Downsample image for CTF estimation?",
+  "sender": "Andrea Nans <andrea.nans@gmail.com>",
+  "date": "Thu, 16 Aug 2018 10:23:04 -0700 (PDT)",
+  "body": "Hi Dmitry,\n\nIt is just a bit tricky to see Thon rings in images collected at very small \npixel size (0.5A) on the Falcon III camera. I've played around with the \nfrequency range and it seems to work more or less.\n\nCheers\n\nAndrea\n\nOn Thursday, 16 August 2018 17:29:52 UTC+1, Andrea Nans wrote:\n>\n> Hi Dmitry,\n>\n> Just wondering if it will ever be possible to downsample the image for CTF \n> estimation but carry out the motion-correction and particle picking on the \n> un-binned image?\n>\n> Thanks\n>\n> Andrea\n>"
+}

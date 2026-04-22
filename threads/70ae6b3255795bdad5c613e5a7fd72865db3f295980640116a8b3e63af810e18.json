@@ -1,0 +1,8 @@
+{
+  "message_id": "<0de34f75-9892-4744-ad4f-6f3f3d8b184en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "processing tilt series with different dose",
+  "sender": "mrJ <bluufive@gmail.com>",
+  "date": "Tue, 27 Jun 2023 02:51:45 -0700 (PDT)",
+  "body": "hi all, \nis it possible to process different tilt series which have different total \ndose?  Probably not very straightforward.  What will be the outcome if I \nuse the same dose for all?  I am not aiming for high resolution here, it's \na large particle and I am hoping for 10-15A.  \nthanks\nJ"
+}

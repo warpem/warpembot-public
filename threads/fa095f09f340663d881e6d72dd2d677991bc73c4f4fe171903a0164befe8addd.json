@@ -1,0 +1,8 @@
+{
+  "message_id": "<dab4b224-3312-4fb0-9579-90628153d9cen@googlegroups.com>",
+  "thread_id": "<8419c902-9d58-4d00-a3df-a91ee6d090d5n@googlegroups.com>",
+  "subject": "Re: MCore --perdevice_refine 1 ignored?",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Wed, 24 Jul 2024 01:43:54 -0700 (PDT)",
+  "body": "what happens if you just leave out the line:   --perdevice_refine 1 \r\n--devicelist 0 1 --cpu_memory \r\nOn Tuesday, July 23, 2024 at 9:47:58 PM UTC+2 je...@crystal.harvard.edu \r\nwrote:\r\n\r\n> Hi,\r\n>\r\n> I'm running something like this:\r\n>\r\n> MCore \\\r\n> --population m_run01/population_01.population \\\r\n> --refine_imagewarp 4x6 \\\r\n> --refine_particles \\\r\n> --perdevice_refine 1 --devicelist 0 1 --cpu_memory \r\n>\r\n> Even with --perdevice_refine 1 I always get 3 processes on each GPU, which \r\n> I believe leads to memory issues. Is this a bug and the --perdevice_refine \r\n> 1 is simply ignored?\r\n>\r\n> This was with:\r\n>\r\n> MCore 2.0.0+109c9f513cb2bb1976f92b5e20910f40a873282f\r\n> Copyright (C) 2024 MCore\r\n>\r\n> All the best, Simon\r\n>\r\n>"
+}

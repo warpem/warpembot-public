@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAL7Y77POHtXCV4XCzmMNYGN7LBcTrpqhUkwcMWvJv_BaALF4eg@mail.gmail.com>",
+  "thread_id": "311d6f29-2c1b-4134-9f96-b3880c913ff0",
+  "subject": "ts_import failing",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "2026-03-19T06:06:23.000Z",
+  "body": "Hi all,\n\nI am trying to get started with processing some data collected using SerialEM in warp, and I was able to get what I think were sucessful mc and ctf, but then my pipeline keeps failing on import. It is able to parse the mdoc files, but it seems to remove every single tilt \"based on selection status, max tilt angle and masked fraction criteria\" even with the defaults. It does not outright fail, the job finishes saying that all of the tilts were removed but does not write into tomostar. I have run it with a single tilt series worth of tilts right now at a time to try to troubleshoot, but nothing has worked.\n\nHas anyone run into a problem that sounds like this/could help to troubleshoot? Here is my input command:\n\nWarpTools ts_import\n--mdocs ./test_symLinked/test_mdoc_ts1\n--frameseries test_frameseries_ts1\n--tilt_exposure 2.93\n--output test-tomostarls\n\nFound 35 MDOC files, all tilts removed with \"No images left\" after removing tilts based on selection status, max tilt angle and masked fraction criteria. Successfully parsed 35 MDOC files, 0 failed."
+}

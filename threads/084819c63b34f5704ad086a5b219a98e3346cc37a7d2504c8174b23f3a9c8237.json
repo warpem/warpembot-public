@@ -1,0 +1,8 @@
+{
+  "message_id": "<45709b5a-4220-4c25-a1c9-2549eac5862a@googlegroups.com>",
+  "thread_id": "",
+  "subject": "exported micrographs list has too few micrographs",
+  "sender": "Yingyi Zhang <yingyizhangg@gmail.com>",
+  "date": "Wed, 6 Nov 2019 11:49:06 -0800 (PST)",
+  "body": "Dear All,\n\nWhen I tried export micrograph list, it seemed like only part of my \nmicrographs got written in the star file. I have all together about 6000 \nmicrographs.\nIn warp/motion/ and warp/average, the total number of files are correct, \nwhich is 6000 (doubled with log files) and 12000.\n\nAnd I have about 6000 images processed within warp, but the output only has \nabout 1300 images.\n\nWhen doing it, I clicked on all checkboxes, including both [Include items \noutside of filter ranges], and [Include manually excluded items]. \nIt took a couple of minutes to get me the star file. \n\nAnd I tried once again, still about 1300 images in the output star file.\nDo you know why? Could anyone help me with that?\n\nMany thanks.\nBest,\nYingyi"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<82424ed6-4ac5-4761-bb94-6bcdb89bb900n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M species creation crashes Windows - training denoising model",
+  "sender": "Dennis Michalak <dennisjmichalak@gmail.com>",
+  "date": "Tue, 27 Sep 2022 15:34:15 -0700 (PDT)",
+  "body": "Hello,\n\nDuring the species creation in M, steps 1,2, and 3 out of 5 go well and \nafter a few seconds at 4/5, the PC hard crashes. The screen goes black and \nstarts a boot up again. It looks like the crash happens such that no error \nlogs are created by the system and only after boot up does it recognize \nsomething went wrong.\n\nIs it possible that the step that trains the denoising model could \ncompletely fill the GPU memory? I thought the training only uses two \nrefined half-maps and not individual particles themselves. That's the only \nthing I can think of that might cause the crash.\n\nBest,\nDennis"
+}

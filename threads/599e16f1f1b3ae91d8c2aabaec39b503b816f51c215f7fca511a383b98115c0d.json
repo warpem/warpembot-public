@@ -1,0 +1,8 @@
+{
+  "message_id": "<9ab8b951-534d-4f90-ab3e-eb9bf6e1e6fdn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "K3 motion and CTF model",
+  "sender": "Zhenyu Tan <zhenytan@umich.edu>",
+  "date": "Tue, 30 Mar 2021 14:02:45 -0700 (PDT)",
+  "body": "Hi all,\nwhat temporal resoltuion do you use for motion and CTF model to process K3 \ndata? I know for the k2, we usually use 5x5. thanks\nzhenyu"
+}

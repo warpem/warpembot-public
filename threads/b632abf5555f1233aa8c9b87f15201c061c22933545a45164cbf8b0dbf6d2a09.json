@@ -1,0 +1,8 @@
+{
+  "message_id": "<2210a8a8-4f2d-4897-93dd-437fd523d2b0n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomogram reconstruction in Warp not working",
+  "sender": "RWilfong <rwilfong24@gmail.com>",
+  "date": "Tue, 26 Sep 2023 11:28:43 -0700 (PDT)",
+  "body": "Hi all, \n\nI'm working on learning the warp, m, relion pipeline and I've been \nfollowing the TeamTomo walkthrough \n(https://teamtomo.org/walkthroughs/EMPIAR-10164/relion.html). \n\nI just recreated my star file for the first 5A reconstruction in Warp, but \nwhen I go to select \"reconstruct sub-tomograms\", it will not let me select \n\"volumes\" on the export subtomograms list. Does anyone know what the \nproblem might be? Is it a naming convention problem, a data location \nproblem, or a star file problem? Thank you! \n\nCheers, \nRose"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALenBjWDoLh5wHPB17Mdm2rN7sb3uF2py=qLgVbSgFpkR1B3Sw@mail.gmail.com>",
+  "thread_id": "18418555-1df2-43db-bf87-3b3e51f51320",
+  "subject": "Re: Problem in relion refinement steps pre M",
+  "sender": "'Dylan Noone' via Warp <warp-em@googlegroups.com>",
+  "date": "2026-03-30T16:17:27.430Z",
+  "body": "Thanks for the tips.\n\nThe box size was 400, I made a typo!\n\nWhat seemed to work in the end was changing the setting combine iterations through disk to yes in the compute tab.\n\nThis is a very realistic bot! Good job."
+}

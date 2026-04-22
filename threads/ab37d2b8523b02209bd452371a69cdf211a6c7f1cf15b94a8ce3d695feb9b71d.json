@@ -1,0 +1,8 @@
+{
+  "message_id": "<ca22eb1a-4054-42b3-8b1f-032e7696f39a@googlegroups.com>",
+  "thread_id": "<209f9d69-cfd8-41e1-91aa-db4ae2377d92@googlegroups.com>",
+  "subject": "Re: improving file read/write",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 9 Apr 2019 10:03:25 -0700 (PDT)",
+  "body": "Hi Reza,\n\nwhat file format are the movies in? I'm getting 7.3 s for reading a 40 \nframe K3 movie compressed as TIFF off a single SSD.\n\nCheers,\nDimitry\n\nOn Tuesday, April 9, 2019 at 6:36:05 PM UTC+2, Reza B wrote:\n>\n> Hi Dimitry,\n>\n> I was trying Warp on our first batch of K3 data. There are 60 frames as \n> opposed to 40-50 which I used to have and of course the area is abotu 50% \n> larger. The processing speed has come down to ~25 hour and it's all in file \n> read write, about 40s for read, 23 s for write, other steps take 2-3 \n> seconds. The data is on 4 striped SSDs with 64 GB RAM and a 6 core Intel \n> i7-6850 3.6 GHz. I was wondering if there's anything that can be optimized \n> further to improve overall read write speeds. Thanks.\n>\n> Best,\n> Reza\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CADFZHy2OPL=CtOLnO-uVbfS8TycCnCUdtL7hQJQYfrr=ojZ3_w@mail.gmail.com>",
+  "thread_id": "<303e72b9-4ce2-4a91-b0e1-7a694cc79597n@googlegroups.com>",
+  "subject": "Re: warp flipping part of the image to the other end",
+  "sender": "Takanori Nakane <nakane.t@gmail.com>",
+  "date": "Fri, 9 Jul 2021 22:56:16 +0900",
+  "body": "Hi,\r\n\r\nThis is caused because Warp fails to properly handle the MRC extended header.\r\nThis was discussed in CryoEM Cafe discord (#software-general, Jan 13rd 2021)\r\ntogether with a workaround.\r\n\r\nBest regards,\r\n\r\nTakanori Nakane\r\n\r\n2021年7月9日(金) 22:39 Matthias Vorländer <mvorlaender@gmail.com>:\r\n\r\n>\r\n> Hi there,\r\n>\r\n> I am processing falcon 4  SPA data in MRC format (gain normalized) in warp , and warp is producing a strange artefact where part of the image is flipped on the other side (see screenshot). Any idea what causes this?\r\n>\r\n> Thanks a lot in advance,\r\n> Best,\r\n> Matthias\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/303e72b9-4ce2-4a91-b0e1-7a694cc79597n%40googlegroups.com."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<e909d149-3468-4213-9e5f-6f45113f3a84n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Is dose weighting performed on tiltseries in WarpTools?",
+  "sender": "Maurice Frijns <m.a.frijns2000@gmail.com>",
+  "date": "Sun, 12 Oct 2025 10:35:40 -0700 (PDT)",
+  "body": "Hi all,\n\nI couldn't find anywhere in the documentation of WarpTools if dose \nweighting is performed during motion correction for tilt series, I assume \nnot as the required input is not provided. Is that a correct assumption? \nand if so, is dose weighting performed during a later step?\n\nCheers,\n\nMaurice"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<c0259eb3-34a4-43a8-8129-61dc27b318a9n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "tilt handedness",
+  "sender": "Reika Watanabe <reika.watanabe.c@gmail.com>",
+  "date": "Tue, 20 Dec 2022 21:13:02 -0800 (PST)",
+  "body": "Dear all,\nI am using Warp/M 1.0.9 to preprocess the tilt series and reconstruction \nwith IMOD alignment.\nAfter reconstruction with Warp and further processing with Dynamo, I just \nrealized that I had missed the \"Check tilt handedness\" step for all \ntomogram data, and they needed to be inverted. \nI did invert through \"Check tilt handedness\" and reestimate CTF after \ninverted. This step created updated XML files for all tilt series data.\nAfter using Dynamo pre-aligned data (converted using dynamo2war and \nstartools), I will go on Relion 4 using Warp2reliontomo.\n\nSince CTF estimation was not used, now using the un_alligned tilt series \n(created before inversion) and new XML file,  I assume that CTF estimation \nis correctly implemented for processing relion 4. Please correct me if I am \nwrong...\n\nI appreciate your kind thoughts; thank you very much in advance! \nReika"
+}

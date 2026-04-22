@@ -1,0 +1,8 @@
+{
+  "message_id": "<9dc8a804-6757-4094-922c-5f8a13e194b5n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Incorrect dose weighting and how to fix post-M",
+  "sender": "\"cla...@gmail.com\" <clazzy@gmail.com>",
+  "date": "Thu, 8 Jun 2023 06:05:16 -0700 (PDT)",
+  "body": "Hi all,\n\nI have been working with a tomographic dataset collected with the standard \ndose-symmetric setup. The tilt series collection information has been found \nin Warp from the mdoc files provided by Tomo 5 and I've done the \npreprocessing, picking, extraction, refinement, etc. as normal. I'm now \nreaching the resolution where M is being used to improve the resolution \nfurther, refining the tilt angles and the volume warp grid. \nUnfortunately I've now noticed that the dose hasn't been correctly ordered \nby Warp so I now have incorrect dose weighting that will likely affect the \nrefinements at higher resolution. I checked the mdoc file (example \nattached) and the collection order is definitely right so I'm assuming that \nWarp is using it correctly for ordering by tilt angle but doing something \ndifferent for cumulative dose.\n\nAs I have run alignments in M, I would like to keep these but update my \ndose values and refine again, which I assume will improve the resolution \nfurther. Has anyone come across this issue before who may know a way to \nconveniently update the dose? I assume the tomogram xml and tomostar files \nwill need to be manually modified but this will take a very long time \nespecially when factoring in tilts that have been excluded! I've attached \nan example mdoc file in case anyone can see issues with it.\n\nCheers,\n\nMat"
+}

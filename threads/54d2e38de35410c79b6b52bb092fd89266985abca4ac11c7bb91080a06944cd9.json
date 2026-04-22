@@ -1,0 +1,8 @@
+{
+  "message_id": "<50e426a4-a964-2840-7ee3-8e076dff87f3@gmail.com>",
+  "thread_id": "<262dd916-7a2a-7f42-64ca-ff89208615f4@gmail.com>",
+  "subject": "Re: WarpEM on GNU/Linux/Wine",
+  "sender": "=?UTF-8?Q?Alois_Schl=c3=b6gl?= <alois.schloegl@gmail.com>",
+  "date": "Tue, 2 May 2023 10:17:10 +0200",
+  "body": "Dear Daniel,\r\ndear all\r\n\r\n\r\nI managed to install WarpEM/1.0.9 on Wine 8.7 by using nvidia-libs [2]. \r\nThis comes with dxvk-nvapi,\r\nAt the moment this seems to be the most promising way going forward.\r\n\r\n\r\nCheers,\r\n   Alois\r\n\r\n\r\n\r\n[1] https://appdb.winehq.org/objectManager.php?sClass=version&iId=40620\r\n[2] https://github.com/SveSop/nvidia-libs"
+}

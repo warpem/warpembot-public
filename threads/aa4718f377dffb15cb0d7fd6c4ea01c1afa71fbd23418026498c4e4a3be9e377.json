@@ -1,0 +1,8 @@
+{
+  "message_id": "<3341f92c-4136-4312-915b-c8956141235c@googlegroups.com>",
+  "thread_id": "<37cf3bfe-8f0a-4dd4-bf5d-1c3a4b5b9e70@googlegroups.com>",
+  "subject": "Re: Configuring available GPUs?",
+  "sender": "Michael Purdy <mpurdy.research@gmail.com>",
+  "date": "Tue, 28 Jan 2020 06:26:27 -0800 (PST)",
+  "body": "Andrey, you can specify which GPUs Warp can use in the Nvidia Control \nPanel. \n\nLaunch the Nvidia Control Panel\n\n> Workstation > Manage GPU Utilization > Manage GPU Utilization\n\nThere you can specify whether each GPU is used for Graphics and/or \nComputing. This applies to all programs. \n\nYou can also change setting individual programs.\n\nNvidia Control Panel > Workstation > GPU Utilization > Manage 3D Settings \n(at the bottom of the GPU Utilization window) > Program Settings > Add > \ne.g., Warp > Specify the settings for this program > CUDA - GPU > Setting > \nUse these GPUs\n\nMichael\n\n\nOn Friday, October 18, 2019 at 1:00:38 PM UTC-4, Andrey Malyutin wrote:\n>\n> Is it possible already, or would it be possible, to edit the config file \n> to restrict which GPUs can be selected to run Warp jobs? I have been \n> testing on the K3 server and I can imagine many users forgetting to \n> unselect display GPU when launching a job. \n>\n> Thank you,\n>\n> Andrey\n>"
+}

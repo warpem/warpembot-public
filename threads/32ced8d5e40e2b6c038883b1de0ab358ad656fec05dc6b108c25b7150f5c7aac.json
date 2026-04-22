@@ -1,0 +1,8 @@
+{
+  "message_id": "<c2783aad-54c1-4994-afff-b57730049cdcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Error during preprocessing",
+  "sender": "Jacob Croft <jacroft@uw.edu>",
+  "date": "Mon, 18 Jul 2022 10:44:40 -0700 (PDT)",
+  "body": "Hello,\n\nI'm getting an error during preprocessing which is resulting on all of the \nmicrographs turning grey and becoming deselected.  The error reads:\n\nReceived \"MovieProcessCTF\", with 2 arguments, for GPU #0, 22941 MB free\nSystem.OverflowException: Arithmetic operation resulted in an overflow.\n   at Warp.Image.get_HostData() in D:\\Dev\\warp2\\WarpLib\\Image.cs:line 95\n   at Warp.Image..ctor(int3 dims, Boolean isft, Boolean iscomplex, Boolean \nishalf) in D:\\Dev\\warp2\\WarpLib\\Image.cs:line 243\n   at Warp.Movie.ProcessCTF(Image originalStack, ProcessingOptionsMovieCTF \noptions) in D:\\Dev\\warp2\\WarpLib\\Movie.cs:line 1340\n   at WarpWorker.Program.Main(String[] args) in \nD:\\Dev\\warp2\\WarpWorker\\Program.cs:line 171\nReceived \"LoadStack\", with 3 arguments, for GPU #0, 22900 MB free\nLoaded stack: 5760, 4092, 80, normal, real, 1 A/px, ID = -1, 0.5\n10.266\n\nDoes anyone know what could be causing this?\n\nThanks! \nJacob Croft\nUniversity of Washington"
+}

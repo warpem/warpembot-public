@@ -1,0 +1,8 @@
+{
+  "message_id": "<1f139e04-bd84-45a4-8be2-29293ec59f4an@googlegroups.com>",
+  "thread_id": "",
+  "subject": "ts_export_particles without raw data",
+  "sender": "Mart Last <mgflast@gmail.com>",
+  "date": "Tue, 25 Nov 2025 07:38:46 -0800 (PST)",
+  "body": "Hi,\r\n\r\nI'm trying something that I think should be possible (?) but can't figure \r\nout how to do. After doing the whole raw data to tomograms workflow in \r\nWarpTools I've offloaded my raw frames to a hard disk to free up memory. \r\nBut I do still have the frame averages in warp_frameseries/average which as \r\nraw a version of the data as I suppose I need.\r\n\r\nWhen I run WarpTools ts_export_particles I get errors due to missing raw \r\ndata files:\r\n\r\n*System.IO.DirectoryNotFoundException: Could not find a part of the path \r\n'/cephfs/mlast/compu_projects/easymode/datasets/034_DICTYO/raw/TS_008_052_-60.0.tif'*\r\n\r\nWhich I'm guessing is because the tomostar files point at files like:\r\n\r\n  ../warp_frameseries/TS_004_056_-64.0.tif\r\n\r\nWhich don't exist, but corresponding ../warp_frameseries/*.xml's do and \r\nthey in turn point at the missing ../raw/ directory.\r\n\r\nSo my question is: is there a simple way to tell Warp to sample from the \r\npreviously generated frame averages instead of from the raw data? (A way \r\nthat is simpler than just copying the data back onto the cluster 🙃) Any \r\ninput much appreciated!\r\n\r\nBest,\r\nMart"
+}

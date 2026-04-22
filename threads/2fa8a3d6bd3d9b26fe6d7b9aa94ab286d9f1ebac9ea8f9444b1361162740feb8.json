@@ -1,0 +1,8 @@
+{
+  "message_id": "<a364e53e-6645-41b0-896b-07c89e9fa7cfn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Cryolo and Imod Particle Picks to WarpTools",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Wed, 23 Apr 2025 12:10:09 -0700 (PDT)",
+  "body": "Hello,\n\nBack again with a more complicated question this time.  As an alternative \nfor WarpTools particle picking I wanted to incorporate Cryolo as part of \nthe WarpTools pipeline but I realized that it produces CBOX files which are \ndifferent from the .star files after WarpTools template matching.  Are \nthere any tutorials for converting the CBOX files back into .star files for \nWarpTools to perform the Export Particles job? \n\nAlso for manual picking in IMOD, as \nper https://forum.image.sc/t/manual-particle-picking-in-cryo-et-data/95522 \nhow are the .mod files produced by IMOD? I know how to make the models in \nIMOD, but I do not see an explicit option for .mod files? Unless its the \nWrite Model As->Imod option? \n\nThank you again for the help!\nKyle Messina"
+}

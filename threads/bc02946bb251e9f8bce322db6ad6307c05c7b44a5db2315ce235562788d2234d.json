@@ -1,0 +1,8 @@
+{
+  "message_id": "<1dd9f9dd-d763-46a0-b611-0909b6f9e373@googlegroups.com>",
+  "thread_id": "<43d8700c-ed34-4361-8e72-6216ffb865f8@googlegroups.com>",
+  "subject": "Re: Warp not seeing all .tif files in a directory",
+  "sender": "mcianfro@umich.edu",
+  "date": "Sun, 15 Jul 2018 12:09:31 -0700 (PDT)",
+  "body": "There could be something like this happening as the hard drive on AWS that \nwe were using filled up last night, so Warp might have tried to write files \nthat didn't exist. \n\nI'll try splitting them to see what happens. Where is the information \nstored to indicate that it has 'seen' a file? The xml files? \n\nMike\n\nOn Sunday, July 15, 2018 at 3:07:30 PM UTC-4, Dimitry Tegunov wrote:\n>\n> Hi Mike,\n>\n> I haven't encountered this issue before. There were some problems in the \n> past when another process hadn't finished writing a file yet that Warp \n> would try to read, but that has been fixed. The file discovery thread \n> shouldn't crash anymore when encountering a problem reading one of the \n> files. What happens if you split the files in two folders, isolating the \n> 1128 it doesn't see?\n>\n> Cheers,\n> Dimitry\n>\n>\n> On Sunday, July 15, 2018 at 8:33:21 PM UTC+2, mcia...@umich.edu \n> <javascript:> wrote:\n>>\n>> Hi Dimitry, \n>>\n>> We have noticed that the Warp directory being processed has ~2800 movies, \n>> but the total listing of movies in the \"Overview\" tab only totals 1,672. Is \n>> there a way to force the program to double check for the presence of \n>> additional files? I've tried stopping, exiting, restarting but it comes \n>> back to the same number.  Have you seen this before?\n>>\n>> Mike\n>>\n>"
+}

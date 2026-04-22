@@ -1,0 +1,8 @@
+{
+  "message_id": "<4f4426c5-778d-46d0-b046-04a8f9b114f2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Question about the exported image series",
+  "sender": "Yunjie Chang <changyj0821@gmail.com>",
+  "date": "Tue, 11 Jun 2024 20:09:32 -0700 (PDT)",
+  "body": "Hi everyone,\n\nFor cryo-ET particles, Warp can export sub-tomograms or image series. As I \nknow, the sub-tomograms are ctf corrected.\nMy question is, if I export image series, are the image series \nctf-corrected or not?\n\nThanks\nYunjie"
+}

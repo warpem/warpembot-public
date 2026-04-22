@@ -1,0 +1,8 @@
+{
+  "message_id": "<86394020-02f4-4fd6-9313-a2dbf7a2aa31n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Problem with alignment",
+  "sender": "Albert Tell <alberttellipuig@gmail.com>",
+  "date": "Fri, 1 Aug 2025 03:22:47 -0700 (PDT)",
+  "body": "Hello, \n\nI'm working on some data that only needs straightforward reconstructions. \nHowever, I keep getting problems with the final reconstructions, as the \nstructures (especially the grid's edges) appear to be drifting. \nThe mdoc files indicate -174.18 for the tilt axis angle, which after \nconversion becomes 84.18. This value is very close to the estimates of both \nWarpTools --do_axis_search as well as etomo values (they both indicate \n84.20). \nFor the alignment, I'm using patch tracking and both WarpTools and Etomo \ngive me good results, as the residual error mean and sd are ~0.6 nm.\nFinally, I also tried to fix alignment with Midas in Etomo but I didn't get \nbig improvements in the final reconstructions. \n\nI'm new in the field of tomography and I'm quite lost on what could be \ngoing wrong. \n\nThanks in advance! \nAlbert"
+}

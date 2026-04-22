@@ -1,0 +1,8 @@
+{
+  "message_id": "<73ce16be-d289-4851-a6ba-d66ce7cc6259n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Adding a species in M from relion/ Is there a log file ?",
+  "sender": "Joshua Lobo <joshua.jude.lobo@gmail.com>",
+  "date": "Fri, 28 Aug 2020 06:52:01 -0700 (PDT)",
+  "body": "Hi Warp Group \n\nI am trying to import a run_data.star from a relion 3.0 single particle \nrefinement  directly into M . I follow the steps to add a new spices and \nthey execute  without a hitch . The import of the star file is also \nseemingly successful . However I get a message as seen in the screenshot \n(0/Number of particles matched to available data sources) \n\nI was wondering if there is a log file for M where any particular import \nerrors are dumped or a debug mode so I can figure if M is parsing my file \ncorrectly \n\nThanks \nJosh"
+}

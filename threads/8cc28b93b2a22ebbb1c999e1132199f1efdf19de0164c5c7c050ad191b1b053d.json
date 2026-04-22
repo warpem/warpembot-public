@@ -1,0 +1,8 @@
+{
+  "message_id": "<2d54b406-749e-4f21-bf7b-35da5650bd82@googlegroups.com>",
+  "thread_id": "",
+  "subject": "BoxNet public model",
+  "sender": "Chen Sun <angelawoodward1883@gmail.com>",
+  "date": "Tue, 22 Oct 2019 19:48:54 -0700 (PDT)",
+  "body": "Hello,\n\nI am trying to run warp 1.0.7 on windows 10. There was nothing in the \nfolder of boxnet2 in the warp installation folder. So I manually downloaded \nthe models and extracted and copied them to that folder. However, it still \ncrashed with the following error right after I hit start processing. I am \nnor sure what is causing this issue. I have installed .NET Framework 4.7, \nVisual C++ 2017 Redistributable and Latest GPU driver from Nvidia. How can \nI work around this problem? \n\n[image: Annotation 2019-10-22 22315.png]\n\n[image: Annotation 2019-10-22 223155.png]\n\n\n\nThanks,\n\nChen"
+}

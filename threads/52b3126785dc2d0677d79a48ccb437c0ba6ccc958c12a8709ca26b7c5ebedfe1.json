@@ -1,0 +1,8 @@
+{
+  "message_id": "<e0c338ee-f80e-46f7-8ed0-1fa60be07716n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "filter_quality removing all tiltseries upon use of --ntilts",
+  "sender": "Daniel Cai <dxhcai@gmail.com>",
+  "date": "Sun, 15 Dec 2024 00:15:31 -0800 (PST)",
+  "body": "Hi everyone,\n\nI'm trying to use warptools to select and deselect frames and tilts based \non the outputted quality metrics.\n\nFor the frames, I was able to get a list of good frames and select them \nthrough change_selection. I wanted to confirm with those more knowledgeable \nif, by selecting only the frames that pass the filters, only those tilts \nwould be included into the tilt series stack.\n\nThe main problem I am facing is when I use\nWarpTools filter_quality --settings warp_tiltseries.settings --o \nquality_tilts.txt --ntilts \"N\"\nthe filter excludes all tilt series regardless of what the N value is.\nFor example: I have 8/48 tilt series with <30 tilts in the stack. I use \n--ntilts 8. It removes all 48. --ntilts 0 and --ntilts 48 also remove all \n48 tilt series. \n\nAm I using --ntilts incorrectly? Or is something else going on?\n\nDaniel"
+}

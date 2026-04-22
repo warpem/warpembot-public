@@ -1,0 +1,8 @@
+{
+  "message_id": "<c44eb43a-2f31-401a-ad97-3e9dd9d3aed0@googlegroups.com>",
+  "thread_id": "<ea08be58-3262-4c76-b0b4-fe11aaa98e95@googlegroups.com>",
+  "subject": "Re: Warp crashes after trying to import coordinates from relion\r\n autopick",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Fri, 26 Oct 2018 13:31:30 -0700 (PDT)",
+  "body": "Hi Andrea,\n\nwhat are the columns contained in the STAR file? Are you importing the \nparticles, or using the \"update particle defocus\" button?\n\nCheers,\nDimitry\n\nOn Friday, October 26, 2018 at 6:23:02 PM UTC+2, Andrea Nans wrote:\n>\n> Hi,\n>\n> I'm trying to import an autopick.star file from Relion 3 into Warp but it \n> crashes each time. I would like to do the auto-picking in relion but take \n> advantage of the local CTF estimation in Warp.\n>\n> The file names match (ie the image is Micrograph_DW.mrc and autopick file \n> is Micrograph_DW_autopick.star).\n>\n> Is there anything that I'm missing?\n>\n> Thanks\n>\n> Andrea\n>\n>"
+}

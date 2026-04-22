@@ -1,0 +1,8 @@
+{
+  "message_id": "<e8f11a8f-5204-4ccd-89b9-03e7fda1b294n@googlegroups.com>",
+  "thread_id": "<c3aa4bd3-31ba-485f-bc00-9b7dd0cb627bn@googlegroups.com>",
+  "subject": "Re: \"one axis has an invalid range\" on EMPIAR 10164",
+  "sender": "Stefano <ste.scaramuzza@gmail.com>",
+  "date": "Fri, 16 Apr 2021 02:58:04 -0700 (PDT)",
+  "body": "Solved, GPU was not compatible\n\nOn Friday, April 9, 2021 at 12:25:05 PM UTC+2 Stefano wrote:\n\n> Hi all,\n>\n> I am trying to preprocess the first tilt series from the EMPIAR 10164 \n> dataset (frames) in warp. However, the results give defocus zero for each \n> tilt and when I click on the Fourier representation I get an error message \n> and warp crashes (settings and error message in attachment). Did someone \n> encounter a similar problem?\n>\n> Thanks for your help and best regards,\n> Stefano\n>\n>\n> Screenshots:\n>\n>  [image: error_when_fourier_representation.png][image: \n> settings_and_results.png]\n>"
+}

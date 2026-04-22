@@ -1,0 +1,8 @@
+{
+  "message_id": "<a9e8de71-0938-465b-a507-00633e95121bo@googlegroups.com>",
+  "thread_id": "<086ca1b7-aeb4-467b-997f-9004363515eao@googlegroups.com>",
+  "subject": "Re: M Masks",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 13 Aug 2020 04:54:43 -0700 (PDT)",
+  "body": "Hi 3P1L,\r\n\r\nM expects a binary mask and does the extension/smoothing itself for each \r\niteration based on current resolution. However, using a non-binary mask \r\nshouldn't cause a crash. Masks from Relion usually import without problems. \r\nCan you share the mask file you're trying to use?\r\n\r\nI don't understand the \"import masks from Warp\" part. Warp can only \r\ngenerate 2D masks for individual micrographs during BoxNet picking.\r\n\r\nCheers,\r\n2I1Y\r\n\r\n\r\nOn Tuesday, August 11, 2020 at 3:41:38 PM UTC+2, 3P1L wrote:\r\n>\r\n> *Dear All,*\r\n>\r\n> I have a question regarding masks in M. Whenever I try to import masks \r\n> from Warp, they fail to display properly and unfortunately result in a \r\n> crash during refinement.\r\n>\r\n> Using the built-in function to create a mask (filter to X Å and use \r\n> threshold of Y), I'm a bit afraid that the mask will not be 100% correct \r\n> and 'too sharp'\r\n>\r\n> For example, I cannot extend by a few pixels and set a smooth falloff on \r\n> the borders. I think that might be responsible for some crashes, too.\r\n>\r\n> Does anybody have a solution for this? Are there any special requirements \r\n> for masks in M, or do you know how to properly import Relion masks?\r\n>\r\n>\r\n> Thanks for any advice!\r\n>\r\n>\r\n> Phil.\r\n>"
+}

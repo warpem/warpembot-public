@@ -1,0 +1,8 @@
+{
+  "message_id": "<aa3d12d2-0653-41c6-affd-ab107e7d2111@googlegroups.com>",
+  "thread_id": "",
+  "subject": "defocus model question",
+  "sender": "suruchi singh <singh.suruchi44@gmail.com>",
+  "date": "Fri, 29 May 2020 15:45:26 -0700 (PDT)",
+  "body": "Hi,\n\nI have a question related to the defocus value given under Models in WARP.\nI have data collected at 0.83A/pixel. By mistake, I gave the defocus value \nin Models as 1x4x1 instead of 4x4x1.\nI got a map after processing the particle picking with 1x4x1 at a \nresolution of 3.8A. When I viewed the map in chimera, the volume was small \nto fit the crystal structure in it.\nI increased the voxel size to 1.6 in chimera and now the crystal structure \nis fitting it.\nWhen I saved this map at a voxel size of 1.6 and estimating the resolution \nit is coming out to be low resolution.\nCould you suggest anything?\n\nThanks\nSuruchi"
+}

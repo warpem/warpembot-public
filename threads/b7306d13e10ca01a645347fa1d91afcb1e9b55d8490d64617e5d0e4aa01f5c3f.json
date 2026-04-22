@@ -1,0 +1,8 @@
+{
+  "message_id": "<73b5a116-6994-47c1-aafa-d37cb07f8edc@googlegroups.com>",
+  "thread_id": "",
+  "subject": "re-training a model",
+  "sender": "Reza B <r.behrouzi@gmail.com>",
+  "date": "Thu, 30 Aug 2018 13:59:52 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\n\nI'm confused about how to use false positives in retraining. The tutorial \nstates that cleaned up star file goes with \"Positive examples\", but do I \nuse false positive star files in the \"extra important locations\"? if so, is \nthere a shortcut for creating a star file for \"Uncertain locations\" the \nsame way that holding shift creates false positives. Thanks a lot.\n\nBest,\nReza"
+}

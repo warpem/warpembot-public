@@ -1,0 +1,8 @@
+{
+  "message_id": "<ee571b0a-3432-4f81-a14e-8a8e0cb60bb5n@googlegroups.com>",
+  "thread_id": "<66a72e45-8d56-474e-a175-4f3686fa4c5fn@googlegroups.com>",
+  "subject": "Re: KeyNotFoundException during Ctf refinement of tilt series in M",
+  "sender": "\"tom.de...@gmail.com\" <tom.dendooven@gmail.com>",
+  "date": "Thu, 1 Apr 2021 02:04:32 -0700 (PDT)",
+  "body": "Hi All,\r\n\r\nI think I figured out what my issue was. I have two species that I'm \r\nrefining. One of the two is not at a high enough resolution for tilt series \r\nctf refinement and is excluded via the resolution threshold (species 1). \r\nThe other species is at a healthy 7Å and is used for ctf refinement \r\n(species 2). \r\n\r\nHowever, in some tilt series I have no particles of species 2. After a bit \r\nof digging it turns out that M was crashing when trying to access particles \r\nof species 2 from those tilt series for ctf refinement (things run fine \r\nwithout ctf refinement).\r\n\r\nAdding a 'fake particle' for species 2 to these tilt series fixed the \r\nissue. \r\nHowever, a quicker (and cleaner) fix was to increase the number in 'only \r\nuse series with at least x particles', so that tilt series that only had \r\nparticles for species 1 are ignored.\r\n\r\nCheers,\r\nTom\r\n\r\nOp zaterdag 27 maart 2021 om 22:54:04 UTC schreef tom.de...@gmail.com:\r\n\r\n> Hi All, \r\n>\r\n> I have been refining sub-tomogram averages in M and ran into the attached \r\n> KeyNotFoundException error for two tilt series when enabling ctf refinement \r\n> (defocus only). It seems M can't find something in the .xml file? Has \r\n> anyone seen this  before? Any tips for troubleshooting would be greatly \r\n> appreciated.\r\n>\r\n> Many thanks,\r\n> Tom\r\n>\r\n>\r\n>\r\n>\r\n>"
+}

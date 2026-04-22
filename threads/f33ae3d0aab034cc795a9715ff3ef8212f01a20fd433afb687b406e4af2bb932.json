@@ -1,0 +1,8 @@
+{
+  "message_id": "<d54de2e6-206d-410c-96ae-31b78735a11en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp display crash when using denosie",
+  "sender": "Zhenyu Tan <zhenytan@umich.edu>",
+  "date": "Sat, 27 Jun 2020 12:47:26 -0700 (PDT)",
+  "body": "Hi \nWhen I using denosie function to denosie micrograph to pick particles for \nretraining, the display often crash and lead to 0MB for GPU memory.\nzhenyu"
+}

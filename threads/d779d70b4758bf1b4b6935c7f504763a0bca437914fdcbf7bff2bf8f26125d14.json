@@ -1,0 +1,8 @@
+{
+  "message_id": "<94fb730c-6047-4acc-ba1e-0c92f7eb2ae2@googlegroups.com>",
+  "thread_id": "<bf98f6f6-cdb1-48af-8cc4-1f28a10ccfd6@googlegroups.com>",
+  "subject": "Re: Warp dies with newly trained dataset",
+  "sender": "yonghuisung@gmail.com",
+  "date": "Wed, 18 Jul 2018 01:24:45 -0700 (PDT)",
+  "body": "Hi, \n\nI have two Quadro P5000. The generic network runs but the results are bad. \n\nYH\n\nOn Wednesday, July 18, 2018 at 9:54:07 AM UTC+2, Dimitry Tegunov wrote:\n>\n> Hi,\n>\n> could you please describe the GPUs in your system? Does the supplied \n> generic BoxNet version crash the same way?\n>\n> Cheers,\n> Dimitry\n>\n>\n> On Tuesday, July 17, 2018 at 5:14:53 PM UTC+2, yongh...@gmail.com \n> <javascript:> wrote:\n>>\n>>\n>> Hi,  \n>>\n>> I tried boxnet and retrained the network with hand picked data. This \n>> behaved as expected and gave a similar curve as shown in the tutorial. But \n>> once I tried to run the new network on a new micrograph warp crashes and \n>> shuts down without error message. What did I do wrong?\n>>\n>>\n>>"
+}

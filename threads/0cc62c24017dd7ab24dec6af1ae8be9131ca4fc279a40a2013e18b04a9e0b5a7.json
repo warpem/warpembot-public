@@ -1,0 +1,8 @@
+{
+  "message_id": "<E92AF538-A561-4092-970E-40A36DE81A4F@gmail.com>",
+  "thread_id": "<d7266f6b-5f24-4af7-a93d-bb6a4bdce8f9n@googlegroups.com>",
+  "subject": "Re: WarpTools ts_export_particles failes with half of the tilt series",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 18 Oct 2024 07:14:11 -0700",
+  "body": "Could you please paste the contents of a log file for one of the tilt series that failed\nSent from mobile - apologies for brevity\nOn Oct 18, 2024, at 07:02, Juha Huiskonen <juha.huiskonen@gmail.com> wrote:\n﻿I checked the logs, and it seems these tilt series are just skipped; there is no error, no reason printed. \nOn Friday 18 October 2024 at 16:57:53 UTC+3 alist...@gmail.com wrote:\nHi Juha,\r\n\n\n\nDid you “Check logs in /scratch/project_2007321/users/huiskone/warptools/g2/relion_new2/logs for more info” as the message suggests?\r\n\n\n\nCheers,\r\n\n\n\nAlister\r\n\n\n\nSent from mobile - apologies for brevity\r\n\n\n\n> On Oct 18, 2024, at 00:02, Juha Huiskonen <\njuha.hu...@gmail.com\n> wrote:\r\n\n> \r\n\n> Check logs in /scratch/project_2007321/users/huiskone/warptools/g2/relion_new2/logs for more info\r\n\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/d7266f6b-5f24-4af7-a93d-bb6a4bdce8f9n%40googlegroups.com\n."
+}

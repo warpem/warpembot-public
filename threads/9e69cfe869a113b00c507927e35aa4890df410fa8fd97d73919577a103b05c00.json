@@ -1,0 +1,8 @@
+{
+  "message_id": "<DB7C5621-706C-45FC-AAD4-DE8E772D104F@gmail.com>",
+  "thread_id": "<36012816-6aa6-460a-8e2b-7df29ba675a3n@googlegroups.com>",
+  "subject": "Re: Windows version still updated ?",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 24 Sep 2024 06:49:39 -0700",
+  "body": "Hi Julien,\nTwo things\n- Dimitry lost the password to the server so the old website will not be updated, the new website is currently hosted at \nhttps://warpem.github.io/warp/\n and contains the content from the old site… I’m not sure why the site has gone offline though, they have been up in parallel until recently.\n- the windows version of Warp has received less attention recently and will likely continue to diverge. We do plan to distribute windows binaries but this is not yet set up, currently you would have to compile the application yourself.\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Sep 24, 2024, at 05:52, Julien Maufront <julien.maufront@gmail.com> wrote:\n﻿\nDear WARP community,\nSince the Linux version has been released now, does the Windows version of WARP would still be updated ? I could not access anymore the warpem website.\nBest regards,\nJulien Maufront\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/36012816-6aa6-460a-8e2b-7df29ba675a3n%40googlegroups.com\n."
+}

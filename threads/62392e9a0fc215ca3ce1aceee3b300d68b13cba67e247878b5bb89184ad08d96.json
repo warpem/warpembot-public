@@ -1,0 +1,8 @@
+{
+  "message_id": "<890c24da-3be4-42ed-9ee2-c2fb430ac924n@googlegroups.com>",
+  "thread_id": "<C1AEE19C-E8BB-4B6C-B2E1-7CDD49DF647B@gmail.com>",
+  "subject": "Re: I create an artifact map of teamtomo.org EMPIAR-10164 dataset\r\n in 1.6Apx",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Mon, 21 Jun 2021 03:43:14 -0700 (PDT)",
+  "body": "When I run the script \"align_symmetry_axis\". There was an error information:\r\n[image: 1624271983(1).png]\r\n\r\nSo I do the \"%\" to this command line. And in the left column, there was the \r\nresult in the folder \"inimodel/results/ite_0008averages/\".\r\nI think the \"%\" may be OK. Anyway, you can tell me how to debug for this if \r\nyou like.\r\n在2021年6月21日星期一 UTC+8 下午6:29:08<alist...@gmail.com> 写道：\r\n\r\n> Hi Yuqi,\r\n>\r\n> The result below shows that you aligned to a reference which was not \r\n> centered on the 6-fold axis - this is where your problems come from, same \r\n> advice from my previous message applies :)\r\n>\r\n> Cheers,\r\n>\r\n> Alister\r\n>\r\n> And then, I continued to* align all particles*.\r\n> The folder *findallData.Data* contains *31561* particles  *without dBox \r\n> mode*. \r\n> I used the dcp in dynamo and the result was like this:\r\n> [image: 1624031060(1).png][image: 1624032003(1).jpg]\r\n>\r\n>\r\n>\r\n>"
+}

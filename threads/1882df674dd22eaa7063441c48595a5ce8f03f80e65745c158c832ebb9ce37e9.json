@@ -1,0 +1,8 @@
+{
+  "message_id": "<71ff7c3a-8c4a-446b-be32-959456398dc6n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Difference in alignment quality between StandAlone Aretomo3 and the\r\n Aretomo3 wrapper inside WarpTools",
+  "sender": "Maurice Frijns <m.a.frijns2000@gmail.com>",
+  "date": "Fri, 16 Jan 2026 06:17:27 -0800 (PST)",
+  "body": "Hi everyone, \n\nI am curious if others have seen similar results :)\n\nI collected some tiltseries on P97 (hexameric ~600 kDa protein) and used \nwarptools v36 with the aretomo3 wrapper (2.2.2) for alignment using the \noption to determine the tilt axis from 4 tiltseries with 4 itterations. \n\nNext to that I did the exact same processing steps in warptools but did the \nalignment using standalone aretomo3 2.2.2 and imported those into warptools \nand did the same other processing steps resulting in the screenshot below. \n\nOn the left (with banana gold) is from the Aretomo3 wrapper inside \nwarptools and right (good looking gold) from standalone aretomo3.\n\nI am currently thinking that something might be off when determining the \ntilt axis angle as these are slightly different between the wrapper and \nstandalone aretomo3 however I don't interfere there in both as I let the \nsoftware determine it by themselfs. \n\nCurious to hear if others have had similar results or a possible fix?\n\nCheers,\n\nMaurice"
+}

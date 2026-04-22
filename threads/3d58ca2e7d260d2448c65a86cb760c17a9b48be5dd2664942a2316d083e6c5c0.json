@@ -1,0 +1,8 @@
+{
+  "message_id": "<2703517b-321c-4901-a52b-921211448ac2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": ".gain reference file not usable",
+  "sender": "Sebastien Moniot <sebastien.moniot@gmail.com>",
+  "date": "Fri, 26 Feb 2021 02:10:10 -0800 (PST)",
+  "body": "Hi all,\n\nI recently obtained a cryo-EM dataset collected on a Falcon 4 detector and \nthus with .eer files.\nWarp handles them fine but I cannot get to use the reference.gain file for \npreprocessing. Warp only accepts .dm4, .mrc, or .em extensions.\nI tried to replace the extension of my .gain file to the others without \nsuccess, Warp then complaining that the file cannot be read.\n\nAny Idea how to solve my problem?\nThanks.\n\nSebastien"
+}

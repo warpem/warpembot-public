@@ -1,0 +1,8 @@
+{
+  "message_id": "<7511D7FB-D040-4FBD-A659-296025C79B60@gmail.com>",
+  "thread_id": "<f777f4ad-2b2b-478e-a00a-6d4e02ca5526n@googlegroups.com>",
+  "subject": "Re: running WARP in Linux",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 11 Oct 2024 06:11:42 -0700",
+  "body": "Hi Yan,\nWarp desktop will unfortunately not run on Linux, it was built with a UI framework called windows presentation foundation and is windows specific.\nInstead, you now have access to the algorithms in Warp through a command line tool called WarpTools - here is the documentation: \nhttps://warpem.com/user_guide/warptools/quick_start_warptools_tilt_series/\nIf you run into any issues please open an issue \nhttps://github.com/warpem/warp\nCheers and happy processing,\nAlister\nSent from mobile - apologies for brevity\nOn Oct 11, 2024, at 02:39, yah...@gmail.com <yahuiuk@gmail.com> wrote:\n﻿Hello,\nI used to us the WARP 1.0 on Windows and now am switching to WARP 2.0 on Ubuntu. I have followed the Github pape and installed WARP in a conda environment. How shall I launch the graphic WARP viewer? Or does it run by command lines and where to find a sheet of command lines?  Sorry for the silly questions.\nThanks a lot!\nKind regards,\nYan  \n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/f777f4ad-2b2b-478e-a00a-6d4e02ca5526n%40googlegroups.com\n."
+}

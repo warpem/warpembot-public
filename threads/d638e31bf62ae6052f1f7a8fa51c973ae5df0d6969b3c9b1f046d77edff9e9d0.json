@@ -1,0 +1,8 @@
+{
+  "message_id": "github:warpem/warp/issues/458",
+  "thread_id": "github:warpem/warp/issues/458",
+  "subject": "WarpTools dev36 seems to produce slightly different CTF fits on some frames compared to dev29 on identical input data..",
+  "sender": "rtviii",
+  "date": "2026-03-24T09:48:09Z",
+  "body": "WarpTools 2.0.0dev36 (container build) and 2.0.0dev29 (module build) produce different per-frame CTF defocus values on identical EER input data with identical settings. On a copia tilt series, 37/39 frames agree within ~0.05um, but 2 frames get wildly wrong defocus in dev36 (~4.5um) while dev29 finds the correct values (~1.1-1.4um). These are the same 2 frames where the power spectra show no visible Thon rings. Motion-corrected averages differ in mean intensity by exactly 16x between builds (1.54 vs 24.64 for the 0-degree tilt), suggesting a change in how EER electron counts are accumulated or normalized. The 16x factor and wrong CTF fits reproduce across GPU types. Settings files are byte-for-byte identical (EERGroupFrames=32, BinTimes=0, PixelSize=1.55, all gain/defects disabled). Defocus divergence exists already at the frameseries level (job002 XML output). Frame 027 at -27 degrees: dev36=4.558um, dev29=1.391um. Frame 035 at -39 degrees: dev36=4.717um, dev29=1.096um."
+}

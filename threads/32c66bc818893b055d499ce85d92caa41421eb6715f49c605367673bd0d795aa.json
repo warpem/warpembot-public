@@ -1,0 +1,8 @@
+{
+  "message_id": "<41a910b8-b9d3-4db8-8926-159463878315n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Range of CTF and Motion for tilt-series pre-processing",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 23 Mar 2021 20:45:29 -0700 (PDT)",
+  "body": "Hi, all. I have a simple question. When I do the CTF and motion for \ntilt-series pre-processing. I didn't know how to specify the range of CTF \nand motion (in Ny or A). The result values of estimated resolution and \ndefocus, in my opinion, may be a little bad. The detector was K3 and the \npixel size was 2.1A. \n\nThe settings was in the picture. And I wanted to know whether I should \nchange the parameter(CTF range / Motion Consider / weight with B / Models, \nspacially these four, I thought.)"
+}

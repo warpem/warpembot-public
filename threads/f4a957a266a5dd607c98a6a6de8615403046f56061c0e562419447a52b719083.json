@@ -1,0 +1,8 @@
+{
+  "message_id": "<27933e78-6464-414c-823c-467ef3375c90n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Duplication of particles in Warp",
+  "sender": "=?UTF-8?Q?Juan_Carlos_De_la_Concepci=C3=B3n?=\r\n <jcdelaconcepcion@gmail.com>",
+  "date": "Wed, 18 Oct 2023 01:54:31 -0700 (PDT)",
+  "body": "Hi all,\n\nI noticed that every time I extract subtomograms in Warp, a lot of \nparticles end up randomly duplicated. Easy to take them out in Relion, but \nI was wondering why is this happening.\n\nCheers,\nJC"
+}

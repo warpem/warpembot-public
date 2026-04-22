@@ -1,0 +1,8 @@
+{
+  "message_id": "<ef4a51ba-573b-4029-bbdb-29d16a9e2025@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp dies with newly trained dataset",
+  "sender": "yonghuisung@gmail.com",
+  "date": "Tue, 17 Jul 2018 08:14:53 -0700 (PDT)",
+  "body": "Hi,  \n\nI tried boxnet and retrained the network with hand picked data. This \nbehaved as expected and gave a similar curve as shown in the tutorial. But \nonce I tried to run the new network on a new micrograph warp crashes and \nshuts down without error message. What did I do wrong?"
+}

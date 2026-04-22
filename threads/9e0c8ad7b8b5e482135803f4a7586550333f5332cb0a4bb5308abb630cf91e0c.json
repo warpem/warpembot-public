@@ -1,0 +1,8 @@
+{
+  "message_id": "<601b2561-0e00-46a0-a713-6ca164cc6e1dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Crash in M",
+  "sender": "Qiang Su <suqiang19921110@gmail.com>",
+  "date": "Sun, 15 Nov 2020 09:27:04 -0800 (PST)",
+  "body": "Hi  Dimitry,\nI am studying the amazing Warp & M software. I am using the tile series \ndata  EMPIAR-10164 <https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10164/> you \nsuggest. I strictly follow the procedure. Everything goes well in Warp, \nIMOD and RELION. I used bin4 pixel size (1.35X4=5.4) not you suggest in the \npaper. However, when I imported the data into M, M is crashed. The crash \ninformation is as below. I also attached the parameter of the refine. Could \nyou please help me on this problem? Is there any GPU memory or parameter \nproblem? \n\nCPU: Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz   2.59 GHz\nRAM 128G\n\nGPUV100, 32G\n\nThanks,\n\nQiang\n[image: crash3.PNG]\n[image: M.PNG][image: Refine.PNG]"
+}

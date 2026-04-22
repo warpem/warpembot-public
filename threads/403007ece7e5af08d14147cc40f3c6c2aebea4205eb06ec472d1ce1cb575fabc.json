@@ -1,0 +1,8 @@
+{
+  "message_id": "<9bce304e-2b7f-4b30-a12a-79c71a75af30@googlegroups.com>",
+  "thread_id": "<bdf75895-1dfb-471f-a9a5-cb5ef070ca77@googlegroups.com>",
+  "subject": "Re: Configuring available GPUs?",
+  "sender": "Andrey Malyutin <malyutinag@gmail.com>",
+  "date": "Fri, 18 Oct 2019 11:50:53 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nThank you for the response. Yes, having Warp remember which GPUs were \nenabled or being able to \"hide\" a GPU from the list would be great.\n\nAndrey\n\nOn Friday, October 18, 2019 at 11:25:17 AM UTC-7, Dimitry Tegunov wrote:\n>\n> Hi Andrey,\n>\n> you can untick the GPU checkbox in the window title bar. I need to make \n> Warp remember that setting between restarts in the next version. \n> Unfortunately, the number of processes can't be specified per-GPU right now \n> -- it's only on or off.\n>\n> Cheers,\n> Dimitry\n>\n>\n> On Friday, October 18, 2019 at 7:00:38 PM UTC+2, Andrey Malyutin wrote:\n>>\n>> Is it possible already, or would it be possible, to edit the config file \n>> to restrict which GPUs can be selected to run Warp jobs? I have been \n>> testing on the K3 server and I can imagine many users forgetting to \n>> unselect display GPU when launching a job. \n>>\n>> Thank you,\n>>\n>> Andrey\n>>\n>"
+}

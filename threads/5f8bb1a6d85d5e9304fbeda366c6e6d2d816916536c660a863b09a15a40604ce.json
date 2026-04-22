@@ -1,0 +1,8 @@
+{
+  "message_id": "<8526eac8-d2ed-4c23-a051-2879863a5b21n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Relion 4.0 to M starfile conversion",
+  "sender": "Min-gyu Jung <mgmg980910@gmail.com>",
+  "date": "Tue, 23 Aug 2022 00:01:57 -0700 (PDT)",
+  "body": "Hi\n\nI was trying to process apoferritin in M which was auto-refined in Relion \n4.0. So I converted the columns rlnOriginXAngstroms to rlnOriginX and Y, Z \ntoo. Then, I  specified 1.0A/px for the shifts. But M told me Star files \ndidn't contain all essential columns. How can I solve this problem?\n\n_rlnCoordinateX #1 \n\n_rlnCoordinateY #2 \n\n_rlnCoordinateZ #3 \n\n_rlnMicrographName #4 \n\n_rlnCtfMaxResolution #5 \n\n_rlnImageName #6 \n\n_rlnCtfImage #7 \n\n_rlnAngleRot #8 \n\n_rlnAngleTilt #9 \n\n_rlnAnglePsi #10 \n\n_rlnPixelSize #11 \n\n_rlnOpticsGroup #12 \n\n_rlnGroupNumber #13 \n\n_rlnOriginX #14 \n\n_rlnOriginY #15 \n\n_rlnOriginZ #16 \n\n_rlnClassNumber #17 \n\n_rlnNormCorrection #18 \n\n_rlnRandomSubset #19 \n\n_rlnLogLikeliContribution #20 \n\n_rlnMaxValueProbDistribution #21 \n\n_rlnNrOfSignificantSamples #22\n\nThank you\n\nMin-gyu"
+}

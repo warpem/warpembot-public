@@ -1,0 +1,8 @@
+{
+  "message_id": "github:warpem/warp/issues/460",
+  "thread_id": "github:warpem/warp/issues/460",
+  "subject": "Micrographs from WarpTools frame series yield ~0.3–0.4 Å worse resolution than RELION MotionCorr reference in downstream SPA refinement",
+  "sender": "jowagner91",
+  "date": "2026-04-01T13:35:14Z",
+  "body": "Particles extracted from WarpTools-processed micrographs consistently produce lower-resolution reconstructions (~0.3–0.4 Å) compared to the same particles extracted from RELION MotionCorr micrographs, with all other downstream processing kept the same. This was reproduced across two independent datasets. The issue appears related to micrograph quality (motion correction). This is likely the same root cause as #339, where a similar resolution gap was reported between WarpTools (Linux) and both CryoSPARC Patch Motion and desktop Warp (Windows). Versions: WarpTools v2.0.0dev36 (Linux), RELION 4.0.0, CryoSPARC 5.0.1, OS Ubuntu 22.04. Dataset: Falcon 4, Glacios 2, 200 kV, 0.9142 Å/px, 40 frames, 60 e⁻/Å², ~2500 micrographs, ~350k particles. Also confirmed with CryoSPARC Patch Motion as alternative reference. Issue consistent across two different protein samples."
+}

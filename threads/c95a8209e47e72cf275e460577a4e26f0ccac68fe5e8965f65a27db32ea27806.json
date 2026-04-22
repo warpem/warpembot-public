@@ -1,0 +1,8 @@
+{
+  "message_id": "<ece89c39-6912-41ec-9538-bd1fa9be5285n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp Threshold_picks Question",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Mon, 16 Jun 2025 08:36:31 -0700 (PDT)",
+  "body": "Hello again,\n\nFor the threshold_picks command, what exactly is being used as a threshold \nto determine what particles are included or excluded?  I assume its using \nsome physical property (like how well it matches a template) but its not \nspecified in the tutorial and I haven't been able to find searching \naround.  I really just want to know so I have a better idea of why \nparticles are being excluded when I input a number.\n\nThank you,\nKyle"
+}

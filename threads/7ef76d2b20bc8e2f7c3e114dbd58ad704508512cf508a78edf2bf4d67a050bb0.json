@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHqAwPEcx457iLWW9V3K8XW8iPrkfx_2x+ffqLSdrqQWmg@mail.gmail.com>",
+  "thread_id": "<116e9c96-c835-4953-a5a5-205b9ece659en@googlegroups.com>",
+  "subject": "Re: Quick start: tilt series tutorial has an incomple M refinement command",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 14 Oct 2024 10:29:47 -0700",
+  "body": "Hi Juha,\r\n\r\nSorry about that - it's just an unnecessary backslash at the end, the idea\r\nis to rerun M without any refinements but taking the new weights into\r\naccount to see if the reconstruction has improved\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Sun, 13 Oct 2024 at 02:43, Juha Huiskonen <juha.huiskonen@gmail.com>\r\nwrote:\r\n\r\n> Hi all,\r\n>\r\n> The command for M refinement (weights (per-tilt series)) seems incomplete:\r\n>\r\n> EstimateWeights \\ --population m/10491.population \\ --source 10491 \\\r\n> --resolve_items MCore \\ --population m/10491.population \\\r\n>\r\n> Does anyone know what is the complete command for this step?\r\n>\r\n> Cheers,\r\n> Juha\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit\r\n> https://groups.google.com/d/msgid/warp-em/116e9c96-c835-4953-a5a5-205b9ece659en%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/116e9c96-c835-4953-a5a5-205b9ece659en%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

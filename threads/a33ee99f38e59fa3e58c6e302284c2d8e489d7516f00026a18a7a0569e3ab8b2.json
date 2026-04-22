@@ -1,0 +1,8 @@
+{
+  "message_id": "<518d40f7-7de6-4d8d-b8eb-1176dc28ffba@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Input movie format",
+  "sender": "mcianfro@umich.edu",
+  "date": "Wed, 11 Jul 2018 13:03:06 -0700 (PDT)",
+  "body": "Hi Dmitry,\n\nWe collect our movies using Leginon, and the movies are saved un-gain \nnormalized in MRC format in Map Mode 6 (unsigned 16-bit integer). \n\nI know that 1) these movies are not read by Warp and 2) if I convert these \ninto TIFF using mrc2tif they are also not read by Warp. \n\nWhat is the best way to store these as compressed files that are also \nreadable by Warp?\n\nThanks,\nMike"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<74a1d9cf-df2b-48fa-b2a9-7a03cfc66f49n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "dautoalign4warp not working",
+  "sender": "Giulia Paris <paris.giulia@gmail.com>",
+  "date": "Thu, 1 Jul 2021 04:55:35 -0700 (PDT)",
+  "body": "Hi all, \r\n\r\nI’m experiencing some troubles running dautoalign4warp. It works for some \r\ntilt series, and it doesn’t work for others. When dautoalign4warp doesn’t \r\nwork, I get a folder named Position_X.AWF containing the following:\r\n\r\n32K    configFiles\r\n1.9G   detection\r\n1.0K    info\r\n80K     markersIntermediate\r\n512    nominal.tlt\r\n16K    workingMarkers.dms\r\n\r\nAfter having a look at the log file in MATLAB, I spotted the warning \r\nmessages attached. \r\n\r\nFinally, I have the following versions of: \r\n\r\n-       IMOD 4.11.6\r\n\r\n-       Dynamo 1.1.520\r\n\r\n-       MATLAB 2020b\r\n\r\nDoes anyone know how I can solve this issue or have any suggestions? \r\n\r\nThank you very much! \r\n\r\nBest\r\nGiulia"
+}

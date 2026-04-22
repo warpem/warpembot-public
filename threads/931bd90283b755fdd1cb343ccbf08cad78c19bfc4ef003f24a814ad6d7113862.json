@@ -1,0 +1,8 @@
+{
+  "message_id": "<fba9d15e-377d-4db5-b751-b316b8244267n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Incomplete cross-correlation map when template matching on\r\n tomograms",
+  "sender": "Arjun Bhatta <arjun.bhatta2052@gmail.com>",
+  "date": "Wed, 1 Dec 2021 02:19:26 -0800 (PST)",
+  "body": "Dear Dimitry, Dear all,\n\nI have been noticing that when I run template matching jobs on tomograms, I \nget cross correlation map for only part of the entire volume of the \ntomogram. See attached image to see what I mean. I cannot seem to figure \nout why this is. The dimensions of the X-corr map is the same as the \ntomogram; just the region with actual cross-correlation data seems to be \njust a part of the tomogram.\n\nWhat I did so far:\nAlignments in IMOD/eTOMO (also did tomogram positioning!)\nTomogram reconstruction in Warp (8 fold binning)\nManually picked particles using cube\nReconstructed the template model in Relion using relion_reconstruct\nUsed the template in Warp for template matching job.\n\nI would appreciate any input as to why this may be happening.\n[image: Screenshot 2021-12-01 at 11.13.48.png] \nArea of the X-corr map with actual data compared to map dimensions\n\n[image: Screenshot 2021-12-01 at 11.16.56.png] \nArea of X-corr map with data compared to the actual tomogram\n\nThanks,\nArjun"
+}

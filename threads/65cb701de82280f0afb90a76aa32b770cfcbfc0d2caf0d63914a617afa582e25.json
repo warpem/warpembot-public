@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAA59SzNa2W4mL-KT-iyz8X4F4_-MdugZaEeBNb58X49xpyrrZg@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Removing bad tilts",
+  "sender": "Hamidreza Rahmani <hamid13r@gmail.com>",
+  "date": "Mon, 6 Oct 2025 11:15:44 -0700",
+  "body": "Hi all,\r\n\r\nI have a dataset that I aligned in etomo and to get a better model/remove\r\njunks I removed some tiles in the fine alignment step (using 1,28-36 so\r\nthere are a bunch of bad tilts).\r\n\r\nWhen I use ts_import_alignment I see all the views are imported into the\r\nxml files and the use tilt section is True for all of them.\r\n\r\nIs there an easy way to fix this?\r\n\r\nDo you recommend I write a code to look at taSolution.log and edit the xml\r\nfiles to change those views to False in use Tilt section?\r\n\r\nBest,\r\nHamid"
+}

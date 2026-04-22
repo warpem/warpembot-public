@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAE5xfLnFUKg4QEn3oSxyV6_99gTAK4tgoonzARonaWvy1rJR3Q@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Not-a-Number value error in WarpTools",
+  "sender": "Shintaro Aibara <shintaro.aibara@gmail.com>",
+  "date": "Thu, 8 Aug 2024 11:23:19 +0100",
+  "body": "Hi Community!\r\n\r\nA bit of an odd one, but perhaps I could be pointed in the right\r\ndirection....\r\n\r\nI encountered an error where WarpTools crashes on the first step,\r\nspecifically with a particular gain reference. This gain reference was\r\ncollected as a .gain format, converted to a mrc file with tif2mrc.\r\n\r\nPresumably something is wrong with this particular file as I get a\r\nSystem.ArtithmeticException error with this file. Changing with a gain from\r\nanother day doesn't raise this error.\r\n\r\nThis is an issue specifically with WarpTools as Warp 1.1-beta can handle\r\nthis file fine. Looking as the image with --stats on relion image handler\r\ndoest raise any flags with me.\r\n\r\nBest wishes\r\nShintaro"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<aec70009-a54f-4d69-b5c2-c28dc6414678n@googlegroups.com>",
+  "thread_id": "<f9dca2cf-4e37-4c96-a7f3-625a1ea3d769n@googlegroups.com>",
+  "subject": "Re: Warp 1.09 - Error while processing CTFs",
+  "sender": "\"andreas...@gmail.com\" <andreas.boggild@gmail.com>",
+  "date": "Thu, 17 Mar 2022 15:09:29 -0700 (PDT)",
+  "body": "Hi Ivan,\r\n\r\nI tried replicating this on a few test shots, and there seems to be a bug \r\nwhere a negative defocus input (your -5 µm) produces this error. You should \r\ninput it as a positive value, but you might need to delete some or all of \r\nthe Warp output files before Warp will run normally again.\r\n\r\n/Andreas\r\n\r\nonsdag den 16. marts 2022 kl. 17.29.28 UTC+1 skrev Ivan Zumeta:\r\n\r\n> Hi everyone,\r\n>\r\n> We are new to WARP, and we have run into a problem while making the CTF \r\n> correction of our movies. \r\n>\r\n> When we started doing motion correction, Warp was doing fine, but when we \r\n> tried to do the CTF, Warp started deselecting all the files. Trying to do a \r\n> single CTF (in the Fourier tab) gives an error (see image attached) \r\n>\r\n> We tried playing with the parameters, but it always gives the same error. \r\n> For reference, we want to use (and have used) the following CTF parameters:\r\n>\r\n> Window: 512 px\r\n> Range: 30-5 A\r\n> Voltage: 300kV\r\n> Cs: 2.7 mm\r\n> Amplitude: 0.1\r\n> Defocus: 0 - -5 um\r\n>\r\n> Kind regards,\r\n>\r\n> Ivan\r\n>"
+}

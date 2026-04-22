@@ -1,0 +1,8 @@
+{
+  "message_id": "<dd8b1916-0a27-4867-b654-be2cca0c5654n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "problem importing to WARP",
+  "sender": "mrJ <bluufive@gmail.com>",
+  "date": "Thu, 23 Sep 2021 09:54:46 -0700 (PDT)",
+  "body": "hi all,\nI processed two tilt series identically as per the \"quick start tilt \nseries\" guide on the WARP website. I did *everything *in parallel for the \ntwo datasets. I aligned movies in WARP, exported stack to IMOD, went \nthrough the eTomo pipeline for alignment, then re-imported that data into \nWARP for further processing. However, only ONE of the two tilt series will \nimport, despite them being processed identically and in parallel. They are \nsitting in the same folder. No idea what could cause this. Here is the \nerror.\n\n\"object reference not set to an instance of an object\".\n\nthanks!"
+}

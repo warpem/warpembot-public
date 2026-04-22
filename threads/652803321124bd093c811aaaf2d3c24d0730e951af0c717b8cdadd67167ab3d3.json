@@ -1,0 +1,8 @@
+{
+  "message_id": "<29EEC2AC-A5D4-42A7-9F8A-7C4955B5208D@gmail.com>",
+  "thread_id": "<7a6eaec3-a7f4-409e-ad0d-b86be87b6dcan@googlegroups.com>",
+  "subject": "Re: Resolution stuck",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Sun, 15 Jun 2025 07:03:16 -0700",
+  "body": "Hi Mingyu,\nYou’re fitting too many parameter, your data likely aren’t strong enough to support this. \nStart with 1 temporal pose and fit only 1x1 image shift for a while - then add more and more parameters once resolution plateaus \nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jun 15, 2025, at 00:35, Mingyu Jung <jmg0910@snu.ac.kr> wrote:\n﻿Hi all,\nI have a problem with improving resolution during M refinement. \nAfter subtomogram extraction in Warp and 3D refinement in Relion, I achieved 7.4 A and refine my particles with M.\nBox size is 312. Image type is mrc with 10 fractions and temporal sampling for pose is 3.\nAt first I have a significant increase in resolution with pose, image warp (4 x 4), tilt angles and volume warp (3 x 3 x 2 x 10) refinement and achieved 6.7 A map.\nHowever, tilt movie and CTF refinement did not improve the resolution. I used species with better than 6.7A as CTF refinement.\nIf you have any experience or suggestions regarding this issue, please let me know.\nBest,\nMingyu\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/7a6eaec3-a7f4-409e-ad0d-b86be87b6dcan%40googlegroups.com\n."
+}

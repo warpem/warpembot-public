@@ -1,0 +1,8 @@
+{
+  "message_id": "<2d36ac97-b3af-4508-81bb-974d6d875eefn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M may not give expected results",
+  "sender": "Nicolas Coudray <coudrn01@nyu.edu>",
+  "date": "Wed, 30 Aug 2023 11:25:36 -0700 (PDT)",
+  "body": "Hi -\n\n I have been trying to run M (1.1.0 beta)  on a windows station with 4 RTX \n3090 GPUs (cuda 12.2), but the sub-tomograms generated lead to a refinement \nwith worse resolution than before going through M. \n Looking more into the star file generated, I noticed the X,Y,Z coordinates \nof the sub-tomograms were changing dramatically. I would expect the \ncoordinate in the output file to be equal to something like\n\"(_rlnCoordinateX - _rlnOriginXAngst x PixelSize) x scaling_factor\"  \n\nwith scaling factor the difference between the pixelsize of the star file \ngiven to M and the one generated after refinement in M. \n\n To try to debug, I imported a star file, and then immediately exported \nexported sub-tomograms without refinement at the same pixel size as the \ninput one. I noticed the coordinates of the first sub-tomogram was as \nexpected, but all the others I checked had X,Y,Z, coodinates which were \nsignificantly different from those in the input file. \n\n Has anyone any idea? I've seen other threads mentioning various issues \nwith RTX 3090, so I was wondering if it could be some configuration / \ncompatibility issue? Shall we downgrade to an older version of cuda (if so, \nwhich one would you advise)?\n\nThanks,\nNicolas"
+}

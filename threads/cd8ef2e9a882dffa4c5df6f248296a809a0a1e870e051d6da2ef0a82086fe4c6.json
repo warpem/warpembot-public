@@ -1,0 +1,8 @@
+{
+  "message_id": "<d9ed4764-5866-43ad-af8f-8a29f7968404@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp not starting",
+  "sender": "Mike Strauss <mikestrauss13@crystal.harvard.edu>",
+  "date": "Wed, 6 Nov 2019 12:26:41 -0800 (PST)",
+  "body": "I have installed warp 1.0.7 and it crashes immediately upon starting.  it \ngives this error:\n\n\nIt then tells me to reinstall things, which i have done numerous times, and \nit doesn't change anything.  1.0.6 will at least open the window, but it \ncrashes after asking to start processing anything.  I am on Win10 and have \na Titan Xp\n\nRegards,\nmike"
+}

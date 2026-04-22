@@ -1,0 +1,8 @@
+{
+  "message_id": "<13e9e678-7aea-4986-99f1-67c92eb98542n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Removal of outer membrane signal in M/Relion",
+  "sender": "Doulin Shepherd <doulin.shepherd@gmail.com>",
+  "date": "Sat, 19 Oct 2024 22:38:03 -0700 (PDT)",
+  "body": "Hi Warp Team,\n\nI just have a few questions about my data processing steps.\n\nFor some background, the complex that I am working on spans the periplasmic \nspace and is anchored to the inner and outer membranes. I can get a \nreasonable average using EMAN2, but when I use Dynamo and/or RELION 5, it \nseems that the outer membrane is dominating the alignment and density of \nthe reconstruction.\n\nSo far, I have used a Fourier space mask to reduce some of the membrane \nsignal in the final reconstruction (RELION 5). When I apply the mask, the \nfeatures I see are what I expect, but they are washed out by the membrane \nsignal. I assume the alignments would be better if the membrane signal were \nreduced.\n\nWith that being said, I have two main questions:\n\n   1. \n   \n   Is there a way to downweight the signal from the membrane when I am \n   processing in M, or does the membrane signal have to be dealt with in the \n   RELION step?\n   2. \n   \n   These complexes are not very abundant (1-4 per tomogram), and I was \n   wondering if doing a multi-species refinement with ribosomes would help \n   with combating the membrane alignment.\n   \nThanks in advance,\nDoulin"
+}

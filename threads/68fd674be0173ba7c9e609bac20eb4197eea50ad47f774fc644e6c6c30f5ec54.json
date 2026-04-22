@@ -1,0 +1,8 @@
+{
+  "message_id": "<b4342a49-f570-4df3-99f5-e33ebc2253c5n@googlegroups.com>",
+  "thread_id": "<CAHH4-vzBQ041Fv8Je8bGQOvwN70XEp3LoUrXVTMjTHAzHzM=dQ@mail.gmail.com>",
+  "subject": "Re: News regarding linux versions of WARP",
+  "sender": "Alois Schloegl <alois.schloegl@gmail.com>",
+  "date": "Fri, 9 Jun 2023 03:42:19 -0700 (PDT)",
+  "body": "At the moment, I recommend using wine-staging 7.21 (compiling it with \r\ncuda-support) - That's the one we use in production, that's what I \r\nrecommend at this time. \r\nI tried to document everything at the appdb.winehq.org e.g. \r\nhttps://appdb.winehq.org/objectManager.php?sClass=version&iId=40620&iTestingId=112856\r\nLater versions (7.22) of wine-staging will not work, because support for \r\ncuda has been disabled. \r\n\r\nYou might want to try recent version of wine (compiled with \"shared WoW64\" \r\napproach)  together with nvidia-libs. Currently, we see some potential \r\nissue with dotnet/WPF, that prevents the use if this.  \r\n\r\n\r\nOn Wednesday, April 26, 2023 at 6:57:17 PM UTC+2 xingyichen...@gmail.com \r\nwrote:\r\n\r\n> Dear fellow WARP/M users and Dimitry,\r\n>\r\n> Does any of you have news regarding progress on Linux versions of WARP? \r\n> Perhaps Dimitry or some of you already started testing with beta versions? \r\n>\r\n> I read a few of you in the group managed to get WARP/Wine going, anyone \r\n> got to run it more or less stably? If possible we'd greatly appreciate it \r\n> if you could share more of your setup information! \r\n>\r\n> Thank you so much!\r\n>\r\n> Cheers,\r\n>\r\n> Cyan Ching\r\n>\r\n> PhD student\r\n>\r\n> The Physical Chemistry Curie Lab\r\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<bf2ff015-ad2b-4ec0-b687-abea5339dd8c@googlegroups.com>",
+  "thread_id": "<ea08be58-3262-4c76-b0b4-fe11aaa98e95@googlegroups.com>",
+  "subject": "Re: Warp crashes after trying to import coordinates from relion\r\n autopick",
+  "sender": "Andrea Nans <andrea.nans@gmail.com>",
+  "date": "Sat, 27 Oct 2018 03:23:29 -0700 (PDT)",
+  "body": "Hi Dmitry,\n\nI'm trying to Import Particle Coordinates so I can overlay the particles \npicked in Relion. I plan to extract a particles.star file with local \ndefocus values.\n\nWhen it asks for a suffix, I enter _autopick and it then crashes. The \ncolumns of my autopick.star file are:\n\nrlnCoordinateX\nrlnCoordinateY\nrlnAutoPickFigureOfMerit\nrlnClassNumber\nrlnAnglePsi\n\nAny ideas?\n\n\n\n\nOn Friday, October 26, 2018 at 5:23:02 PM UTC+1, Andrea Nans wrote:\n>\n> Hi,\n>\n> I'm trying to import an autopick.star file from Relion 3 into Warp but it \n> crashes each time. I would like to do the auto-picking in relion but take \n> advantage of the local CTF estimation in Warp.\n>\n> The file names match (ie the image is Micrograph_DW.mrc and autopick file \n> is Micrograph_DW_autopick.star).\n>\n> Is there anything that I'm missing?\n>\n> Thanks\n>\n> Andrea\n>\n>"
+}

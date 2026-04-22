@@ -1,0 +1,8 @@
+{
+  "message_id": "<f65ff3de-0e3a-454d-b97d-68ca85898e4bn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "How to refine linear components of tilt series alignments?",
+  "sender": "James Hooker <jhooker@mrc-lmb.cam.ac.uk>",
+  "date": "Thu, 16 Nov 2023 07:32:17 -0800 (PST)",
+  "body": "Hello all,\r\n\r\nI am looking for a way to get improved tilt series alignments out of Warp/M.\r\nMy current workflow uses AreTomo (with -OutImod 1) to align tilt series for \r\ntomogram reconstruction.\r\nThe reconstructions are okay — good enough to resolve and average ribosomes.\r\nHowever, they are clearly not perfect.\r\nI would really like a way to use the particle poses to directly improve the \r\ntilt series alignments.\r\nThese are the parameters that IMOD records in its .tlt and .xf files and \r\nthat Warp records as Angle, AxisAngle, AxisOffsetX, AxisOffsetY in its .xml \r\nfiles.\r\nI do *not* want to model nonlinear deformation at the moment.\r\n\r\nAny tips?"
+}

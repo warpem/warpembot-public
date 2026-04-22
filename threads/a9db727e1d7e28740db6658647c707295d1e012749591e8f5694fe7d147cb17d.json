@@ -1,0 +1,8 @@
+{
+  "message_id": "<5e886b1c-ccd8-4377-b2af-9a433657a64dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Helical refinement in M",
+  "sender": "Charlie <charlie.lovatt.rfi@gmail.com>",
+  "date": "Fri, 14 Nov 2025 03:43:07 -0800 (PST)",
+  "body": "Good morning,\n\nDoes anyone know if it is possible to refine tilt series in M using \nco-ordinates of a filament with known helical symmetry? I currently am \nusing windows warp version 1.0.9, but could switch to linux if there is a \nhelical implementation there.\n\nThank you,\nCharlie"
+}

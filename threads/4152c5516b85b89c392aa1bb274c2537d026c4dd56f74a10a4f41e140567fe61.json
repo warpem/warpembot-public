@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5o9eRMXCFmP_=sDOQ+hEum2neMETYkTF2UpZ50AbF_YiA@mail.gmail.com>",
+  "thread_id": "<CAHNYQ5roSN9thYAQ-M8JhfKNSnLs2QWYpWgXwcFy=XmKi2eS6w@mail.gmail.com>",
+  "subject": "Re: Null vals",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Mon, 12 Oct 2020 22:44:10 +0100",
+  "body": "Found the prob. I had the silly LMM,MMM mdocs in the same folder.\r\nRemoving them fixed it.\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK\r\n\r\nOn Mon, Oct 12, 2020 at 10:21 PM Pranav Shah <p.shah.lab@gmail.com> wrote:\r\n>\r\n> Hi Dimitry,\r\n>\r\n> I am trying to export my frames as TS's and some of them are raising this error.\r\n> \"\r\n> Input string was not in a correct format.\r\n>\r\n> Value cannot be null.\r\n> Parameter name: path2\r\n>\r\n> Value cannot be null.\r\n> Parameter name: path2\r\n>\r\n> Value cannot be null.\r\n> Parameter name: path2\r\n>\r\n> Value cannot be null.\r\n> Parameter name: path2\r\n> \"\r\n>\r\n> But I am not sure which ones and why this error is being raised and if\r\n> i should be worried.\r\n> Could you help me understand what is happening here?\r\n>\r\n> Best,\r\n> Pranav\r\n> --\r\n> Pranav Shah\r\n> Postdoctoral Research Fellow.\r\n>\r\n> Division of Structural Biology,\r\n> Wellcome Trust Centre for Human Genetics,\r\n> University of Oxford,\r\n> Roosevelt Drive, Oxford OX3 7BN,\r\n> UK"
+}

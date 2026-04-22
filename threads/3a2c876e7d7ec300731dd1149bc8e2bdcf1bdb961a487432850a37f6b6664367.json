@@ -1,0 +1,8 @@
+{
+  "message_id": "<0c7d74ad-ff25-4b0c-a552-f054df3933ff@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Proper Adjustments for Motion Correction",
+  "sender": "Farzad Hamdi <farzaad@gmail.com>",
+  "date": "Fri, 17 Jan 2020 03:17:41 -0800 (PST)",
+  "body": "Dear All,\n\nI already asked for the adjustment for CTF correction and Wim Hagen kindly \ninstructed me to proceed down to 30A and it is now working very well. Now I \nhave some problems in motion correction in larger pixel sizes. Which \nadjustment do you recommend for motion correction? The image alignment is \ndone by the Falcon hardware currently yields better resolution.\n\nBest Regards,\n\nFerrie"
+}

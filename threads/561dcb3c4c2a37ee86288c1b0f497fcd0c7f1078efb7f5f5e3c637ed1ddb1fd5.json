@@ -1,0 +1,8 @@
+{
+  "message_id": "<c3f7b8c2-bb91-4535-8da3-20f7e0910e7en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Artifacts in tomogram",
+  "sender": "Chen Sun <csun@lji.org>",
+  "date": "Tue, 17 Dec 2024 09:41:58 -0800 (PST)",
+  "body": "Hello,\r\n\r\nI used warpTools to do frame alignment and then use etomo to reconstruct \r\nthe tomograms. However, I noticed artifacts in the reconstructed tomogram. \r\nPatches of density were missing. Has anyone seen this before? What could be \r\nwrong that lead to this artifact? Any suggestions would be appreciated. \r\n\r\nBtw, what is the best way to open tomograms reconstructed with warpTools to \r\nvisually exam them?\r\n\r\n[image: Screenshot 2024-12-17 at 9.31.44 AM.png]\r\n\r\nThanks,\r\nChen"
+}

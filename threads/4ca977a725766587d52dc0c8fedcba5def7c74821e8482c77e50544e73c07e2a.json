@@ -1,0 +1,8 @@
+{
+  "message_id": "<475644a2-260c-4858-ba56-5ff68d91e5fcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "CTF correction for EMDB deposition",
+  "sender": "Abhipsa Shatarupa <sabhipsa@gmail.com>",
+  "date": "Thu, 7 Dec 2023 11:01:40 -0800 (PST)",
+  "body": "Hello,\n\nI am currently in the EMDB deposition process and have a question regarding \nthe \"Correction type\" field. The available options are \"phase flipping and \namplitude correction\" and \"phase flipping only.\" Considering that I checked \nthe CTF box during particle picking, and the amplitude value was set to \n0.07, while leaving the phase shift box unchecked, could you guide me on \nthe correct choice between the provided options? \n\nThank you, Abhipsa"
+}

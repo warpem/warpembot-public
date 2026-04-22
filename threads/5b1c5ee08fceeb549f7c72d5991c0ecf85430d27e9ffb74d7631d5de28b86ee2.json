@@ -1,0 +1,8 @@
+{
+  "message_id": "<f777f4ad-2b2b-478e-a00a-6d4e02ca5526n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "running WARP in Linux",
+  "sender": "\"yah...@gmail.com\" <yahuiuk@gmail.com>",
+  "date": "Fri, 11 Oct 2024 02:39:47 -0700 (PDT)",
+  "body": "Hello,\n\nI used to us the WARP 1.0 on Windows and now am switching to WARP 2.0 on \nUbuntu. I have followed the Github pape and installed WARP in a conda \nenvironment. How shall I launch the graphic WARP viewer? Or does it run by \ncommand lines and where to find a sheet of command lines?  Sorry for the \nsilly questions.\n\nThanks a lot!\n\nKind regards,\nYan"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<bf98f6f6-cdb1-48af-8cc4-1f28a10ccfd6@googlegroups.com>",
+  "thread_id": "<ef4a51ba-573b-4029-bbdb-29d16a9e2025@googlegroups.com>",
+  "subject": "Re: Warp dies with newly trained dataset",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 18 Jul 2018 00:54:07 -0700 (PDT)",
+  "body": "Hi,\n\ncould you please describe the GPUs in your system? Does the supplied \ngeneric BoxNet version crash the same way?\n\nCheers,\nDimitry\n\n\nOn Tuesday, July 17, 2018 at 5:14:53 PM UTC+2, yonghuisung@gmail.com wrote:\n>\n>\n> Hi,  \n>\n> I tried boxnet and retrained the network with hand picked data. This \n> behaved as expected and gave a similar curve as shown in the tutorial. But \n> once I tried to run the new network on a new micrograph warp crashes and \n> shuts down without error message. What did I do wrong?\n>\n>\n>"
+}

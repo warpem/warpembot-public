@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAB7-RrvfDMFyVfHPYP=aN0+mc0RmVFKztfSS=TsQPb5Gz=pnWg@mail.gmail.com>",
+  "thread_id": "<b13fce1c-722c-4da1-bc5a-3c58c73cda09n@googlegroups.com>",
+  "subject": "Re: Tomogram deconvolution in Warp",
+  "sender": "Ricardo Righetto <ricardorighetto@gmail.com>",
+  "date": "Tue, 27 Jan 2026 09:50:29 +0100",
+  "body": "Hi Mingyu,\r\n\r\nIt is a Wiener-type CTF deconvolution as described in the original Warp\r\npaper, Supplementary Figure 2:\r\n\r\n[image: image.png]\r\nhttps://www.nature.com/articles/s41592-019-0580-y/figures/8\r\n\r\nThe intuition is to boost the very low frequencies to enhance contrast,\r\nwhile attenuating everything past the first zero crossing of the CTF to\r\nremove noise.\r\n\r\nBest wishes,\r\n\r\n--\r\nRicardo Diogo Righetto\r\n\r\n\r\nEm sex., 23 de jan. de 2026 às 06:04, Mingyu Jung <jmg0910@snu.ac.kr>\r\nescreveu:\r\n\r\n> Hi all,\r\n>\r\n> I have a quick question regarding tomogram deconvolution in Warp (Windows).\r\n>\r\n> I was wondering what algorithm is used for tomogram deconvolution in Warp.\r\n> Specifically, is it a Wiener-type CTF deconvolution, or is it limited to\r\n> phase flipping only?\r\n>\r\n> Thank you very much for your help.\r\n>\r\n> Best,\r\n> Mingyu\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/b13fce1c-722c-4da1-bc5a-3c58c73cda09n%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/b13fce1c-722c-4da1-bc5a-3c58c73cda09n%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

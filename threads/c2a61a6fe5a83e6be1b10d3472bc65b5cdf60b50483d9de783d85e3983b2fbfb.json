@@ -1,0 +1,8 @@
+{
+  "message_id": "<581dbd2a-9b9d-4cc6-893a-8c92df0e073d@googlegroups.com>",
+  "thread_id": "<3ddd577b-626c-4f7b-a33b-a569067e6337@googlegroups.com>",
+  "subject": "Re: Evaluating motion correction parameters",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Wed, 23 Oct 2019 05:19:42 -0700 (PDT)",
+  "body": "Hi Andrey,\n\nyou could try something similar to what is described in the paper \n<https://www.nature.com/articles/s41592-019-0580-y>: perform CTF estimation \non the motion-corrected averages, and then average the quality of fit \ncurves to see which set of parameters results in better Thon rings. This \nwill require some scripting as it is not implemented in Warp. \n\nHowever, I agree with what Takanori Nakane wrote on the CCP-EM list: there \nisn't much benefit in tuning these settings if you're going to run RELION's \nreference-based polishing afterwards, because the latter is going to be \nmore accurate in most cases and has a wide convergence radius.\n\nCheers,\nDimitry\n\n\nOn Monday, October 21, 2019 at 8:55:17 PM UTC+2, Andrey Malyutin wrote:\n>\n> For CTF estimation it is relatively easy to compare output between \n> different initial values. However, comparing output from various motion \n> correction parameters is not. Would anyone be able to recommend a strategy \n> to optimize motion cor parameters? \n>\n> Thank you,\n>\n> Andrey\n>"
+}

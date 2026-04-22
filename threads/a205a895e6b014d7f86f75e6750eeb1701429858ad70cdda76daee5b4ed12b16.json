@@ -1,0 +1,8 @@
+{
+  "message_id": "<2cbedffc-f268-4c68-820e-7b5b555f2534n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Error: \"System.Exception\" in M subtomo refine AGAIN",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 4 May 2021 04:07:19 -0700 (PDT)",
+  "body": "When I did the sub-tomo averaging refinement, it stopped at this step in \nthe figure.\n\nI wanted to know how to deal with that.\n\nThe GPU was Quadro GV100 32GB *2. The memory size was 128GB."
+}

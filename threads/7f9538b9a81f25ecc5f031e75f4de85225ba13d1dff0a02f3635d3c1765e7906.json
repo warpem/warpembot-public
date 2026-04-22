@@ -1,0 +1,8 @@
+{
+  "message_id": "<98c91b4d-9b45-4bbd-baa4-74c36b08d608n@googlegroups.com>",
+  "thread_id": "161b656e-ca33-4e34-9523-fe1b4bd3625d",
+  "subject": "Experiences building WarpTools v2.0.0dev36, dev37, or dev38 from source?",
+  "sender": "Chris <ccaffalette@gmail.com>",
+  "date": "2026-04-20T16:36:22+00:00",
+  "body": "Hi All,\nDoes anyone have experience building WarpTools v2.0.0dev36, dev37, or dev38 \non a RHEL 8.x (e.g. Rocky Linux 8.4 or 8.5) machine with glibc 2.28?\n\nI am hoping to get at least dev36 running on a Rocky Linux 8.x machine with \nglibc 2.28 quickly then upgrade the OS later.  I also expect to build from \nsource with Rocky Linux 9.x since glibc is 2.34, and the WarpTools \n2.0.0dev37 pre-built conda package asked for glibc 2.38.\n\nSince the most likely outcome is building from source no matter what, I was \ninterested to know if there any positive experiences (or any watch-outs) \nfor building from source. I would like to know if building dev36, dev37 or \neven dev38 would enable compatibility with older glibc 2.28 on RHEL 8.\n\nThanks!\n\nChris\n\n-- \nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\nTo unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\nTo view this discussion visit https://groups.google.com/d/msgid/warp-em/98c91b4d-9b45-4bbd-baa4-74c36b08d608n%40googlegroups.com.\n"
+}

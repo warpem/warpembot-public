@@ -1,0 +1,8 @@
+{
+  "message_id": "<8f8d0130-78ae-4ec6-8c71-be92039b671b@googlegroups.com>",
+  "thread_id": "<323b8958-d874-430f-8567-7e16ada73f77@googlegroups.com>",
+  "subject": "Re: deselected micrographs",
+  "sender": "Yong-Hui Sung <yonghuisung@gmail.com>",
+  "date": "Tue, 4 Jun 2019 03:24:32 -0700 (PDT)",
+  "body": "Hi, \n\nI do get the same issue a bunch of micrographs just get randomly deselected \nin my case its 600 out 6000. If I manually select them they seem to work \nwith the current settings.  However, it is quite some effort to get them \nback by clicking in the gui or finding the respective XML files. \n\nIs there a faster way? \n\nbest, \n\nYHS\n\nOn Wednesday, March 6, 2019 at 4:44:35 PM UTC+1, Dimitry Tegunov wrote:\n>\n> Hi Gabor,\n>\n> the easiest would be to delete the corresponding .xml files and restart \n> Warp. Items become deselected if something goes wrong during processing. In \n> most cases the CTF is unfittable with the current parameters, or you don't \n> have write permissions to save the results. It would be important to figure \n> out what went wrong, otherwise the items will turn grey again.\n>\n> Cheers,\n> Dimitry\n>\n> On Monday, March 4, 2019 at 1:28:22 PM UTC+1, Gabor Papai wrote:\n>>\n>> Hi Dimitry,\n>>\n>> I had a strange behavior of Warp this weekend: after processing around \n>> 3500 tiffs all the new entries got deselected and they were not processed. \n>> I don't know why this happened. \n>> I can re-select the tiffs manually, but I don't know how to re-select \n>> them all, not one-by-one.\n>>\n>> Thanks,\n>> Gabor\n>>\n>"
+}

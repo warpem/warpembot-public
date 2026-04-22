@@ -1,0 +1,8 @@
+{
+  "message_id": "<9536a8e0-64a7-45b8-8b8b-379c82ee8154n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp issues with multiple off-axis target collection naming\r\n convention",
+  "sender": "Emma Buzzard <emma.j.buzzard@gmail.com>",
+  "date": "Mon, 16 Jan 2023 06:43:25 -0800 (PST)",
+  "body": "Dear All,\n\nWarp seems to being have issues with the naming convention arising from my \nmultiple off-axis target data collection using Tomo 5.11.\n\nIn this collection, multiple tomograms could be collected per tracking \narea. So if 4 tomograms are collected at a single position/tracking area \nthey would be named Position_1, Position_1_2, Position_1_3 and \nPosition_1_4, for example.\n\nThis can result in tomograms with similar names e.g. Position_22, \nPosition_22_2 and Position_2.\n\nWhen I try to reconstruct subtomograms from my picked particles from this \ndataset in Warp, the programme seems to get confused by similar names \narising from this convention, and repeats the extraction for Position_22 \nthree times instead of extracting the particles picked from Position_22_2 \nand Position_2.\n\ni.e. 3 subtomo folders are created, but they all contain the same number of \nparticles, and identical particle co-ordinates, all for Position_22.\n\nWe have tried to solve this issue by replacing underscores with zeroes in \nthe names, but we are still having the same problem.\n\nDoes anyone have any suggestions on how we can get around this issue?\n\nMany thanks,\nEmma"
+}

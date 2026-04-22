@@ -1,0 +1,8 @@
+{
+  "message_id": "<d9fd646e-cb93-43f9-b1b6-f34cea69ad20n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M crashes before refinement",
+  "sender": "Hao Wang <wanghaoaccount@126.com>",
+  "date": "Mon, 16 May 2022 01:19:32 -0700 (PDT)",
+  "body": "Hello everyone:\n\nI face a problem when performing refinement with M. Exactly, I succeed to \ncreating a population, a species and a mask. Mask creation was done by the \nbuild-in function of M. \n\nThen I pressed the big \"REFINE\" button. The pop-up windows showed \n\"Preparing refinement requisites\".Unfortunately, after waiting for minutes, \nM crashed.\n\nThe parameters of M refinement are shown below.\n[image: M_refine_1.png]\nThe pop-up error information and contents of \"lastcrash.txt\" are shown \nbelow.\n[image: M_error.png]\n[image: M_error_1.png]\nAny suggestions?\n\nBest wishes.\nHao"
+}

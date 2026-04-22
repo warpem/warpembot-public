@@ -1,0 +1,8 @@
+{
+  "message_id": "<7c2d96ca-2e5e-4ae4-904f-dbda261ee968@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Can't run, is this a known thing?",
+  "sender": "Bart Alewijnse <scarfboy@gmail.com>",
+  "date": "Tue, 26 Jun 2018 06:39:56 -0700 (PDT)",
+  "body": "Hi, I can't start wrap. \n\nIt gives me a dialog box complaining it can't find CUDA devices (which I \nthink isn't correct, e.g. CUDA-Z seems happy, and because...).\n\n...At first with the explanation that it couldn't find GPUAcceleration.dll \n(in the same directory)\n\n\nI then tried to compile the thing from source, which I failed to do \n(dependency blah, gave up),\nbut this seems to have changed the dialog box's explanation to a \nSystem.Exception in Warp.MainWindow..ctor()\n\n\nThis sounds like it may be a simple stupid thing I'm doing wrong?"
+}

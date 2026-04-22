@@ -1,0 +1,8 @@
+{
+  "message_id": "<1729aa54-27ef-4501-bba8-a19497136b14n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "using WARP to extract subvolumes from AREtomo tomograms",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Fri, 1 Dec 2023 02:32:09 -0800 (PST)",
+  "body": "hi all,\n\nI know this must sound ridiculous, but I'm wondering whether it's possible \nto somehow provide WARP with an AREtomo reconstruction then do subtomo \nextraction on it.  I guess not, since WARP does \"on-the-fly\" subtomo \ngeneration using either frames or averaged/aligned movies.   This is \nfundamentally different than packages which simply crop the tomogram to \ngenerate subvolumes (e.g. dynamo?). Since my understanding is that AREtomo \nwill produce better subtomos than WARP early on, I could use those \nsubvolumes to obtain orientations then later switch back to the \nWARP/RELION/M pipeline. \n\nSecond question: is the on-the-fly processing done from the frames or from \nthe aligned/averaged movies.  I ask because if it's the latter can I \nconceivably alter contrast of some of those averages and have that take \naffect in the tomo/subtomo recon?\n\nthanks!  \n\nJesse"
+}

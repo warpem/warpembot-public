@@ -1,0 +1,8 @@
+{
+  "message_id": "<d5f69a2d-248e-4a48-b43d-71cc8ee6ea4e@googlegroups.com>",
+  "thread_id": "<cf8d27d9-7914-4c68-800e-d0a80169b90a@googlegroups.com>",
+  "subject": "Re: Tomogram CTF estimation / Reconstruction of CTF corrected\r\n tomograms",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Tue, 3 Dec 2019 11:04:22 -0800 (PST)",
+  "body": "Hi Dmitry,\r\n\r\nThe having crashed previously is definitely a possibility, my first tests were just hitting buttons to try things without really knowing what was happening. The tip about the tomostar and xml files is useful, thank you.\r\n\r\nI did the control about half an hour ago with EMD-10164 (HIV) and unfortunately that works fine under the same workflow - I’ll dig a little deeper and send you a tilt-series tomorrow!\r\n\r\nCheers,\r\n\r\nAlister"
+}

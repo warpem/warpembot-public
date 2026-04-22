@@ -1,0 +1,8 @@
+{
+  "message_id": "<6886e9e0-bc13-4baf-8f7a-c77aa801285fn@googlegroups.com>",
+  "thread_id": "<f7d2ecf6-a1b4-458c-b960-fa07abdacbc6n@googlegroups.com>",
+  "subject": "Re: Subtomogram reconstruction bin4>bin2",
+  "sender": "Josh Jenkins <joshuajjenkins1@gmail.com>",
+  "date": "Sun, 26 May 2024 05:47:52 -0700 (PDT)",
+  "body": "Update: the script I was using to pass information from relion to warp had \r\n(unintentionally) removed the last 3 labels from the data block. Adding \r\nthese back to the star file has fixed the issue!\r\n\r\nOn Friday 24 May 2024 at 15:23:13 UTC+1 Josh Jenkins wrote:\r\n\r\n> Hello Everyone, \r\n>\r\n>  \r\n>\r\n> I’ve reconstructed bin4 subtomograms with no issues and have taken these \r\n> into relion. When I try to reconstruct the refined subtomograms at bin2, \r\n> warp doesn’t write any subvolumes to the subtomo directory. I’ve checked \r\n> the input star file(s) and the format is consistent with previous star \r\n> files I’ve used that have worked. I’m also using near-identical inputs to \r\n> previous datasets that have worked. When I’m prompted to save the scaled \r\n> subvolumes to the output star file, warp returns me to the overview tab \r\n> without crashing. It also doesn’t save the output star file.\r\n>\r\n>  \r\n>\r\n> Any suggestions on what I could check or change to troubleshoot this would \r\n> be much appreciated.\r\n>\r\n>  \r\n>\r\n> Many thanks,\r\n>\r\n> Josh\r\n>"
+}

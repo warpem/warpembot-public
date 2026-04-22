@@ -1,0 +1,8 @@
+{
+  "message_id": "<11aea60b-3bd4-44b2-b81c-de5a740198ef@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Downsample image for CTF estimation?",
+  "sender": "Andrea Nans <andrea.nans@gmail.com>",
+  "date": "Thu, 16 Aug 2018 09:29:52 -0700 (PDT)",
+  "body": "Hi Dmitry,\n\nJust wondering if it will ever be possible to downsample the image for CTF \nestimation but carry out the motion-correction and particle picking on the \nun-binned image?\n\nThanks\n\nAndrea"
+}

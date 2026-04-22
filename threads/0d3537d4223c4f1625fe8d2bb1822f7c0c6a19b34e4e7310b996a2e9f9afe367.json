@@ -1,0 +1,8 @@
+{
+  "message_id": "<f55c3abf-5dee-4629-a5d3-5b725a7f3a4e@googlegroups.com>",
+  "thread_id": "<a1db928c-dcb6-4420-8569-50cc93747d11@googlegroups.com>",
+  "subject": "Re: Black micrographs for 90% of data set",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 26 Jul 2018 10:34:04 -0700 (PDT)",
+  "body": "Hi Jon,\n\nmy first guess would be the GPU running out of memory. Could you please \ndescribe your hardware configuration and processing settings? I can also \nlook at one of the problematic movies if you upload it somewhere.\n\nCheers,\nDimitry\n\n\nOn Thursday, July 26, 2018 at 5:16:33 PM UTC+2, Jonathan Grimes wrote:\n>\n>\n> We are trying to process 2 data sets collected using VPP and Falcon III \n> detectors. \n>\n>\n> Previous processing with motioncorr2 gave nice results but the processing \n> in warp gave black micrographs in the real Space tab for ~90% of the data \n> set. \n>\n>\n> Did you already observed this issue?\n>\n>\n> Is there something that we are missing.  i can post the saved settings if \n> this will help\n>\n>\n> thanks\n>\n> jon grimes\n>\n>\n>\n>\n>\n>\n>"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<05EAD95B-1763-4AAB-95D2-5FF83F82B340@gmail.com>",
+  "thread_id": "<CAHNYQ5qL+u3d8dt_uofPiU6Dw+JXhqZUFD0KwWvnnKX24RjRDg@mail.gmail.com>",
+  "subject": "Re: warp/M in a virtual instance",
+  "sender": "Wim Hagen <wimhag@gmail.com>",
+  "date": "Sun, 11 Oct 2020 11:27:57 +0200",
+  "body": "Hi Pranav,\r\n\r\nHere’s our setup:\r\n\r\nhttps://www.embl.de/services/itservices/empowering-science/3D-Cloud/\r\n\r\nOne basically rents VM’s from IT, these VM’s can always be adapted resource-wise (CPU’s, memory, GPU’s etc.).\r\n\r\nBest,\r\n\r\nWim\r\n\r\n> On 9. Oct 2020, at 14:50, Pranav Shah <p.shah.lab@gmail.com> wrote:\r\n> \r\n> ﻿\r\n> Hi Dimitry, \r\n> \r\n> We are exploring the possibility of running Warp/M in a virtual instance of Windows. Do you think that it is possible?\r\n> \r\n> Best,\r\n> Pranav\r\n> --\r\n> Pranav Shah\r\n> Postdoctoral Research Fellow.\r\n> \r\n> Division of Structural Biology,\r\n> Wellcome Trust Centre for Human Genetics,\r\n> University of Oxford,\r\n> Roosevelt Drive, Oxford OX3 7BN,\r\n> UK\r\n> -- \r\n> You received this message because you are subscribed to the Google Groups \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion on the web visit https://groups.google.com/d/msgid/warp-em/CAHNYQ5qL%2Bu3d8dt_uofPiU6Dw%2BJXhqZUFD0KwWvnnKX24RjRDg%40mail.gmail.com."
+}

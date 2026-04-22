@@ -1,0 +1,8 @@
+{
+  "message_id": "<d047310e-116f-4f15-bf2b-dda10acd4121n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "tensorflow error when particle picking",
+  "sender": "Dominique <domgutier@gmail.com>",
+  "date": "Wed, 1 Dec 2021 12:07:16 -0800 (PST)",
+  "body": "Hello I have a windows laptop with these specs\n\nProcessor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz   2.60 GHz\nInstalled RAM 32.0 GB (31.8 GB usable)\nDevice ID C7DFC50F-AE3A-4D98-8B8C-0790472B6BEF\nProduct ID 00325-81709-59805-AAOEM\nSystem type 64-bit operating system, x64-based processor\n1X Nvidia GeForce GTX 1660 Ti\n\nI installed WARP 1.09 on it and everything ran except for particle picking. \nI get the error message in the screenshot."
+}

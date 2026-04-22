@@ -1,0 +1,8 @@
+{
+  "message_id": "<5985a0c0-50d2-4f39-b597-6e0d5e1ccbdcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "refine_stageangles",
+  "sender": "P C <peter.p.cherepanov@gmail.com>",
+  "date": "Mon, 6 Oct 2025 16:11:58 -0700 (PDT)",
+  "body": "Hi all, \n\nWhat does --refine_stageangles switch do exactly? In particular, does it \nrefine individual tilt angles (per tilt series)? If it does, the logic \ntells us it should refine tilt shifts as well. \nIf this is the case, this option unlocks Emclarity/Relion-style frame \nalignment.\n\nSomewhat related to this: what would be the meaning of --refine_imagewarp \n1x1? Does it amount to full frame XY shift refinement? (In which case \ncombining it with stage angle refinement could help to fine-tune tilt \nseries alignment). \n\nUltimately, I am looking for the best ways to improve the entire tomogram \nreconstruction, which could allow us to identify finer details of a \nbiological assembly. What would be the best way of doing something like \nthat in Warp/M?\n\nPeter"
+}

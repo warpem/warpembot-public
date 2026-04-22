@@ -1,0 +1,8 @@
+{
+  "message_id": "<82fed9a4-2bc2-42c4-9756-585dbea24797n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Placing subtomogram averages back in tomogram",
+  "sender": "=?UTF-8?Q?Matthias_Vorl=C3=A4nder?= <mvorlaender@gmail.com>",
+  "date": "Thu, 27 May 2021 00:58:19 -0700 (PDT)",
+  "body": "Hi all, \n\nwhile this is admittedly not directly a Warp/M question, I wondered if \nanyone knew how to use the relion star file to place copies of the refined \nsubtomogram average map back into the tomogram, preferably in ChimeraX. I \nmanaged to apply the shifts alright, but I am struggling to rotate the map \nproperly using the euler angles from relion. \n\nThanks in advance.\nMatthias"
+}

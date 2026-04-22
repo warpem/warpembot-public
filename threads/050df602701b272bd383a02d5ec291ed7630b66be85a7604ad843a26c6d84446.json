@@ -1,0 +1,8 @@
+{
+  "message_id": "<abaacbb3-290d-429c-8566-b12440a3101dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Questions regarding CTF estimation in WarpTools",
+  "sender": "Luis Carreira <luismenezescarreira@gmail.com>",
+  "date": "Wed, 29 Jan 2025 07:25:35 -0800 (PST)",
+  "body": "Dear all,\n\nI am writing this message to understand a bit more how CTF estimation is \nperformed in Warp. I have followed the tutorial in:\nhttps://warpem.github.io/warp/user_guide/warptools/quick_start_warptools_tilt_series/#download-the-data\n\nIn this tutorial we perform two CTF estimation steps, during frame series \nand tilt series. My first question is: does the second CTF estimation take \nany info from the first? \n\nMy second question is: is there a way to have access to the defocus per \ntilt image? As far as I am aware, the WarpTools filter_quality for the \nframes series only gives the histogram and the WarpTools filter_quality for \nthe tilt series only gives the average defocus of the tilt series.  \n\nThanks,\n\nLuis"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<f2beee3f-73d0-4c84-b5ab-01466bb5722fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M stuck at \"precomputing gradient weights\"",
+  "sender": "Felix Lange <felix.lange.le@gmail.com>",
+  "date": "Thu, 22 Jun 2023 03:46:42 -0700 (PDT)",
+  "body": "Hi guys,\n\nI wanted to test M on some particles but after the initial preparation the \nwarp worker closed and M is stuck on precomputing gradient weights and it \ndoes not look like any process is actually running. Could this be due to a \nweak hardware (I only have a single 1080Ti on this machine) or am I missing \nsomething else. The setup of all files actually seems alright. Thanks for \nany suggestions and cheers,\n\nFelix"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<07fba580-7a19-404b-aa2a-5c540019b2c4@googlegroups.com>",
+  "thread_id": "",
+  "subject": "GUI crashing without error when using neural networks",
+  "sender": "Michael Saur <2michael.saur@gmail.com>",
+  "date": "Fri, 8 Feb 2019 08:19:25 -0800 (PST)",
+  "body": "Hi everyone,\n\nWe recently installed Warp on a Windows 10 machine to test it. It seems to \nrun fine for CTF estimation and motion correction. However, whenever I want \nto use any neural network-based calculation, i.e. picking and denoising, \nthe GPU activity in the Task Manager briefly spikes to 100% and the Warp \nGUI crashes. The LastCrash.txt file does not show any error.\n\nThe Event Viewer log states the following:\n\nFaulting application name: Warp.exe, version: 1.0.6.0, time stamp: \n0x5bf461d6\n\nFaulting module name: ucrtbase.dll, version: 10.0.17763.1, time stamp: \n0x309241e0\n\nException code: 0xc0000409\n\nFault offset: 0x000000000006f08e\n\nFaulting process id: 0xce4\n\nFaulting application start time: 0x01d4bf1122b93f85\n\nFaulting application path: C:\\Warp\\Warp.exe\n\nFaulting module path: C:\\windows\\System32\\ucrtbase.dll\n\nReport Id: 040a30f6-fb31-4ba0-86dd-b8bc859cdacd\n\nFaulting package full name: \n\nFaulting package-relative application ID:\n\n\nHas anybody encountered this specific behaviour and perhaps solved it? We \nwanted to try a different build or a Windows 7 install next, to rule out \nbuild-specific issues.\n\n\nThanks in advance for any clues,\n\n\nMichael"
+}

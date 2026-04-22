@@ -1,0 +1,8 @@
+{
+  "message_id": "<930644f6-b150-4b99-951c-bfe474bc3486n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "PCA3D in the source code",
+  "sender": "phonchi chung <steve2003121@gmail.com>",
+  "date": "Tue, 4 May 2021 08:25:53 -0700 (PDT)",
+  "body": "Dear developers:\n\nI found that there is a directory in the source code repository \nhttps://github.com/cramerlab/warp  <https://github.com/cramerlab/warp>named \n\"PCA3D\".\n\nI wondered if it performs a similar function as CryoSparc's 3DVA or what is \nthe major difference between these two methods.\n\nThanks in advance!"
+}

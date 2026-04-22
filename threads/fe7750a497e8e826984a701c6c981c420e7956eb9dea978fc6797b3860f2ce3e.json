@@ -1,0 +1,8 @@
+{
+  "message_id": "<971df9c4-df81-4aba-97e2-5b8a5f0940dbn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "No movies found",
+  "sender": "Daniel Ziemianowicz <daniel.ziemianowicz@embl-hamburg.de>",
+  "date": "Tue, 12 Oct 2021 05:31:02 -0700 (PDT)",
+  "body": "I'm following the quick start guide, and although everything appears \nstraightforward to me, I can't get past the first step.\n\nAfter specifying 1) the folder with movies and 2) folder with .mdoc files I \nget the message \"No movies found for TS_01.mrc, or none have been processed \nin Warp yet.\" and I do not get a list with checkboxes visible on the right \nside. \n\nThe directory I specify for 1 and 2 contain the .mdoc and the set of \nindividual tilt movies. I suspect I'm missing something obvious here \nbecause I can't find any other similar questions in this group."
+}

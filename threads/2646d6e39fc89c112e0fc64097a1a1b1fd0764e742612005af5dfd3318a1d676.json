@@ -1,0 +1,8 @@
+{
+  "message_id": "<ad2a017f-a581-4cf3-a6b9-57f4511aeb42n@googlegroups.com>",
+  "thread_id": "<89b19e3c-30a8-434a-a488-37100c684306n@googlegroups.com>",
+  "subject": "Re: Manually Picking Particles",
+  "sender": "Digvijay Singh <digvijay.in1@gmail.com>",
+  "date": "Mon, 6 May 2024 12:50:10 -0700 (PDT)",
+  "body": "The WARP family comes with a picking software called cube \r\n<https://github.com/dtegunov/cube>\r\n\r\nYou may find its executable in your Windows' /ProgramFiles/WARP/\r\n\r\nYou can load up any reconstructions from WARP into cube and then using left \r\nclicks, you can manually annotate your particles, which can then be \r\nimported into .star which can be directly used in WARP for generating \r\nsubtomograms. \r\n\r\nHTH & cheers,\r\nDigvijay\r\n\r\nOn Friday, April 26, 2024 at 11:40:20 AM UTC-7 Kyle Messina wrote:\r\n\r\n> Hello,\r\n>\r\n> I was able to get around the issues I was previously having but the \r\n> particle picker still does not recognize my particle that well.  \r\n> Fortunately, my particles have enough contrast that I can manually pick \r\n> them from the dozen or so tomograms I have at the moment.  The Warp \r\n> tutorial does not have a guide for manually picking, so I was wondering if \r\n> it was possible to manually pick particles within Warp or if there are \r\n> other recommended programs for picking particles.  I'm fine with either so \r\n> any suggestions and tips are appreciated!\r\n>\r\n> Thank you in advance!\r\n> Kyle\r\n>\r\n>"
+}

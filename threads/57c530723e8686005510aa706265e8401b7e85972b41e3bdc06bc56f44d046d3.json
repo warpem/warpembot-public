@@ -1,0 +1,8 @@
+{
+  "message_id": "<cf64b3aa-348c-458c-a5e8-445a7d84505bn@googlegroups.com>",
+  "thread_id": "<CAHNYQ5qL+u3d8dt_uofPiU6Dw+JXhqZUFD0KwWvnnKX24RjRDg@mail.gmail.com>",
+  "subject": "Re: warp/M in a virtual instance",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Sat, 10 Oct 2020 13:37:17 -0700 (PDT)",
+  "body": "Hi Pranav,\n\nI don't have any experience with running Warp on a VM, but I know the folks \nat EMBL Heidelberg do it all the time. Though I think their instances run \non the Nvidia GRID platform, which is probably not what you had in mind. \nWindows guests on a Linux host system with GPU pass-through have also been \nreported to work.\n\nCheers,\nDimitry\n\nOn Friday, October 9, 2020 at 2:50:30 PM UTC+2 p.sha...@gmail.com wrote:\n\n> Hi Dimitry, \n>\n> We are exploring the possibility of running Warp/M in a virtual instance \n> of Windows. Do you think that it is possible?\n>\n> Best,\n> Pranav\n> --\n> Pranav Shah\n> Postdoctoral Research Fellow.\n>\n> Division of Structural Biology,\n> Wellcome Trust Centre for Human Genetics,\n> University of Oxford,\n> Roosevelt Drive, Oxford OX3 7BN,\n> UK\n>"
+}

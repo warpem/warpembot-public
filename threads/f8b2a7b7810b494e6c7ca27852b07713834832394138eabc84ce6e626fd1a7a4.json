@@ -1,0 +1,8 @@
+{
+  "message_id": "<853e8488-d265-46e6-9f1f-4cbc451b2652n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M estimateweights error",
+  "sender": "=?UTF-8?B?6ams5Y2T5aaN?= <zhuoyanma626@gmail.com>",
+  "date": "Wed, 22 Oct 2025 19:32:17 -0700 (PDT)",
+  "body": "Hi everyone!\nI am doing M refinement of tomograph, and when I got to estimateweights \nresolve frames, I encountered an error. Moreover, I couldn't find the error \nfile. \nHow should I resolve this?\n\n(warp) mazhy@gpuserver:/data/mazhy/warp$ EstimateWeights --population \nm/52126.population --source 52114 52113 --resolve_frames\nDiscovering items with data... 2/9\nLoading correlation data... 2/2\nFitting... 100.0000 %\nSaving metadata... 2/2\nDiscovering items with data... 2/16\nLoading correlation data... 1/2Unhandled exception. \nSystem.ArgumentOutOfRangeException: Index was out of range. Must be \nnon-negative and less than the size of the collection. (Parameter 'index')\nat System.Collections.Generic.List`1.get_Item(Int32 index)\nat EstimateWeights.EstimateWeights.Main(String[] args) in \n/usr/share/miniconda/envs/package-build/conda-bld/warp_1741217580690/work/EstimateWeights/EstimateWeights.cs:line \n339\nAborted (core dumped)\n\nBest\nAlice"
+}

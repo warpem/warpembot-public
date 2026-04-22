@@ -1,0 +1,8 @@
+{
+  "message_id": "<49152b6b-ea01-444e-be67-0ffb41334d1c@googlegroups.com>",
+  "thread_id": "<11aea60b-3bd4-44b2-b81c-de5a740198ef@googlegroups.com>",
+  "subject": "Re: Downsample image for CTF estimation?",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Thu, 16 Aug 2018 10:01:11 -0700 (PDT)",
+  "body": "Hi Andrea,\n\nI'm afraid this isn't planned at the moment. What would be the intended use \ncase? Please note that limiting the frequency range used for CTF fitting \nhas the same effect.\n\nCheers,\nDimitry\n\n\nOn Thursday, August 16, 2018 at 6:29:52 PM UTC+2, Andrea Nans wrote:\n>\n> Hi Dmitry,\n>\n> Just wondering if it will ever be possible to downsample the image for CTF \n> estimation but carry out the motion-correction and particle picking on the \n> un-binned image?\n>\n> Thanks\n>\n> Andrea\n>"
+}

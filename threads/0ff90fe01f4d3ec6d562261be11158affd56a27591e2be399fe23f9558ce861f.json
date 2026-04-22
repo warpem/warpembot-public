@@ -1,0 +1,8 @@
+{
+  "message_id": "<9553ba6e-890f-4056-a645-0b520fbd59dcn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M to Relion5",
+  "sender": "Mart Last <mgflast@gmail.com>",
+  "date": "Thu, 26 Jun 2025 06:03:09 -0700 (PDT)",
+  "body": "Hi,\n\nSorry if this has been asked before and/or is very obvious but I couldn't \nfind anything about it.\n\nI reached 4 A with M and without classifying particles. I'd like to try to \nsift out the worst particles in Relion5 (or in M, but I don't think that's \na feature?) to see if the resolution can improve further.\n\nIs there an easy way to export all particle coordinates and poses in a \nformat that Relion5 can ingest?\n\nBest,\nMart"
+}

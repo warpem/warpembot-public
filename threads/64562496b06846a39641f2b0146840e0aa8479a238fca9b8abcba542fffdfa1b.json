@@ -1,0 +1,8 @@
+{
+  "message_id": "<d9f9ac92-e0d0-4352-922c-55604be571a2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M crashed when I import the species",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Thu, 15 Apr 2021 02:30:02 -0700 (PDT)",
+  "body": "Hi,\nthe lastcrash.txt had some error imformation:\n\n04/15/2021 17:06:07:\nSystem.NullReferenceException: Object reference not set to an instance of \nan object.\n   at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n301\n   at Warp.NoiseNet3D.Finalize() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n290\n   at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n301\n   at Warp.NoiseNet3D.Finalize() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n290\n\nAnd I reconstruct the tomogram with binning 1. Then I used Warp to bin 8 \nfor the full tomogram reconstruction and bin 4 for subtomogram \nreconstruction. And in M, I specified the parameter as figures. You may use \nthem."
+}

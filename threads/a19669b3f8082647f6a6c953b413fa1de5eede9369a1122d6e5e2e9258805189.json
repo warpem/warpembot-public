@@ -1,0 +1,8 @@
+{
+  "message_id": "<e389392e-3974-4b10-915a-fa9ddda8b114n@googlegroups.com>",
+  "thread_id": "<ed3bec05-1867-4223-b776-cd61ab1c687dn@googlegroups.com>",
+  "subject": "Re: Particles polishing error \"There is no movie metadata STAR file\r\n for any micrographs!\", (Warp 1.0.7)",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Tue, 1 Sep 2020 05:05:29 -0700 (PDT)",
+  "body": "Hi,\n\nthis usually has to do with mismatched paths. Polishing should work with \n3.1 otherwise.\n\nCheers,\nDimitry\n\nOn Friday, August 28, 2020 at 3:30:06 AM UTC+2 aji...@gmail.com wrote:\n\n> same happens to me, warp 1.0.9, i use relion 3.1, is there a solution?\n> thanks\n>\n> On Monday, April 13, 2020 at 10:07:31 PM UTC+8 alexandre....@gmail.com \n> wrote:\n>\n>> Dear all,\n>>\n>> Is particle polishing in Relion working for anybody, using Warp data?\n>> Once I have exported the micrograph star file, including polishing files, \n>> how do you proceed? I run the bayesian polishing as explained in the \n>> documentation, and get the following error message:\n>>\n>> ERROR: \n>> There is no movie metadata STAR file for any micrographs!\n>>\n>> I do have the motion/ directory with all the star files, and paths look \n>> ok to me.\n>>\n>> Any clue?\n>>\n>> Thanks\n>>\n>"
+}

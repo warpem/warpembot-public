@@ -1,0 +1,8 @@
+{
+  "message_id": "<cde1f717-70aa-4910-a919-6354f6140965n@googlegroups.com>",
+  "thread_id": "<60c098a0-8706-4026-8fba-7816d2638df4n@googlegroups.com>",
+  "subject": "Re: Issues with GPU's in Warp",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Tue, 15 Sep 2020 15:07:35 -0700 (PDT)",
+  "body": "Hi Chris,\n\ndoes it matter which GPU you deselect? How much CPU RAM does that machine \nhave? Related to the slow speed: what's the network connection like and \nwhat format do you use for the data?\n\nCheers,\nDimitry\n\nOn Tuesday, September 15, 2020 at 8:11:18 PM UTC+2 C Arthur wrote:\n\n> Hi all, I am running Warp 1.0.9 with two GPU's\n> - GeForce GTX 1080 Ti\n> - GeForce RTX 2080 Ti\n>\n> Our data is being stored in a different location and we make symlinks to \n> it locally on the Warp PC.\n> When I start Warp, I select both GPU's (upper right), and in the Global \n> settings I have 1 processor: <Param Name=\"ProcessesPerDevice\" Value=\"1\" />\n> Within 30 seconds Warp Worker crashes.\n> If I select just one GPU then it will run, but very slowly (~80 movies/hr)\n> If I load in about 500 movies locally, select both GPU's and set Processor \n> to 1, it will run at about 200movies/hr, but if I switch to 2 processors, \n> Warp worker crashes.\n> Any pointers on troubleshooting this? I am also trying to find any sort of \n> a log file that is generated.\n> Thanks!\n> -Chris\n>"
+}

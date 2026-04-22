@@ -1,0 +1,8 @@
+{
+  "message_id": "<82613d30-c84d-44b7-9c47-d0c1fa3d8c07@googlegroups.com>",
+  "thread_id": "<c59b361b-f540-42bb-b594-ace95da003f9@googlegroups.com>",
+  "subject": "Re: Can't run, is this a known thing?",
+  "sender": "Bart Alewijnse <scarfboy@gmail.com>",
+  "date": "Wed, 27 Jun 2018 04:56:27 -0700 (PDT)",
+  "body": "It's a GTX 960, so Maxwell.\n\nA bunch of runtimes got installed when I trued to set up the visual studio \nenvironment, which is probably why it changed from that first error to \nexception in ctor() error.\n\nWhoop, updated the nvidia driver and that fixed it.\n\nSlightly nicer error message might be nice though :)"
+}

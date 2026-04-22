@@ -1,0 +1,8 @@
+{
+  "message_id": "<7141310c-06e0-40a4-934f-dab56af6687fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Continuing frame processing after stopping",
+  "sender": "Joshua Hutchings <jhutchings94@googlemail.com>",
+  "date": "Fri, 10 Jan 2025 11:30:13 -0800 (PST)",
+  "body": "Hi all,\n\nIf I stop frame processing with WarpTools and then continue it, should it \ncontinue from where it left off when restarting it?\n\nI'm processing a large dataset which was interrupted at ~80% of the way \nthrough. After repeating fs_motion_and_ctf, it detects the previously \nprocessed metadata, but still seems to re-process them anyway. \n\nIs this the expected behaviour, and is there a way to stop it reprocessing \nthe processed frames? This is with WarpTools v2.0.0dev31.\n\nThanks!\nJosh"
+}

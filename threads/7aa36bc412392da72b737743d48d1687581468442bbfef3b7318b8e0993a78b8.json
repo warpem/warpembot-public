@@ -1,0 +1,8 @@
+{
+  "message_id": "<1670142a-236c-4000-8a0a-a39a70b7b45cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "M Crashes during species creation",
+  "sender": "Ben Creekmore <bencreekmo@gmail.com>",
+  "date": "Mon, 22 Feb 2021 11:18:02 -0800 (PST)",
+  "body": "Hello, \n\nI am trying to import a species into M that I have exported from Warp and \nrefined in Relion. When I try to create the species using a Relion star \nfile M crashes and gives this error: \n\nSystem.NullReferenceException: Object reference not set to an instance of \nan object.\n   at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n301\n   at Warp.NoiseNet3D.Finalize() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n290\n   at Warp.NoiseNet3D.Dispose() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n301\n   at Warp.NoiseNet3D.Finalize() in D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line \n290\n\nDo you have any ideas what I may be doing wrong?\n\nThanks,\nBen"
+}

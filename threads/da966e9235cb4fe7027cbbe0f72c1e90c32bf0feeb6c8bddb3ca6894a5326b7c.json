@@ -1,0 +1,8 @@
+{
+  "message_id": "<61763f02-0322-4c5f-b20b-ff77e6ad1d57n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Template matching issue",
+  "sender": "Laina Nicole Hall <laina_hall@berkeley.edu>",
+  "date": "Mon, 20 Oct 2025 10:44:33 -0700 (PDT)",
+  "body": "Hi Warp team,\n\nI have been running template matching on some yeast tomograms and am not \ngetting any picks above lowest threshold (3). Most picks have scores of \nrlnAutopickFigureOfMerit ~1.5.\n\nI have tried:\n\n   - different templates\n   - different pixel size (10, 20 A)\n   - whitening or no whitening\n   - low pass filtering \n\n\nAny suggestions? Could this be an error somewhere in tomogram \nreconstruction?\n\n[image: image.png]\n\nThanks in advance,\nLaina"
+}

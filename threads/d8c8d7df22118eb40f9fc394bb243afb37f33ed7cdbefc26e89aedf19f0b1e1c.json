@@ -1,0 +1,8 @@
+{
+  "message_id": "<59bb0907-9bff-4b92-aba0-4cd278b4eda5n@googlegroups.com>",
+  "thread_id": "<d30a6a4b-2a86-409d-ad37-62c223de58fbn@googlegroups.com>",
+  "subject": "Re: \"Unhandled Exception\" when trying Noise2map on tomogram",
+  "sender": "=?UTF-8?Q?Florian_F=C3=A4=C3=9Fler?= <tuarhir@gmx.de>",
+  "date": "Fri, 19 Feb 2021 22:29:58 -0800 (PST)",
+  "body": "Hi Tom,\n\nas far as I can tell, a boolean missing after --dont_flatten_spectrum:\n\nnoise2map --observation1 even --observation2 odd --dont_flatten_spectrum \ntrue --iterations 15000 --batchsize 1 --gpuid_network 0 --gpuid_preprocess 0\n\nI hope this helps.\n\nCheers,\nFlorian\nthomas.la...@gmail.com schrieb am Freitag, 19. Februar 2021 um 23:51:09 \nUTC+1:\n\n> Hi everybody!\n>\n> Running into a bit of a snag trying to denoise a tomogram using Noise2map.\n>\n> When I run:\n> noise2map --observation1 even --observation2 odd --dont_flatten_spectrum \n> --iterations 15000 --batchsize 1 --gpuid_network 0 --gpuid_preprocess 0\n>\n> I get:\n> Unhandled Exception: System.IO.IOException: The handle is invalid\n>\n>     at System.IO._Error.WinIOError(Int32 errorCode, String maybeFullPath)\n>     at System.Console.GetBufferInfo(Boolean throwOnNoConsole, Boolean& \n> succeeded)\n>     at Noise2Map.Program.ClearCurrentConsoleLine() in \n> D:\\Dev2\\warp2\\Noise2Map\\Program.cs: line 614\n>     at Noise2Map.Program.Main(String[ ] args) in \n> D:\\warp2\\Noise2Map\\Program.cs:line 489\n>\n> Note sure what to do differently...\n>\n> Suggestions welcome.\n>\n> Cheers,\n> -Tom\n>"
+}

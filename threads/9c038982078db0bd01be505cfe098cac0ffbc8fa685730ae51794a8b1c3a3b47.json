@@ -1,0 +1,8 @@
+{
+  "message_id": "<5ccbd1f9-0f9b-4eea-831e-7d8e5ce9cfdbn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "A simple question about export tilt series for IMOD",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Tue, 9 Mar 2021 05:56:11 -0800 (PST)",
+  "body": "My dataset was collected as a storage form: directory1 & 1.mrc.mdoc & \r\ndirectory2 & 2.mrc.mdoc and so on. The tilt series are called \r\ntomo_0_0°.mrc  tomo_1_3°.mrc and so on. They are in the directory1,  \r\ndirectory2 and so on. So the file names are the same in different \r\ndirectories. Now, I want to do CTF estimation at a time. So I give all of \r\nthem a pre-suffix name, such as 1_tomo_0_0°.mrc, 1_tomo_1_3°.mrc, ... , \r\n2_tomo_0_0°.mrc, .... And I move all of them to a directory. And I can do \r\nit at a time. However, when I was exporting tilt series for IMOD, there was \r\nan error that 1.mrc.mdoc had not been pre-processed. How can I deal with \r\nit?"
+}

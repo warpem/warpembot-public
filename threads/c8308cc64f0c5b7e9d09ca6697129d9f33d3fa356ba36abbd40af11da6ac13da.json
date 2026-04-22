@@ -1,0 +1,8 @@
+{
+  "message_id": "<170EB534-996B-482E-83F6-FCFC0050AEEF@gmail.com>",
+  "thread_id": "<d6df5424-d666-42e6-8935-b1fd851192bdn@googlegroups.com>",
+  "subject": "Re: Gold removal in WarpTools",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Sat, 19 Apr 2025 10:12:11 +0100",
+  "body": "Hi Felix,\nBoxNet is still not in place in WarpTools so you’d have to use an external program for this for the moment - Connor Garrels at OHSU put together a protocol for doing this with fidder\nTomogram Reconstruction and Gold Fiducial Removal with Warp, Etomo, and Fidder\nprotocols.io\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Apr 18, 2025, at 19:10, Felix Lange <felix.lange.le@gmail.com> wrote:\n﻿Hi guys,\nwhat is the common procedure to remove gold fiducials in WarpTools? Can I feed in the masks made with Warp 1.0.9 or use fidder?\nThanks and best,\nFelix\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/d6df5424-d666-42e6-8935-b1fd851192bdn%40googlegroups.com\n."
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "github:warpem/warp/issues/459",
+  "thread_id": "github:warpem/warp/issues/459",
+  "subject": "WarpTools create_settings does not expose voltage as a configurable parameter",
+  "sender": "jowagner91",
+  "date": "2026-04-01T13:10:58Z",
+  "body": "create_settings has no --voltage option. This is inconsistent with fs_motion_and_ctf (--c_voltage) and fs_ctf (--voltage), which both expose it as a CLI argument. Voltage should be settable at settings creation time as well. Currently we patch it manually in the settings file so that the export star files from fs_export_particles contain the right information."
+}

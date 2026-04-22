@@ -1,0 +1,8 @@
+{
+  "message_id": "<5c147404-ea37-4aa8-9a9d-e673948b3b5cn@googlegroups.com>",
+  "thread_id": "<971df9c4-df81-4aba-97e2-5b8a5f0940dbn@googlegroups.com>",
+  "subject": "Re: No movies found",
+  "sender": "Stefan Oliver <sloliver@stanford.edu>",
+  "date": "Thu, 21 Oct 2021 10:13:34 -0700 (PDT)",
+  "body": "I have a similar issue with a current data set using .tif files and their \nassociated .mdoc files.  When I worked with the tutorial data EMPIAR-10164 \nthis portion of the pipeline did not have any issues.  I have a similar \nquestion, am I missing something obvious in the 2D processing that means \nthe movies are not being generated?  Thanks in advance for your help.  \n\nOn Tuesday, October 12, 2021 at 5:31:02 AM UTC-7 Daniel Ziemianowicz wrote:\n\n> I'm following the quick start guide, and although everything appears \n> straightforward to me, I can't get past the first step.\n>\n> After specifying 1) the folder with movies and 2) folder with .mdoc files \n> I get the message \"No movies found for TS_01.mrc, or none have been \n> processed in Warp yet.\" and I do not get a list with checkboxes visible on \n> the right side. \n>\n> The directory I specify for 1 and 2 contain the .mdoc and the set of \n> individual tilt movies. I suspect I'm missing something obvious here \n> because I can't find any other similar questions in this group. \n>\n>"
+}

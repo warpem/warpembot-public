@@ -1,0 +1,8 @@
+{
+  "message_id": "<5a98150b-7f23-4002-98cb-3377d94f30f2@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crashes with super resolution movies",
+  "sender": "Elad Elkayam <eladelkayam@gmail.com>",
+  "date": "Wed, 24 Oct 2018 11:53:54 -0700 (PDT)",
+  "body": "Hi Dimitry, \nWe started using warp about a week ago, it is AMAZING! and a very helpful \ntool. \nToday, I tried processing a data set we collect at super resolution mode \n(pixel size =0.38A)\nafter starting, warp hangs for few minutes and then crashes (see \nlastcrash.txt below)\nCan warp process 4bit movies? I suspect that might be the problem\n\nThanks again for a great software!\n\nElad \n\nCold Spring Harbor Laboratory\n\n\nlastcrash.txt output:\n\nSystem.Exception: Could not successfully read file within the specified \nnumber of attempts.\n   at Warp.Image.FromFilePatient(Int32 attempts, Int32 mswait, String path, \nint2 headerlessSliceDims, Int32 headerlessOffset, Type headerlessType, \nInt32 layer, Stream stream)\n   at \nWarp.MainWindow.<>c__DisplayClass117_2.<LoadAndPrepareHeaderAndMap>b__1(Int32 \nz, Int32 threadID)\n   at Warp.Tools.Helper.<>c__DisplayClass45_0.<ForCPU>b__0(Object id)\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext \nexecutionContext, ContextCallback callback, Object state, Boolean \npreserveSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext \nexecutionContext, ContextCallback callback, Object state, Boolean \npreserveSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext \nexecutionContext, ContextCallback callback, Object state)\n   at System.Threading.ThreadHelper.ThreadStart(Object obj)"
+}

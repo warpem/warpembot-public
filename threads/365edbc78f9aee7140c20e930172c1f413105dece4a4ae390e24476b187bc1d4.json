@@ -1,0 +1,8 @@
+{
+  "message_id": "<df678d8f-6665-4cba-a0ee-eacf774a7e5c@googlegroups.com>",
+  "thread_id": "<c007e61f-0240-452d-8f43-3d4fe2e9ba08@googlegroups.com>",
+  "subject": "Re: How to process tilt series colllected with serial EM",
+  "sender": "Andrea Nans <andrea.nans@gmail.com>",
+  "date": "Tue, 6 Nov 2018 04:49:45 -0800 (PST)",
+  "body": "I agree that this would be super useful. Any update how how we should \ngenerate a tomostar file?\n\nMany thanks\n\nAndrea\n\nOn Thursday, October 4, 2018 at 4:10:11 PM UTC+1, Gregory Alushin wrote:\n>\n> Hello-\n>\n> I am interested in testing out Warp's tomography features.  I am wondering \n> what format the data / metadata needs to be in to be recognized by Warp.  \n> Currently, I have compressed tif movies for each tilt, a gain reference, \n> and a serialEM mdoc file.  I noticed there is a \"tomoSTAR\" option for the \n> input: what is this?  Can you provide an example if it is something \n> analogous to a plain-text .star file?  Or will the documentation be online \n> soon (currently blank on the website)?\n>\n> Also, I will say that the CTF estimates just from the tifs considered as \n> independent FOVs are quite reasonable looking... so is it worth it to use \n> the tilt series CTF estimation?\n>\n> Thanks very much,\n> -Greg Alushin\n>\n>"
+}

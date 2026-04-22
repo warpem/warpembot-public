@@ -1,0 +1,8 @@
+{
+  "message_id": "<d141705e-6b58-47c6-acf8-ac69ea7a1318n@googlegroups.com>",
+  "thread_id": "49220201-8a4a-4ffc-a467-bafebe10e4e1",
+  "subject": "Re: White Spots Created in Warp, but not RELION5",
+  "sender": "Marten Chaillet <martenchaillet@gmail.com>",
+  "date": "2026-04-08T13:55:43.000Z",
+  "body": "I found it: https://gist.github.com/McHaillet/dfddd32eff547198c5d6e091b9e2ac32 I think masking above 8 standard deviations is what IMOD does by default."
+}

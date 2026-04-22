@@ -1,0 +1,8 @@
+{
+  "message_id": "<71404227-75fe-4296-a1c8-16740e451e79n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp pre-rotate function and relion reconstruction",
+  "sender": "Paris Watson <paris.watson@be-labs.org>",
+  "date": "Fri, 21 Jun 2024 08:27:45 -0700 (PDT)",
+  "body": "Hi,I have an inquiry about the prerotate particle function. My current \r\npipeline is to use Warp for preprocessing -> filament picking in Dynamo -> \r\nWarp for subtomogram extraction -> Relion 3.1.4.Using filament picking in \r\nDynamo there is information on the orientation of the subtomogram. When I \r\nuse Warp to extract the subtomograms without using the pre-rotate feature \r\nthe reconstruction in Relion is not good. But when using the pre-rotate \r\nfunction I get a nice reconstruction. However I believe due to other posts \r\non this forum you shouldn’t use the pre-rotate function because you will \r\nlose the particle information when re extracting and you cannot use M.I am \r\nunsure where in the pipeline between Warp and Relion the information is \r\nbeing lost so that the reconstruction is bad and was wondering if anyone \r\nhas any ideas on how to fix this issue.Thank you!"
+}

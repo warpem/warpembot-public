@@ -1,0 +1,8 @@
+{
+  "message_id": "<4fd3dfc7-61a9-4577-8acf-cbd8ef727292@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp Crashing",
+  "sender": "greene4@gene.com",
+  "date": "Fri, 24 Aug 2018 13:31:11 -0700 (PDT)",
+  "body": "Hi Dimitry,\n\nI've been having trouble with Warp crashing recently. I have a large data \ncollection that is currently on-going. Part way through the data collection \nour RAID array filled up causing SerialEM to write out tif files without \nany data which I think are causing the program to crash. I've removed the \nbad tif files from the Warp directly and their associated xml files but I'm \nstill getting intermittent crashes. I notice when I start Warp after the \ncrash there is a single \"Outdated\" image that I imagine might be causing \nthe issue. The program does not crash right away when I start processing \nagain. Is their an easy way to identify the outdated image (it's a large \ncollection so it's difficult to see the individual yellow dot). How does \nthe program currently deal with \"bad\" files that it is trying to process? I \nimagine if I restart a new directly with only the good images it'll work \nfine as in the past but I wanted to share this information in case it is \nuseful for future releases. If you have any suggestions I'd be happy to try \nthem out. \n\nCheers,\nEvan"
+}

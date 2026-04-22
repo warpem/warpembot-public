@@ -1,0 +1,8 @@
+{
+  "message_id": "<b86b7f04-5180-4a5a-a84c-af8983097b96n@googlegroups.com>",
+  "thread_id": "<6df19e9f-d3a2-4231-b00f-6494dbf1e77en@googlegroups.com>",
+  "subject": "Re: M:Attempted to divide by zero.",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Thu, 22 Apr 2021 06:12:56 -0700 (PDT)",
+  "body": "I met the same question.\r\n\r\n在2021年3月6日星期六 UTC+8 上午9:58:12<zzyg...@gmail.com> 写道：\r\n\r\n> Hi Dimitry,\r\n>     I am trying to refine using M with a star file refined in Relion3.1 \r\n> (which has already downgrade). When I try to refine the species, M crashes \r\n> and gives this error: \r\n>\r\n>    * Something went wrong during refinement. Sorry! Here are the details:*\r\n>     *System.DivideByZeroException: Attempted to divide by zero.*\r\n>\r\n>     The previous steps seem to be all right. I tried to refine using M on \r\n> NVIDIA GTX 2070 and 3090, but it didn't work. Do you have any ideas what is \r\n> causing this error and how can I fix it?   \r\n>\r\n> Best wish,\r\n> Zheyuan Zhang\r\n> [image: M crash.jpg]\r\n> [image: M crash2.jpg]\r\n>"
+}

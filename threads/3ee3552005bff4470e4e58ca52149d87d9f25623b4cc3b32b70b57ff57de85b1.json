@@ -1,0 +1,8 @@
+{
+  "message_id": "<8B0E60A9-D299-4C58-8CEA-96364D7A7113@gmail.com>",
+  "thread_id": "<e047c9a9-539c-46c7-92c5-6be60e3aa81an@googlegroups.com>",
+  "subject": "Re: 16-bit floating point tomograms in WarpTools",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Thu, 8 Aug 2024 23:17:11 +0200",
+  "body": "Hi Jesse,\nEnvironment Variables - Warp, M and friends\nwarpem.github.io\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Aug 8, 2024, at 16:03, Jesse Hansen <bluufive@gmail.com> wrote:\n﻿hi all,\nIt seems warptools reconstructs tomos in 16-bit floating point, is that right?  I tried to do Dynamo template matching on this but Dynamo couldn't read the file.  It seems it can't do TM on this map mode?  I converted to 32-bit floating point using Imod but the Dynamo TM result was not as good as the windows WARP-generated tomos from the same dataset.\nIs it possible to export 32-bit floating point tomos with Warptools?\nthanks\nJesse\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion on the web visit \nhttps://groups.google.com/d/msgid/warp-em/e047c9a9-539c-46c7-92c5-6be60e3aa81an%40googlegroups.com\n."
+}

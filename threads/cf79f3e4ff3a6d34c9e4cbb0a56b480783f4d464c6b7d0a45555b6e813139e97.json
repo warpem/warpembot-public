@@ -1,0 +1,8 @@
+{
+  "message_id": "<d1654a05-f07c-4be4-8ccb-850842d4a668n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Possible to use denoised tomograms for template matching?",
+  "sender": "=?UTF-8?Q?Matthias_Vorl=C3=A4nder?= <mvorlaender@gmail.com>",
+  "date": "Wed, 30 Jun 2021 04:32:52 -0700 (PDT)",
+  "body": "Hi there,\n\nI am wondering if it is possible to use  the denoised tomograms for \ntemplate matching in warp? I just think the difference is so spectacular \nthat it seems a shame not to make use of it (see attached images).\n\nThanks a lot,\nMatthias\n[image: reconstructed.png][image: denoised.png][image: denoised.png]"
+}

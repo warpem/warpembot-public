@@ -1,0 +1,8 @@
+{
+  "message_id": "<d13e7e67-d4cc-4d70-b3d8-d92d91441b17n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp on Linux installation issue",
+  "sender": "Yunjie Chang <changyj0821@gmail.com>",
+  "date": "Sun, 24 Nov 2024 21:42:18 -0800 (PST)",
+  "body": "Hi warp list,\n\nI am trying to install warp on my linux workstation (Ubuntu 22.04, nvidia \n4090). Using this command:\nconda create -n warp warp -c warpem -c nvidia/label/cuda-11.8.0 -c pytorch \n-c conda-forge\n\nHowever, after I hit enter in the terminal, it is just keep \"Solving \nenvironment\". I have waited for hours and nothing changed.\n\nAny idea to solve this issue?\n\nBest\nYunjie"
+}

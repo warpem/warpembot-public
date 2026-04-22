@@ -1,0 +1,8 @@
+{
+  "message_id": "<2d0ff409-eb5e-4f9a-bfe6-62c6bd465a80n@googlegroups.com>",
+  "thread_id": "<65765619-9702-4295-92e1-5c3777a14634n@googlegroups.com>",
+  "subject": "Re: Extracting PyTom coordinates with",
+  "sender": "Dylan Noone <dn13579@my.bristol.ac.uk>",
+  "date": "Wed, 11 Feb 2026 09:36:37 -0800 (PST)",
+  "body": "Hey Thomas,\n\nThanks for your response, especially sharing your command. I think I am not \ndoign something weird in that step based off this.\n\nSo I think the mismatch in coordaintes may have been from a mistake on my \nend when scaling them to view them in IMOD! \n\nHowever, I think something is still going wrong as my scores in Napari look \nreally weird (images of tomo and scores from PyTom). I have tried a number \nof different arguements and tweaks with the commands, I was if there was \nsomething wrong with my template (also attached)?\n\nThank you,\nDylan"
+}

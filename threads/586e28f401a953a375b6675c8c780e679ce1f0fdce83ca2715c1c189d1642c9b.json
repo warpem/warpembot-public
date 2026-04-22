@@ -1,0 +1,8 @@
+{
+  "message_id": "<f6a1c3bf-5667-402a-a42c-1ec338ad6af3n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "CTF multiplying raw subtomograms from warp",
+  "sender": "joe dobbs <dobbsjoseph12@gmail.com>",
+  "date": "Tue, 26 Dec 2023 05:09:39 -0800 (PST)",
+  "body": "Hi all,\n\nI'm looking at CTF correcting my warp subtomograms directly. When trying to \nmultiply the subtomos with their ctf files via imod clip, I found that \nthese are actually different sizes (eg. subtomos are 96x96x96 vs. ctf \n49x96x96), so I assume direct multiplication might not be the best way to \ndo it. Would anyone have any suggestions about the proper way to do this?\n\nThanks!\nJoe"
+}

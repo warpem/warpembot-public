@@ -1,0 +1,8 @@
+{
+  "message_id": "<a064634b-3f62-424f-af18-cfbf3f85d40en@googlegroups.com>",
+  "thread_id": "",
+  "subject": "particles.star file not created for new species",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Fri, 15 Nov 2024 13:51:21 -0800 (PST)",
+  "body": "Hi all,\n\nI am running the following command to create a new species \n\nMTools create_species \\\n--population m/g2.population \\\n--name ribosome \\\n--diameter 350 \\\n--sym C1 \\\n--temporal_samples 1 \\\n--half1 relion_ribosome/Refine3D/job007/run_half1_class001_unfil.mrc \\\n--half2 relion_ribosome/Refine3D/job007/run_half2_class001_unfil.mrc \\\n--mask m/mask_ribosome.mrc \\\n--particles_relion relion_ribosome/Refine3D/job007/run_data.star \\\n--angpix_resample 2.405 \\\n--lowpass 20 \\\n--ignore_unmatched\n\nHowever, when I checked the folder\nm/species/ribosome_b91790ab/\n\nI noticed that ribosome_particles.star file had not been created. This file \nis expected when I try to run M refinement.  Any suggestions why this might \nbe happening?\n\nCheers,\nJuha"
+}

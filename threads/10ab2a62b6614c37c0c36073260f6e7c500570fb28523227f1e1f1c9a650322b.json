@@ -1,0 +1,8 @@
+{
+  "message_id": "<7ABE05F3-5C35-4DB3-B53D-15C42A5CE403@gmail.com>",
+  "thread_id": "<d4594894-8a4d-437b-93ee-85f585e27cc8n@googlegroups.com>",
+  "subject": "Re: simple transformation of a star file",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 8 Oct 2025 18:48:12 -0700",
+  "body": "Hey, separate species are supposed to be different objects so combining them doesn’t make much sense, I guess you’re working with some kind of lattice and treating different symmetry axes as different species?\nFor shifting you have \nhttps://warpem.github.io/warp/reference/mtools/api/mtools/#shift_species\nSent from mobile - apologies for brevity\nOn Oct 8, 2025, at 18:37, P C <peter.p.cherepanov@gmail.com> wrote:\n﻿\nIs there a tool to shift origins of a species by a specified vector (no rotation, just a shift) within Warp/M tools? If yes, Is it possible to combine multiple species into one and filter for duplicates?\nAll these problems could be solved if I could export M star file back to Relion star file. But it seems\r\n that there is no easy way back. \n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/d4594894-8a4d-437b-93ee-85f585e27cc8n%40googlegroups.com\n."
+}

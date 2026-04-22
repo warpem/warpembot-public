@@ -1,0 +1,8 @@
+{
+  "message_id": "<6c87e5b5-a481-457b-a6e1-acefab39fa77n@googlegroups.com>",
+  "thread_id": "<d1994d69-7f7a-41ff-a595-08ef981ea104n@googlegroups.com>",
+  "subject": "Re: M crashed when I import the species",
+  "sender": "yuqi zhang <824586412@qq.com>",
+  "date": "Fri, 16 Apr 2021 21:30:47 -0700 (PDT)",
+  "body": "I found the reason. Just because of binary mask.\r\n在2021年4月16日星期五 UTC+8 下午5:13:30<yuqi zhang> 写道：\r\n\r\n> Does anyone know about this?\r\n>\r\n> 在2021年4月15日星期四 UTC+8 下午5:30:02<yuqi zhang> 写道：\r\n>\r\n>> Hi,\r\n>> the lastcrash.txt had some error imformation:\r\n>>\r\n>> 04/15/2021 17:06:07:\r\n>> System.NullReferenceException: Object reference not set to an instance of \r\n>> an object.\r\n>>    at Warp.NoiseNet3D.Dispose() in \r\n>> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 301\r\n>>    at Warp.NoiseNet3D.Finalize() in \r\n>> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 290\r\n>>    at Warp.NoiseNet3D.Dispose() in \r\n>> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 301\r\n>>    at Warp.NoiseNet3D.Finalize() in \r\n>> D:\\Dev\\warp2\\WarpLib\\NoiseNet3D.cs:line 290\r\n>>\r\n>> And I reconstruct the tomogram with binning 1. Then I used Warp to bin 8 \r\n>> for the full tomogram reconstruction and bin 4 for subtomogram \r\n>> reconstruction. And in M, I specified the parameter as figures. You may use \r\n>> them.\r\n>>\r\n>"
+}

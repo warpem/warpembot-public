@@ -1,0 +1,8 @@
+{
+  "message_id": "<35fa83eb-1999-48fe-87da-32a2b56afa0dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WARP EER Processing",
+  "sender": "Kelly Mcguire <klmcguire@ucsd.edu>",
+  "date": "Wed, 11 May 2022 11:41:34 -0700 (PDT)",
+  "body": "I am trying to process EER files for the first time in WARP.  I direct the \ninput to a folder with my test EER files (20 files total), give it the \npixel size and exposure dose.  I leave the EER frame group on the default \n10 because I don't fully understand what that does.  I provide the gain in \nMRC format.  Then press start processing, but nothing happens.  The \nprocessing status remains grey with the number 20 suggesting it can \nrecognize that there are 20 files in the directory."
+}

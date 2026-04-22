@@ -1,0 +1,8 @@
+{
+  "message_id": "<CALVQGL8nFVXeuQ_hEjzEMUari7ekhr-dVwm00xMQbKniQES1Qg@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Switching Warp versions and individual image removal",
+  "sender": "Peng Liu <penggreen1213@gmail.com>",
+  "date": "Tue, 21 Oct 2025 19:02:46 +0200",
+  "body": "Dear all,\r\n\r\nWe recently installed the Linux version of Warp on our tomography\r\nworkstation. Previously, I had been using the Windows version of Warp for\r\nquite some time, which I understand is now considered outdated for cryo-ET\r\ndata processing. According to the TeamTomo tutorial, the Windows version of\r\nWarp is compatible with Dynamo, IMOD, RELION3, and M.\r\n\r\nI was wondering if anyone still uses the Windows Warp with the GUI. Many of\r\nmy earlier datasets were preprocessed using it, and I am concerned about\r\npotential compatibility issues with newer tools such as PyTom match-pick\r\nand RELION5.\r\n\r\nReprocessing all the datasets with the new WarpTools would take\r\nconsiderable time, but I am happy to do so if it is necessary. I would\r\nreally appreciate hearing about your experiences or any advice on this.\r\n\r\nAdditionally, I would like to ask about the recommended way to exclude\r\ncertain images from a tilt series other than using the --min_intensity\r\nflag. Some images may have drift issues during acquisition, which may not\r\nbe reflected simply by intensity values.\r\n\r\nThank you very much in advance for your help.\r\n\r\nBest regards,\r\nPeng\r\n\r\n-- \r\nDr. Peng Liu\r\n\r\n   Max-Planck-Institut für biophysikalische Chemie\r\n   Am Faßberg 11, 37077 Göttingen\r\n   Germany\r\n\r\n    : +49(0)17635209768\r\n   Email: peng.liu@mpibpc.mpg.de"
+}

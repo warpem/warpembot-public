@@ -1,0 +1,8 @@
+{
+  "message_id": "<59fba367-b0c0-4a59-8f72-49cde60f9fe1@googlegroups.com>",
+  "thread_id": "<691535dc-fc2a-4834-bee5-e94b2e13791e@googlegroups.com>",
+  "subject": "Re: beta 1.0.7W crashes immediatly",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 28 May 2019 05:19:09 -0700 (PDT)",
+  "body": "Dear Yong-Hui,\n\nI observed this error once myself, and it was gone after rebooting the \nsystem. Unfortunately, I haven't been able to reproduce it since then. \nPlease let me know if rebooting helps.\n\nStarting with Windows 10, the new GPU driver model allocates a significant \namount of memory for the OS, leading to the decrease in available memory \nyou see. However, on Quadro and Tesla cards (and some old Titan models, I \nthink) that are not used for video output, you can switch to TCC mode to \nget back those 1.2 GB. Here is how: \nhttps://docs.nvidia.com/gameworks/content/developertools/desktop/nsight/tesla_compute_cluster.htm. \nAlternatively, Windows 7 consumes less memory, but will reach its end of \nlife by the end of this year.\n\nCheers,\nDimitry\n\n\nOn Tuesday, May 28, 2019 at 7:34:54 AM UTC+2, Yong-Hui Sung wrote:\n>\n> Hi,\n>\n> I had trouble with K3 data. Thus I downloaded the beta 1.07W_beta2. \n> However as soon as I start processing I am getting: \n>\n> System.NullReferenceException: Object reference not set to an instance of \n> an object.\n>\n>    at Warp.WorkerWrapper.SendCommand(NamedSerializableObject command)\n>\n>    at Warp.WorkerWrapper.Dispose()\n>\n>    at Warp.WorkerWrapper.Finalize()\n>\n> Further I noticed our QuadroP6000 cards are shown as having 6800 MB RAM \n> but they are supposed to have 8000 MB. \n>\n> Any idea what is wrong. \n>\n>\n> best\n>\n> YHS\n>"
+}

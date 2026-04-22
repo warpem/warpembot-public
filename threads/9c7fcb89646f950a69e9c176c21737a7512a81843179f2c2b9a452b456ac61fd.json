@@ -1,0 +1,8 @@
+{
+  "message_id": "<9e829251-e4cf-4147-bd04-129b3c4db22cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp cannot recognize -?",
+  "sender": "Song Wenfei <wenfei.song0712@gmail.com>",
+  "date": "Wed, 29 Mar 2023 13:09:04 -0700 (PDT)",
+  "body": "Dear all, \n\nI found that I couldn't export tomograms for imod in warp after initial \nprocessing. It said \" String was not recognized as a valid DateTime.\". Has \nanyone encountered this before? If so, how to solve this? \nI am wondering if my file name is abc-efd-001-_000.tif, and warp cannot \nrecognize \"-\"/ \nI am using version 1.0.9\n\nThanks in advance.\n\nBest,\nWenfei"
+}

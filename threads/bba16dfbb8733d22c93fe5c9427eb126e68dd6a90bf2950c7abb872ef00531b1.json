@@ -1,0 +1,8 @@
+{
+  "message_id": "<a12f56b8-1f54-4cec-96ac-21cc84cb8532n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Considerations for working with symmetry expanded particles in M",
+  "sender": "\"thomas.la...@gmail.com\" <thomas.laughliniii@gmail.com>",
+  "date": "Wed, 2 Dec 2020 14:36:58 -0800 (PST)",
+  "body": "Hi folks!\n\nCurious if anyone has had the chance to use M on symmetry-expanded 2D data \nand what should be considered in doing so? \n\nI have a pseudo-octahedral particle that ends up a mess when enforcing O, \nbut refining sub-particles for the 6 faces with C4 seems to work well \n(enough).\n\nI pre-processed in Warp and am working in RELION-3.1 using the \nsub-particles obtained by symmetry expansion, removing redundant insertions \nof the 4-folds, and re-centering on a 4-fold with the signal-subtraction \njob-type (may have boxed myself into a corner with this approach :P).\n\nI've been attempting to perform Polishing, but this results in the \nreconstruction getting worse. Also tried substituting a run_data.star using \nthe original particles reduced to the original particle count (i.e., each \nparticle is represented once for Polishing), but got similarly poor results.\n\nFor 2D-data, would one expect M's reference-based motion refinement to get \nthrown-off with symmetry expanded particles, which appears to be the case \nfor RELION's Bayesian Polishing? \n\nBest,\nTom"
+}

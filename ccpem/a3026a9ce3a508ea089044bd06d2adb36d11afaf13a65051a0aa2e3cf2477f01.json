@@ -1,0 +1,9 @@
+{
+  "message_id": "<3132088431631120.WA.vicban2012gmail.com@www.jiscmail.ac.uk>",
+  "date": "Wed, 01 Sep 2021 18:04:12 +0100",
+  "from": "Victor Banerjee <vicban2012@GMAIL.COM>",
+  "subject": "Problem in Creating Initial Model in Helical Reconstruction",
+  "body": "Hi,\r\nI am trying to create an initial model from a single 2D Class having the entire cross-over distance using the following commands…… \r\n\r\nrelion_stack_create --i Select/job0xx/class_averages.star --o test/set8/smallclasses_box550 --ignore_optics\r\n\r\nrelion_image_handler --i test/set8/smallclasses_box550.mrcs --new_box 500 --o test/set8/smallclasses_box500.mrcs\r\n\r\ncp test/set8/smallclasses_box550.star test/set8/smallclasses_box500.star\r\n\r\nrelion_helix_inimodel2d --i test/set8/smallclasses_box550.star --iter 5 --crossover_distance 800 --angpix 1.07 --o test/set8 --mask_diameter 490 --search_shift 3 --search_angle 1 --step_angle 1 --sym 1 --maxres 5 --j 24 \r\n\r\nThe reconstructed mrcs (_it005_reconstructed.mrcs) file looks fine. But the _class001_rec3d.mrc file is empty. So not able to use it for the later Class3D job as a reference map. Never had this issue when I used multiple classes for generating initial model. Is there a way to solve this? or is there a way I can use the _it005_reconstructed.mrcs as the reference map by converting the mrcs file to mrc? Appreciate your help in this regard. \r\n\r\nThanks,\r\nVictor",
+  "source": "ccpem",
+  "month": "2021-09"
+}

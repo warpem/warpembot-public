@@ -1,0 +1,8 @@
+{
+  "message_id": "<42dba585-c062-4dbd-ba1d-5f2702f447d9n@googlegroups.com>",
+  "thread_id": "<CAOt3kHqosu4rV2vc54vCF28g3AEPAhJ=SOKnBWQMuQZxh4eZ0w@mail.gmail.com>",
+  "subject": "Re: warning for preoriented subtomogram extraction",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Tue, 1 Dec 2020 04:33:30 -0800 (PST)",
+  "body": "That's a good point! Ironically, I added this option for easier debugging \n(can average sub-tomos in Matlab without going through relion_reconstruct), \nand left it there in case someone else would like to test something without \nbothering with interpolation. Maybe it's time to remove it or make it less \nvisible.\n\nOn Tuesday, December 1, 2020 at 1:23:46 PM UTC+1 alist...@gmail.com wrote:\n\n> Hi all,\n>\n> I just spent a while helping a friend debug some problems and thought a \n> general message to raise awareness would be useful.\n>\n> If you plan to refine particle positions and orientations after extraction \n> in Warp, do not use the option for preorienting your particles when \n> exporting subtomograms. \n>\n> If you do, the connection to the tomogram reference frame is lost and you \n> will not be able to reextract your particles with the correct \n> orientations/perform any refinements properly in M. This is because the \n> euler angles in the star file are now parameters for the transformation of \n> a prealigned particle to align it with the reference, rather than the \n> transformation of the particle in the tomogram to align it with the \n> reference.\n>\n> Cheers,\n>\n> Alister\n>"
+}

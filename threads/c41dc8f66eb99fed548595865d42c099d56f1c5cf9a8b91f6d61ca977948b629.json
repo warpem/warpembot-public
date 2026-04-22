@@ -1,0 +1,8 @@
+{
+  "message_id": "<4dd5171c-36c0-4f0f-8d21-38acb0e3dfd3n@googlegroups.com>",
+  "thread_id": "<57c0657a-d6fa-4bca-8c1b-379b44d87c2en@googlegroups.com>",
+  "subject": "Re: Importing old alignments from imod question",
+  "sender": "Doulin Shepherd <doulin.shepherd@gmail.com>",
+  "date": "Mon, 15 Sep 2025 04:03:16 -0700 (PDT)",
+  "body": "Hi Pranav,\n\nI've always wondered about this, so it's nice to get some confirmation on \nthe relative importance of geometric handedness. I've never been able to \nget a good average from Warp/M and/or Relion 4/5 with this dataset, so I'm \na bit paranoid about all the parameters.\n\nThanks, Huy!\n\nThis, and honestly all the scripts in that repo, will be really useful!"
+}

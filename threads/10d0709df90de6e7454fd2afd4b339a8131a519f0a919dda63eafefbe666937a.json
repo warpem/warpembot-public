@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHosO9-r3iRY2LYfB7NAp-JH1nxbnbd1CicpZUvSiDUQ8w@mail.gmail.com>",
+  "thread_id": "<0503a2be-775a-4d5f-a33f-bc24b9c90d0cn@googlegroups.com>",
+  "subject": "Re: Warp template matching",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 10 Feb 2025 21:18:50 -0800",
+  "body": "Hi Chen,\r\n\r\nPlease try out https://github.com/warpem/warp-tm-vis, running it should be\r\nas easy as uvx warp-tm-vis once you've installed uv\r\n<https://docs.astral.sh/uv/getting-started/installation/>.\r\nFeatures:\r\n- visualize superposed tomogram + correlation volume in 2D & 3D\r\n- visualize particle positions from template matching star files\r\n- simulate the results of filtering at a given cc threshold\r\n[image: image.png]\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Mon, 10 Feb 2025 at 13:28, 'Chen Sun' via Warp <warp-em@googlegroups.com>\r\nwrote:\r\n\r\n> Hello,\r\n>\r\n> I am doing template matching with Warptools in command line. It generated\r\n> output files successfully. However, I don't know if they are picking on the\r\n> right particles. Is there a way for me to visually inspect the matched\r\n> particles and manually adjust them?\r\n>\r\n> Best regards,\r\n> Chen\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/0503a2be-775a-4d5f-a33f-bc24b9c90d0cn%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/0503a2be-775a-4d5f-a33f-bc24b9c90d0cn%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

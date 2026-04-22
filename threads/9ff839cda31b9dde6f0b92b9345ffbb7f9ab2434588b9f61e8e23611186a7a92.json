@@ -1,0 +1,8 @@
+{
+  "message_id": "<65da45fd-6ea3-45e0-b4f5-61a79e6b297cn@googlegroups.com>",
+  "thread_id": "<4c073964-b502-43d0-bc3d-78c74466e139n@googlegroups.com>",
+  "subject": "Re: Relion CTF",
+  "sender": "jonathan gabriel piccirillo <jonathangpiccirillo@gmail.com>",
+  "date": "Fri, 13 Aug 2021 08:04:28 -0700 (PDT)",
+  "body": "Hi Dimitry,\r\n\r\nThank you very much for the clarification! \r\n\r\nBest,\r\n\r\nJonathan\r\n\r\nEl jueves, 22 de julio de 2021 a las 16:24:26 UTC+2, teg...@gmail.com \r\nescribió:\r\n\r\n> Hi Jonathan,\r\n>\r\n> This is the expected output format, Relion shouldn't have any problems \r\n> reading it. The CTF is stored in an FFTW-like format where only one half \r\n> (width / 2 + 1) is kept due to Hermitian symmetry and the center is shifted \r\n> to the first element.\r\n>\r\n> Cheers,\r\n> Dimitry\r\n>\r\n> On Tuesday, July 20, 2021 at 6:21:18 PM UTC+2 jonathang...@gmail.com \r\n> wrote:\r\n>\r\n>> Hi all,\r\n>>\r\n>> I am recently working with warp. I am pretty new to it.\r\n>>\r\n>> I was wondering something about the CTF obtained from the \"reconstruct \r\n>> sub-particles.\"\r\n>>\r\n>> The CTF volume obtained has a dimension of:\r\n>>\r\n>> Number of columns, rows, sections 41      80      80\r\n>>\r\n>> Instead, the images have these dimensions:\r\n>>\r\n>> Number of columns, rows, sections 80      80      80\r\n>>\r\n>>\r\n>> I am attaching a screenshot of the volume opened with chimera. \r\n>>\r\n>> Is this data the usual one? If not, what could be the problem.\r\n>>\r\n>> Thanks all,\r\n>>\r\n>> Jonathan\r\n>>\r\n>>"
+}

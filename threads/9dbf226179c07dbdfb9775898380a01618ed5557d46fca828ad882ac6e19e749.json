@@ -1,0 +1,8 @@
+{
+  "message_id": "<39a27a4b-1b2d-414d-ad71-fdb0d919148a@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tilt Series: Does warp take imod local alignment into account?",
+  "sender": "Linhua Tai <8883669@gmail.com>",
+  "date": "Mon, 1 Jun 2020 00:26:29 -0700 (PDT)",
+  "body": "Dear all,\nHi, I've encountered a really weird issue with imod tilt series alignment, \nwhen I use imod's tilt command with no '-LOCALFILE' option to reconstruct, \nthe output looks perfectly normal, but when I add the '-LOCALFILE' option, \nthe output volumes are totally ruined. Since I copied every imod output \nfile back to warp's directory, I'm wondering if warp takes imod local \nalignment file into account, while reconstructing sub-tomograms? If so, is \nthere anything I can do to avoid this issue, or should I just run alignment \nagain for all the tilt series?\nThank you very much in advance!\nCheers,\nLinhua Tai"
+}

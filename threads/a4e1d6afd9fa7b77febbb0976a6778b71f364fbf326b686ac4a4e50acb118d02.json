@@ -1,0 +1,8 @@
+{
+  "message_id": "<743a7ed7-64a3-482b-85a8-8c31bcb5e9bc@googlegroups.com>",
+  "thread_id": "<94fb730c-6047-4acc-ba1e-0c92f7eb2ae2@googlegroups.com>",
+  "subject": "Re: Warp dies with newly trained dataset",
+  "sender": "Dimitry Tegunov <tegunov@gmail.com>",
+  "date": "Tue, 24 Jul 2018 06:44:58 -0700 (PDT)",
+  "body": "Would it be possible for you to send me the problematic BoxNet model and \r\none micrograph it reliably crashes on? The model is located in [Warp \r\nfolder]/boxnet2models/[model name] – just zip that folder. I'm afraid we've \r\nnever experienced this behavior before.\r\n\r\nCheers,\r\nDimitry\r\n\r\nOn Wednesday, July 18, 2018 at 10:24:45 AM UTC+2, yonghuisung@gmail.com \r\nwrote:\r\n>\r\n> Hi, \r\n>\r\n> I have two Quadro P5000. The generic network runs but the results are bad. \r\n>\r\n> YH\r\n>\r\n> On Wednesday, July 18, 2018 at 9:54:07 AM UTC+2, Dimitry Tegunov wrote:\r\n>>\r\n>> Hi,\r\n>>\r\n>> could you please describe the GPUs in your system? Does the supplied \r\n>> generic BoxNet version crash the same way?\r\n>>\r\n>> Cheers,\r\n>> Dimitry\r\n>>\r\n>>\r\n>> On Tuesday, July 17, 2018 at 5:14:53 PM UTC+2, yongh...@gmail.com wrote:\r\n>>>\r\n>>>\r\n>>> Hi,  \r\n>>>\r\n>>> I tried boxnet and retrained the network with hand picked data. This \r\n>>> behaved as expected and gave a similar curve as shown in the tutorial. But \r\n>>> once I tried to run the new network on a new micrograph warp crashes and \r\n>>> shuts down without error message. What did I do wrong?\r\n>>>\r\n>>>\r\n>>>"
+}

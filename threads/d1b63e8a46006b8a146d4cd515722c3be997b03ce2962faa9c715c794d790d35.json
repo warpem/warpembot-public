@@ -1,0 +1,8 @@
+{
+  "message_id": "<d6e26f45-a5fe-4637-9df5-d98e132160c0@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp not running",
+  "sender": "Jiahui Tao <joe.jtao@gmail.com>",
+  "date": "Thu, 21 Nov 2019 16:05:13 -0800 (PST)",
+  "body": "Hi, Dimitry\n\n\nI am a new user of warp. My issue is that, it shows the following massage \nsoon after I start it. Afterwards, it stops using the graphics card \nmemories. I am using windows 10, cuda 10.2, gtx1070 and 64 gb memory. Could \nyou give me hint what might cause this issue? Thanks.\n\n\nJoe\n\n\n\n[image: warp error.png] <about:invalid#zClosurez>"
+}

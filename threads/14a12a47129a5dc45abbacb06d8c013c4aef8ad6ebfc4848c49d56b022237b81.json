@@ -1,0 +1,8 @@
+{
+  "message_id": "<5452caab-4fad-4c99-96a8-18f262c2d7d9n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "% of template option and Cube - error in importing file",
+  "sender": "=?UTF-8?Q?Katarina_Bela=C4=8Di=C4=87?= <katarina.belacic@gmail.com>",
+  "date": "Mon, 14 Dec 2020 04:57:44 -0800 (PST)",
+  "body": "Hello Dimitry,\n\nI have a question about the parameter % of template for template matching - \nwhat this actually is and whether it has a similar function as when one \nprovides a mask?\n\nI tried to find if there is already an answer to this in the goggle group \nbut haven't come across much helpful information.\n\nMy second problem and question are about using Cube to visualize tomogram \nand picked particles -- we have installed the Cube on a Windows PC however \nwhen I try to load the .mrc file reconstructed by warp it starts loading \nthe file but then it just goes blank (see attachments).\nDo you know what might be the issue?\n\nThanks a lot for your help in advance.\n\nBest\nKatarina"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<9da64b5a-0811-41e1-9193-a2a06a6e5a14n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "gain_reference for polishing",
+  "sender": "Zhenyu Tan <zhenytan@umich.edu>",
+  "date": "Thu, 9 Jul 2020 16:20:11 -0700 (PDT)",
+  "body": "Hi,\nI am a little confused about the using warp results for particle polishing. \nFor the gain_reference, warp will generate a transformed.mrc file, should I \nuse this for the particle polishing or the original gain_reference file? \nThanks for you help\nZhenyu"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<7828b6cb-33b0-4f8f-b1ed-35aa5823b4cbo@googlegroups.com>",
+  "thread_id": "",
+  "subject": "relion crashes with warp particles from large datasets",
+  "sender": "Andres Hernandez <andreshernandez123@gmail.com>",
+  "date": "Thu, 1 Oct 2020 11:55:32 -0700 (PDT)",
+  "body": "I have routinely encountered a crash in relion 3.1b and 3.1 with particles \nfrom the last two releases of warp. Relion crashes, typically by iteration \n3, with the following error:\n\n\"No orientation was found as better than any other. A particle image was \ncompared to the reference and resulted in all-zero\nweights (for all orientations)....\"\n\nThe error has been popping up more frequently with the larger K3 datasets. \nUsually any dataset over 1 million particles will have a handful of \nparticles that give the error. If I remove the flagged particles from the \nstar file or re-extract the particles in relion, the issue goes away. \nSometimes, after removing the flagged particles, a new set of particles \nthrows the error. Any idea what causes it? I suspect it is coming from the \nway particles are normalized in warp, but can't explain why it seems to \nalso be dependent on the size of the dataset.\n\nBest,\nAndres"
+}

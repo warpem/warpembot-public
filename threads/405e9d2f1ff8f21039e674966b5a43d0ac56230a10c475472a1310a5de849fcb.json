@@ -1,0 +1,8 @@
+{
+  "message_id": "<75ce7e44-daca-4e3c-a613-36286371bb71n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Incomplete Boxnet Retraining",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Wed, 7 Feb 2024 09:32:02 -0800 (PST)",
+  "body": "Currently I'm trying to retrain Boxnet to mask fiducials in my tilt series \nprior to subtomo averaging but something odd is going on during \nretraining.  Every time I try to retrain the Boxnet models, the results \nlook similar to the attached images.  The accuracy metric barely moves to \nthe right and either stays static or barely decreases.  I've tried multiple \ncombinations of Boxnet models, in/excluding the default training images, \nand using different sets of manually selected particles.  All combinations \nresult in an incomplete retraining to different extents with no hint as to \nwhy.  There is also no error produced to my knowledge.\n\nIf its relevant, I'm attempting to retrain the Boxnet models because the \ndefault Boxnets do not seem to work on my current set of micrographs.  I \nsuspect its likely due to the high defocus of the dataset but I could be \nwrong since I'm still new to Warp.  Any advice would be appreciated, thank \nyou!"
+}

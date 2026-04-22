@@ -1,0 +1,8 @@
+{
+  "message_id": "<7203bc82-799c-4348-9297-4d0bc8972290n@googlegroups.com>",
+  "thread_id": "<d5e1f6ec-ee5b-4161-82bd-0101cb1a24b0n@googlegroups.com>",
+  "subject": "Re: goldnet on warptools",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Thu, 1 Aug 2024 03:10:52 -0700 (PDT)",
+  "body": "I was under the impression that WARP removed the fiducials from the aligned \r\n2D tilts, with the logic that this would avoid issues in weird back \r\nprojection shadows.  I checked the averages folder though from windows WARP \r\nand saw that fiducials are still there, suggesting fiducials are removed \r\nduring tomogram reconstruction.  So I checked whether WarpTools had any \r\nflags in ts_reconstruct rather than fs_motion_and_ctf and still don't see \r\nany flags for fiducials.\r\n\r\nSince dealing with fiducials is apparently done at the 3D level rather than \r\non the 2D images I therefore don't see any way around this, so I'll leave \r\nthe fiducials in for now.  \r\n\r\nJesse\r\n\r\nOn Tuesday, July 30, 2024 at 9:53:40 AM UTC+2 Jesse Hansen wrote:\r\n\r\n> hi all,\r\n>\r\n> Is it possible to use goldnet to remove fiducials in warptools?  I don't \r\n> see any options for flags in fs_motion_and_ctf. \r\n>\r\n> thanks\r\n>\r\n> Jesse\r\n>"
+}

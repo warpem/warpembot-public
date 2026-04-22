@@ -1,0 +1,8 @@
+{
+  "message_id": "<fa00c42f-af75-4b9f-8c62-6154f410715fn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Subtomogram Reconstruction - Striping Artifact",
+  "sender": "B Wimmer <extern+google@benwmr.de>",
+  "date": "Tue, 24 Oct 2023 05:04:49 -0700 (PDT)",
+  "body": "Dear Mailing List, \n\nI have a question regarding a striping artifact I am seeing in subtomograms \nreconstructed using Warp (1.0.9 nightly 201104). \n\nI acquired tomograms on FIB lamellae at 1.372 Apix. After particle picking \noutside Warp, I reconstructed about 150k subtomograms at 5Apix, 48px box \nsize, 100A normalisation radius. \nAs an initial sanity check, I ran relion_reconstruct --ctf --3d_rot \n--maxres 20 on the resulting star file. In this sum of subtomograms (no \nangles provided), I see a very strong striping pattern in the YZ and XZ \nviews (XYZ view attached).\nDo any of you observe this? If yes, do you just ignore it or is it \nresulting from some incorrect parameters?\n\nFull tomogram reconstruction looks fine and ribosomes from the same dataset \ngo to about 12A from 8k particles. \n\nAppreciate any suggestions and advice. \n\nBest,\nBenedikt \n\n\n[image: Screenshot from 2023-10-24 13-53-12.png]"
+}

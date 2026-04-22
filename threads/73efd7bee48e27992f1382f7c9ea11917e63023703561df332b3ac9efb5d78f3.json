@@ -1,0 +1,8 @@
+{
+  "message_id": "<ac9de3e8-4a8c-45ec-9e01-944760c1d360n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "+ Warp 1.1.0 link broken",
+  "sender": "B Wimmer <extern+google@benwmr.de>",
+  "date": "Fri, 15 Sep 2023 03:04:12 -0700 (PDT)",
+  "body": "Dear Dimitry, Dear Mailing List, \n\nI am trying out M on a FIB dataset. Subtomograms reconstructed in Warp -> \nRelion 3.1.4 -> M.\nAs a first step, I am running a Geometry refinement. After a processing a \nfew tiltseries without issues, it stops at *one specific tiltseries* (tried \n3 times with clearing temp folder). The M GUI is stuck at the \"Precomputing \nGradient Weight\" step. The M worker crashes. Worker_0_crash.txt reads as \nfollows:\n\n\"System.Exception: cudaErrorMemoryAllocation\n   at Warp.GPU.CheckGPUExceptions() in D:\\Dev\\warp2\\WarpLib\\GPU.cs:line 1175\n   at WarpWorker.Program.Main(String[] args) in \nD:\\Dev\\warp2\\WarpWorker\\Program.cs:line 322\"\n\nMachine is running Windows Server 2019 Datacenter, 1 TB RAM, RTX6000 GPU \n(24GB VRAM), Warp/M 1.0.9.\n\nOn a related note, I tried to download the 1.1.0 beta that was posted to \nthis list about a year ago, but the Dropbox link seems broken, as are the \nlinks to the nightly versions on the main website. Is there an alternate \nlink somewhere?\n\nAppreciate all insights - best,\nBenedikt"
+}

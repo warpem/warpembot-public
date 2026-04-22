@@ -1,0 +1,8 @@
+{
+  "message_id": "<62558e2f-2ea7-4bdf-8b23-51e909fa5f7cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Error Trying to Perform FS Motion and CTF Correction",
+  "sender": "Kyle Messina <messi144@umn.edu>",
+  "date": "Fri, 9 Jan 2026 13:50:04 -0800 (PST)",
+  "body": "Hello again!\n\nI'm currently assisting someone and teach them Warp for reconstructions but \nI'm having issues getting the initial FS Motion and CTF correction to work \nand not error out on their dataset.\n\nWhen I run FS motion and CTF correction every micrograph fails to process \nwith a command line error of: \n\nTIFFFillStrip: Invalid strip byte count 0, strip 12\n\nThis error happens 4 to 5 times in a row before Warp jumps to the next \nmicrograph and it happens again on the next one.  \n\nLooking at the log files, it does complete motion correction but errors out \nat \"MovieProcessCTF\" specifically stating:\n\nSystem.Exception: Max frequency to fit is higher than the Nyquist frequency.\n\nAt the moment, I'm not sure what could cause both or either of these issues \nso any advice would be appreciated!  \n\nA couple of things that may be contributing to this: They did not know \ntheir Pixel Size or Exposure so we used the values present in the mdocs.  \nWhile in the mdocs I noticed that their images were 2.6k by 2k and were \nbinned by 2.  I've never worked with images in Warp that were binned coming \noff the Krios...so if I need to treat them differently, that would be good \nto know and maybe that's causing issues.\n\nThank you,\nKyle Messina"
+}

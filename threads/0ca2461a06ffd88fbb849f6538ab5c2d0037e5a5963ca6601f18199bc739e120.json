@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAE5xfLn0pw=HO_0=_Bpx1oUK4pjeXRV=8R=9Fbug9tAbiN5H9g@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Gain reference for TIFF compressed EPU outputs",
+  "sender": "Shintaro Aibara <shintaro.aibara@gmail.com>",
+  "date": "Mon, 3 Jun 2024 23:17:00 +0100",
+  "body": "Dear Warp Community,\r\n\r\nI've wanted to check with you what to do with the gain references now with\r\nTIFFs outputted by EPU with the .gain format references.\r\n\r\nFor EER, I have been taking the reciprocal of a MRC converted .gain file,\r\nand applying it with Flip Y for our Titan F4i. This worked for EER, but\r\ndoes not for TIFF.\r\n\r\nWould it be correct that for TIFF movie, the correct thing to do is to just\r\ndo the MRC conversion and leave it as is (and apply with Flip Y).\r\nEmpirically this seems to produce the correct output, but I wanted to put\r\nit by those who have more rational thought than myself.\r\n\r\nThanks in advance,\r\nShintaro"
+}

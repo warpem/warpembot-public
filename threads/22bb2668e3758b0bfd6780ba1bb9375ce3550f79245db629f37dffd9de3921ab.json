@@ -1,0 +1,8 @@
+{
+  "message_id": "<166148ca-a41d-4e25-82e7-ddc9201ff744n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Phase plate subtomo averaging: M always crashes at CTF refinement?",
+  "sender": "joe dobbs <dobbsjoseph12@gmail.com>",
+  "date": "Thu, 15 Dec 2022 15:23:02 -0800 (PST)",
+  "body": "Hello,\n\nWhen trying to refine any CTF parameter on VPP subtomos M always crashes. \nDoes anyone also have this problem and/or know a cause? It's some sort of \nkey error, it seems.\n\nMany thanks,\njoe\n\nError message:\nRunning optimization iteration 1/3, defocus grid search\nRunning optimization iteration 1/3, CTF parameters\nSystem.Collections.Generic.KeyNotFoundException: The given key was not \npresent in the dictionary.\n   at System.ThrowHelper.ThrowKeyNotFoundException()\n   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at Warp.TiltSeries.<>c__DisplayClass87_2.<PerformMultiParticleRefinement>b__29(Double[] \ninput) in D:\\Dev\\warp2\\WarpLib\\TiltSeries.cs:line 4511\n   at Accord.Math.Optimization.NonlinearObjectiveFunction.CheckGradient(Func`2 \nvalue, Double[] probe)\n   at Accord.Math.Optimization.BaseGradientOptimizationMethod.Maximize()\n   at Warp.TiltSeries.PerformMultiParticleRefinement(String \nworkingDirectory, ProcessingOptionsMPARefine optionsMPA, Species[] \nallSpecies, DataSource dataSource, Image gainRef, DefectModel defectMap, \nAction`1 progressCallback) in D:\\Dev\\warp2\\WarpLib\\TiltSeries.cs:line 5101\n   at WarpWorker.Program.Main(String[] args) in D:\\Dev\\warp2\\WarpWorker\\Program.cs:line \n294"
+}

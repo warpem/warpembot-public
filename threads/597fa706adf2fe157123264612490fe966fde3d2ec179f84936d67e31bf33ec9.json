@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHH4-vzYEsnDL=Kh_pCarm7-axRjOxjx__nR0zUCsc_6pGaNUA@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Dimension and bit-type change in Warp-generated IMOD stack",
+  "sender": "Cyan Ching <xingyichengcyanching@gmail.com>",
+  "date": "Mon, 3 Jan 2022 14:56:51 +0100",
+  "body": "Dear Dimitri and Warp users,\r\n\r\nHappy New Year! I hope all of you had/are having great holidays!\r\n\r\nI am writing to ask a quick question: are changes in image dimensions and\r\nbit-type expected in Warp-generated IMOD stack (e.g., frames acquired on\r\nTitan, dimensions halved, bit-type changed from 16-bit to 32-bit)?\r\n\r\nThank you for your help in advance!\r\n\r\nStay safe and take care!\r\n\r\nBest,\r\n\r\nCyan\r\n\r\nPhD student at the Physical Chemistry Curie Lab"
+}

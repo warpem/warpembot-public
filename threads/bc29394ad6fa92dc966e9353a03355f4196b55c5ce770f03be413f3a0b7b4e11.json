@@ -1,0 +1,8 @@
+{
+  "message_id": "<599737d7-87ab-4e52-9dfd-7df13291ff8a@googlegroups.com>",
+  "thread_id": "",
+  "subject": "3D template matching for tomogram",
+  "sender": "zipora lansky <ziporalansky@gmail.com>",
+  "date": "Sun, 19 Jan 2020 06:14:34 -0800 (PST)",
+  "body": "Hi,\n I want to pick particles from a 3D tomogram, and I have a 3D template I \nwant to use for it. I tried using the MATCH TEMPLATE, but the program \ncrashes. However, it did manage to produce a .star file with what I assume \nwas the x,y positions of 9 particles, which were not correct. What would \nyou recommend?\n\nThanks,\n\nZipora"
+}

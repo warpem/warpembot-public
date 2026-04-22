@@ -1,0 +1,8 @@
+{
+  "message_id": "<01666ab6-1f8e-4737-b610-59f1952f19c6@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp crash when switch to Fourier Space Tab",
+  "sender": "Cuong Pham <cuongpx.au@gmail.com>",
+  "date": "Mon, 25 Nov 2019 19:40:23 -0800 (PST)",
+  "body": "Hi everyone,\nI got a Warp crash when I just open my project and switch to Fourier Space \ntab. The error message is as follow:\n\n[image: warp_crash_fourier_tab.png]\n\n\nBtw, when I try process my data without using particles picking function. I \ngot deselected all of my data files. How can I process my data properly? \n\nThanks for any help!\n\nSincerely,\nCuong Pham"
+}

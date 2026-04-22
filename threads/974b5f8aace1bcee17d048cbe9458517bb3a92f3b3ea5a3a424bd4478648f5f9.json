@@ -1,0 +1,8 @@
+{
+  "message_id": "<231111cc-db6a-4ff6-8a15-790857c917b8n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "physical overlap of species",
+  "sender": "P C <peter.p.cherepanov@gmail.com>",
+  "date": "Mon, 6 Oct 2025 18:36:42 -0700 (PDT)",
+  "body": "in my case, species are fragments of a lattice (viral capsid). Because the \nlattice curvature is not uniform, one could define multiple sets of species \neach corresponding to a local shape property. This means that some \nindividual particles from different species would physically overlap in the \nspace of the tomogram. Am I correct to assume that M does not care of such \na \"clash\"? (In ideal case, I would have multiple species that would \ntogether describe the complete assembly, with multiple physical overlaps \nwithin the tomogram space)."
+}

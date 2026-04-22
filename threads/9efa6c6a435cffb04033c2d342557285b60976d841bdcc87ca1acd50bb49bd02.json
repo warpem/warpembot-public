@@ -1,0 +1,8 @@
+{
+  "message_id": "<e609d62d-0cdf-492f-99da-92a86961818dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Deconvoluted Export",
+  "sender": "Simon Erlendsson <simonerlendsson@gmail.com>",
+  "date": "Tue, 25 Jan 2022 07:07:04 -0800 (PST)",
+  "body": "Dear all, \n\nDoes anyone know a way to batch export the deconvoluted images? I have \ntried the available matlab scripts (also written by Dimitry), but the \nimages certainly dont look the same, as they do within Warp. Any \nsuggestions much appreciated. \n\nBest\nSimon"
+}

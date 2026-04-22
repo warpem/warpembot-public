@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHNYQ5roSN9thYAQ-M8JhfKNSnLs2QWYpWgXwcFy=XmKi2eS6w@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Null vals",
+  "sender": "Pranav Shah <p.shah.lab@gmail.com>",
+  "date": "Mon, 12 Oct 2020 22:21:05 +0100",
+  "body": "Hi Dimitry,\r\n\r\nI am trying to export my frames as TS's and some of them are raising this error.\r\n\"\r\nInput string was not in a correct format.\r\n\r\nValue cannot be null.\r\nParameter name: path2\r\n\r\nValue cannot be null.\r\nParameter name: path2\r\n\r\nValue cannot be null.\r\nParameter name: path2\r\n\r\nValue cannot be null.\r\nParameter name: path2\r\n\"\r\n\r\nBut I am not sure which ones and why this error is being raised and if\r\ni should be worried.\r\nCould you help me understand what is happening here?\r\n\r\nBest,\r\nPranav\r\n--\r\nPranav Shah\r\nPostdoctoral Research Fellow.\r\n\r\nDivision of Structural Biology,\r\nWellcome Trust Centre for Human Genetics,\r\nUniversity of Oxford,\r\nRoosevelt Drive, Oxford OX3 7BN,\r\nUK"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHH4-vwfGBkm9YqwJuMkuq+1u9JRYpw2R7x5fmXMhcrb87U7hg@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Error in Noise2Map",
+  "sender": "Cyan Ching <xingyichengcyanching@gmail.com>",
+  "date": "Tue, 5 Apr 2022 14:51:32 +0200",
+  "body": "Dear Dimitry and Warp users,\r\n\r\nGood day!\r\n\r\nI am very sorry for posting the same question again, does anyone maybe know\r\nthe cause of the following error when running Noise2Map?\r\n\r\nUnhandled Exception: System.Runtime.InteropServices.SEHException: External\r\ncomponent has thrown an exception at Warp.GPU.Rotate3DExtractAt(UInt64\r\nt_volume, int3 dimsvolume, IntPte d_proj, int3 dimsproj, Single[]\r\nh_positions, UInt32 batch) at Noise2Map.Program.Main(String[] args)\r\n\r\nGPU: Quadro RTX 6000\r\n\r\nCommand: noise2map --observation1 even --observation2 odd --angpix 3.4\r\n--batchsize 4 --dont_flatten_spectrum true --iterations 10000\r\n--dont_augment true --gpuid_preprocess 0 --gpuid_network 0\r\n\r\nAny suggestion is appreciated!\r\n\r\nCheers,\r\n\r\nCyan Ching\r\n\r\nPhD student\r\n\r\nThe Physical Chemistry Curie Lab"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<cf6f1264-cd7b-4c54-b155-febaff3d33a6n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Recovery after bad M run?",
+  "sender": "=?UTF-8?Q?Matthias_Vorl=C3=A4nder?= <mvorlaender@gmail.com>",
+  "date": "Wed, 25 Aug 2021 05:52:29 -0700 (PDT)",
+  "body": "Dear all,\n\nwhile the problem of bad M runs have been described here before, I am \ninterested in how to best revert these changes.\n\nHere is what I did:\n\nPicked particles in Warp, exported subtomos, classfied and refined in \nRelion, downgraded the star file, created a refinement run in M. This \ndecreased the resolution moderately from 23 to 25 Angstrom. However, if I \nnow go back to Warp and reconstruct full tomograms using deconvolution, the \ntomograms look dramatically worse then before the M run. \n\nI had this issue before, and fixed it by deleting all xml files and \nre-running pre-processing of the raw frames and then CTF estimation of the \ntomograms. So this time, before the M run, I created a backup of all .xml \nfiles and of all .tomostar files, as well as the previous.settings files. \nHowever, if i restore these after the bad M run, the reconstructed \ntomograms still look bad.  I also tried to copy the xml files from the \nversions folder before the M run, but the result is the same. \n\nSo, I wonder what the best way is to return to a pre-M state when things go \nbad without having to do pre-processing again?\n\nThanks in advance,\nBest,\nMatthias"
+}

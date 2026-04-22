@@ -1,0 +1,8 @@
+{
+  "message_id": "<9d5ec6af-4073-46e9-b317-05945fee53b2n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "contrast: AREtomo vs WARP",
+  "sender": "mrJ <bluufive@gmail.com>",
+  "date": "Thu, 23 Nov 2023 04:36:11 -0800 (PST)",
+  "body": "dear community,\r\n\r\nI have included AREtomo as part of my WARP pipeline in order to get .xf \r\nfile for alignment.  The AREtomo tomograms look quite nice, however when I \r\nuse the .xf file to generate the WARP tomogram I notice the contrast is \r\nsubstantially worse.  See image below.  The tomogram looks otherwise \r\nreasonable, it just has really bad contrast.  For AREtomo I was also using \r\nWBP (which I think WARP does).\r\n\r\nIs this to be expected? is it because WARP has corrected CTF and therefore \r\nless contrast?\r\n\r\nthanks!\r\n\r\n\r\n\r\n[image: Screenshot 2023-11-23 at 1.35.02 PM.png]"
+}

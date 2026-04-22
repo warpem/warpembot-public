@@ -1,0 +1,8 @@
+{
+  "message_id": "<a16907cd-251f-49d7-a553-abfa68c87d48n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Empty star files and _corr volumes after template matching",
+  "sender": "\"weny...@gmail.com\" <wenyang19@gmail.com>",
+  "date": "Mon, 25 Oct 2021 02:47:16 -0700 (PDT)",
+  "body": "Hi all, \n\nI repeatedly got empty star files without any particle coordinates and all \nblack _corr volumes after running the template matching step in WARP.  \n\nSo far tried the template matching on both deconv and regular tomos, also \nchanged through a few different reference maps. Without any crashing or \nerror  in WARP, all attempts resulted blank star files and empty _corr \nvolume. \n\nFor sanity check, I took the tomos reconstructed in WARP and the same \nreference map as inputs to run template matching in other package and got \ncross correlation peaks and coordinates list just fine. \n\nHas anyone encountered similar issue? Much appreciated if anyone can give \nadvice on where to start troubleshooting for template matching in WARP. \n\nKind regards,\nWen"
+}

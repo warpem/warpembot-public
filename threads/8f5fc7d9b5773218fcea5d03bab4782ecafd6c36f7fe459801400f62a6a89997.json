@@ -1,0 +1,8 @@
+{
+  "message_id": "<409994c3-afd3-4e35-ae0a-bdce3c549c0bn@googlegroups.com>",
+  "thread_id": "<d1930a33-715c-456c-90a6-f69cf5cefee0n@googlegroups.com>",
+  "subject": "Re: WarpTools ts_template_match on multiple GPUs",
+  "sender": "Juha Huiskonen <juha.huiskonen@gmail.com>",
+  "date": "Thu, 19 Dec 2024 22:27:28 -0800 (PST)",
+  "body": "I posted the wrong command.  The command I would expect to utilise multiple \nGPUs (and processes) has these parameters:\n\nWarpTools ts_template_match\n--device_list 0 1 2 3 \\\n--perdevice 2\n\nOn Friday, 20 December 2024 at 08:24:00 UTC+2 Juha Huiskonen wrote:\n\n> Hi all,\n>\n> When I try to use multiple GPUs (or processes per GPU) to run a template \n> matching on tomogram, I get only one worker (and one process). This is the \n> command I tried:\n>\n> WarpTools ts_template_match \\\n> --settings warp_tiltseries.settings \\\n> --tomo_angpix 10 \\\n> --subdivisions 5 \\\n> --template_path templates/postprocess.mrc \\\n> --template_angpix 3.09 \\\n> --template_diameter 900 \\\n> --peak_distance 100 \\\n> --npeaks 5000 \\\n> --symmetry C1 \\\n> --whiten \\\n> --subvolume_size 192 \\\n> --perdevice 1\n>\n> However, only GPU 0 is active.  The memory consumption is the same as with \n> --perdevice 1 and I can see only one process running. \n>\n> Does WarpTools ts_template_match support multiple GPUs? I have a high \n> sub-divisions parameter, as I have a long filament segment, and trying to \n> make the segments meet accurately for visualization. \n>\n> Cheers,\n> Juha\n>"
+}

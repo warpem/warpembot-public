@@ -1,0 +1,8 @@
+{
+  "message_id": "<25B554556C625B47816986CE723AA4FE0253FE43@MBX2010-K01.ad.fz-juelich.de>",
+  "thread_id": "",
+  "subject": "EPU - TIFF vs TIF",
+  "sender": "\"Ortiz, Julio\" <j.ortiz@fz-juelich.de>",
+  "date": "Tue, 21 Jan 2020 06:33:14 +0000",
+  "body": "Dear Dimitri,\r\n\r\n \r\n\r\nI am wondering if someone is using WARP with the new version of EPU which\r\nsupport the K3 camera.\r\n\r\nEPU is saving compressed non-corrected frames with the extension .tiff (two\r\nts). If I manually change the file extension to .tif (single t), WARP\r\nworks as usual with SerialEM.\r\n\r\nI am using staker2 to copy files from the original folder to the WARP\r\ncomputer. \r\n\r\nDo you have a solution different to make a home-made script to change the\r\nfile extension of the movies?\r\n\r\n \r\n\r\nSaludos,\r\n\r\nJulio\r\n\r\n \r\n\r\nDr. Julio Ortiz\r\n\r\nForschungszentrum Jülich GmbH\r\n\r\nErnst Ruska-Centrum für Mikroskopie und Spektroskopie mit Elektronen\r\n\r\nER-C-3: Strukturbiologie\r\n\r\n52425 Jülich\r\n\r\nGermany\r\n\r\nPhone (office): +49 2461 61-2032\r\n\r\nPhone (Microscope- Arctica): +49 2461 61- 85521\r\n\r\nFax:       +49 2461 61-1448\r\n\r\nEMAIL:  <mailto:j.ortiz@fz-juelich.de> j.ortiz@fz-juelich.de"
+}

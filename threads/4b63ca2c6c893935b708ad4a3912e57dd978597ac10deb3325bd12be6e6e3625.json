@@ -1,0 +1,8 @@
+{
+  "message_id": "<2e090f2f-ddc7-4a7b-b99a-752cb421bd07n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Windows machine configurations",
+  "sender": "Tsanwen Lu <tsanwen@walterlab.ucsf.edu>",
+  "date": "Mon, 12 Oct 2020 13:00:35 -0700 (PDT)",
+  "body": "Hi Dimitry, \r\n\r\nWe are trying to build a Warp/M machine for our own tomography/single \r\nparticle data analysis. (i.e. not for facility so we don't need to process \r\ndata from the camera on-the-fly)\r\n \r\nWondering if the following configuration setup would be enough for running \r\nWarp/M.\r\n2x NVIDIA® GeForce RTX™ 2080 Ti 11GB\r\n128GB DDR4 RAM 2933MHz\r\nIntel® Core™ i9 10900KF (10-Core, 20MB Cache, 3.7GHz to 5.3GHz)\r\n\r\nMy understanding is that it is better to have GPU with >11GB memory. How \r\nabout the CPU and memory? are there any requirements for those two?\r\n\r\nThank you for your help!\r\nTsanwen"
+}

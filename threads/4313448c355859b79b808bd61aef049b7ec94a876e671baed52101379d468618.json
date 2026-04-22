@@ -1,0 +1,8 @@
+{
+  "message_id": "<b8173142-71d0-48b7-9c96-f96b6655df87n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Tutorial question M",
+  "sender": "Nav Matt <namatt.et@gmail.com>",
+  "date": "Tue, 1 Apr 2025 09:41:58 -0700 (PDT)",
+  "body": "Hi all, \r\n\r\n \r\n\r\nI am going through the WarpTools tutorial for Apoferritin (EMPIAR – 10491). \r\nI have got 8.25 A resolution following refinement with RELION and generated \r\na mask using RELION_mask_create to be used in M. When I use M core for \r\nchecking the setup, I get 6.5 A resolution. However, when I run the first \r\nrefinement, there is hardly any improvement in the resolution (6.25 A). I \r\nam using identical scripts as given in the tutorial. \r\n\r\nCould anyone suggest troubling shooting this issue?\r\n\r\n\r\nbest,\r\n\r\nNav"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<e1056114-d77f-42f6-b5ee-3b4066e615b5@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp 1.0.7 Crashing on Particle Picking",
+  "sender": "Kendra <kealeigh@gmail.com>",
+  "date": "Fri, 8 Nov 2019 10:12:03 -0800 (PST)",
+  "body": "Hi Everyone,\n\nWe had Warp 1.0.5 successfully running on two workstations.  We have tried \nupgrading one of the workstations to Warp 1.0.7 but have been unable to \nsuccessfully run particle picking.  Initially we installed 1.0.7 and it \nwould run as expected with no particle picking.  Once we selected particle \npicking, it would suddenly close without providing any errors. At the same \ntime the computer started running very slowly and since we weren't sure if \nmaybe the computer was at fault, we did a clean install of the operating \nsystem.  Afterwards, we installed 1.0.7 again and the computer was running \nas expected, but the program still crashes if we include the particle \npicking option.  Now, however, it provides a generic error message (see \nattached PNG), but lastcrash.txt doesn't show anything related to the \ncrash.  \n\nOur set-up is as follows:\nWindows 10 Pro\n96 GB RAM - this is on the low side, but was sufficient for 1.0.5\n2 x Intel Xenon E5 3.3 GHz processors\n3 x GTX 1080 Ti with 11 GB memory\n\nIs there a reason why 1.0.7 would fail at the particle picking step when \n1.0.5 did not, given our configuration?  We would like to know if this is \nsomething we can fix by changing something or if this is a more general \nissue with 1.0.7.\n\nThanks for any help you can give!\n\nSincerely,\nKendra Leigh"
+}

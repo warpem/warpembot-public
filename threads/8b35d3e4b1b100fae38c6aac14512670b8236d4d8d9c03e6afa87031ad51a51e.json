@@ -1,0 +1,8 @@
+{
+  "message_id": "<3ddd577b-626c-4f7b-a33b-a569067e6337@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Evaluating motion correction parameters",
+  "sender": "Andrey Malyutin <malyutinag@gmail.com>",
+  "date": "Mon, 21 Oct 2019 11:55:17 -0700 (PDT)",
+  "body": "For CTF estimation it is relatively easy to compare output between \ndifferent initial values. However, comparing output from various motion \ncorrection parameters is not. Would anyone be able to recommend a strategy \nto optimize motion cor parameters? \n\nThank you,\n\nAndrey"
+}

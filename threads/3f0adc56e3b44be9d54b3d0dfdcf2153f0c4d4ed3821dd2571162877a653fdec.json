@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAOt3kHqdzEzydDnBHaCGNaB+kaxA6GuU1N9WG-EootnJ62ftaw@mail.gmail.com>",
+  "thread_id": "<489c2c49-9f5d-4523-8333-393bc02a7a68n@googlegroups.com>",
+  "subject": "Re: Sample Data import step to relion",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Wed, 13 Nov 2024 10:22:15 -0800",
+  "body": "Hi Alejandro,\r\n\r\nWarp 2.0 writes out particles/metadata compatible with RELION 5 - please\r\ntry that instead :-)\r\n\r\nCheers,\r\n\r\nAlister\r\n\r\nOn Wed, 13 Nov 2024 at 09:34, 'Alejandro Villalta Casares' via Warp <\r\nwarp-em@googlegroups.com> wrote:\r\n\r\n> Hi,\r\n> I'm trying to use the samle data on warp to learn how to use it. I managed\r\n> to arrive at the step I need to use the .star file into relion but when I\r\n> try to to either InitialModel or Refine3D job. I have this error:\r\n> ERROR:\r\n> BUG: cannot find name for particle...\r\n>\r\n> I'm using relion 4.0.1 and warp 2.0\r\n>\r\n> Thank you,\r\n>\r\n> Alejandro Villalta\r\n>\r\n>\r\n> --\r\n> You received this message because you are subscribed to the Google Groups\r\n> \"Warp\" group.\r\n> To unsubscribe from this group and stop receiving emails from it, send an\r\n> email to warp-em+unsubscribe@googlegroups.com.\r\n> To view this discussion visit\r\n> https://groups.google.com/d/msgid/warp-em/489c2c49-9f5d-4523-8333-393bc02a7a68n%40googlegroups.com\r\n> <https://groups.google.com/d/msgid/warp-em/489c2c49-9f5d-4523-8333-393bc02a7a68n%40googlegroups.com?utm_medium=email&utm_source=footer>\r\n> .\r\n>"
+}

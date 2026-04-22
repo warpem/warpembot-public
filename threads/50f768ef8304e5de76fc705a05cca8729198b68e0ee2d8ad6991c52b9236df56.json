@@ -1,0 +1,8 @@
+{
+  "message_id": "<CAHH4-vzTPEmuN9LCdZP8za0_5j3fR-MNrOWTAMZ3JJmibFJ76A@mail.gmail.com>",
+  "thread_id": "",
+  "subject": "Warp/M TensorFlow update",
+  "sender": "Cyan Ching <xingyichengcyanching@gmail.com>",
+  "date": "Fri, 28 Jan 2022 13:29:01 +0100",
+  "body": "Dear Warp/M users,\r\n\r\nGood morning/day/evening!\r\n\r\nDoes anyone know if there will be a TensorFlow update of Warp and M any\r\ntime soon? My lab is looking at purchasing new machines with RTX 3090 GPUs,\r\nbut if the TensorFlow issue persists, we'd consider other options. Besides\r\nP6000, do you have more recommendations (preferably newer models) that have\r\nrobust performance for running both Warp and M?\r\n\r\nThank you for your help in advance!\r\n\r\nBest,\r\n\r\nCyan Ching\r\n\r\nPhD student\r\n\r\nThe Physical Chemistry Curie Lab"
+}

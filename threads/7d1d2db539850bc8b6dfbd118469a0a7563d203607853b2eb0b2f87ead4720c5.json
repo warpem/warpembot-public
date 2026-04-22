@@ -1,0 +1,8 @@
+{
+  "message_id": "<c3cf8da0-7660-47f9-a369-c467f8960821n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "WarpEM on GNU/Linux/Wine",
+  "sender": "Alois Schloegl <alois.schloegl@gmail.com>",
+  "date": "Wed, 9 Mar 2022 01:07:29 -0800 (PST)",
+  "body": "We are interested in running WarpEM on some Linux Machines. Therefore, I've \nbeen investigating whether its possible to run WarpEM on  GNU/Linux and \nWine, and was partially successful . WarpEM can be installed and started on \nWine-Staging by following this procudure [1]. \n\nWhen trying to analyze some data, WarpEM crashed [2]. The error code \nsuggests some issue in the memory allocation/garbage collection of .NET. Of \ncourse, this could be just some indication that some error condition has \nnot been properly checked, and it could be caused by a number of possible \nissues.  Of course, it could be that I did something wrong, so I'm \nwondering whether others do see the same issue. \n\nCheers, \n   Alois\n\n\n\n[1] https://appdb.winehq.org/objectManager.php?sClass=version&iId=40620\n[2] https://bugs.winehq.org/show_bug.cgi?id=52635"
+}

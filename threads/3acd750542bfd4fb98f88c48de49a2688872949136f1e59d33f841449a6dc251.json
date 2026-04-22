@@ -1,0 +1,8 @@
+{
+  "message_id": "<694a1dfa-ac4a-4203-ab75-fd128f7fa92dn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "GoldNet autopicking issue",
+  "sender": "Ruchao Peng <pengrc.upenn@gmail.com>",
+  "date": "Tue, 1 Feb 2022 12:47:57 -0800 (PST)",
+  "body": "Hi all,\n\nI am processing tomogram reconstruction in Warp following the standard \npipeline, but I am encountering some issues with GoldNet autopicking. It \nseems that loading the GoldNet model (or other model in public repository) \nis very slow, taking about 20-30min, during which the program is shown \nnot-responding. I found someone also reported this in previous discussions, \nbut seems no update for a solution for this yet.\nAlso, after the model is loaded, it takes only 1-2 seconds to pick on one \nimage but actually nothing is picked. I also tried this on the testing \ndataset (EMPIAR-10164) which also does not pick anything. For the testing \ndataset, I have successfully run subtomgram averaging tasks without erasing \ngold beads as this is not a real problem. However, this is really a big \nissue for my real dataset.\nDoes anyone also have similar issues and how to fix this?\n\nThanks a lot!\n\nBest,\nRuchao"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<d5e1f6ec-ee5b-4161-82bd-0101cb1a24b0n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "goldnet on warptools",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Tue, 30 Jul 2024 00:53:39 -0700 (PDT)",
+  "body": "hi all,\n\nIs it possible to use goldnet to remove fiducials in warptools?  I don't \nsee any options for flags in fs_motion_and_ctf. \n\nthanks\n\nJesse"
+}

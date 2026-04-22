@@ -1,0 +1,8 @@
+{
+  "message_id": "<b85e804f-df23-4f2c-8b44-0e5808cd835an@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp needs to be restarted to read new movies",
+  "sender": "\"zly37...@gmail.com\" <zly37101102@gmail.com>",
+  "date": "Wed, 24 Feb 2021 23:40:11 -0800 (PST)",
+  "body": "Hello,\n\nI am using warp 1.0.9 on-fly to process the movies from our Titan Krios. \nBut usually warp does not recognize the new generated movies and we need to \nrestart it every time to have all the images processed. Warp should refresh \nand read the new movies just took from the microscope automatically. In our \ncase, this does not work. Any suggestion about how can I fix this issue? \nTIA!\n\n\n\nBest regards,\nLingyun"
+}

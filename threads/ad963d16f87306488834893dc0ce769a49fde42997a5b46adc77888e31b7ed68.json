@@ -1,0 +1,8 @@
+{
+  "message_id": "<f9a7a589-5c2e-4023-b723-abef6e95a8ebn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "warp reconstructs only a region of my tomograms",
+  "sender": "Roan Groh <roan.groh@gmail.com>",
+  "date": "Wed, 13 Dec 2023 06:23:53 -0800 (PST)",
+  "body": "Dear all,\n\nI've been reconstructing my tomogram with Warp, but when I inspect my \ntomogram with Imod it shows me only a small region out of my tomogram. \nBefore i've been doing everything with warp, made stacks in IMOD and \naligned those with AreTomo. In all those steps I can see my full tomogram. \nDuring reconstruction it seems like, it is reconstructing just the upper \nleft corner. I tried the reconstruction several times and with different \nbins, but that didn't change the output. \nDid someone else had this issue before, or may have an idea what went wrong?\n\nThanks a lot\nRoan"
+}

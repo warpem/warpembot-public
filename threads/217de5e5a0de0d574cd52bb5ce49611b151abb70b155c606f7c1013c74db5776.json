@@ -1,0 +1,8 @@
+{
+  "message_id": "<AB2A2D72-2236-4A9F-B3D1-6378DC8DB127@gmail.com>",
+  "thread_id": "",
+  "subject": "Re: Warp on Linux installation issue",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Mon, 25 Nov 2024 06:57:20 -0800",
+  "body": "Hi Yunjie,\nProblems solving environments typically happen when people install a bunch of things into their base environment. You might also be using the conda solver rather than mamba, conda can be slow. I would recommend nuking your conda installation and starting again with the latest version of mambaforge :-)\nMiniforge Releases\nconda-forge.org\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Nov 24, 2024, at 21:42, Yunjie Chang <changyj0821@gmail.com> wrote:\n﻿Hi warp list,\nI am trying to install warp on my linux workstation (Ubuntu 22.04, nvidia 4090). Using this command:\nconda create -n warp warp -c warpem -c nvidia/label/cuda-11.8.0 -c pytorch -c conda-forge\nHowever, after I hit enter in the terminal, it is just keep \"Solving environment\". I have waited for hours and nothing changed.\nAny idea to solve this issue?\nBest\nYunjie\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/d13e7e67-d4cc-4d70-b3d8-d92d91441b17n%40googlegroups.com\n."
+}

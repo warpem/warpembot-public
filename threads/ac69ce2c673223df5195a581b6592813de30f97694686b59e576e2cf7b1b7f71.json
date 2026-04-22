@@ -1,0 +1,8 @@
+{
+  "message_id": "<0503a2be-775a-4d5f-a33f-bc24b9c90d0cn@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Warp template matching",
+  "sender": "Chen Sun <csun@lji.org>",
+  "date": "Mon, 10 Feb 2025 13:28:32 -0800 (PST)",
+  "body": "Hello,\n\nI am doing template matching with Warptools in command line. It generated \noutput files successfully. However, I don't know if they are picking on the \nright particles. Is there a way for me to visually inspect the matched \nparticles and manually adjust them?\n\nBest regards,\nChen"
+}

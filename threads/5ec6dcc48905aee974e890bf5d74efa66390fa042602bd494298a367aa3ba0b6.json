@@ -1,0 +1,8 @@
+{
+  "message_id": "<63845df3-a194-4bda-bf94-39a4aaa135d9n@googlegroups.com>",
+  "thread_id": "<71ff7c3a-8c4a-446b-be32-959456398dc6n@googlegroups.com>",
+  "subject": "Re: Difference in alignment quality between StandAlone Aretomo3 and\r\n the Aretomo3 wrapper inside WarpTools",
+  "sender": "Marten Chaillet <martenchaillet@gmail.com>",
+  "date": "Mon, 19 Jan 2026 01:21:05 -0800 (PST)",
+  "body": "Hi Maurice,\n\nWhat are the values for the tilt axis angle in the .xml for both those \ntomograms? \n\nCheers,\nMarten\n\nOp vrijdag 16 januari 2026 om 15:17:27 UTC+1 schreef m.a.fri...@gmail.com:\n\n> Hi everyone, \n>\n> I am curious if others have seen similar results :)\n>\n> I collected some tiltseries on P97 (hexameric ~600 kDa protein) and used \n> warptools v36 with the aretomo3 wrapper (2.2.2) for alignment using the \n> option to determine the tilt axis from 4 tiltseries with 4 itterations. \n>\n> Next to that I did the exact same processing steps in warptools but did \n> the alignment using standalone aretomo3 2.2.2 and imported those into \n> warptools and did the same other processing steps resulting in the \n> screenshot below. \n>\n> On the left (with banana gold) is from the Aretomo3 wrapper inside \n> warptools and right (good looking gold) from standalone aretomo3.\n>\n> I am currently thinking that something might be off when determining the \n> tilt axis angle as these are slightly different between the wrapper and \n> standalone aretomo3 however I don't interfere there in both as I let the \n> software determine it by themselfs. \n>\n> Curious to hear if others have had similar results or a possible fix?\n>\n> Cheers,\n>\n> Maurice \n>\n>\n>"
+}

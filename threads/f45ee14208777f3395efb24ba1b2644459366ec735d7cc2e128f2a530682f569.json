@@ -1,0 +1,8 @@
+{
+  "message_id": "<489c2c49-9f5d-4523-8333-393bc02a7a68n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "Sample Data import step to relion",
+  "sender": "Alejandro Villalta Casares <alvi6755@colorado.edu>",
+  "date": "Wed, 13 Nov 2024 09:34:20 -0800 (PST)",
+  "body": "Hi,\nI'm trying to use the samle data on warp to learn how to use it. I managed \nto arrive at the step I need to use the .star file into relion but when I \ntry to to either InitialModel or Refine3D job. I have this error:\nERROR: \nBUG: cannot find name for particle...\n\nI'm using relion 4.0.1 and warp 2.0\n\nThank you,\n\nAlejandro Villalta"
+}

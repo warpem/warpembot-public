@@ -1,0 +1,8 @@
+{
+  "message_id": "<dc34caeb-6a88-4de9-b437-c8c45a0b4046n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "defocus handedness WinWarp vs LinuxWarp",
+  "sender": "Jesse Hansen <bluufive@gmail.com>",
+  "date": "Thu, 22 Aug 2024 02:09:45 -0700 (PDT)",
+  "body": "hi all,\n\nI am processing the same data in parallel in WinWarp vs LinuxWarp. I'm \ntrying to treat them as identical as possible, including using AreTomo for \nboth tilt series alignmnent.  \n\nI have noticed two differences in the output:\n\n1) The physical handedness appears to be flipped (Z flip/mirror) between \nWinWarp and LinuxWarp.  My understanding is that this should only happen if \nthe tilts are processed in reverse order (ascending vs descending tilt \norder), however I checked the rawtilt files output from both Win/Linux WARP \nand they are identical.  So I am I am thoroughly confused how this might \nhappen.  It is inconsequential I suppose, unless you want to import \nparticle coordinates from Win Warp into Linux Warp.  \n\n2) the defocus handedness check appears to give opposite results between \nwin/linux Warp.  Could this be related to my first point, though I don't \nsee how that could be? In win Warp the correlation seems to be quite \nstrongly negative, I checked several tilt series and they all gave values \naround -0.8 to -0.9.  However when processing the same data in Linux Warp \nthe correlation was about +0.5 to +0.6.  So I'm unsure of whether or not to \nflip the handedness.  \n\nany insight would be appreciated.   \n\nJesse Hansen\n\np.s. is there any way to stop the fishing spam in this forum?"
+}

@@ -1,0 +1,8 @@
+{
+  "message_id": "<e7f1c9f9-4d05-4f4d-92d9-c40fa2646bf4n@googlegroups.com>",
+  "thread_id": "<CAHH4-vxaMEBBtDLg0Qgw+HwtCyG0M+cvTDRuMzJCOa857FWNoA@mail.gmail.com>",
+  "subject": "Re: Issues with denoising",
+  "sender": "\"teg...@gmail.com\" <tegunov@gmail.com>",
+  "date": "Sun, 9 Oct 2022 10:28:34 -0700 (PDT)",
+  "body": "Hi Cyan,\n\nDid you update the GPU drivers on that system when you installed 1.1.0? I \nthink that's the most common issue so far. It might also be best to remove \n1.0.9 just in case.\n\nCheers,\nDimitry\n\nOn Thursday, October 6, 2022 at 2:03:21 AM UTC-7 xingyichen...@gmail.com \nwrote:\n\n> Dear Dimitry,\n>\n> Thank you so much for the updates! \n>\n> When using Warp 1.0.9, we had the following error in denoising:\n>\n> Unhandled Exception: System.Runtime.InteropServices.SEHException: External \n> component has thrown an exception at Warp.GPU.Rotate3DExtractAt(UInt64 \n> t_volume, int3 dimsvolume, IntPte d_proj, int3 dimsproj, Single[] \n> h_positions, UInt32 batch) at Noise2Map.Program.Main(String[] args)\n>\n> GPU: Quadro RTX 6000\n>\n> Command: noise2map --observation1 even --observation2 odd --angpix 3.4 \n> --batchsize 4 --dont_flatten_spectrum true --iterations 10000 \n> --dont_augment true --gpuid_preprocess 0 --gpuid_network 0\n>\n> Now that we installed the beta version, we are starting to have the \n> following error:\n>\n> Unhandled exception. System.Exception: cudaErrorInvalidConfiguration\n>    at Warp.GPU.CheckGPUExceptions()\n>    at Noise2Map.Noise2Map.Main(String[] args)\n>\n> Do you maybe have suggestions on how to fix these issues?\n>\n> Thank you so much for your help!\n>\n> Cheers,\n>\n> Cyan Ching\n>\n> PhD student\n>\n> The Physical Chemistry Curie Lab\n>"
+}

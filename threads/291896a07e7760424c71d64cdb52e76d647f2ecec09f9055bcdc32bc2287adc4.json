@@ -1,0 +1,8 @@
+{
+  "message_id": "<84997ED5-AA92-4589-81F7-804ED5B55C23@gmail.com>",
+  "thread_id": "<7141310c-06e0-40a4-934f-dab56af6687fn@googlegroups.com>",
+  "subject": "Re: Continuing frame processing after stopping",
+  "sender": "Alister Burt <alisterburt@gmail.com>",
+  "date": "Fri, 10 Jan 2025 11:59:07 -0800",
+  "body": "Hey Josh,\nWarpTools doesn’t have anything for on the fly processing (yet?) so this is expected behaviour - you can process subsets though if you know where it got cut off\nProcessing Subsets of Data - Warp, M and friends\nwarpem.github.io\nCheers,\nAlister\nSent from mobile - apologies for brevity\nOn Jan 10, 2025, at 11:30, 'Joshua Hutchings' via Warp <warp-em@googlegroups.com> wrote:\n﻿Hi all,\nIf I stop frame processing with WarpTools and then continue it, should it continue from where it left off when restarting it?\nI'm processing a large dataset which was interrupted at ~80% of the way through. After repeating fs_motion_and_ctf, it detects the previously processed metadata, but still seems to re-process them anyway. \nIs this the expected behaviour, and is there a way to stop it reprocessing the processed frames? This is with WarpTools v2.0.0dev31.\nThanks!\nJosh\n\n\n\r\n\r\n-- \n\r\nYou received this message because you are subscribed to the Google Groups \"Warp\" group.\n\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to \nwarp-em+unsubscribe@googlegroups.com\n.\n\r\nTo view this discussion visit \nhttps://groups.google.com/d/msgid/warp-em/7141310c-06e0-40a4-934f-dab56af6687fn%40googlegroups.com\n."
+}

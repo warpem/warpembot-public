@@ -1,0 +1,8 @@
+{
+  "message_id": "<dac4124d-7cef-4310-b252-009546a52902n@googlegroups.com>",
+  "thread_id": "",
+  "subject": "problems in importing aligned tilt series/process on different\r\n machines",
+  "sender": "Qiuye Li <liqiuye09@gmail.com>",
+  "date": "Fri, 29 Sep 2023 14:53:19 -0700 (PDT)",
+  "body": "Hi all,\nI got the error message \"Invalid URI: The URI is empty\" when I tried to \nimport aligned tilt series back to warp (actually it showed up before I \nspecified the alignment files). Any ideas for this kind of situation?\nOne possible related context is that the data are processed and exported \n(as unaligned TS) on the facility K3 computer, and then moved to our lab \ncomputers for further processing. Would this be a problem? If so, is there \nany workarounds? I actually modified the SubFramePath in the *.mrc.mdoc \nfile to match the new location, but still saw the same error.\nAny help and suggestions will be greatly appreciated.\n\nQiuye"
+}
