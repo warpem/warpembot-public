@@ -97,4 +97,6 @@ code_meta_*.json       Per-repo code metadata
 
 ## License
 
-MIT
+The code in this repository is released under the MIT license.
+
+The mailing list messages in `threads/` and `ccpem/` are posts from public mailing lists (Warp Google Group and CCP-EM) and remain the property of their respective authors. They are included here solely to support RAG search and are not covered by the MIT license.
